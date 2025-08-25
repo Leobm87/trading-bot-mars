@@ -26,6 +26,13 @@ class ApexService {
             ]
         });
         
+        // Add validation before creating client
+        if (!process.env.SUPABASE_URL) {
+            console.error('SUPABASE_URL not set!');
+            console.log('Available env vars:', Object.keys(process.env));
+            process.exit(1);
+        }
+        
         // Supabase client
         this.supabase = createClient(
             process.env.SUPABASE_URL,
