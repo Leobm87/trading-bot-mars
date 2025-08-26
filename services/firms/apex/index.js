@@ -153,82 +153,104 @@ class ApexService {
      * Find FAQ matches for a given query
      */
     findFAQMatches(query) {
-        console.log('Query:', query);
-        console.log('FAQs in cache:', this.faqsCache.size);
-        console.log('First 3 FAQ questions:', Array.from(this.faqsCache.values()).slice(0,3).map(f => f.question));
-        
-        const queryLower = query.toLowerCase();
-        const queryWords = queryLower.split(' ');
+        const queryLower = this.normalizeText(query.toLowerCase());
         const matches = [];
         
-        for (const [id, faq] of this.faqsCache) {
-            const queryNorm = this.normalizeText(query);
-            const questionNorm = this.normalizeText(faq.question);
-            const questionLower = faq.question.toLowerCase();
-            
-            let similarity = 0;
-            
-            // Check for exact phrase matches first
-            if (questionLower.includes(queryLower)) {
-                similarity += 1.0;
-            }
-            
-            // Debug: Log each FAQ being checked
-            if (questionNorm.includes('cuesta') || questionNorm.includes('precio') || questionNorm.includes('costo')) {
-                console.log(`Checking price FAQ: "${faq.question}"`);
-                console.log(`Query normalized: "${queryNorm}"`);
-                console.log(`Question normalized: "${questionNorm}"`);
-            }
-            
-            // Priority scoring: exact query match gets highest score
-            if (questionNorm.includes(queryNorm)) {
-                similarity = 1.0;
-                console.log(`Exact match found! Score: ${similarity}`);
-            }
-            // Improved matching: check if ANY important word matches (not ALL)
-            else {
-                const importantWords = queryNorm.split(' ').filter(w => w.length > 3);
-                const wordMatches = importantWords.filter(word => questionNorm.includes(word));
-                if (wordMatches.length > 0) {
-                    similarity = wordMatches.length / importantWords.length;
-                    console.log(`Word matches: ${wordMatches.join(', ')} - Score: ${similarity}`);
+        // CRITICAL FIX: If query contains priority word, filter FAQs to only those containing it
+        const criticalWords = ['precio', 'costo', 'cuanto', 'drawdown', 'evaluacion', 'dias', 'minimo', 'requisito'];
+        let queryHasCritical = criticalWords.some(word => queryLower.includes(word));
+        
+        if (queryHasCritical) {
+            // Only consider FAQs that contain at least one critical word
+            for (const [id, faq] of this.faqsCache) {
+                const questionLower = this.normalizeText(faq.question.toLowerCase());
+                const answerLower = this.normalizeText(faq.answer.toLowerCase());
+                
+                // Check if FAQ contains any critical word from query
+                const hasCriticalMatch = criticalWords.some(word => 
+                    queryLower.includes(word) && (questionLower.includes(word) || answerLower.includes(word))
+                );
+                
+                if (hasCriticalMatch) {
+                    matches.push({
+                        id,
+                        question: faq.question,
+                        answer: faq.answer,
+                        slug: faq.slug,
+                        similarity: 1.0  // Force high score for critical matches
+                    });
                 }
-                // Fallback to similarity calculation if no important words match
-                if (similarity === 0) {
-                    similarity = this.calculateSimilarity(queryNorm, questionNorm);
-                    if (similarity > 0.1) {
-                        console.log(`Similarity score: ${similarity} for "${faq.question}"`);
+            }
+        } else {
+            // Original matching logic for non-critical queries
+            const queryWords = queryLower.split(' ');
+            
+            for (const [id, faq] of this.faqsCache) {
+                const queryNorm = this.normalizeText(query);
+                const questionNorm = this.normalizeText(faq.question);
+                const questionLower = faq.question.toLowerCase();
+                
+                let similarity = 0;
+                
+                // Check for exact phrase matches first
+                if (questionLower.includes(queryLower)) {
+                    similarity += 1.0;
+                }
+                
+                // Priority scoring: exact query match gets highest score
+                if (questionNorm.includes(queryNorm)) {
+                    similarity = 1.0;
+                }
+                // Improved matching: check if ANY important word matches (not ALL)
+                else {
+                    const importantWords = queryNorm.split(' ').filter(w => w.length > 3);
+                    const wordMatches = importantWords.filter(word => questionNorm.includes(word));
+                    if (wordMatches.length > 0) {
+                        similarity = wordMatches.length / importantWords.length;
+                    }
+                    // Fallback to similarity calculation if no important words match
+                    if (similarity === 0) {
+                        similarity = this.calculateSimilarity(queryNorm, questionNorm);
                     }
                 }
-            }
-            
-            // Priority keywords get higher scores
-            const priorityWords = ['precio', 'costo', 'cuanto', 'drawdown', 'evaluacion', 'dias', 'minimo', 'requisito', 'cuenta', 'plan'];
-            let priorityScore = 0;
-            queryWords.forEach(word => {
-                if (priorityWords.includes(word) && questionLower.includes(word)) {
-                    priorityScore += 0.5;
-                }
-            });
-            
-            // Update similarity calculation to include priority
-            similarity = similarity + priorityScore;
-            
-            // Only include matches above threshold
-            if (similarity > 0.2) {
-                matches.push({
-                    id,
-                    question: faq.question,
-                    answer: faq.answer,
-                    slug: faq.slug,
-                    score: similarity,
-                    similarity: similarity
+                
+                // Priority keywords get higher scores
+                const priorityWords = ['precio', 'costo', 'cuanto', 'drawdown', 'evaluacion', 'dias', 'minimo', 'requisito', 'cuenta', 'plan'];
+                let priorityScore = 0;
+                queryWords.forEach(word => {
+                    if (priorityWords.includes(word) && questionLower.includes(word)) {
+                        priorityScore += 0.5;
+                    }
                 });
+                
+                // Update similarity calculation to include priority
+                similarity = similarity + priorityScore;
+                
+                // Only include matches above threshold
+                if (similarity > 0.2) {
+                    matches.push({
+                        id,
+                        question: faq.question,
+                        answer: faq.answer,
+                        slug: faq.slug,
+                        score: similarity,
+                        similarity: similarity
+                    });
+                }
             }
         }
         
+        // DEBUG: Log top 3 matches for analysis
+        if (matches.length > 0) {
+            console.log(`[${this.APEX_FIRM_NAME}] Query: "${query}"`);
+            console.log('Top 3 matches:');
+            matches.slice(0, 3).forEach((match, i) => {
+                console.log(`${i+1}. Score: ${match.similarity.toFixed(2)} - ${match.question.substring(0, 60)}...`);
+            });
+        }
+        
         // Sort by score (highest first)
-        matches.sort((a, b) => b.score - a.score);
+        matches.sort((a, b) => b.similarity - a.similarity);
         return matches;
     }
     
