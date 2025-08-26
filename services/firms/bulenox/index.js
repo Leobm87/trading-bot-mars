@@ -151,26 +151,30 @@ class BulenoxService {
         const matches = [];
         
         for (const [id, faq] of this.faqsCache) {
-            const questionLower = faq.question.toLowerCase();
-            const answerLower = faq.answer.toLowerCase();
+            const queryNorm = this.normalizeText(query);
+            const questionNorm = this.normalizeText(faq.question);
             
             let score = 0;
             
             // Priority scoring: exact query match gets highest score
-            if (questionLower.includes(queryLower)) {
+            if (questionNorm.includes(queryNorm)) {
                 score = 1.0;
             }
-            // Second priority: all query words present in question
-            else if (queryWords.every(w => questionLower.includes(w))) {
-                score = 0.8;
-            }
-            // Fallback to similarity calculation
+            // Improved matching: check if ANY important word matches (not ALL)
             else {
-                score = this.calculateSimilarity(queryLower, questionLower);
+                const importantWords = queryNorm.split(' ').filter(w => w.length > 3);
+                const wordMatches = importantWords.filter(word => questionNorm.includes(word));
+                if (wordMatches.length > 0) {
+                    score = wordMatches.length / importantWords.length;
+                }
+                // Fallback to similarity calculation if no important words match
+                if (score === 0) {
+                    score = this.calculateSimilarity(queryNorm, questionNorm);
+                }
             }
             
             // Only include matches above threshold
-            if (score > 0.4) {
+            if (score > 0.2) {
                 matches.push({
                     id,
                     question: faq.question,
@@ -185,6 +189,16 @@ class BulenoxService {
         // Sort by score (highest first)
         matches.sort((a, b) => b.score - a.score);
         return matches;
+    }
+    
+    /**
+     * Normalize text for better Spanish matching
+     */
+    normalizeText(text) {
+        return text.toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Remove accents
+            .replace(/[¿?¡!.,]/g, '') // Remove punctuation
+            .trim();
     }
     
     /**

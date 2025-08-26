@@ -96,6 +96,13 @@ class ApexService {
             
             this.logger.info(`Processing query: "${query}"`);
             
+            // Debug: Check for price-related FAQs
+            const priceFAQs = Array.from(this.faqsCache.values()).filter(f => 
+                f.question.toLowerCase().includes('precio') || 
+                f.question.toLowerCase().includes('costo') ||
+                f.question.toLowerCase().includes('cuenta'));
+            console.log('Price-related FAQs found:', priceFAQs.length);
+            
             // Search for exact matches in cached FAQs
             const matches = this.findFAQMatches(query);
             
@@ -146,31 +153,51 @@ class ApexService {
      * Find FAQ matches for a given query
      */
     findFAQMatches(query) {
+        console.log('Query:', query);
+        console.log('FAQs in cache:', this.faqsCache.size);
+        console.log('First 3 FAQ questions:', Array.from(this.faqsCache.values()).slice(0,3).map(f => f.question));
+        
         const queryLower = query.toLowerCase();
         const queryWords = queryLower.split(' ');
         const matches = [];
         
         for (const [id, faq] of this.faqsCache) {
-            const questionLower = faq.question.toLowerCase();
-            const answerLower = faq.answer.toLowerCase();
+            const queryNorm = this.normalizeText(query);
+            const questionNorm = this.normalizeText(faq.question);
             
             let score = 0;
             
+            // Debug: Log each FAQ being checked
+            if (questionNorm.includes('cuesta') || questionNorm.includes('precio') || questionNorm.includes('costo')) {
+                console.log(`Checking price FAQ: "${faq.question}"`);
+                console.log(`Query normalized: "${queryNorm}"`);
+                console.log(`Question normalized: "${questionNorm}"`);
+            }
+            
             // Priority scoring: exact query match gets highest score
-            if (questionLower.includes(queryLower)) {
+            if (questionNorm.includes(queryNorm)) {
                 score = 1.0;
+                console.log(`Exact match found! Score: ${score}`);
             }
-            // Second priority: all query words present in question
-            else if (queryWords.every(w => questionLower.includes(w))) {
-                score = 0.8;
-            }
-            // Fallback to similarity calculation
+            // Improved matching: check if ANY important word matches (not ALL)
             else {
-                score = this.calculateSimilarity(queryLower, questionLower);
+                const importantWords = queryNorm.split(' ').filter(w => w.length > 3);
+                const wordMatches = importantWords.filter(word => questionNorm.includes(word));
+                if (wordMatches.length > 0) {
+                    score = wordMatches.length / importantWords.length;
+                    console.log(`Word matches: ${wordMatches.join(', ')} - Score: ${score}`);
+                }
+                // Fallback to similarity calculation if no important words match
+                if (score === 0) {
+                    score = this.calculateSimilarity(queryNorm, questionNorm);
+                    if (score > 0.1) {
+                        console.log(`Similarity score: ${score} for "${faq.question}"`);
+                    }
+                }
             }
             
             // Only include matches above threshold
-            if (score > 0.4) {
+            if (score > 0.2) {
                 matches.push({
                     id,
                     question: faq.question,
@@ -185,6 +212,16 @@ class ApexService {
         // Sort by score (highest first)
         matches.sort((a, b) => b.score - a.score);
         return matches;
+    }
+    
+    /**
+     * Normalize text for better Spanish matching
+     */
+    normalizeText(text) {
+        return text.toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // Remove accents
+            .replace(/[¿?¡!.,]/g, '') // Remove punctuation
+            .trim();
     }
     
     /**
