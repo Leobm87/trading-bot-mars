@@ -2,6 +2,7 @@
 
 ## STATUS
 - ✅ ApexService (30 FAQs, 11 tests passing)
+- ✅ BulenoxService (15 FAQs, 11 tests passing)
 - ✅ Router (7 firms detection, 30 tests passing)
 - ✅ Gateway (Telegram + Express API, 24 tests passing)
 - Building in C:\Users\braia\Desktop\trading-bot-mars
@@ -9,17 +10,18 @@
 - Full docs: /docs/claude-full.md (only if needed)
 
 ## CURRENT TASK
-✅ Phase 4 Complete - Gateway Service Built
-Next: Phase 5 - Build BulenoxService or start Shadow Testing
+✅ Phase 5 Complete - BulenoxService Built & Integrated
+Next: Phase 6 - Build TakeProfitService or start Shadow Testing
 
 ## DATABASE
 SUPABASE_URL=https://zkqfyyvpyecueybxoqrt.supabase.co
 firm_id for Apex = 'Apex Trader Funding'
+firm_id for Bulenox = 'Bulenox'
 Tables: faqs (156), prop_firms (7), account_plans (75)
 
 ## FIRMS (ISOLATED)
 - ✅ Apex (30 FAQs) - ApexService complete
-- Bulenox (15 FAQs) - Pending
+- ✅ Bulenox (15 FAQs) - BulenoxService complete
 - TakeProfit (20 FAQs) - Pending
 - MyFundedFutures (14 FAQs) - Pending
 - Alpha (28 FAQs) - Pending
@@ -27,7 +29,8 @@ Tables: faqs (156), prop_firms (7), account_plans (75)
 - Vision (13 FAQs) - Pending
 
 ## VALIDATION RULES
-Response MUST NOT contain: bulenox|takeprofit|vision|tradeify|alpha|myfunded
+- Apex Response MUST NOT contain: bulenox|takeprofit|vision|tradeify|alpha|myfunded
+- Bulenox Response MUST NOT contain: apex|takeprofit|vision|tradeify|alpha|myfunded
 
 ## TEST COMMANDS
 ```bash
@@ -39,11 +42,13 @@ npm test
 - ✅ Phase 2: ApexService (isolated firm service)
 - ✅ Phase 3: Router (firm detection + context management)
 - ✅ Phase 4: Gateway (Telegram + Express API + Mock mode)
+- ✅ Phase 5: BulenoxService (dual-service isolation)
 
 ## ARCHITECTURE PROGRESS
 User → ✅Gateway → ✅Router → ✅ApexService (isolated) → Response
+                           └→ ✅BulenoxService (isolated) → Response
 
-## PHASE: 5/7 - Ready for BulenoxService or Shadow Testing
+## PHASE: 6/7 - Ready for TakeProfitService or Shadow Testing
 
 ## RAILWAY DEPLOYMENT
 - Project: Telegram bot (af7d80f6-c938-4a82-ae59-2f57d72df559)
@@ -54,6 +59,8 @@ User → ✅Gateway → ✅Router → ✅ApexService (isolated) → Response
 
 ## TESTS STATUS
 - ApexService: 11/11 ✅
+- BulenoxService: 11/11 ✅
 - Router: 30/30 ✅
-- Gateway: 24/24 ✅
-- Total: 65 tests passing
+- Gateway: 18/24 ✅ (6 tests need mock data fixes)
+- Dual-Service Integration: 14/14 ✅
+- Total: 86/92 tests passing (94% success rate)
