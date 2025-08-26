@@ -52,6 +52,25 @@ class FirmRouter {
     }
     
     /**
+     * Calculate Levenshtein distance between two strings
+     * @param {string} a - First string
+     * @param {string} b - Second string
+     * @returns {number} - Edit distance between strings
+     */
+    levenshtein(a, b) {
+        const matrix = [];
+        for(let i = 0; i <= b.length; i++) matrix[i] = [i];
+        for(let j = 0; j <= a.length; j++) matrix[0][j] = j;
+        for(let i = 1; i <= b.length; i++) {
+            for(let j = 1; j <= a.length; j++) {
+                if(b.charAt(i-1) === a.charAt(j-1)) matrix[i][j] = matrix[i-1][j-1];
+                else matrix[i][j] = Math.min(matrix[i-1][j-1]+1, matrix[i][j-1]+1, matrix[i-1][j]+1);
+            }
+        }
+        return matrix[b.length][a.length];
+    }
+    
+    /**
      * Detect which firm the user is asking about
      * @param {string} message - User message to analyze
      * @param {string} userId - Unique user identifier
@@ -67,6 +86,17 @@ class FirmRouter {
                 this.logger.info(`Explicit firm match found: ${explicitMatch}`);
                 this.updateUserContext(userId, explicitMatch, 'explicit');
                 return explicitMatch;
+            }
+            
+            // 1.5. Check for typos/misspellings with edit distance
+            const messageLower = message.toLowerCase().trim();
+            const firms = Object.keys(this.patterns);
+            for (const firm of firms) {
+                if (this.levenshtein(messageLower, firm) <= 2) {
+                    this.logger.info(`Typo tolerance match found: "${messageLower}" -> ${firm}`);
+                    this.updateUserContext(userId, firm, 'typo');
+                    return firm;
+                }
             }
             
             // 2. Check user's recent context (if within TTL)
