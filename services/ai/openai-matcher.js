@@ -9,19 +9,34 @@ class OpenAIMatcher {
 
     async findBestFAQ(query, faqs, firmName) {
         try {
+            console.log(`[OpenAI] Processing query: "${query}" for ${firmName}`);
+            
             const faqList = Array.from(faqs.values()).map((faq, i) => 
-                `${i}. ${faq.question}`
+                `${i}. Q: ${faq.question}\n   Keywords: ${this.extractKeywords(faq.question)}`
             ).join('\n');
 
-            const prompt = `You are a FAQ matcher for ${firmName}. Find the BEST matching FAQ for this query.
-            
-Query: "${query}"
+            const prompt = `You are an expert FAQ matcher for ${firmName} prop trading firm.
+
+CRITICAL MATCHING RULES:
+- "precio", "cuanto vale", "cuanto cuesta", "cost" → MUST match pricing/cost FAQs
+- "dias minimos", "minimum days" → MUST match day requirements FAQs  
+- "drawdown", "limites de perdida", "loss limits" → MUST match drawdown FAQs
+- "evaluacion", "evaluation", "assessment" → MUST match evaluation process FAQs
+- "requisitos", "requirements" → MUST match requirement FAQs
+
+User Query: "${query}"
 
 Available FAQs:
 ${faqList}
 
-Return ONLY the number of the best matching FAQ (0-${faqs.size-1}). If no FAQ matches well, return -1.
-Consider semantic meaning, not just keywords. For example "cuanto vale" matches "precio" FAQs.`;
+Instructions:
+1. Understand the semantic intent of the query
+2. Match based on meaning, not just keywords
+3. If query asks about price/cost, ONLY return pricing FAQs
+4. Return the FAQ number (0-${faqs.size-1}) that BEST answers the query
+5. Return -1 ONLY if absolutely no FAQ is relevant
+
+Response: [number only]`;
 
             const response = await this.client.chat.completions.create({
                 model: 'gpt-4o-mini',
@@ -31,9 +46,11 @@ Consider semantic meaning, not just keywords. For example "cuanto vale" matches 
             });
 
             const faqIndex = parseInt(response.choices[0].message.content.trim());
+            console.log(`[OpenAI] Selected FAQ index: ${faqIndex}`);
             
             if (faqIndex >= 0 && faqIndex < faqs.size) {
                 const faqArray = Array.from(faqs.values());
+                console.log(`[OpenAI] Matched: "${faqArray[faqIndex].question.substring(0, 60)}..."`);
                 return {
                     found: true,
                     faq: faqArray[faqIndex],
@@ -41,11 +58,17 @@ Consider semantic meaning, not just keywords. For example "cuanto vale" matches 
                 };
             }
             
+            console.log('[OpenAI] No suitable FAQ found, using fallback');
             return { found: false };
         } catch (error) {
-            console.error('OpenAI error:', error.message);
-            return { found: false }; // Fallback to basic matching
+            console.error('[OpenAI] Error:', error.message);
+            return { found: false };
         }
+    }
+
+    extractKeywords(text) {
+        const keywords = ['precio', 'costo', 'cuanto', 'drawdown', 'dias', 'minimo', 'evaluacion', 'requisito', 'limite', 'perdida'];
+        return keywords.filter(k => text.toLowerCase().includes(k)).join(', ') || 'general';
     }
 }
 
