@@ -2,6 +2,7 @@ const axios = require('axios');
 const winston = require('winston');
 const FirmRouter = require('../router');
 const ApexService = require('../firms/apex');
+const BulenoxService = require('../firms/bulenox');
 
 class TelegramGateway {
     constructor(options = {}) {
@@ -13,6 +14,7 @@ class TelegramGateway {
         // Initialize services
         this.router = new FirmRouter();
         this.apexService = new ApexService();
+        this.bulenoxService = new BulenoxService();
         
         // Telegram API configuration
         this.telegramAPI = this.botToken ? 
@@ -37,6 +39,7 @@ class TelegramGateway {
             totalMessages: 0,
             firmDetections: 0,
             apexQueries: 0,
+            bulenoxQueries: 0,
             unknownQueries: 0,
             errors: 0
         };
@@ -55,8 +58,9 @@ class TelegramGateway {
         try {
             this.logger.info('Initializing TelegramGateway...');
             
-            // Initialize ApexService
+            // Initialize services
             await this.apexService.initialize();
+            await this.bulenoxService.initialize();
             
             this.isInitialized = true;
             this.logger.info('TelegramGateway initialized successfully');
@@ -64,7 +68,8 @@ class TelegramGateway {
             return {
                 success: true,
                 mockMode: this.mockMode,
-                apexServiceReady: this.apexService.isInitialized
+                apexServiceReady: this.apexService.isInitialized,
+                bulenoxServiceReady: this.bulenoxService.isInitialized
             };
             
         } catch (error) {
@@ -98,6 +103,8 @@ class TelegramGateway {
                 // 2. Route to appropriate service
                 if (detectedFirm === 'apex') {
                     return await this.handleApexQuery(message, chatId);
+                } else if (detectedFirm === 'bulenox') {
+                    return await this.handleBulenoxQuery(message, chatId);
                 } else {
                     // Other firms not implemented yet
                     return await this.handleUnimplementedFirm(detectedFirm, chatId);
@@ -167,11 +174,55 @@ class TelegramGateway {
     }
     
     /**
+     * Handle Bulenox queries using BulenoxService
+     */
+    async handleBulenoxQuery(message, chatId) {
+        try {
+            this.stats.bulenoxQueries++;
+            this.logger.info(`Processing Bulenox query: "${message}"`);
+            
+            // Call BulenoxService directly (since it's running locally)
+            const bulenoxResponse = await this.bulenoxService.processQuery(message);
+            
+            if (bulenoxResponse.success) {
+                const formattedResponse = this.formatResponse(bulenoxResponse);
+                
+                // Send response (mock or real)
+                const sentResponse = await this.sendMessage(chatId, formattedResponse);
+                
+                return {
+                    success: true,
+                    firm: 'bulenox',
+                    chatId,
+                    source: bulenoxResponse.source,
+                    response: formattedResponse,
+                    sent: sentResponse.success
+                };
+            } else {
+                throw new Error(`BulenoxService error: ${bulenoxResponse.error}`);
+            }
+            
+        } catch (error) {
+            this.logger.error(`Bulenox query failed: ${error.message}`);
+            
+            const errorResponse = `Lo siento, hubo un problema procesando tu consulta sobre Bulenox. ${error.message}`;
+            await this.sendMessage(chatId, errorResponse);
+            
+            return {
+                success: false,
+                firm: 'bulenox',
+                chatId,
+                error: error.message,
+                response: errorResponse
+            };
+        }
+    }
+    
+    /**
      * Handle queries for unimplemented firms
      */
     async handleUnimplementedFirm(firmName, chatId) {
         const firmDisplayNames = {
-            'bulenox': 'Bulenox',
             'takeprofit': 'TakeProfit',
             'myfunded': 'MyFundedFutures',
             'alpha': 'Alpha Futures',
@@ -180,7 +231,7 @@ class TelegramGateway {
         };
         
         const displayName = firmDisplayNames[firmName] || firmName;
-        const response = `Detecté que preguntas sobre <b>${displayName}</b>. Esta función estará disponible pronto. Por ahora, solo puedo ayudarte con consultas sobre <b>Apex Trader Funding</b>.`;
+        const response = `Detecté que preguntas sobre <b>${displayName}</b>. Esta función estará disponible pronto. Por ahora, puedo ayudarte con consultas sobre <b>Apex Trader Funding</b> y <b>Bulenox</b>.`;
         
         await this.sendMessage(chatId, response);
         
@@ -201,7 +252,7 @@ class TelegramGateway {
         
 <b>Firmas disponibles:</b>
 • <b>Apex</b> - Apex Trader Funding (completamente disponible)
-• Bulenox (próximamente)
+• <b>Bulenox</b> - Completamente disponible
 • TakeProfit (próximamente)
 • MyFundedFutures (próximamente)
 • Alpha Futures (próximamente)
@@ -358,6 +409,7 @@ Por favor, menciona el nombre de la firma en tu próximo mensaje.`;
             isInitialized: this.isInitialized,
             router: this.router.getHealth(),
             apex: this.apexService.getHealth(),
+            bulenox: this.bulenoxService.getHealth(),
             stats: this.stats,
             mockResponses: this.mockMode ? this.mockResponses.length : null,
             uptime: process.uptime()

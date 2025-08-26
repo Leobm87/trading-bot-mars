@@ -21,35 +21,61 @@ describe('TelegramGateway', () => {
             botToken: TEST_BOT_TOKEN
         });
         
-        // Mock the Supabase responses for ApexService initialization
+        // Mock the Supabase responses for both ApexService and BulenoxService initialization
         const mockSupabaseClient = {
             from: jest.fn().mockReturnValue({
                 select: jest.fn().mockReturnValue({
-                    eq: jest.fn().mockResolvedValue({
-                        data: [
-                            {
-                                id: 'faq-1',
-                                question: '¿Cuánto cuesta Apex?',
-                                answer_md: 'Apex cuesta $150 por el plan básico.',
-                                slug: 'apex-pricing',
-                                category: 'pricing'
-                            },
-                            {
-                                id: 'faq-2', 
-                                question: '¿Qué es el drawdown en Apex?',
-                                answer_md: 'El drawdown máximo es 5% en Apex.',
-                                slug: 'apex-drawdown',
-                                category: 'rules'
-                            }
-                        ],
-                        error: null
+                    eq: jest.fn().mockImplementation((column, value) => {
+                        if (column === 'firm_id' && value === 'Apex Trader Funding') {
+                            // Return Apex FAQs
+                            return Promise.resolve({
+                                data: [
+                                    {
+                                        id: 'faq-1',
+                                        question: '¿Cuánto cuesta Apex?',
+                                        answer_md: 'Apex cuesta $150 por el plan básico.',
+                                        slug: 'apex-pricing',
+                                        category: 'pricing'
+                                    },
+                                    {
+                                        id: 'faq-2', 
+                                        question: '¿Qué es el drawdown en Apex?',
+                                        answer_md: 'El drawdown máximo es 5% en Apex.',
+                                        slug: 'apex-drawdown',
+                                        category: 'rules'
+                                    }
+                                ],
+                                error: null
+                            });
+                        } else if (column === 'firm_id' && value === 'Bulenox') {
+                            // Return Bulenox FAQs
+                            return Promise.resolve({
+                                data: [
+                                    {
+                                        id: 'bulenox-faq-1',
+                                        question: '¿Cuánto cuesta Bulenox?',
+                                        answer_md: 'Bulenox ofrece planes desde $99.',
+                                        slug: 'bulenox-pricing',
+                                        category: 'pricing'
+                                    }
+                                ],
+                                error: null
+                            });
+                        }
+                        
+                        // Default empty response
+                        return Promise.resolve({
+                            data: [],
+                            error: null
+                        });
                     })
                 })
             })
         };
         
-        // Override the Supabase client creation
+        // Override the Supabase client creation for both services
         gateway.apexService.supabase = mockSupabaseClient;
+        gateway.bulenoxService.supabase = mockSupabaseClient;
         
         await gateway.initialize();
     });
