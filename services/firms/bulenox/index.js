@@ -153,35 +153,53 @@ class BulenoxService {
         for (const [id, faq] of this.faqsCache) {
             const queryNorm = this.normalizeText(query);
             const questionNorm = this.normalizeText(faq.question);
+            const questionLower = faq.question.toLowerCase();
             
-            let score = 0;
+            let similarity = 0;
+            
+            // Check for exact phrase matches first
+            if (questionLower.includes(queryLower)) {
+                similarity += 1.0;
+            }
             
             // Priority scoring: exact query match gets highest score
             if (questionNorm.includes(queryNorm)) {
-                score = 1.0;
+                similarity = 1.0;
             }
             // Improved matching: check if ANY important word matches (not ALL)
             else {
                 const importantWords = queryNorm.split(' ').filter(w => w.length > 3);
                 const wordMatches = importantWords.filter(word => questionNorm.includes(word));
                 if (wordMatches.length > 0) {
-                    score = wordMatches.length / importantWords.length;
+                    similarity = wordMatches.length / importantWords.length;
                 }
                 // Fallback to similarity calculation if no important words match
-                if (score === 0) {
-                    score = this.calculateSimilarity(queryNorm, questionNorm);
+                if (similarity === 0) {
+                    similarity = this.calculateSimilarity(queryNorm, questionNorm);
                 }
             }
             
+            // Priority keywords get higher scores
+            const priorityWords = ['precio', 'costo', 'cuanto', 'drawdown', 'evaluacion', 'dias', 'minimo', 'requisito', 'cuenta', 'plan'];
+            let priorityScore = 0;
+            queryWords.forEach(word => {
+                if (priorityWords.includes(word) && questionLower.includes(word)) {
+                    priorityScore += 0.5;
+                }
+            });
+            
+            // Update similarity calculation to include priority
+            similarity = similarity + priorityScore;
+            
             // Only include matches above threshold
-            if (score > 0.2) {
+            if (similarity > 0.2) {
                 matches.push({
                     id,
                     question: faq.question,
                     answer: faq.answer,
                     slug: faq.slug,
-                    score: score,
-                    similarity: score
+                    score: similarity,
+                    similarity: similarity
                 });
             }
         }
