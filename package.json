@@ -9,7 +9,7 @@
     "test:isolation": "jest tests/isolation",
     "test:integration": "jest tests/integration",
     "dev": "node services/gateway/index.js",
-    "start": "node start.js",
+    "start": "node server.js",
     "start:apex": "node services/firms/apex/index.js",
     "start:gateway": "node services/gateway/index.js",
     "start:router": "node services/router/index.js"
