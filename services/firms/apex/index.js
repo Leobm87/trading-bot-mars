@@ -119,6 +119,11 @@ class ApexService {
             // No FAQ match found - return default Apex response
             const defaultResponse = `Para información específica sobre ${this.APEX_FIRM_NAME}, te recomendamos visitar apex.com con nuestro código de descuento para obtener las mejores tarifas.`;
             
+            // Log unmatched query for analytics
+            const fs = require('fs').promises;
+            const logEntry = `${new Date().toISOString()}|${this.APEX_FIRM_NAME}|${query}|NO_MATCH\n`;
+            fs.appendFile('logs/failed_matches.log', logEntry).catch(() => {});
+            
             this.logger.info('No FAQ match found. Returning default response.');
             return {
                 success: true,
