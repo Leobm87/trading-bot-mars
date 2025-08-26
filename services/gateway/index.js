@@ -3,6 +3,10 @@ const winston = require('winston');
 const FirmRouter = require('../router');
 const ApexService = require('../firms/apex');
 const BulenoxService = require('../firms/bulenox');
+const TakeProfitService = require('../firms/takeprofit');
+const MyFundedService = require('../firms/myfunded');
+const AlphaService = require('../firms/alpha');
+const TradeifyService = require('../firms/tradeify');
 
 class TelegramGateway {
     constructor(options = {}) {
@@ -15,6 +19,10 @@ class TelegramGateway {
         this.router = new FirmRouter();
         this.apexService = new ApexService();
         this.bulenoxService = new BulenoxService();
+        this.takeprofitService = new TakeProfitService();
+        this.myfundedService = new MyFundedService();
+        this.alphaService = new AlphaService();
+        this.tradeifyService = new TradeifyService();
         
         // Telegram API configuration
         this.telegramAPI = this.botToken ? 
@@ -61,6 +69,10 @@ class TelegramGateway {
             // Initialize services
             await this.apexService.initialize();
             await this.bulenoxService.initialize();
+            await this.takeprofitService.initialize();
+            await this.myfundedService.initialize();
+            await this.alphaService.initialize();
+            await this.tradeifyService.initialize();
             
             this.isInitialized = true;
             this.logger.info('TelegramGateway initialized successfully');
@@ -69,7 +81,11 @@ class TelegramGateway {
                 success: true,
                 mockMode: this.mockMode,
                 apexServiceReady: this.apexService.isInitialized,
-                bulenoxServiceReady: this.bulenoxService.isInitialized
+                bulenoxServiceReady: this.bulenoxService.isInitialized,
+                takeprofitServiceReady: this.takeprofitService.isInitialized,
+                myfundedServiceReady: this.myfundedService.isInitialized,
+                alphaServiceReady: this.alphaService.isInitialized,
+                tradeifyServiceReady: this.tradeifyService.isInitialized
             };
             
         } catch (error) {
@@ -105,6 +121,14 @@ class TelegramGateway {
                     return await this.handleApexQuery(message, chatId);
                 } else if (detectedFirm === 'bulenox') {
                     return await this.handleBulenoxQuery(message, chatId);
+                } else if (detectedFirm === 'takeprofit') {
+                    return await this.handleTakeProfitQuery(message, chatId);
+                } else if (detectedFirm === 'myfunded') {
+                    return await this.handleMyFundedQuery(message, chatId);
+                } else if (detectedFirm === 'alpha') {
+                    return await this.handleAlphaQuery(message, chatId);
+                } else if (detectedFirm === 'tradeify') {
+                    return await this.handleTradeifyQuery(message, chatId);
                 } else {
                     // Other firms not implemented yet
                     return await this.handleUnimplementedFirm(detectedFirm, chatId);
@@ -219,6 +243,186 @@ class TelegramGateway {
     }
     
     /**
+     * Handle TakeProfit queries using TakeProfitService
+     */
+    async handleTakeProfitQuery(message, chatId) {
+        try {
+            this.stats.takeprofitQueries = (this.stats.takeprofitQueries || 0) + 1;
+            this.logger.info(`Processing TakeProfit query: "${message}"`);
+            
+            // Call TakeProfitService directly (since it's running locally)
+            const takeprofitResponse = await this.takeprofitService.processQuery(message);
+            
+            if (takeprofitResponse.success) {
+                const formattedResponse = this.formatResponse(takeprofitResponse);
+                
+                // Send response (mock or real)
+                const sentResponse = await this.sendMessage(chatId, formattedResponse);
+                
+                return {
+                    success: true,
+                    firm: 'takeprofit',
+                    chatId,
+                    source: takeprofitResponse.source,
+                    response: formattedResponse,
+                    sent: sentResponse.success
+                };
+            } else {
+                throw new Error(`TakeProfitService error: ${takeprofitResponse.error}`);
+            }
+            
+        } catch (error) {
+            this.logger.error(`TakeProfit query failed: ${error.message}`);
+            
+            const errorResponse = `Lo siento, hubo un problema procesando tu consulta sobre TakeProfit. ${error.message}`;
+            await this.sendMessage(chatId, errorResponse);
+            
+            return {
+                success: false,
+                firm: 'takeprofit',
+                chatId,
+                error: error.message,
+                response: errorResponse
+            };
+        }
+    }
+    
+    /**
+     * Handle MyFunded queries using MyFundedService
+     */
+    async handleMyFundedQuery(message, chatId) {
+        try {
+            this.stats.myfundedQueries = (this.stats.myfundedQueries || 0) + 1;
+            this.logger.info(`Processing MyFunded query: "${message}"`);
+            
+            // Call MyFundedService directly (since it's running locally)
+            const myfundedResponse = await this.myfundedService.processQuery(message);
+            
+            if (myfundedResponse.success) {
+                const formattedResponse = this.formatResponse(myfundedResponse);
+                
+                // Send response (mock or real)
+                const sentResponse = await this.sendMessage(chatId, formattedResponse);
+                
+                return {
+                    success: true,
+                    firm: 'myfunded',
+                    chatId,
+                    source: myfundedResponse.source,
+                    response: formattedResponse,
+                    sent: sentResponse.success
+                };
+            } else {
+                throw new Error(`MyFundedService error: ${myfundedResponse.error}`);
+            }
+            
+        } catch (error) {
+            this.logger.error(`MyFunded query failed: ${error.message}`);
+            
+            const errorResponse = `Lo siento, hubo un problema procesando tu consulta sobre MyFundedFutures. ${error.message}`;
+            await this.sendMessage(chatId, errorResponse);
+            
+            return {
+                success: false,
+                firm: 'myfunded',
+                chatId,
+                error: error.message,
+                response: errorResponse
+            };
+        }
+    }
+    
+    /**
+     * Handle Alpha queries using AlphaService
+     */
+    async handleAlphaQuery(message, chatId) {
+        try {
+            this.stats.alphaQueries = (this.stats.alphaQueries || 0) + 1;
+            this.logger.info(`Processing Alpha query: "${message}"`);
+            
+            // Call AlphaService directly (since it's running locally)
+            const alphaResponse = await this.alphaService.processQuery(message);
+            
+            if (alphaResponse.success) {
+                const formattedResponse = this.formatResponse(alphaResponse);
+                
+                // Send response (mock or real)
+                const sentResponse = await this.sendMessage(chatId, formattedResponse);
+                
+                return {
+                    success: true,
+                    firm: 'alpha',
+                    chatId,
+                    source: alphaResponse.source,
+                    response: formattedResponse,
+                    sent: sentResponse.success
+                };
+            } else {
+                throw new Error(`AlphaService error: ${alphaResponse.error}`);
+            }
+            
+        } catch (error) {
+            this.logger.error(`Alpha query failed: ${error.message}`);
+            
+            const errorResponse = `Lo siento, hubo un problema procesando tu consulta sobre Alpha. ${error.message}`;
+            await this.sendMessage(chatId, errorResponse);
+            
+            return {
+                success: false,
+                firm: 'alpha',
+                chatId,
+                error: error.message,
+                response: errorResponse
+            };
+        }
+    }
+    
+    /**
+     * Handle Tradeify queries using TradeifyService
+     */
+    async handleTradeifyQuery(message, chatId) {
+        try {
+            this.stats.tradeifyQueries = (this.stats.tradeifyQueries || 0) + 1;
+            this.logger.info(`Processing Tradeify query: "${message}"`);
+            
+            // Call TradeifyService directly (since it's running locally)
+            const tradeifyResponse = await this.tradeifyService.processQuery(message);
+            
+            if (tradeifyResponse.success) {
+                const formattedResponse = this.formatResponse(tradeifyResponse);
+                
+                // Send response (mock or real)
+                const sentResponse = await this.sendMessage(chatId, formattedResponse);
+                
+                return {
+                    success: true,
+                    firm: 'tradeify',
+                    chatId,
+                    source: tradeifyResponse.source,
+                    response: formattedResponse,
+                    sent: sentResponse.success
+                };
+            } else {
+                throw new Error(`TradeifyService error: ${tradeifyResponse.error}`);
+            }
+            
+        } catch (error) {
+            this.logger.error(`Tradeify query failed: ${error.message}`);
+            
+            const errorResponse = `Lo siento, hubo un problema procesando tu consulta sobre Tradeify. ${error.message}`;
+            await this.sendMessage(chatId, errorResponse);
+            
+            return {
+                success: false,
+                firm: 'tradeify',
+                chatId,
+                error: error.message,
+                response: errorResponse
+            };
+        }
+    }
+    
+    /**
      * Handle queries for unimplemented firms
      */
     async handleUnimplementedFirm(firmName, chatId) {
@@ -253,8 +457,8 @@ class TelegramGateway {
 <b>Firmas disponibles:</b>
 • <b>Apex</b> - Apex Trader Funding (completamente disponible)
 • <b>Bulenox</b> - Completamente disponible
-• TakeProfit (próximamente)
-• MyFundedFutures (próximamente)
+• <b>TakeProfit</b> - Completamente disponible
+• <b>MyFundedFutures</b> - Completamente disponible
 • Alpha Futures (próximamente)
 • Tradeify (próximamente)
 • Vision Trade (próximamente)
@@ -410,6 +614,10 @@ Por favor, menciona el nombre de la firma en tu próximo mensaje.`;
             router: this.router.getHealth(),
             apex: this.apexService.getHealth(),
             bulenox: this.bulenoxService.getHealth(),
+            takeprofit: this.takeprofitService?.getHealth(),
+            myfunded: this.myfundedService?.getHealth(),
+            alpha: this.alphaService?.getHealth(),
+            tradeify: this.tradeifyService?.getHealth(),
             stats: this.stats,
             mockResponses: this.mockMode ? this.mockResponses.length : null,
             uptime: process.uptime()

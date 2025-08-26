@@ -1,0 +1,123 @@
+{
+  "summary": {
+    "totalTests": 3,
+    "legacyResponses": 3,
+    "marsResponses": 0,
+    "matches": 0,
+    "differences": 3,
+    "errors": 3,
+    "avgLegacyTime": 2771.6666666666665,
+    "avgMarsTime": 0,
+    "successRate": "0.00%",
+    "errorRate": "100.00%"
+  },
+  "testResults": [
+    {
+      "testId": "test_1756189205939_6ptyww94q",
+      "query": "What are Apex Trader Funding account sizes?",
+      "firmHint": "apex",
+      "timestamp": "2025-08-26T06:20:05.940Z",
+      "legacy": {
+        "success": true,
+        "response": "Apex Trader Funding offers evaluations starting at $50,000. The profit target is typically 8% for Phase 1 and 5% for Phase 2.",
+        "responseTime": 6373,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": false,
+        "responseTime": 0
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0,
+        "legacyLength": 125,
+        "marsLength": 0,
+        "timeDifference": 6373,
+        "analysis": {
+          "note": "One or both systems failed to respond"
+        }
+      }
+    },
+    {
+      "testId": "test_1756189212417_m9ejltn9b",
+      "query": "What account sizes does Bulenox offer?",
+      "firmHint": "bulenox",
+      "timestamp": "2025-08-26T06:20:12.417Z",
+      "legacy": {
+        "success": true,
+        "response": "Bulenox provides trading challenges with various account sizes. Please check their official website for current requirements.",
+        "responseTime": 707,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": false,
+        "responseTime": 0
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0,
+        "legacyLength": 125,
+        "marsLength": 0,
+        "timeDifference": 707,
+        "analysis": {
+          "note": "One or both systems failed to respond"
+        }
+      }
+    },
+    {
+      "testId": "test_1756189213230_yf0xz31ew",
+      "query": "What is forex trading?",
+      "firmHint": null,
+      "timestamp": "2025-08-26T06:20:13.230Z",
+      "legacy": {
+        "success": true,
+        "response": "I'm sorry, I don't have specific information about that.",
+        "responseTime": 1235,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": false,
+        "responseTime": 0
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0,
+        "legacyLength": 56,
+        "marsLength": 0,
+        "timeDifference": 1235,
+        "analysis": {
+          "note": "One or both systems failed to respond"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "performanceComparison": {
+      "marsIsFaster": true,
+      "avgTimeDifference": 2771.6666666666665,
+      "marsAvgTime": 0,
+      "legacyAvgTime": 2771.6666666666665
+    },
+    "accuracyComparison": null,
+    "contamination": {
+      "detected": 0,
+      "rate": "0.00%",
+      "examples": []
+    },
+    "recommendations": []
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "issue": "Low response accuracy",
+      "description": "Success rate is 0.0%, below 95% threshold",
+      "action": "Review FAQ matching algorithms and response validation"
+    },
+    {
+      "priority": "HIGH",
+      "issue": "High error rate",
+      "description": "Error rate is 100.0%",
+      "action": "Improve error handling and system stability"
+    }
+  ]
+}

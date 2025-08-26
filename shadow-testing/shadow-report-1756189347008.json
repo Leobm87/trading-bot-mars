@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "totalTests": 3,
+    "legacyResponses": 3,
+    "marsResponses": 3,
+    "matches": 0,
+    "differences": 3,
+    "errors": 0,
+    "avgLegacyTime": 1362,
+    "avgMarsTime": 919,
+    "successRate": "0.00%",
+    "errorRate": "0.00%"
+  },
+  "testResults": [
+    {
+      "testId": "test_1756189342296_5rhz1qo4u",
+      "query": "What are Apex Trader Funding account sizes?",
+      "firmHint": "apex",
+      "timestamp": "2025-08-26T06:22:22.296Z",
+      "legacy": {
+        "success": true,
+        "response": "Apex Trader Funding offers evaluations starting at $50,000. The profit target is typically 8% for Phase 1 and 5% for Phase 2.",
+        "responseTime": 2441,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": true,
+        "response": "Error procesando tu mensaje. Por favor intenta de nuevo.",
+        "responseTime": 2755,
+        "source": "mars",
+        "firm": null
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0,
+        "legacyLength": 125,
+        "marsLength": 56,
+        "timeDifference": 314,
+        "analysis": {
+          "commonWords": 0,
+          "responsiveness": "legacy_faster"
+        }
+      }
+    },
+    {
+      "testId": "test_1756189345156_r0fip3836",
+      "query": "What account sizes does Bulenox offer?",
+      "firmHint": "bulenox",
+      "timestamp": "2025-08-26T06:22:25.156Z",
+      "legacy": {
+        "success": true,
+        "response": "Bulenox provides trading challenges with various account sizes. Please check their official website for current requirements.",
+        "responseTime": 1117,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": true,
+        "response": "Error procesando tu mensaje. Por favor intenta de nuevo.",
+        "responseTime": 1,
+        "source": "mars",
+        "firm": null
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0,
+        "legacyLength": 125,
+        "marsLength": 56,
+        "timeDifference": 1116,
+        "analysis": {
+          "commonWords": 0,
+          "responsiveness": "mars_faster"
+        }
+      }
+    },
+    {
+      "testId": "test_1756189346374_cmxu066q6",
+      "query": "What is forex trading?",
+      "firmHint": null,
+      "timestamp": "2025-08-26T06:22:26.374Z",
+      "legacy": {
+        "success": true,
+        "response": "I'm sorry, I don't have specific information about that.",
+        "responseTime": 528,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": true,
+        "response": "Error procesando tu mensaje. Por favor intenta de nuevo.",
+        "responseTime": 1,
+        "source": "mars",
+        "firm": null
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0,
+        "legacyLength": 56,
+        "marsLength": 56,
+        "timeDifference": 527,
+        "analysis": {
+          "commonWords": 0,
+          "responsiveness": "mars_faster"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "performanceComparison": {
+      "marsIsFaster": true,
+      "avgTimeDifference": 443,
+      "marsAvgTime": 919,
+      "legacyAvgTime": 1362
+    },
+    "accuracyComparison": null,
+    "contamination": {
+      "detected": 0,
+      "rate": "0.00%",
+      "examples": []
+    },
+    "recommendations": []
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "issue": "Low response accuracy",
+      "description": "Success rate is 0.0%, below 95% threshold",
+      "action": "Review FAQ matching algorithms and response validation"
+    }
+  ]
+}

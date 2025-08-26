@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "totalTests": 3,
+    "legacyResponses": 3,
+    "marsResponses": 3,
+    "matches": 0,
+    "differences": 3,
+    "errors": 0,
+    "avgLegacyTime": 1402.3333333333333,
+    "avgMarsTime": 897.3333333333334,
+    "successRate": "0.00%",
+    "errorRate": "0.00%"
+  },
+  "testResults": [
+    {
+      "testId": "test_1756189380310_nzpfx1tcb",
+      "query": "What are Apex Trader Funding account sizes?",
+      "firmHint": "apex",
+      "timestamp": "2025-08-26T06:23:00.311Z",
+      "legacy": {
+        "success": true,
+        "response": "Apex Trader Funding offers evaluations starting at $50,000. The profit target is typically 8% for Phase 1 and 5% for Phase 2.",
+        "responseTime": 2431,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": true,
+        "response": "<b>🏢 Apex Trader Funding</b>\n\n<b>❓ ¿En qué mercados se opera con Apex (futuros, micros, etc.)?</b>\n\n<b>INSTRUMENTOS DISPONIBLES EN APEX:</b>\n\n<b>🎯 FUTUROS E-MINIS:</b>\n• <b>ES (S&P 500):</b> Índice más popular\n• <b>NQ (Nasdaq 100):</b> Tecnológicas\n• <b>YM (Dow Jones):</b> Industriales  \n• <b>RTY (Russell 2000):</b> Small caps\n• <b>ZN (10-Year Treasury):</b> Bonos del tesoro\n\n<b>🔬 FUTUROS MICROS:</b>\n• <b>MES (Micro S&P 500):</b> 1/10 del ES\n• <b>MNQ (Micro Nasdaq):</b> 1/10 del NQ\n• <b>MYM (Micro Dow):</b> 1/10 del YM\n• <b>M2K (Micro Russell):</b> 1/10 del RTY\n\n<b>📈 OTROS FUTUROS:</b>\n• <b>Energía:</b> CL (Petróleo), NG (Gas Natural)\n• <b>Metales:</b> GC (Oro), SI (Plata)\n• <b>Agrícolas:</b> ZC (Maíz), ZW (Trigo), ZS (Soja)\n• <b>Forex:</b> 6E (EUR/USD), 6J (JPY/USD)\n\n<b>💡 VENTAJAS:</b>\n• <b>Micros:</b> Menor riesgo, ideal para principiantes\n• <b>E-minis:</b> Mayor volumen y liquidez\n• <b>Todos incluidos</b> sin restricciones\n\n📋 <i>Fuente: FAQ oficial</i>",
+        "responseTime": 2689,
+        "source": "mars",
+        "firm": "apex"
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0.014492753623188406,
+        "legacyLength": 125,
+        "marsLength": 975,
+        "timeDifference": 258,
+        "analysis": {
+          "commonWords": 2,
+          "responsiveness": "legacy_faster"
+        }
+      }
+    },
+    {
+      "testId": "test_1756189383104_rbcxywwji",
+      "query": "What account sizes does Bulenox offer?",
+      "firmHint": "bulenox",
+      "timestamp": "2025-08-26T06:23:03.104Z",
+      "legacy": {
+        "success": true,
+        "response": "Bulenox provides trading challenges with various account sizes. Please check their official website for current requirements.",
+        "responseTime": 1055,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": true,
+        "response": "<b>🏢 Bulenox</b>\n\n<b>❓ ¿Permite Bulenox overnight trading?</b>\n\n<b>Overnight Trading: NO PERMITIDO</b>\n\n• <b>Regla:</b> Todas las posiciones deben cerrarse antes del cierre de sesión\n• <b>Horario:</b> 6:00 PM ET a 5:00 PM ET\n• <b>Fin de semana:</b> Prohibido mantener posiciones\n\n📋 <i>Fuente: FAQ oficial</i>",
+        "responseTime": 2,
+        "source": "mars",
+        "firm": "bulenox"
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0.023255813953488372,
+        "legacyLength": 125,
+        "marsLength": 310,
+        "timeDifference": 1053,
+        "analysis": {
+          "commonWords": 1,
+          "responsiveness": "mars_faster"
+        }
+      }
+    },
+    {
+      "testId": "test_1756189384266_u6u7zcupq",
+      "query": "What is forex trading?",
+      "firmHint": null,
+      "timestamp": "2025-08-26T06:23:04.266Z",
+      "legacy": {
+        "success": true,
+        "response": "I'm sorry, I don't have specific information about that.",
+        "responseTime": 721,
+        "source": "legacy"
+      },
+      "mars": {
+        "success": true,
+        "response": "<b>🏢 Bulenox</b>\n\n<b>❓ ¿Permite Bulenox overnight trading?</b>\n\n<b>Overnight Trading: NO PERMITIDO</b>\n\n• <b>Regla:</b> Todas las posiciones deben cerrarse antes del cierre de sesión\n• <b>Horario:</b> 6:00 PM ET a 5:00 PM ET\n• <b>Fin de semana:</b> Prohibido mantener posiciones\n\n📋 <i>Fuente: FAQ oficial</i>",
+        "responseTime": 1,
+        "source": "mars",
+        "firm": "bulenox"
+      },
+      "comparison": {
+        "match": false,
+        "similarity": 0,
+        "legacyLength": 56,
+        "marsLength": 310,
+        "timeDifference": 720,
+        "analysis": {
+          "commonWords": 0,
+          "responsiveness": "mars_faster"
+        }
+      }
+    }
+  ],
+  "analysis": {
+    "performanceComparison": {
+      "marsIsFaster": true,
+      "avgTimeDifference": 504.9999999999999,
+      "marsAvgTime": 897.3333333333334,
+      "legacyAvgTime": 1402.3333333333333
+    },
+    "accuracyComparison": null,
+    "contamination": {
+      "detected": 0,
+      "rate": "0.00%",
+      "examples": []
+    },
+    "recommendations": []
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "issue": "Low response accuracy",
+      "description": "Success rate is 0.0%, below 95% threshold",
+      "action": "Review FAQ matching algorithms and response validation"
+    }
+  ]
+}
