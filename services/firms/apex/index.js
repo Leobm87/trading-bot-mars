@@ -142,38 +142,43 @@ class ApexService {
      */
     findFAQMatches(query) {
         const queryLower = query.toLowerCase();
+        const queryWords = queryLower.split(' ');
         const matches = [];
         
         for (const [id, faq] of this.faqsCache) {
             const questionLower = faq.question.toLowerCase();
             const answerLower = faq.answer.toLowerCase();
             
-            // Split query into keywords for better matching
-            const queryWords = queryLower.split(' ');
-            const questionWords = questionLower.split(' ');
+            let score = 0;
             
-            // Check if each query word appears in the question or answer
-            const keywordMatches = queryWords.filter(word => 
-                word.length > 2 && (questionLower.includes(word) || answerLower.includes(word))
-            ).length;
+            // Priority scoring: exact query match gets highest score
+            if (questionLower.includes(queryLower)) {
+                score = 1.0;
+            }
+            // Second priority: all query words present in question
+            else if (queryWords.every(w => questionLower.includes(w))) {
+                score = 0.8;
+            }
+            // Fallback to similarity calculation
+            else {
+                score = this.calculateSimilarity(queryLower, questionLower);
+            }
             
-            const hasKeywordMatch = keywordMatches > 0 || questionLower.includes(queryLower) || answerLower.includes(queryLower);
-            const similarity = this.calculateSimilarity(queryLower, questionLower);
-            
-            if (hasKeywordMatch || similarity > 0.3) {
-                
+            // Only include matches above threshold
+            if (score > 0.4) {
                 matches.push({
                     id,
                     question: faq.question,
                     answer: faq.answer,
                     slug: faq.slug,
-                    similarity: similarity
+                    score: score,
+                    similarity: score
                 });
             }
         }
         
-        // Sort by similarity (highest first)
-        matches.sort((a, b) => b.similarity - a.similarity);
+        // Sort by score (highest first)
+        matches.sort((a, b) => b.score - a.score);
         return matches;
     }
     
