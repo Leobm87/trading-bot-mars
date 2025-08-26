@@ -61,6 +61,62 @@ describe('TelegramGateway', () => {
                                 ],
                                 error: null
                             });
+                        } else if (column === 'firm_id' && value === '08a7b506-4836-486a-a6e9-df12059c55d3') {
+                            // Return TakeProfit FAQs
+                            return Promise.resolve({
+                                data: [
+                                    {
+                                        id: 'takeprofit-faq-1',
+                                        question: '¿Cuánto cuesta TakeProfit?',
+                                        answer_md: 'TakeProfit ofrece planes desde $125.',
+                                        slug: 'takeprofit-pricing',
+                                        category: 'pricing'
+                                    }
+                                ],
+                                error: null
+                            });
+                        } else if (column === 'firm_id' && value === '1b40dc38-91ff-4a35-be46-1bf2d5749433') {
+                            // Return MyFunded FAQs
+                            return Promise.resolve({
+                                data: [
+                                    {
+                                        id: 'myfunded-faq-1',
+                                        question: '¿Cuánto cuesta MyFundedFutures?',
+                                        answer_md: 'MyFundedFutures ofrece planes desde $89.',
+                                        slug: 'myfunded-pricing',
+                                        category: 'pricing'
+                                    }
+                                ],
+                                error: null
+                            });
+                        } else if (column === 'firm_id' && value === '2ff70297-718d-42b0-ba70-cde70d5627b5') {
+                            // Return Alpha FAQs
+                            return Promise.resolve({
+                                data: [
+                                    {
+                                        id: 'alpha-faq-1',
+                                        question: '¿Cuánto cuesta Alpha Futures?',
+                                        answer_md: 'Alpha Futures ofrece planes desde $99.',
+                                        slug: 'alpha-pricing',
+                                        category: 'pricing'
+                                    }
+                                ],
+                                error: null
+                            });
+                        } else if (column === 'firm_id' && value === '1a95b01e-4eef-48e2-bd05-6e2f79ca57a8') {
+                            // Return Tradeify FAQs
+                            return Promise.resolve({
+                                data: [
+                                    {
+                                        id: 'tradeify-faq-1',
+                                        question: '¿Cuánto cuesta Tradeify?',
+                                        answer_md: 'Tradeify ofrece planes desde $109.',
+                                        slug: 'tradeify-pricing',
+                                        category: 'pricing'
+                                    }
+                                ],
+                                error: null
+                            });
                         }
                         
                         // Default empty response
@@ -73,9 +129,13 @@ describe('TelegramGateway', () => {
             })
         };
         
-        // Override the Supabase client creation for both services
+        // Override the Supabase client creation for all services
         gateway.apexService.supabase = mockSupabaseClient;
         gateway.bulenoxService.supabase = mockSupabaseClient;
+        gateway.takeprofitService.supabase = mockSupabaseClient;
+        gateway.myfundedService.supabase = mockSupabaseClient;
+        gateway.alphaService.supabase = mockSupabaseClient;
+        gateway.tradeifyService.supabase = mockSupabaseClient;
         
         await gateway.initialize();
     });
