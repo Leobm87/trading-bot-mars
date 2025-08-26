@@ -1,5 +1,6 @@
 const { createClient } = require('@supabase/supabase-js');
 const winston = require('winston');
+const OpenAIMatcher = require('../../ai/openai-matcher');
 
 class BulenoxService {
     constructor() {
@@ -38,6 +39,8 @@ class BulenoxService {
             process.env.SUPABASE_URL,
             process.env.SUPABASE_SERVICE_KEY
         );
+        
+        this.aiMatcher = process.env.OPENAI_API_KEY ? new OpenAIMatcher() : null;
         
         this.logger.info('BulenoxService constructor initialized');
     }
@@ -96,7 +99,22 @@ class BulenoxService {
             
             this.logger.info(`Processing query: "${query}"`);
             
-            // Search for exact matches in cached FAQs
+            // Try AI matching first if available
+            if (this.aiMatcher) {
+                const aiResult = await this.aiMatcher.findBestFAQ(query, this.faqsCache, this.BULENOX_FIRM_NAME);
+                if (aiResult.found) {
+                    this.logger.info(`AI matched FAQ with confidence ${aiResult.confidence}`);
+                    return {
+                        success: true,
+                        source: 'ai-faq',
+                        firmName: this.BULENOX_FIRM_NAME,
+                        question: aiResult.faq.question,
+                        response: aiResult.faq.answer
+                    };
+                }
+            }
+            
+            // Fall back to keyword matching
             const matches = this.findFAQMatches(query);
             
             if (matches.length > 0) {
