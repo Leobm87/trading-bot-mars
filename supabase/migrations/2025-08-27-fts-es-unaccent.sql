@@ -3,7 +3,8 @@ CREATE EXTENSION IF NOT EXISTS unaccent;
 CREATE EXTENSION IF NOT EXISTS pg_trgm;
 
 -- Spanish text search configuration with unaccent support
-CREATE TEXT SEARCH CONFIGURATION IF NOT EXISTS public.es_unaccent ( COPY = pg_catalog.spanish );
+DROP TEXT SEARCH CONFIGURATION IF EXISTS public.es_unaccent CASCADE;
+CREATE TEXT SEARCH CONFIGURATION public.es_unaccent ( COPY = pg_catalog.spanish );
 ALTER TEXT SEARCH CONFIGURATION public.es_unaccent
   ALTER MAPPING FOR hword, hword_part, word
   WITH unaccent, spanish_stem;
