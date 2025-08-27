@@ -261,12 +261,12 @@ class ApexService {
         
         // Critical synonyms for production issues
         const expansions = {
-            'activar': 'activacion mensual suscripcion mensualidad despues pasar financiada funded pa cuenta activation fee',
-            'precio': 'costo cuanto vale tarifa pagar',
-            'umbral': 'threshold objetivo target profit ganancia safety net minimo retiro withdrawal minimum',
-            'reglas': 'normas requisitos condiciones restricciones',
-            'fase': 'etapa step nivel phase',
-            'financiada': 'funded pa cuenta real live'
+            'activar': 'activacion mensual suscripcion mensualidad despues pasar financiada funded pa cuenta activation fee costo mantener',
+            'umbral': 'threshold safety net minimo retiro withdrawal minimum retirar payout profit objetivo meta ganancia',
+            'reglas': 'rules normas requisitos restricciones fase financiada funded pa cuenta real regulaciones condiciones',
+            'fase': 'phase etapa step nivel financiada funded pa cuenta real live',
+            'financiada': 'funded pa cuenta real live phase fase etapa',
+            'consistencia': 'consistency regla 30 treinta porciento porcentaje'
         };
         
         // Expand query - only expand exact word matches
