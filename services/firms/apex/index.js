@@ -148,30 +148,46 @@ class ApexService {
             
             this.logger.info(`Processing query: "${query}"`);
             
-            // Classify query type
+            // PRIORITY 1: Try AI matching first if available
+            if (this.aiMatcher) {
+                const aiResult = await this.aiMatcher.findBestFAQ(query, this.faqsCache, this.APEX_FIRM_NAME);
+                if (aiResult.found) {
+                    this.logger.info(`AI matched FAQ with confidence ${aiResult.confidence}`);
+                    return {
+                        success: true,
+                        source: 'ai-faq',
+                        firmName: this.APEX_FIRM_NAME,
+                        question: aiResult.faq.question,
+                        response: aiResult.faq.answer
+                    };
+                }
+            }
+            
+            // PRIORITY 2: Try keyword FAQ matching
+            const matches = this.findFAQMatches(query);
+            
+            if (matches.length > 0) {
+                const bestMatch = matches[0];
+                const response = bestMatch.answer;
+                
+                // Validate response before returning
+                const validatedResponse = this.validateResponse(response);
+                
+                this.logger.info(`Found FAQ match for query. Returning validated response.`);
+                return {
+                    success: true,
+                    source: 'faq',
+                    firmName: this.APEX_FIRM_NAME,
+                    question: bestMatch.question,
+                    response: validatedResponse
+                };
+            }
+            
+            // PRIORITY 3: Check for classification-based queries (if no FAQ match found)
             const classification = this.classifyQuery(query);
-            this.logger.info(`Query classification: ${JSON.stringify(classification)}`);
             
-            // Debug: Log classification details
-            console.log('=== APEX DEBUG: Classification Details ===');
-            console.log('Query:', query);
-            console.log('Classification JSON:', JSON.stringify(classification, null, 2));
-            console.log('Pricing boolean:', classification.pricing);
-            console.log('Account boolean:', classification.account);
-            console.log('Info boolean:', classification.info);
-            
-            // Debug: Log before pricing condition
-            console.log('=== APEX DEBUG: Before Pricing Check ===');
-            console.log('About to check if classification.pricing is true');
-            console.log('classification.pricing value:', classification.pricing);
-            
-            // Route to appropriate handler based on classification
             if (classification.pricing) {
-                console.log('=== APEX DEBUG: Inside Pricing Condition ===');
-                console.log('Pricing condition met, handling pricing query');
                 const pricingResponse = this.handlePricingQuery();
-                console.log('=== APEX DEBUG: After handlePricingQuery Call ===');
-                console.log('handlePricingQuery returned successfully');
                 return {
                     success: true,
                     source: 'pricing',
@@ -195,48 +211,6 @@ class ApexService {
                     source: 'info',
                     firmName: this.APEX_FIRM_NAME,
                     response: this.handleFirmInfoQuery()
-                };
-            }
-            
-            // Debug: Check for price-related FAQs
-            const priceFAQs = Array.from(this.faqsCache.values()).filter(f => 
-                f.question.toLowerCase().includes('precio') || 
-                f.question.toLowerCase().includes('costo') ||
-                f.question.toLowerCase().includes('cuenta'));
-            console.log('Price-related FAQs found:', priceFAQs.length);
-            
-            // Try AI matching first if available
-            if (this.aiMatcher) {
-                const aiResult = await this.aiMatcher.findBestFAQ(query, this.faqsCache, this.APEX_FIRM_NAME);
-                if (aiResult.found) {
-                    this.logger.info(`AI matched FAQ with confidence ${aiResult.confidence}`);
-                    return {
-                        success: true,
-                        source: 'ai-faq',
-                        firmName: this.APEX_FIRM_NAME,
-                        question: aiResult.faq.question,
-                        response: aiResult.faq.answer
-                    };
-                }
-            }
-            
-            // Fall back to keyword matching
-            const matches = this.findFAQMatches(query);
-            
-            if (matches.length > 0) {
-                const bestMatch = matches[0];
-                const response = bestMatch.answer;
-                
-                // Validate response before returning
-                const validatedResponse = this.validateResponse(response);
-                
-                this.logger.info(`Found match for query. Returning validated response.`);
-                return {
-                    success: true,
-                    source: 'faq',
-                    firmName: this.APEX_FIRM_NAME,
-                    question: bestMatch.question,
-                    response: validatedResponse
                 };
             }
             
