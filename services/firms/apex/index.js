@@ -181,7 +181,7 @@ class ApexService {
             
             // MOVE FAQ MATCHING TO TOP - BEFORE classification
             const matches = this.findFAQMatches(query);
-            if (matches.length > 0 && matches[0].similarity > 0.35) { // LOWER threshold
+            if (matches.length > 0 && matches[0].similarity > 0.5) { // Higher threshold
                 const fullAnswer = matches[0].answer;
                 const relevantAnswer = this.extractRelevantAnswer(query, fullAnswer);
                 this.logger.info(`Found FAQ match: ${matches[0].question}`);
@@ -290,7 +290,15 @@ class ApexService {
             
             const similarity = matchCount / expandedWords.length;
             
-            if (similarity > 0.2) { // Lower threshold to allow more matches
+            // Penalize if query has specific keywords not in FAQ
+            const criticalWords = ['pago', 'umbral', 'financiada', 'reset'];
+            for (const word of criticalWords) {
+                if (queryWords.includes(word) && !questionLower.includes(word) && !answerLower.includes(word)) {
+                    similarity = similarity * 0.5; // Reduce score by half
+                }
+            }
+            
+            if (similarity > 0.4) { // Higher threshold to prevent false positives
                 matches.push({
                     id,
                     question: faq.question,
