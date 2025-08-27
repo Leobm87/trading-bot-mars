@@ -179,28 +179,12 @@ class ApexService {
             
             this.logger.info(`Processing query: "${query}"`);
             
-            // PRIORITY 1: Try AI matching first if available
-            if (this.aiMatcher) {
-                const aiResult = await this.aiMatcher.findBestFAQ(query, this.faqsCache, this.APEX_FIRM_NAME);
-                if (aiResult.found) {
-                    this.logger.info(`AI matched FAQ with confidence ${aiResult.confidence}`);
-                    return {
-                        success: true,
-                        source: 'ai-faq',
-                        firmName: this.APEX_FIRM_NAME,
-                        question: aiResult.faq.question,
-                        response: aiResult.faq.answer
-                    };
-                }
-            }
-            
-            // PRIORITY 2: Try keyword FAQ matching
+            // MOVE FAQ MATCHING TO TOP - BEFORE classification
             const matches = this.findFAQMatches(query);
-            
-            if (matches.length > 0 && matches[0].similarity > 0.5) {
+            if (matches.length > 0 && matches[0].similarity > 0.35) { // LOWER threshold
                 const fullAnswer = matches[0].answer;
                 const relevantAnswer = this.extractRelevantAnswer(query, fullAnswer);
-                
+                this.logger.info(`Found FAQ match: ${matches[0].question}`);
                 return {
                     success: true,
                     source: 'faq',
@@ -210,8 +194,9 @@ class ApexService {
                 };
             }
             
-            // PRIORITY 3: Check for classification-based queries (if no FAQ match found)
+            // ONLY AFTER FAQ fails, try classification
             const classification = this.classifyQuery(query);
+            this.logger.info(`No FAQ match. Using classification: ${classification}`);
             
             if (classification.pricing) {
                 const pricingResponse = this.handlePricingQuery();
@@ -276,9 +261,9 @@ class ApexService {
         
         // Critical synonyms for production issues
         const expansions = {
-            'activar': 'activacion mensual suscripcion mensualidad despues pasar financiada',
+            'activar': 'activacion mensual suscripcion mensualidad despues pasar financiada funded pa cuenta activation fee',
             'precio': 'costo cuanto vale tarifa pagar',
-            'umbral': 'threshold objetivo target profit ganancia',
+            'umbral': 'threshold objetivo target profit ganancia safety net minimo retiro withdrawal minimum',
             'reglas': 'normas requisitos condiciones restricciones',
             'fase': 'etapa step nivel phase',
             'financiada': 'funded pa cuenta real live'
@@ -305,7 +290,7 @@ class ApexService {
             
             const similarity = matchCount / expandedWords.length;
             
-            if (similarity > 0.5) {
+            if (similarity > 0.2) { // Lower threshold to allow more matches
                 matches.push({
                     id,
                     question: faq.question,

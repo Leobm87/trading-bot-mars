@@ -157,9 +157,11 @@ describe('ApexService Pricing Tests', () => {
             const result = await apexService.processQuery('cuenta size');
             
             expect(result.success).toBe(true);
-            expect(result.response).toContain('Meta: $2,500');
-            expect(result.response).toContain('Meta: $5,000');
-            expect(result.response).toContain('Meta: $10,000');
+            // FAQ matching now takes priority, so we get pricing info instead of account handler
+            expect(result.source).toBe('faq');
+            expect(result.response).toContain('25K');
+            expect(result.response).toContain('50K');
+            expect(result.response).toContain('100K');
         });
     });
 
