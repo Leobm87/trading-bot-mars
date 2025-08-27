@@ -414,7 +414,7 @@ class ApexService {
         const queryLower = this.normalizeText(query.toLowerCase());
         
         // Pricing terms
-        const pricingTerms = ['precio', 'costo', 'price'];
+        const pricingTerms = ['precio', 'costo', 'price', 'cuanto'];
         const hasPricingTerms = pricingTerms.some(term => queryLower.includes(term));
         
         // Account terms
