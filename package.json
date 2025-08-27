@@ -1,6 +1,7 @@
 {
   "name": "trading-bot-mars",
   "version": "1.0.0",
+  "type": "module",
   "description": "MARS Migration: Isolated services for prop trading firms",
   "main": "index.js",
   "scripts": {
@@ -12,7 +13,15 @@
     "start": "node server.js",
     "start:apex": "node services/firms/apex/index.js",
     "start:gateway": "node services/gateway/index.js",
-    "start:router": "node services/router/index.js"
+    "start:router": "node services/router/index.js",
+    "check:rpc": "node scripts/check-rpc.cjs",
+    "seed:aliases:apex": "node scripts/seed-aliases-apex.cjs",
+    "try:apex": "node scripts/try-apex.cjs",
+    "eval:apex": "node scripts/eval-apex.cjs",
+    "coverage:import:apex": "node scripts/coverage-import-apex.cjs",
+    "export:faqs:apex": "node scripts/export-faqs-apex.cjs",
+    "golden:fill": "node scripts/fill-golden-ids.cjs",
+    "gate:build": "node scripts/build-gate-from-coverage.cjs"
   },
   "keywords": [
     "prop-trading",
@@ -24,7 +33,8 @@
   "author": "Braian Basanta & Claude Code",
   "license": "ISC",
   "dependencies": {
-    "@supabase/supabase-js": "^2.38.5",
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "@supabase/supabase-js": "^2.56.0",
     "axios": "^1.11.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
