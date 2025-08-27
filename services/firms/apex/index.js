@@ -288,7 +288,7 @@ class ApexService {
                 word.length > 2 && (questionLower.includes(word) || answerLower.includes(word))
             ).length;
             
-            const similarity = matchCount / expandedWords.length;
+            let similarity = matchCount / expandedWords.length;
             
             // Penalize if query has specific keywords not in FAQ
             const criticalWords = ['pago', 'umbral', 'financiada', 'reset'];
