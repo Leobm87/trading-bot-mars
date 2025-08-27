@@ -172,11 +172,14 @@ class ApexService {
             if (classification.pricing) {
                 console.log('=== APEX DEBUG: Inside Pricing Condition ===');
                 console.log('Pricing condition met, handling pricing query');
+                const pricingResponse = this.handlePricingQuery();
+                console.log('=== APEX DEBUG: After handlePricingQuery Call ===');
+                console.log('handlePricingQuery returned successfully');
                 return {
                     success: true,
                     source: 'pricing',
                     firmName: this.APEX_FIRM_NAME,
-                    response: this.handlePricingQuery()
+                    response: pricingResponse
                 };
             }
             
@@ -488,6 +491,10 @@ class ApexService {
         if (this.firmInfo && this.firmInfo.website) {
             response += `🌐 **Más información:** ${this.firmInfo.website}`;
         }
+        
+        // Debug: Log response before returning (first 500 chars)
+        console.log('=== APEX DEBUG: Pricing Handler Response ===');
+        console.log('Response (first 500 chars):', response.substring(0, 500));
         
         return response;
     }
