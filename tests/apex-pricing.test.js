@@ -32,35 +32,38 @@ jest.mock('@supabase/supabase-js', () => ({
                                 data: [
                                     {
                                         id: 'plan1',
-                                        name: '$25K Challenge',
-                                        price: 139,
+                                        display_name: '$25K Evaluation',
+                                        phase: 'evaluation',
+                                        price_monthly: 139,
                                         account_size: 25000,
                                         profit_target: 2500,
-                                        max_daily_loss: 1000,
-                                        max_total_drawdown: 2500,
-                                        description: 'Cuenta de evaluación de $25,000',
+                                        drawdown_max: 2500,
+                                        max_contracts_minis: 4,
+                                        max_contracts_micros: 40,
                                         firm_id: '854bf730-8420-4297-86f8-3c4a972edcf2'
                                     },
                                     {
                                         id: 'plan2',
-                                        name: '$50K Challenge',
-                                        price: 259,
+                                        display_name: '$50K Evaluation',
+                                        phase: 'evaluation',
+                                        price_monthly: 259,
                                         account_size: 50000,
                                         profit_target: 5000,
-                                        max_daily_loss: 2000,
-                                        max_total_drawdown: 5000,
-                                        description: 'Cuenta de evaluación de $50,000',
+                                        drawdown_max: 5000,
+                                        max_contracts_minis: 10,
+                                        max_contracts_micros: 100,
                                         firm_id: '854bf730-8420-4297-86f8-3c4a972edcf2'
                                     },
                                     {
                                         id: 'plan3',
-                                        name: '$100K Challenge',
-                                        price: 459,
+                                        display_name: '$100K Evaluation',
+                                        phase: 'evaluation',
+                                        price_monthly: 459,
                                         account_size: 100000,
                                         profit_target: 10000,
-                                        max_daily_loss: 4000,
-                                        max_total_drawdown: 10000,
-                                        description: 'Cuenta de evaluación de $100,000',
+                                        drawdown_max: 10000,
+                                        max_contracts_minis: 14,
+                                        max_contracts_micros: 140,
                                         firm_id: '854bf730-8420-4297-86f8-3c4a972edcf2'
                                     }
                                 ],
@@ -77,9 +80,7 @@ jest.mock('@supabase/supabase-js', () => ({
                                     id: '854bf730-8420-4297-86f8-3c4a972edcf2',
                                     name: 'Apex Trader Funding',
                                     website: 'https://www.apextrading.com',
-                                    discount_code: 'APEX10',
-                                    description: 'Leading prop trading firm with competitive rates',
-                                    features: 'Fast payouts, no minimum trading days, 24/7 support'
+                                    support_url: 'https://support.apextrading.com'
                                 },
                                 error: null
                             })
@@ -118,15 +119,13 @@ describe('ApexService Pricing Tests', () => {
             expect(result.response).toContain('$259');
             expect(result.response).toContain('$100,000');
             expect(result.response).toContain('$459');
-            expect(result.response).toContain('APEX10');
         });
 
-        test('should return pricing data with discount code', async () => {
+        test('should return pricing data with website info', async () => {
             const result = await apexService.processQuery('precio');
             
             expect(result.success).toBe(true);
             expect(result.source).toBe('pricing');
-            expect(result.response).toContain('Código de descuento:** APEX10');
             expect(result.response).toContain('https://www.apextrading.com');
         });
 
@@ -135,7 +134,6 @@ describe('ApexService Pricing Tests', () => {
             
             expect(result.success).toBe(true);
             expect(result.response).toContain('Meta de ganancia: $2,500');
-            expect(result.response).toContain('Pérdida diaria máx: $1,000');
             expect(result.response).toContain('Drawdown máximo: $2,500');
         });
     });
@@ -150,18 +148,18 @@ describe('ApexService Pricing Tests', () => {
             expect(result.response).toContain('$25,000');
             expect(result.response).toContain('$50,000');
             expect(result.response).toContain('$100,000');
-            expect(result.response).toContain('$25K Challenge');
-            expect(result.response).toContain('$50K Challenge');
-            expect(result.response).toContain('$100K Challenge');
+            expect(result.response).toContain('$25K Evaluation');
+            expect(result.response).toContain('$50K Evaluation');
+            expect(result.response).toContain('$100K Evaluation');
         });
 
         test('should show account descriptions', async () => {
             const result = await apexService.processQuery('cuenta size');
             
             expect(result.success).toBe(true);
-            expect(result.response).toContain('Cuenta de evaluación de $25,000');
-            expect(result.response).toContain('Cuenta de evaluación de $50,000');
-            expect(result.response).toContain('Cuenta de evaluación de $100,000');
+            expect(result.response).toContain('Meta: $2,500');
+            expect(result.response).toContain('Meta: $5,000');
+            expect(result.response).toContain('Meta: $10,000');
         });
     });
 
@@ -174,16 +172,13 @@ describe('ApexService Pricing Tests', () => {
             expect(result.firmName).toBe('Apex Trader Funding');
             expect(result.response).toContain('Apex Trader Funding');
             expect(result.response).toContain('https://www.apextrading.com');
-            expect(result.response).toContain('APEX10');
-            expect(result.response).toContain('Leading prop trading firm with competitive rates');
-            expect(result.response).toContain('Fast payouts, no minimum trading days, 24/7 support');
         });
 
-        test('should show discount code in firm info', async () => {
-            const result = await apexService.processQuery('discount code');
+        test('should show support URL in firm info', async () => {
+            const result = await apexService.processQuery('support');
             
             expect(result.success).toBe(true);
-            expect(result.response).toContain('Código de descuento:** APEX10');
+            expect(result.response).toContain('https://support.apextrading.com');
         });
     });
 
@@ -201,8 +196,7 @@ describe('ApexService Pricing Tests', () => {
             
             expect(result.success).toBe(true);
             expect(result.source).toBe('default');
-            expect(result.response).toContain('apex.com');
-            expect(result.response).toContain('código de descuento');
+            expect(result.response).toContain('sitio web');
         });
     });
 

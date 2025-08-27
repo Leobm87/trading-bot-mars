@@ -89,14 +89,13 @@ class ApexService {
             // Load account_plans into memory cache
             this.plansCache.clear();
             plans.forEach(plan => {
-                this.plansCache.set(plan.id, {
-                    name: plan.name,
-                    price: plan.price,
-                    account_size: plan.account_size,
+                this.plansCache.set(`${plan.id}_${plan.phase}`, {
+                    display_name: plan.display_name,
+                    price_monthly: plan.price_monthly,
+                    phase: plan.phase,
                     profit_target: plan.profit_target,
-                    max_daily_loss: plan.max_daily_loss,
-                    max_total_drawdown: plan.max_total_drawdown,
-                    description: plan.description
+                    drawdown_max: plan.drawdown_max,
+                    account_size: plan.account_size
                 });
             });
             
@@ -118,9 +117,7 @@ class ApexService {
             this.firmInfo = {
                 name: firmData.name,
                 website: firmData.website,
-                discount_code: firmData.discount_code,
-                description: firmData.description,
-                features: firmData.features
+                support_url: firmData.support_url
             };
             
             this.isInitialized = true;
@@ -244,7 +241,7 @@ class ApexService {
             }
             
             // No FAQ match found - return default Apex response
-            const defaultResponse = `Para información específica sobre ${this.APEX_FIRM_NAME}, te recomendamos visitar apex.com con nuestro código de descuento para obtener las mejores tarifas.`;
+            const defaultResponse = `Para información específica sobre ${this.APEX_FIRM_NAME}, te recomendamos visitar nuestro sitio web para obtener las mejores tarifas.`;
             
             // Log unmatched query for analytics
             const fs = require('fs').promises;
@@ -440,7 +437,7 @@ class ApexService {
         const hasAccountTerms = accountTerms.some(term => queryLower.includes(term));
         
         // Info terms
-        const infoTerms = ['website', 'discount'];
+        const infoTerms = ['website', 'support'];
         const hasInfoTerms = infoTerms.some(term => queryLower.includes(term));
         
         return {
@@ -463,30 +460,24 @@ class ApexService {
         
         let response = `💰 **Precios de cuentas ${this.APEX_FIRM_NAME}:**\n\n`;
         
-        // Sort plans by account size
-        const sortedPlans = Array.from(this.plansCache.values())
+        // Filter and sort evaluation phase plans by account size
+        const evaluationPlans = Array.from(this.plansCache.values())
+            .filter(plan => plan.phase === 'evaluation')
             .sort((a, b) => a.account_size - b.account_size);
         
-        sortedPlans.forEach(plan => {
-            response += `📊 **${plan.name}**\n`;
+        evaluationPlans.forEach(plan => {
+            response += `📊 **${plan.display_name}**\n`;
             response += `• Tamaño de cuenta: $${plan.account_size?.toLocaleString() || 'N/A'}\n`;
-            response += `• Precio: $${plan.price || 'N/A'}\n`;
+            response += `• Precio mensual: $${plan.price_monthly || 'N/A'}\n`;
             if (plan.profit_target) {
                 response += `• Meta de ganancia: $${plan.profit_target.toLocaleString()}\n`;
             }
-            if (plan.max_daily_loss) {
-                response += `• Pérdida diaria máx: $${plan.max_daily_loss.toLocaleString()}\n`;
-            }
-            if (plan.max_total_drawdown) {
-                response += `• Drawdown máximo: $${plan.max_total_drawdown.toLocaleString()}\n`;
+            if (plan.drawdown_max) {
+                response += `• Drawdown máximo: $${plan.drawdown_max.toLocaleString()}\n`;
             }
             response += '\n';
         });
         
-        // Include discount code if available
-        if (this.firmInfo && this.firmInfo.discount_code) {
-            response += `🎯 **Código de descuento:** ${this.firmInfo.discount_code}\n`;
-        }
         
         if (this.firmInfo && this.firmInfo.website) {
             response += `🌐 **Más información:** ${this.firmInfo.website}`;
@@ -509,14 +500,15 @@ class ApexService {
         
         let response = `📊 **Tamaños de cuenta disponibles en ${this.APEX_FIRM_NAME}:**\n\n`;
         
-        // Sort plans by account size
-        const sortedPlans = Array.from(this.plansCache.values())
+        // Filter and sort evaluation phase plans by account size
+        const evaluationPlans = Array.from(this.plansCache.values())
+            .filter(plan => plan.phase === 'evaluation')
             .sort((a, b) => a.account_size - b.account_size);
         
-        sortedPlans.forEach(plan => {
-            response += `💰 **$${plan.account_size?.toLocaleString() || 'N/A'}** - ${plan.name}\n`;
-            if (plan.description) {
-                response += `   ${plan.description}\n`;
+        evaluationPlans.forEach(plan => {
+            response += `💰 **$${plan.account_size?.toLocaleString() || 'N/A'}** - ${plan.display_name}\n`;
+            if (plan.profit_target) {
+                response += `   Meta: $${plan.profit_target.toLocaleString()}\n`;
             }
             response += '\n';
         });
@@ -546,8 +538,9 @@ class ApexService {
             response += `🌐 **Sitio web:** ${this.firmInfo.website}\n`;
         }
         
-        if (this.firmInfo.discount_code) {
-            response += `🎯 **Código de descuento:** ${this.firmInfo.discount_code}\n`;
+        
+        if (this.firmInfo.support_url) {
+            response += `🛠️ **Soporte:** ${this.firmInfo.support_url}\n`;
         }
         
         if (this.firmInfo.features) {

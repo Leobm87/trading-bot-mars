@@ -49,7 +49,7 @@ describe('ApexService Isolation Tests', () => {
             expect(result.success).toBe(true);
             expect(result.source).toBe('default');
             expect(result.firmName).toBe('Apex Trader Funding');
-            expect(result.response).toContain('apex.com');
+            expect(result.response).toContain('sitio web');
         });
         
         test('should handle errors gracefully', async () => {
