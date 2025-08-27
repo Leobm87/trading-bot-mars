@@ -155,8 +155,23 @@ class ApexService {
             const classification = this.classifyQuery(query);
             this.logger.info(`Query classification: ${JSON.stringify(classification)}`);
             
+            // Debug: Log classification details
+            console.log('=== APEX DEBUG: Classification Details ===');
+            console.log('Query:', query);
+            console.log('Classification JSON:', JSON.stringify(classification, null, 2));
+            console.log('Pricing boolean:', classification.pricing);
+            console.log('Account boolean:', classification.account);
+            console.log('Info boolean:', classification.info);
+            
+            // Debug: Log before pricing condition
+            console.log('=== APEX DEBUG: Before Pricing Check ===');
+            console.log('About to check if classification.pricing is true');
+            console.log('classification.pricing value:', classification.pricing);
+            
             // Route to appropriate handler based on classification
             if (classification.pricing) {
+                console.log('=== APEX DEBUG: Inside Pricing Condition ===');
+                console.log('Pricing condition met, handling pricing query');
                 return {
                     success: true,
                     source: 'pricing',
