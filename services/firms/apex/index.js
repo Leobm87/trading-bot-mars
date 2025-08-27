@@ -172,84 +172,28 @@ class ApexService {
      * Process a user query and return Apex-specific response
      */
     async processQuery(query) {
-        try {
-            if (!this.isInitialized) {
-                throw new Error('ApexService not initialized. Call initialize() first.');
-            }
-            
-            this.logger.info(`Processing query: "${query}"`);
-            
-            // MOVE FAQ MATCHING TO TOP - BEFORE classification
-            const matches = this.findFAQMatches(query);
-            if (matches.length > 0 && matches[0].similarity > 0.5) { // Higher threshold
-                const fullAnswer = matches[0].answer;
-                const relevantAnswer = this.extractRelevantAnswer(query, fullAnswer);
-                this.logger.info(`Found FAQ match: ${matches[0].question}`);
-                return {
-                    success: true,
-                    source: 'faq',
-                    firmName: this.APEX_FIRM_NAME,
-                    question: matches[0].question,
-                    response: this.validateResponse(relevantAnswer)
-                };
-            }
-            
-            // ONLY AFTER FAQ fails, try classification
-            const classification = this.classifyQuery(query);
-            this.logger.info(`No FAQ match. Using classification: ${classification}`);
-            
-            if (classification.pricing) {
-                const pricingResponse = this.handlePricingQuery();
-                return {
-                    success: true,
-                    source: 'pricing',
-                    firmName: this.APEX_FIRM_NAME,
-                    response: pricingResponse
-                };
-            }
-            
-            if (classification.account) {
-                return {
-                    success: true,
-                    source: 'account',
-                    firmName: this.APEX_FIRM_NAME,
-                    response: this.handleAccountQuery()
-                };
-            }
-            
-            if (classification.info) {
-                return {
-                    success: true,
-                    source: 'info',
-                    firmName: this.APEX_FIRM_NAME,
-                    response: this.handleFirmInfoQuery()
-                };
-            }
-            
-            // No FAQ match found - return default Apex response
-            const defaultResponse = `Para información específica sobre ${this.APEX_FIRM_NAME}, te recomendamos visitar nuestro sitio web para obtener las mejores tarifas.`;
-            
-            // Log unmatched query for analytics
-            const fs = require('fs').promises;
-            const logEntry = `${new Date().toISOString()}|${this.APEX_FIRM_NAME}|${query}|NO_MATCH\n`;
-            fs.appendFile('logs/failed_matches.log', logEntry).catch(() => {});
-            
-            this.logger.info('No FAQ match found. Returning default response.');
-            return {
-                success: true,
-                source: 'default',
-                firmName: this.APEX_FIRM_NAME,
-                response: defaultResponse
-            };
-            
-        } catch (error) {
-            this.logger.error(`Query processing failed: ${error.message}`);
-            return {
-                success: false,
-                error: error.message,
-                firmName: this.APEX_FIRM_NAME
-            };
+        const { gateIntent } = require('../../common/intent-gate');
+        const { retrieveTopK, confidentTop1 } = require('../../common/retriever');
+        const { llmSelectFAQ } = require('../../common/llm-selector');
+        const { formatFromFAQ, notFound } = require('../../common/format');
+
+        const cats = gateIntent(query);
+        // Use the existing supabase client from this service
+        const supa = this.supabase;
+        if (!supa) return notFound();
+
+        const cands = await retrieveTopK(supa, query, cats, 8);
+        if (!cands || cands.length === 0) return notFound();
+
+        const top1 = confidentTop1(cands);
+        if (top1) return formatFromFAQ(top1);
+
+        const pick = await llmSelectFAQ(query, cands);
+        if (pick && pick.type === 'FAQ_ID') {
+            const hit = cands.find(c => c.id === pick.id);
+            if (hit) return formatFromFAQ(hit);
         }
+        return notFound();
     }
     
     /**
