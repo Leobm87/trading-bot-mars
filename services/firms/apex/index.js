@@ -10,6 +10,9 @@ class ApexService {
         
         // Simple in-memory cache for FAQs
         this.faqsCache = new Map();
+        this.plansCache = new Map();
+        this.firmInfo = null;
+        this.lastUpdated = null;
         this.isInitialized = false;
         
         // Logger for debugging
@@ -73,12 +76,61 @@ class ApexService {
                 });
             });
             
+            // Query ONLY Apex account_plans from Supabase
+            const { data: plans, error: plansError } = await this.supabase
+                .from('account_plans')
+                .select('*')
+                .eq('firm_id', this.APEX_FIRM_ID);
+                
+            if (plansError) {
+                throw new Error(`Failed to load Apex account_plans: ${plansError.message}`);
+            }
+            
+            // Load account_plans into memory cache
+            this.plansCache.clear();
+            plans.forEach(plan => {
+                this.plansCache.set(plan.id, {
+                    name: plan.name,
+                    price: plan.price,
+                    account_size: plan.account_size,
+                    profit_target: plan.profit_target,
+                    max_daily_loss: plan.max_daily_loss,
+                    max_total_drawdown: plan.max_total_drawdown,
+                    description: plan.description
+                });
+            });
+            
+            // Set last updated timestamp
+            this.lastUpdated = new Date().toISOString();
+            
+            // Query ONLY Apex prop_firms data from Supabase
+            const { data: firmData, error: firmError } = await this.supabase
+                .from('prop_firms')
+                .select('*')
+                .eq('id', this.APEX_FIRM_ID)
+                .single();
+                
+            if (firmError) {
+                throw new Error(`Failed to load Apex prop_firms data: ${firmError.message}`);
+            }
+            
+            // Populate firmInfo object with prop_firms data
+            this.firmInfo = {
+                name: firmData.name,
+                website: firmData.website,
+                discount_code: firmData.discount_code,
+                description: firmData.description,
+                features: firmData.features
+            };
+            
             this.isInitialized = true;
-            this.logger.info(`ApexService loaded ${faqs.length} FAQs successfully`);
+            this.logger.info(`ApexService loaded ${faqs.length} FAQs, ${plans.length} plans, and firm info successfully - ${this.firmInfo ? 'LOADED' : 'NOT_LOADED'}`);
             
             return {
                 success: true,
                 faqsLoaded: faqs.length,
+                plansLoaded: plans.length,
+                firmInfoLoaded: this.firmInfo ? true : false,
                 firmId: this.APEX_FIRM_ID
             };
             
@@ -98,6 +150,38 @@ class ApexService {
             }
             
             this.logger.info(`Processing query: "${query}"`);
+            
+            // Classify query type
+            const classification = this.classifyQuery(query);
+            this.logger.info(`Query classification: ${JSON.stringify(classification)}`);
+            
+            // Route to appropriate handler based on classification
+            if (classification.pricing) {
+                return {
+                    success: true,
+                    source: 'pricing',
+                    firmName: this.APEX_FIRM_NAME,
+                    response: this.handlePricingQuery()
+                };
+            }
+            
+            if (classification.account) {
+                return {
+                    success: true,
+                    source: 'account',
+                    firmName: this.APEX_FIRM_NAME,
+                    response: this.handleAccountQuery()
+                };
+            }
+            
+            if (classification.info) {
+                return {
+                    success: true,
+                    source: 'info',
+                    firmName: this.APEX_FIRM_NAME,
+                    response: this.handleFirmInfoQuery()
+                };
+            }
             
             // Debug: Check for price-related FAQs
             const priceFAQs = Array.from(this.faqsCache.values()).filter(f => 
@@ -320,6 +404,134 @@ class ApexService {
         }
         
         // Response is clean
+        return response;
+    }
+    
+    /**
+     * Classify query type based on content
+     */
+    classifyQuery(query) {
+        const queryLower = this.normalizeText(query.toLowerCase());
+        
+        // Pricing terms
+        const pricingTerms = ['precio', 'costo', 'price'];
+        const hasPricingTerms = pricingTerms.some(term => queryLower.includes(term));
+        
+        // Account terms
+        const accountTerms = ['cuenta', 'size'];
+        const hasAccountTerms = accountTerms.some(term => queryLower.includes(term));
+        
+        // Info terms
+        const infoTerms = ['website', 'discount'];
+        const hasInfoTerms = infoTerms.some(term => queryLower.includes(term));
+        
+        return {
+            pricing: hasPricingTerms,
+            account: hasAccountTerms,
+            info: hasInfoTerms,
+            classification: hasPricingTerms ? 'pricing' : 
+                          hasAccountTerms ? 'account' : 
+                          hasInfoTerms ? 'info' : 'general'
+        };
+    }
+    
+    /**
+     * Handle pricing query using account_plans data
+     */
+    handlePricingQuery() {
+        if (this.plansCache.size === 0) {
+            return 'No hay información de precios disponible en este momento.';
+        }
+        
+        let response = `💰 **Precios de cuentas ${this.APEX_FIRM_NAME}:**\n\n`;
+        
+        // Sort plans by account size
+        const sortedPlans = Array.from(this.plansCache.values())
+            .sort((a, b) => a.account_size - b.account_size);
+        
+        sortedPlans.forEach(plan => {
+            response += `📊 **${plan.name}**\n`;
+            response += `• Tamaño de cuenta: $${plan.account_size?.toLocaleString() || 'N/A'}\n`;
+            response += `• Precio: $${plan.price || 'N/A'}\n`;
+            if (plan.profit_target) {
+                response += `• Meta de ganancia: $${plan.profit_target.toLocaleString()}\n`;
+            }
+            if (plan.max_daily_loss) {
+                response += `• Pérdida diaria máx: $${plan.max_daily_loss.toLocaleString()}\n`;
+            }
+            if (plan.max_total_drawdown) {
+                response += `• Drawdown máximo: $${plan.max_total_drawdown.toLocaleString()}\n`;
+            }
+            response += '\n';
+        });
+        
+        // Include discount code if available
+        if (this.firmInfo && this.firmInfo.discount_code) {
+            response += `🎯 **Código de descuento:** ${this.firmInfo.discount_code}\n`;
+        }
+        
+        if (this.firmInfo && this.firmInfo.website) {
+            response += `🌐 **Más información:** ${this.firmInfo.website}`;
+        }
+        
+        return response;
+    }
+    
+    /**
+     * Handle account query using account_plans data
+     */
+    handleAccountQuery() {
+        if (this.plansCache.size === 0) {
+            return 'No hay información de cuentas disponible en este momento.';
+        }
+        
+        let response = `📊 **Tamaños de cuenta disponibles en ${this.APEX_FIRM_NAME}:**\n\n`;
+        
+        // Sort plans by account size
+        const sortedPlans = Array.from(this.plansCache.values())
+            .sort((a, b) => a.account_size - b.account_size);
+        
+        sortedPlans.forEach(plan => {
+            response += `💰 **$${plan.account_size?.toLocaleString() || 'N/A'}** - ${plan.name}\n`;
+            if (plan.description) {
+                response += `   ${plan.description}\n`;
+            }
+            response += '\n';
+        });
+        
+        if (this.firmInfo && this.firmInfo.website) {
+            response += `🌐 **Más detalles:** ${this.firmInfo.website}`;
+        }
+        
+        return response;
+    }
+    
+    /**
+     * Handle firm info query using prop_firms data
+     */
+    handleFirmInfoQuery() {
+        if (!this.firmInfo) {
+            return `No hay información específica sobre ${this.APEX_FIRM_NAME} disponible en este momento.`;
+        }
+        
+        let response = `ℹ️ **${this.firmInfo.name}**\n\n`;
+        
+        if (this.firmInfo.description) {
+            response += `📝 **Descripción:** ${this.firmInfo.description}\n\n`;
+        }
+        
+        if (this.firmInfo.website) {
+            response += `🌐 **Sitio web:** ${this.firmInfo.website}\n`;
+        }
+        
+        if (this.firmInfo.discount_code) {
+            response += `🎯 **Código de descuento:** ${this.firmInfo.discount_code}\n`;
+        }
+        
+        if (this.firmInfo.features) {
+            response += `\n🚀 **Características:**\n${this.firmInfo.features}`;
+        }
+        
         return response;
     }
     
