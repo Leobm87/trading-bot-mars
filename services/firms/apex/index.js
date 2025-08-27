@@ -43,7 +43,7 @@ class ApexService {
             process.env.SUPABASE_SERVICE_KEY
         );
         
-        this.aiMatcher = process.env.OPENAI_API_KEY ? new OpenAIMatcher() : null;
+        this.aiMatcher = null; // Temporarily disabled
         
         this.logger.info('ApexService constructor initialized');
     }
