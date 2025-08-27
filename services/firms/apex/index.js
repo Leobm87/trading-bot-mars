@@ -138,6 +138,37 @@ class ApexService {
     }
     
     /**
+     * Extract relevant part of FAQ answer based on query context
+     */
+    extractRelevantAnswer(query, fullAnswer) {
+        const queryLower = query.toLowerCase();
+        
+        // Keywords to section mapping
+        const sectionKeywords = {
+            'consistencia|consistency|30%': /•.*regla.*consistencia.*30%.*?\n/i,
+            'drawdown|trailing': /\*\*.*Drawdown.*?\n\n/s,
+            'overnight|swing': /❌.*overnight.*?\n/i,
+            'umbral|threshold|safety': /•.*Safety Net.*?\n/i,
+            'activar|activation|mensual': /\*\*.*Suscripción.*?\$85.*?\n\n/s,
+            'reset|resetear': /\$80.*?\n/
+        };
+        
+        // Find matching section
+        for (const [keywords, regex] of Object.entries(sectionKeywords)) {
+            if (new RegExp(keywords).test(queryLower)) {
+                const match = fullAnswer.match(regex);
+                if (match) {
+                    return match[0].trim();
+                }
+            }
+        }
+        
+        // If no specific section, return first paragraph only
+        const firstParagraph = fullAnswer.split('\n\n')[0];
+        return firstParagraph;
+    }
+
+    /**
      * Process a user query and return Apex-specific response
      */
     async processQuery(query) {
@@ -166,20 +197,16 @@ class ApexService {
             // PRIORITY 2: Try keyword FAQ matching
             const matches = this.findFAQMatches(query);
             
-            if (matches.length > 0) {
-                const bestMatch = matches[0];
-                const response = bestMatch.answer;
+            if (matches.length > 0 && matches[0].similarity > 0.5) {
+                const fullAnswer = matches[0].answer;
+                const relevantAnswer = this.extractRelevantAnswer(query, fullAnswer);
                 
-                // Validate response before returning
-                const validatedResponse = this.validateResponse(response);
-                
-                this.logger.info(`Found FAQ match for query. Returning validated response.`);
                 return {
                     success: true,
                     source: 'faq',
                     firmName: this.APEX_FIRM_NAME,
-                    question: bestMatch.question,
-                    response: validatedResponse
+                    question: matches[0].question,
+                    response: this.validateResponse(relevantAnswer)
                 };
             }
             
