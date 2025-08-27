@@ -21,16 +21,16 @@ CREATE INDEX IF NOT EXISTS faqs_q_trgm_idx
 
 -- Hybrid retrieval RPC function (BM25 + trigram scoring)
 CREATE OR REPLACE FUNCTION public.faq_retrieve_es(q text, cats text[] DEFAULT NULL, k int DEFAULT 8)
-RETURNS TABLE (id uuid, question text, answer_md text, category text, score double precision)
+RETURNS TABLE (id uuid, question text, answer_md text, slug text, score double precision)
 LANGUAGE sql STABLE AS $$
 WITH qn AS (SELECT websearch_to_tsquery('public.es_unaccent', q) AS qt),
 s AS (
-  SELECT id, question, answer_md, category,
+  SELECT id, question, answer_md, slug,
          to_tsvector('public.es_unaccent', coalesce(question,'') || ' ' || coalesce(answer_md,'')) AS vec
   FROM faqs
-  WHERE cats IS NULL OR category = ANY(cats)
+  WHERE cats IS NULL
 )
-SELECT id, question, answer_md, category,
+SELECT id, question, answer_md, slug,
        0.7 * ts_rank_cd(vec, (SELECT qt FROM qn)) +
        0.3 * similarity(question, q) AS score
 FROM s

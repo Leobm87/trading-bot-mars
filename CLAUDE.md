@@ -1,60 +1,25 @@
-# MARS Trading Bot - PRD Methodology
+# MARS Trading Bot — RAG-STRICT PRD
 
-## PROJECT GOAL
-Telegram bot for 7 prop trading firms with 100% accurate FAQ responses using ALL Supabase data.
+## GOAL
+100% respuestas basadas en DB para 7 prop firms. Cero alucinaciones.
 
-## CRITICAL RULES
-- ONE task per PRD (never parallelize)
-- EXACT instructions only (no exploration)
-- Test BEFORE commit
-- NEVER mix firms (isolation mandatory)
+## RULES (KEEP)
+- ONE task per PRD. EXACT instructions. Test BEFORE commit.
+- NEVER mix firms (aislamiento por servicio).
+- Usa FIRM IDs fijas (apex, bulenox, etc.).
 
-## ARCHITECTURE
-User → Telegram → Gateway → Router → FirmService → Supabase → Response
-↓
-OpenAI (fallback)
+## NON-NEGOTIABLE
+- El LLM NO genera contenido libre. Solo selecciona un `faq_id` de candidatos o devuelve `NONE`.
+- La respuesta final sale EXCLUSIVAMENTE de DB (`faqs.answer_md`).
 
-## DATABASE STRUCTURE
-Supabase: zkqfyyvpyecueybxoqrt
+## PIPELINE OBLIGATORIO
+1) Intent gating (regex) → categoriza consulta.
+2) Retriever DB (FTS + trigram) → Top-8.
+3) LLM Selector (OpenAI, JSON estricto) → {"type":"FAQ_ID","id":"..."} o {"type":"NONE"}.
+4) Si FAQ_ID → render con `answer_md`. Si NONE → plantilla “no encontrado”.
+5) Fallback determinista: acepta Top-1 si `score>=0.45` y margen `>=0.12`.
 
-faqs (156) - Currently used ✅
-account_plans (75) - NOT USED ❌ <- PRIORITY FIX
-prop_firms (7) - NOT USED ❌ <- PRIORITY FIX
-
-
-## SERVICE PATTERN
-Each firm service MUST:
-1. Load FAQs + account_plans + prop_firms
-2. Check pricing queries against account_plans
-3. Validate no cross-contamination
-4. File: /services/firms/[name]/index.js
-
-## FIRM IDs (Never change)
-- apex: 854bf730-8420-4297-86f8-3c4a972edcf2
-- bulenox: 7567df00-7cf8-4afc-990f-6f8da04e36a4
-- takeprofit: [get from Supabase]
-- myfunded: [get from Supabase]
-- alpha: 2ff70297-718d-42b0-ba70-cde70d5627b5
-- tradeify: [get from Supabase]
-- vision: 7863be40-c779-48e5-8d81-f3e4f01df72c
-
-## TEST COMMAND
-```bash
-npm test -- --testPathPattern=[service]
-PRD TEMPLATE
-Task: [ONE specific change]
-File: [EXACT path]
-Change: [EXACT lines/strings]
-Test: npm test -- --testPathPattern=[service]
-Success: [Expected output]
-CURRENT PROBLEM
-Bot accuracy 70% because only using FAQs.
-SOLUTION: Use account_plans for pricing, prop_firms for info.
-FORBIDDEN
-
-Reading multiple files
-Adding features while fixing bugs
-Parallel changes
-Generic improvements
-
-Location: C:\Users\braia\Desktop\trading-bot-mars
+## ARCHIVOS CLAVE
+- services/common/{intent-gate.js,retriever.js,llm-selector.js,format.js}
+- services/firms/<firm>/index.js → processQuery() cableado al flujo
+- tests/golden/<firm>.test.js (Jest)

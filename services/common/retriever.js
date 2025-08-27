@@ -1,5 +1,5 @@
 async function retrieveTopK(supabase, query, cats, k = 8) {
-  const { data, error } = await supabase.rpc('faq_retrieve_es', { q: query, cats, k });
+  const { data, error } = await supabase.rpc('faq_retrieve_es', { q: query, cats: null, k });
   if (error) throw error;
   return data || [];
 }
