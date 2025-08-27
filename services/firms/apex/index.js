@@ -120,6 +120,9 @@ class ApexService {
                 support_url: firmData.support_url
             };
             
+            // Warmup the retriever RPC
+            await this.supabase.rpc('faq_retrieve_es', { q: 'warmup', cats: null, k: 1 }).catch(()=>{});
+            
             this.isInitialized = true;
             this.logger.info(`ApexService loaded ${faqs.length} FAQs, ${plans.length} plans, and firm info successfully - ${this.firmInfo ? 'LOADED' : 'NOT_LOADED'}`);
             
@@ -172,10 +175,10 @@ class ApexService {
      * Process a user query and return Apex-specific response
      */
     async processQuery(query) {
-        const { gateIntent } = require('../../common/intent-gate');
-        const { retrieveTopK, confidentTop1 } = require('../../common/retriever');
-        const { llmSelectFAQ } = require('../../common/llm-selector');
-        const { formatFromFAQ, notFound } = require('../../common/format');
+        const { gateIntent } = require('../../common/intent-gate.cjs');
+        const { retrieveTopK, confidentTop1 } = require('../../common/retriever.cjs');
+        const { llmSelectFAQ } = require('../../common/llm-selector.cjs');
+        const { formatFromFAQ, notFound } = require('../../common/format.cjs');
 
         const cats = gateIntent(query);
         // Use the existing supabase client from this service

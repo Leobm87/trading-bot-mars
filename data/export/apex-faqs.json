@@ -1,0 +1,282 @@
+{
+  "firm_id": "854bf730-8420-4297-86f8-3c4a972edcf2",
+  "exported_at": "2025-08-27T21:24:27.120Z",
+  "count": 55,
+  "faqs": [
+    {
+      "id": "f85e4100-0dc9-450a-a820-a25e57cae486",
+      "slug": "actualizaciones-reglas",
+      "question": "¿Hay actualizaciones frecuentes en las reglas?"
+    },
+    {
+      "id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+      "slug": "apex-activation-fees",
+      "question": "¿Cuánto cuesta activar la cuenta PA después de pasar la evaluación?"
+    },
+    {
+      "id": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+      "slug": "apex-evaluation-rules",
+      "question": "¿Cuáles son las reglas de la evaluación?"
+    },
+    {
+      "id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+      "slug": "apex-instruments-platforms",
+      "question": "¿Qué instrumentos puedo operar y en qué plataformas?"
+    },
+    {
+      "id": "07a149b0-1866-42f0-b5ff-1320a57cb7b7",
+      "slug": "apex-metodos-retiro-wise-plane",
+      "question": "¿Qué métodos de retiro hay en Apex? ¿Cómo retirar ganancias?"
+    },
+    {
+      "id": "71631094-ead6-415c-87bf-b4cb5962ae13",
+      "slug": "apex-pa-rules",
+      "question": "¿Cuáles son las reglas de la cuenta financiada PA?"
+    },
+    {
+      "id": "6876fab3-6569-48d2-9752-57e0874419f0",
+      "slug": "apex-payment-methods",
+      "question": "¿Qué métodos de pago y retiro están disponibles?"
+    },
+    {
+      "id": "3c3b6861-96ac-4dd0-96c9-166b4f5fb5ee",
+      "slug": "apex-reset",
+      "question": "¿Cómo funciona el reset de cuenta y cuánto cuesta?"
+    },
+    {
+      "id": "a7615c5a-9daa-49a7-8aaf-12499819b4cc",
+      "slug": "apex-safety-net",
+      "question": "¿Cuál es el umbral mínimo (Safety Net) para poder retirar?"
+    },
+    {
+      "id": "18a506de-403c-4c83-a528-2884be2b2a8e",
+      "slug": "apex-umbral-minimo-retiros-100k",
+      "question": "¿Cuál es el umbral mínimo para retirar dinero en la cuenta de 100K?"
+    },
+    {
+      "id": "35c71f9d-57ae-42e3-a24f-c99810e47915",
+      "slug": "apex-withdrawal-requirements",
+      "question": "¿Qué requisitos debo cumplir para retirar?"
+    },
+    {
+      "id": "3c582a1c-5ed4-4630-a9a9-d100c64b0702",
+      "slug": "cambio-tamano-cuenta",
+      "question": "¿Puedo cambiar el tamaño de mi cuenta después de comprarla?"
+    },
+    {
+      "id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "slug": "comisiones",
+      "question": "¿Cuáles son las comisiones aproximadas por mercado/plataforma?"
+    },
+    {
+      "id": "3b4de16b-cec7-423f-aac6-538cabba2b78",
+      "slug": "comisiones-impacto-drawdown",
+      "question": "¿Cuentan comisiones y fees para los límites de pérdida/drawdown?"
+    },
+    {
+      "id": "58dfa75f-ad03-47b9-9a8e-0df85def7e58",
+      "slug": "cuenta-inactiva",
+      "question": "¿Qué pasa si mi cuenta queda inactiva por mucho tiempo?"
+    },
+    {
+      "id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "slug": "cuotas-activacion",
+      "question": "¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?"
+    },
+    {
+      "id": "20f69c84-c8a4-403b-9ac7-ae25c938c484",
+      "slug": "datos-tiempo-real-incluidos",
+      "question": "¿Los datos en tiempo real están incluidos?"
+    },
+    {
+      "id": "188e7c1f-f551-4adc-83f7-da13f18e2a97",
+      "slug": "descuentos-multiples-cuentas",
+      "question": "¿Hay descuentos si compro múltiples cuentas?"
+    },
+    {
+      "id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "slug": "drawdown-tipos",
+      "question": "¿Qué tipos de drawdown usa APEX y cómo funciona el trailing?"
+    },
+    {
+      "id": "5b235d0a-b257-4292-adae-df65c21e689c",
+      "slug": "escalado-contratos",
+      "question": "¿Cómo funciona el escalado de contratos y el uso de contratos por tamaño?"
+    },
+    {
+      "id": "034b984c-6fe7-4339-9b9f-12144511b438",
+      "slug": "evaluacion-fases",
+      "question": "¿La evaluación es de una sola fase o varias?"
+    },
+    {
+      "id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+      "slug": "evaluacion-minima",
+      "question": "¿Cuántos días mínimos necesito para pasar la evaluación?"
+    },
+    {
+      "id": "12764769-c253-40a2-abdb-ba32b305f48a",
+      "slug": "evaluacion-objetivo-minimos",
+      "question": "¿Cuál es el profit target y días mínimos de la evaluación en APEX?"
+    },
+    {
+      "id": "7058f129-93c3-43f8-bb92-e375875940fd",
+      "slug": "exchanges-disponibles",
+      "question": "¿En qué exchanges puedo operar?"
+    },
+    {
+      "id": "8cf8ca52-0d1d-45a5-b3b9-81d293ef71ad",
+      "slug": "futuros-disponibles",
+      "question": "¿Qué futuros están disponibles?"
+    },
+    {
+      "id": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+      "slug": "gestion-riesgo",
+      "question": "¿Qué reglas de gestión de riesgo exige APEX?"
+    },
+    {
+      "id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "slug": "horario-sesion",
+      "question": "¿Cuál es el horario de sesión de APEX?"
+    },
+    {
+      "id": "bdcf9947-70de-4cd3-a828-fc1a58b55458",
+      "slug": "instrumentos-disponibles",
+      "question": "¿En qué mercados se opera con Apex (futuros, micros, etc.)?"
+    },
+    {
+      "id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "slug": "limites-retiro",
+      "question": "¿Hay límites en los retiros?"
+    },
+    {
+      "id": "bed584a4-c195-4981-892a-3b33df356e21",
+      "slug": "limits-retiro",
+      "question": "¿Cuáles son los límites de retiro en APEX?"
+    },
+    {
+      "id": "a91fd700-9e22-4508-aafc-35045d5f8d48",
+      "slug": "max-cuentas",
+      "question": "¿Cuántas cuentas PA puedo tener?"
+    },
+    {
+      "id": "4c484cef-5715-480f-8c16-914610866a62",
+      "slug": "metodos-de-pago",
+      "question": "¿Qué métodos de pago acepta APEX?"
+    },
+    {
+      "id": "0842e015-ecb4-4140-aa35-80f5fcc8827f",
+      "slug": "metodos-pago-suscripcion",
+      "question": "¿Cómo puedo pagar mi suscripción/evaluación?"
+    },
+    {
+      "id": "4dbd61d1-b6a7-481f-a30a-0a811aae7671",
+      "slug": "microfuturos-disponibles",
+      "question": "¿Puedo operar microfuturos?"
+    },
+    {
+      "id": "f6fd6f34-09c4-436b-9e31-e549b9574623",
+      "slug": "news-trading",
+      "question": "¿Puedo hacer trading durante noticias?"
+    },
+    {
+      "id": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+      "slug": "overnight-news",
+      "question": "¿Puedo hacer overnight o tradear noticias en APEX?"
+    },
+    {
+      "id": "af40dafa-27ed-4674-bccc-431c5766a5bf",
+      "slug": "overnight-permitido",
+      "question": "¿Puedo mantener posiciones overnight?"
+    },
+    {
+      "id": "227648ae-20b0-4fff-a7d1-14387a2f03a1",
+      "slug": "pagos-requisitos-auditoria",
+      "question": "¿Qué verificaciones, auditorías y límites operativos aplica APEX?"
+    },
+    {
+      "id": "99b1ead4-4928-4947-b325-218b81ccd33c",
+      "slug": "pausar-resetear-evaluacion",
+      "question": "¿Se puede pausar o resetear la evaluación? ¿Cuánto cuesta el reset?"
+    },
+    {
+      "id": "8ed04281-8628-4787-ad5e-ed7e5938afd3",
+      "slug": "payout-frecuencia",
+      "question": "¿Cada cuánto puedo retirar dinero?"
+    },
+    {
+      "id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "slug": "payouts-frecuencia",
+      "question": "¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?"
+    },
+    {
+      "id": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+      "slug": "payouts-requisitos",
+      "question": "¿Qué requisitos debo cumplir para retirar en APEX?"
+    },
+    {
+      "id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c",
+      "slug": "planes-disponibles",
+      "question": "¿Qué tamaños de cuenta están disponibles y cuál es su precio?"
+    },
+    {
+      "id": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+      "slug": "plataformas-disponibles",
+      "question": "¿Qué plataformas y proveedores de datos están disponibles en APEX?"
+    },
+    {
+      "id": "7ba3a676-2853-4901-9134-9601ae22286b",
+      "slug": "politica-reembolsos",
+      "question": "¿Cuál es la política de reembolsos en la evaluación?"
+    },
+    {
+      "id": "93849616-e113-43ee-8319-e32d44c1baed",
+      "slug": "precios-cuentas",
+      "question": "¿Cuánto cuestan las cuentas de evaluación?"
+    },
+    {
+      "id": "aab6da23-95bc-47de-b173-4d031fc8090b",
+      "slug": "profit-split",
+      "question": "¿Cuál es el profit split?"
+    },
+    {
+      "id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+      "slug": "que-instrumentos-tradear",
+      "question": "¿Qué instrumentos puedo tradear en Apex?"
+    },
+    {
+      "id": "c2586246-9604-4acb-9831-dc3188d73d42",
+      "slug": "regla-30-negativo",
+      "question": "¿Qué es la regla del 30% PNL negativo en APEX?"
+    },
+    {
+      "id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "slug": "reset-evaluacion",
+      "question": "¿Cómo hago un reset de la evaluación de APEX?"
+    },
+    {
+      "id": "11633e70-3f32-408a-8778-796e91740e46",
+      "slug": "restricciones-paises",
+      "question": "¿Existen restricciones por país o por plataforma?"
+    },
+    {
+      "id": "2141f1b0-7ac1-4344-9539-d1c2aeca7616",
+      "slug": "soporte-contacto",
+      "question": "¿Cómo contacto con soporte (email, chat, horarios)?"
+    },
+    {
+      "id": "dbf727d1-276e-4738-b5b7-3bb5b5b34a4d",
+      "slug": "stop-loss-obligatorio",
+      "question": "¿Se exige stop loss obligatorio?"
+    },
+    {
+      "id": "d5299958-aa44-4981-af37-84a30e7ccb2e",
+      "slug": "transferir-progreso",
+      "question": "¿Puedo transferir mi progreso a una cuenta más grande?"
+    },
+    {
+      "id": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "slug": "umbral-minimo",
+      "question": "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?"
+    }
+  ]
+}

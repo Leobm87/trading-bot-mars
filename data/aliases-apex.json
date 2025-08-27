@@ -1,0 +1,19 @@
+{
+  "meta": { "firm_id": "854bf730-8420-4297-86f8-3c4a972edcf2" },
+  "by_slug": {
+    "umbral-minimo": { "aliases": ["umbral", "umbral minimo", "safety net", "minimo para retirar", "payout threshold"], "category": "withdrawals" },
+    "metodos-de-pago": { "aliases": ["metodos de pago", "formas de pago", "payment methods", "tarjeta", "paypal", "crypto", "transferencia"], "category": "payment_methods" },
+    "activar-precio": { "aliases": ["activar", "activation fee", "coste de activacion", "comprar cuenta", "checkout"], "category": "pricing" },
+    "reglas-generales": { "aliases": ["reglas", "normas", "drawdown", "consistency", "daily loss", "overnight", "news"], "category": "rules" },
+    "plataformas": { "aliases": ["plataformas", "ninjatrader", "tradovate", "quantower", "rixo"], "category": "platforms" },
+    "descuentos": { "aliases": ["descuento", "codigo", "cupon", "promo", "rebaja"], "category": "discounts" }
+  },
+  "by_substring": [
+    { "contains": ["umbral","safety net","minimo"], "aliases": ["umbral", "umbral minimo", "safety net", "minimo para retirar"], "category": "withdrawals" },
+    { "contains": ["metodos de pago","formas de pago","paypal","crypto","tarjeta","transferencia"], "aliases": ["metodos de pago","formas de pago","payment methods","tarjeta","paypal","crypto","transferencia"], "category": "payment_methods" },
+    { "contains": ["activar","activation","precio","suscripcion","fee"], "aliases": ["activar","activation fee","coste de activacion","comprar cuenta","suscripcion"], "category": "pricing" },
+    { "contains": ["reglas","drawdown","consistency","daily loss","overnight","news"], "aliases": ["reglas","normas","drawdown","consistency","daily loss","overnight","news"], "category": "rules" },
+    { "contains": ["plataformas","ninjatrader","tradovate","quantower","rixo"], "aliases": ["plataformas","ninjatrader","tradovate","quantower","rixo"], "category": "platforms" },
+    { "contains": ["descuento","cupon","codigo","promo","rebaja"], "aliases": ["descuento","codigo","cupon","promo","rebaja"], "category": "discounts" }
+  ]
+}

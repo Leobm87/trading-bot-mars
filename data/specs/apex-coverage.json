@@ -1,0 +1,95 @@
+{
+  "meta": { "firm_id": "854bf730-8420-4297-86f8-3c4a972edcf2", "as_of": "2025-01-31" },
+  "faqs": [
+    { "slug":"umbral-minimo", "category":"withdrawals",
+      "question":"¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+      "aliases":["umbral","umbral minimo","safety net","mínimo para retirar","payout threshold"],
+      "answer_md":"**Safety Net (Umbral Mínimo) para retiros:**\n\n| Tamaño de cuenta | Safety Net |\n|-----------------|------------|\n| $25,000 | $26,600 |\n| $50,000 | $52,600 |\n| $100,000 | $103,100 |\n| $150,000 | $155,100 |\n| $250,000 | $256,600 |\n| $300,000 | $307,600 |\n| $100,000 Static | $102,600 |\n\nDebes alcanzar el Safety Net correspondiente a tu cuenta para poder realizar retiros.\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"metodos-de-pago", "category":"payment_methods",
+      "question":"¿Qué métodos de pago acepta APEX?",
+      "aliases":["metodos de pago","formas de pago","payment methods","tarjeta","paypal","crypto","transferencia","wise","plane"],
+      "answer_md":"**Métodos de pago aceptados:**\n\n**Para comprar evaluaciones:**\n- ✓ Tarjeta de crédito/débito\n\n**Para recibir payouts (retiros):**\n- ✓ WISE (para traders en USA)\n- ✓ PLANE (para traders internacionales)\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"cuotas-activacion", "category":"pricing",
+      "question":"¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?",
+      "aliases":["activacion","activation fee","cuota de activacion","pago unico","suscripcion mensual"],
+      "answer_md":"**Cuotas de activación - Dos opciones:**\n\n**Opción 1 - Pago único:**\n- $25,000: $130\n- $50,000: $140\n- $100,000: $220\n- $150,000: $260\n- $250,000: $300\n- $300,000: $340\n- $100,000 Static: $220\n\n**Opción 2 - Suscripción mensual:**\n- $85/mes para todos los tamaños de cuenta\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"reset-evaluacion", "category":"pricing",
+      "question":"¿Cómo hago un reset de la evaluación de APEX?",
+      "aliases":["reset","reinicio","restart","pago inmediato","renovacion"],
+      "answer_md":"**Opciones para reset de evaluación:**\n\n1. **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automáticamente\n\n2. **Pago inmediato:** Pagar $80 para resetear inmediatamente sin esperar\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"payouts-frecuencia", "category":"withdrawals",
+      "question":"¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?",
+      "aliases":["payouts","retiro","withdrawal frequency","profit split","minimo retiro"],
+      "answer_md":"**Frecuencia y condiciones de retiro:**\n\n- **Frecuencia:** A demanda (cuando quieras)\n- **Requisito mínimo:** 8 días de trading activo\n- **Monto mínimo:** $500\n\n**Profit split:**\n- 100% para ti en los primeros $25,000 de ganancias\n- 90/10 después (90% trader, 10% APEX)\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"payouts-requisitos", "category":"withdrawals",
+      "question":"¿Qué requisitos debo cumplir para retirar en APEX?",
+      "aliases":["requisitos retiro","dias minimos","consistencia 30%"],
+      "answer_md":"**Requisitos para poder retirar:**\n\n1. **Mínimo 8 días de trading activo**\n2. **Al menos 5 días con profit de $50 o más**\n3. **Alcanzar el Safety Net de tu cuenta**\n4. **Cumplir regla de consistencia (30%):** El día de mayor beneficio no puede representar más del 30% del beneficio total acumulado\n\nTodos estos requisitos deben cumplirse para poder solicitar un retiro.\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"limits-retiro", "category":"withdrawals",
+      "question":"¿Cuáles son los límites de retiro en APEX?",
+      "aliases":["limite retiro","maximo retiro","primeros 5 retiros"],
+      "answer_md":"**Límites de retiro:**\n\n**Mínimo:** $500 (todos los tamaños)\n\n**Máximo (primeros 5 retiros):**\n- $25,000: $1,500\n- $50,000: $2,000\n- $100,000: $2,500\n- $150,000: $2,750\n- $250,000: $3,000\n- $300,000: $3,500\n- $100,000 Static: $1,000\n\n**A partir del 6º retiro:** Sin límite máximo\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"drawdown-tipos", "category":"rules",
+      "question":"¿Qué tipos de drawdown usa APEX y cómo funciona el trailing?",
+      "aliases":["trailing drawdown","static drawdown","congelacion drawdown"],
+      "answer_md":"**Tipos de drawdown en APEX:**\n\n**Trailing Drawdown (mayoría de cuentas):**\n- Se congela cuando alcanzas balance inicial + $100\n- Ejemplo en 50K: el trailing se congela en $50,100\n- Se actualiza con posiciones abiertas hasta alcanzar el threshold de congelación\n\n**Static Drawdown:**\n- Solo disponible en la cuenta de $100K Static\n- Drawdown fijo de $625 que no se mueve\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"evaluacion-objetivo-minimos", "category":"rules",
+      "question":"¿Cuál es el profit target y días mínimos de la evaluación en APEX?",
+      "aliases":["profit target","dias minimos","tiempo limite"],
+      "answer_md":"**Objetivos de evaluación:**\n\n**Profit target por tamaño:**\n- $25,000: $1,500\n- $50,000: $3,000\n- $100,000: $6,000\n- $150,000: $9,000\n- $250,000: $15,000\n- $300,000: $20,000\n- $100,000 Static: $2,000\n\n**Requisitos de tiempo:**\n- Días mínimos: 1 día\n- Días ganadores requeridos: Ninguno\n- Tiempo límite: Ilimitado\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"overnight-news", "category":"rules",
+      "question":"¿Puedo hacer overnight o tradear noticias en APEX?",
+      "aliases":["overnight","swing","news","one-direction"],
+      "answer_md":"**Reglas de overnight y noticias:**\n\n**Overnight/Swing trading:**\n- ❌ NO PERMITIDO en cuenta financiada (PA)\n- Todas las posiciones deben cerrarse antes del cierre de sesión\n\n**Trading de noticias:**\n- ✓ Permitido con restricciones\n- **Regla One-Direction:** Durante eventos de noticias solo puedes operar en una dirección (solo long o solo short, no ambos)\n- Esta regla aplica a todas tus cuentas APEX\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"horario-sesion", "category":"rules",
+      "question":"¿Cuál es el horario de sesión de APEX?",
+      "aliases":["horario","sesion","6pm et a 4:59pm et"],
+      "answer_md":"**Horario de sesión de trading:**\n\n**6:00 PM ET a 4:59 PM ET**\n\nNota importante: Los trades realizados el domingo cuentan para el lunes.\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"plataformas-disponibles", "category":"platforms",
+      "question":"¿Qué plataformas y proveedores de datos están disponibles en APEX?",
+      "aliases":["plataformas","ninjatrader","tradovate","rithmic","wealthcharts","tradingview"],
+      "answer_md":"**Proveedores de datos:**\n- ✓ Rithmic\n- ✓ Tradovate\n- ✓ WealthCharts\n\n**Plataformas soportadas:**\n- ✓ NinjaTrader (Gratis)\n- ✓ Tradovate (Gratis)\n- ✓ Rithmic (Gratis)\n- ✓ ATAS\n- ✓ BookMap\n- ✓ EdgeProX\n- ✓ Finamark\n- ✓ Jigsaw Daytradr\n- ✓ MotiveWave\n- ✓ Quantower\n- ✓ R Trader Pro\n- ✓ Sierra Chart\n- ✓ TradingView\n- ✓ VolFix\n- ✓ WealthCharts\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"escalado-contratos", "category":"rules",
+      "question":"¿Cómo funciona el escalado de contratos y el uso de contratos por tamaño?",
+      "aliases":["contratos maximos","escalado","porcentaje 50%","micros"],
+      "answer_md":"**Escalado de contratos en cuenta financiada:**\n\n**Antes de alcanzar Safety Net:**\n- Solo puedes usar el 50% de los contratos permitidos\n\n**Después de alcanzar Safety Net:**\n- Puedes usar el 100% de los contratos\n- Si vuelves a caer bajo el Safety Net, mantienes los contratos completos\n\n**Límites máximos por tamaño:**\n- $25,000: 4 contratos (40 micros)\n- $50,000: 10 contratos (100 micros)\n- $100,000: 14 contratos (140 micros)\n- $150,000: 17 contratos (170 micros)\n- $250,000: 27 contratos (270 micros)\n- $300,000: 35 contratos (350 micros)\n- $100,000 Static: 2 contratos (20 micros)\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"regla-30-negativo", "category":"rules",
+      "question":"¿Qué es la regla del 30% PNL negativo en APEX?",
+      "aliases":["30% pnl negativo","perdidas abiertas 30%","safety net 30%"],
+      "answer_md":"**Regla del 30% PNL Negativo:**\n\n- Las pérdidas en posiciones abiertas no pueden superar el 30% del saldo inicial del día\n\n**Casos especiales:**\n1. **Por debajo del Safety Net:** Usar el 30% del Safety Net como base\n2. **Al duplicar el Safety Net:** El límite cambia de 30% a 50%\n\n**Ejemplo:**\nCuenta 50K con Safety Net de $52,600:\n- Si tu saldo es menor al Safety Net: máxima pérdida abierta = 30% de $52,600 = $15,780\n- Si duplicas el Safety Net ($105,200): el límite sube a 50%\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"gestion-riesgo", "category":"rules",
+      "question":"¿Qué reglas de gestión de riesgo exige APEX?",
+      "aliases":["5:1","stops","no usar todo drawdown"],
+      "answer_md":"**Reglas de gestión de riesgo obligatorias:**\n\n1. **Ratio máximo Riesgo/Beneficio: 5:1**\n   - No arriesgar más de $500 para ganar $100\n   - Ratios de 3:1 o 4:1 son aceptables sin revisión\n\n2. **Stops requeridos**\n   - Pueden ser stops mentales (no necesariamente en la plataforma)\n\n3. **Prohibido usar todo el drawdown como stop**\n   - No puedes poner tu stop loss en el límite del drawdown\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"planes-disponibles", "category":"pricing",
+      "question":"¿Qué tamaños de cuenta están disponibles y cuál es su precio?",
+      "aliases":["tamanos","precios","planes","1-step","static"],
+      "answer_md":"**Tamaños disponibles y precios:**\n\n**1-Step Evaluation:**\n- $25,000: $147 (hasta 4 contratos)\n- $50,000: $167 (hasta 10 contratos)\n- $100,000: $207 (hasta 14 contratos)\n- $150,000: $297 (hasta 17 contratos)\n- $250,000: $517 (hasta 27 contratos)\n- $300,000: $657 (hasta 35 contratos)\n\n**1-Step Static Drawdown:**\n- $100,000 Static: $137 (hasta 2 contratos)\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"comisiones", "category":"rules",
+      "question":"¿Cuáles son las comisiones aproximadas por mercado/plataforma?",
+      "aliases":["fees","rithmic","tradovate","round trip","comisiones"],
+      "answer_md":"**Comisiones aproximadas (Round Trip):**\n\n**Principales contratos:**\n\n| Instrumento | Rithmic | Tradovate |\n|-------------|---------|----------|\n| ES (E-mini S&P 500) | $3.98 | $3.10 |\n| MES (Micro E-mini S&P) | $1.02 | $1.04 |\n| NQ (E-mini NASDAQ) | $3.98 | $3.10 |\n| MNQ (Micro NASDAQ) | $1.02 | $1.04 |\n| CL (Crude Oil) | $3.96 | $3.34 |\n| GC (Gold) | $4.62 | $3.54 |\n\n**Nota:** Tradovate es generalmente 15-25% más barato que Rithmic\n\nFuente: informacion-apex.txt"
+    },
+    { "slug":"pagos-requisitos-auditoria", "category":"rules",
+      "question":"¿Qué verificaciones, auditorías y límites operativos aplica APEX?",
+      "aliases":["auditoria","zoom","logs 30 dias","probation","copy trading prohibido","automatizacion"],
+      "answer_md":"**Verificaciones y auditorías:**\n\n✓ **Pueden requerir:**\n- Sesiones Zoom en vivo\n- Grabaciones de sesiones de trading\n- Verificación de identidad completa\n- Mantener logs de trading 30 días mínimo\n- 48 horas para responder a solicitudes\n\n✓ **Probation puede incluir:**\n- Límites en retiros\n- Mantener Safety Net completo\n- Límites en número de contratos\n- Días adicionales de trading\n\n✓ **Estrictamente prohibido:**\n- Copy trading / Cuentas compartidas\n- Automatización total (bots, algos, HFT)\n- Semi-automatización permitida con supervisión constante\n\nFuente: informacion-apex.txt"
+    }
+  ]
+}

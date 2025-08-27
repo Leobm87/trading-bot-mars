@@ -21,6 +21,7 @@
     "coverage:import:apex": "node scripts/coverage-import-apex.cjs",
     "export:faqs:apex": "node scripts/export-faqs-apex.cjs",
     "golden:fill": "node scripts/fill-golden-ids.cjs",
+    "golden:augment": "node scripts/augment-golden-from-coverage.cjs",
     "gate:build": "node scripts/build-gate-from-coverage.cjs"
   },
   "keywords": [

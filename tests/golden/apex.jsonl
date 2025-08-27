@@ -1,0 +1,10 @@
+{"q":"cual es el umbral minimo en apex","expected_faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","intent":"withdrawals"}
+{"q":"metodos de pago apex","expected_faq_id":"4c484cef-5715-480f-8c16-914610866a62","intent":"payment_methods"}
+{"q":"cuanto cuesta activar apex","expected_faq_id":"REPLACE_ME","intent":"pricing"}
+{"q":"reglas overnight apex","expected_faq_id":"REPLACE_ME","intent":"rules"}
+{"q":"descuento apex hoy","expected_faq_id":"REPLACE_ME","intent":"discounts"}
+{"q":"que plataformas soporta apex","expected_faq_id":"REPLACE_ME","intent":"platforms"}
+{"q":"cual es el safety net para retirar","expected_faq_id":"REPLACE_ME","intent":"withdrawals"}
+{"q":"puedo pagar con paypal en apex","expected_faq_id":"REPLACE_ME","intent":"payment_methods"}
+{"q":"precio de suscripcion apex","expected_faq_id":"REPLACE_ME","intent":"pricing"}
+{"q":"hay restriccion de noticias apex","expected_faq_id":"REPLACE_ME","intent":"rules"}

@@ -1,0 +1,388 @@
+=================================
+APEX TRADER FUNDING
+=================================
+Fecha de revisión: 31/01/2025
+Fuente: https://propfirmmatch.com/futures/prop-firms/apex-trader-funding https://eltraderfinanciado.com/apex-trader-funding/
+
+TAMAÑOS DE CUENTA DISPONIBLES:
+1-Step Evaluation:
+- $25,000 Account: Up to 4 Contracts (40 Micros) Price: $147
+- $50,000 Account: Up to 10 Contracts (100 Micros) Price: $167
+- $100,000 Account: Up to 14 Contracts (140 Micros) Price: $207
+- $150,000 Account: Up to 17 Contracts (170 Micros) Price: $297
+- $250,000 Account: Up to 27 Contracts (270 Micros) Price: $517
+- $300,000 Account: Up to 35 Contracts (350 Micros) Price: $657
+
+1-Step Evaluation Static Drawdown:
+- $100,000 Account: Up to 2 Contracts (20 Micros) Price: $137
+
+TIPO DE EVALUACIÓN:
+☑ 1-step □ Instant funding
+
+LÍMITES POR CUENTA:
+25K:
+- Max contratos: 4 minis (40 micros)
+- Daily loss: Sin límite diario
+- Max drawdown: $1,500
+- Tipo: ☑ Trailing □ Static
+
+50K:
+- Max contratos: 10 minis (100 micros)
+- Daily loss: Sin límite diario
+- Max drawdown: $2,500
+- Tipo: ☑ Trailing □ Static
+
+100K:
+- Max contratos: 14 minis (140 micros)
+- Daily loss: Sin límite diario
+- Max drawdown: $3,000
+- Tipo: ☑ Trailing □ Static
+
+150K:
+- Max contratos: 17 minis (170 micros)
+- Daily loss: Sin límite diario
+- Max drawdown: $5,000
+- Tipo: ☑ Trailing □ Static
+
+250K:
+- Max contratos: 27 minis (270 micros)
+- Daily loss: Sin límite diario
+- Max drawdown: $6,500
+- Tipo: ☑ Trailing □ Static
+
+300K:
+- Max contratos: 35 minis (350 micros)
+- Daily loss: Sin límite diario
+- Max drawdown: $7,500
+- Tipo: ☑ Trailing □ Static
+
+100K Static:
+- Max contratos: 2 minis (20 micros)
+- Daily loss: Sin límite diario
+- Max drawdown: $625
+- Tipo: □ Trailing ☑ Static
+
+EVALUACIÓN:
+- Profit target: 
+  • 25K: $1,500
+  • 50K: $3,000
+  • 100K: $6,000
+  • 150K: $9,000
+  • 250K: $15,000
+  • 300K: $20,000
+  • 100K Static: $2,000
+- Días mínimos: 1 día
+- Días ganadores requeridos: No hay requisito
+- Tiempo límite: Ilimitado
+
+REGLAS PRINCIPALES:
+- News trading: Permitido (regla one-direction durante noticias)
+- Swing trading/Overnight: NO PERMITIDO - Todas las posiciones deben cerrarse antes del cierre de sesión
+- Horario: 6:00 PM ET a 4:59 PM ET
+- Max cuentas: 20
+
+CUOTAS DE ACTIVACIÓN:
+Opción 1 - Pago único:
+- 25K: $130
+- 50K: $140
+- 100K: $220
+- 150K: $260
+- 250K: $300
+- 300K: $340
+- 100K Static: $220
+
+Opción 2 - Suscripción mensual:
+- $85/mes para todos los tamaños de cuentas
+
+RESET DE EVALUACIÓN:
+- Esperar renovación de suscripción mensual
+- O pago inmediato de $80
+
+PAGOS:
+- Frecuencia: A demanda (mínimo 8 días de trading)
+- Profit split: 100% primeros $25,000, luego 90/10
+- Mínimo retiro: $500
+- Métodos: WISE (USA), PLANE (Internacional)
+- Umbral mínimo (Safety Net):
+  • 25K: $26,600
+  • 50K: $52,600
+  • 100K: $103,100
+  • 150K: $155,100
+  • 250K: $256,600
+  • 300K: $307,600
+  • 100K Static: $102,600
+
+PROVEEDOR DE DATOS:
+☑ Rithmic
+☑ Tradovate
+☑ WealthCharts
+
+PLATAFORMAS:
+☑ NinjaTrader (Gratis)
+☑ Tradovate (Gratis)
+☑ Rithmic (Gratis)
+☑ ATAS (Atas Orderflow Trading)
+☑ BookMap
+☑ EdgeProX
+☑ Finamark
+☑ Jigsaw Daytradr
+☑ MotiveWave
+☑ Quantower
+☑ R Trader Pro
+☑ Sierra Chart
+☑ TradingView
+☑ VolFix
+☑ WealthCharts
+
+MÉTODOS DE PAGO:
+☑ Tarjeta de crédito/débito
+
+REGLAS ESPECÍFICAS DE CUENTA FINANCIADA:
+
+1. Regla de Consistencia (30%) - NO ES ELIMINATORIA:
+   - Aplica solo para retiros
+   - El día de mayor beneficio, no puede representar más del 30% del beneficio acumulado.
+   - Ejemplo: Si ganas $550 en un día, debes de acumular $1,833 en total para que $550 represente el 30%
+   - Fórmula: Ganancia del día mayor / 0.30
+   - Dura 3 meses o hasta pasar a cuenta real
+
+2. Escalado de Contratos:
+   - Solo 50% de contratos hasta alcanzar Safety Net
+   - Al superar Safety Net: 100% de contratos disponibles
+   - Si vuelves a caer, mantienes los contratos completos
+
+3. Gestión del Riesgo:
+   - Ratio máximo Riesgo/Beneficio: 5:1
+   - No arriesgar más de $500 para ganar $100
+
+4. Regla del 30% PNL Negativo:
+   - Pérdidas abiertas no pueden superar 30% del saldo inicial del día
+   - Por debajo del Safety Net: usar 30% del Safety Net
+   - Al duplicar Safety Net: cambia de 30% a 50%
+
+5. Regla One-Direction:
+   - Durante noticias: solo long o short, no ambos
+   - Mantener dirección única durante eventos
+
+REQUISITOS PARA RETIRO:
+- Mínimo 8 días de trading activo
+- Al menos 5 días con profit de $50+
+- Alcanzar umbral mínimo (Safety Net)
+- Cumplir regla de consistencia 30%
+
+LÍMITES DE RETIRO:
+- Mínimo: $500 (todos los tamaños)
+- Máximo (primeros 5 retiros):
+  • 25K: $1,500
+  • 50K: $2,000
+  • 100K: $2,500
+  • 150K: $2,750
+  • 250K: $3,000
+  • 300K: $3,500
+  • 100K Static: $1,000
+- A partir del 6º retiro: sin límite máximo
+
+COMISIONES DETALLADAS:
+
+Rithmic (Round Trip):
+
+☑ Equity Futures:
+- E-mini S&P 500 (ES): $3.98
+- E-mini NASDAQ 100 (NQ): $3.98
+- Mini-DOW (YM): $3.98
+- E-mini Russell 2000 (RTY): $3.98
+- E-mini Midcap 400 (EMD): $3.98
+- Nikkei NKD: $3.98
+
+☑ Micro Futures:
+- Micro E-mini S&P (MES): $1.02
+- Micro E-mini NASDAQ (MNQ): $1.02
+- Micro E-mini DOW (MYM): $1.02
+- Micro E-mini Russell (M2K): $1.02
+- E-Micro Gold (MGC): $1.52
+- Micro Crude Oil (MCL): $1.02
+- E-Micro EUR/USD (M6E): $0.84
+- E-Micro AUD/USD (M6A): $0.84
+- E-Micro USD/JPY (M6J): $0.84
+
+☑ Currency Futures:
+- Australian Dollar (6A): $4.72
+- British Pound (6B): $4.72
+- Canadian Dollar (6C): $4.72
+- Euro FX (6E): $4.72
+- Japanese Yen (6J): $4.72
+- Swiss Franc (6S): $4.72
+- New Zealand Dollar (6N): $4.72
+
+☑ Energy Futures:
+- Crude Oil (CL): $3.96
+- Mini Crude Oil (QM): $3.92
+- Mini Crude Oil (MCL): $1.02
+- Natural Gas (NG): $3.96
+- E-mini Natural Gas (QG): $2.52
+- Heating Oil (HO): $3.96
+- RBOB Gasoline (RB): $3.96
+
+☑ Metal Futures:
+- Gold (GC): $4.62
+- Silver (SI): $4.62
+- Copper (HG): $4.62
+- Platinum (PL): $4.62
+- Palladium (PA): $4.62
+- miNY Silver (QI): $3.02
+- miNY Gold (QO): $3.02
+
+☑ Agricultural Futures:
+- Lean Hogs (HE): $5.58
+- Live Cattle (LE): $5.58
+- Feeder Cattle (GF): $5.58
+- Corn (ZC): $5.58
+- Wheat (ZW): $5.58
+- Soybeans (ZS): $5.58
+- Soybean Meal (ZM): $5.58
+- Soybean Oil (ZL): $5.58
+
+☑ Cryptocurrency:
+- Micro Bitcoin (MBT): $5.52
+- Micro Ethereum (MET): $0.92
+
+Tradovate (Round Trip):
+
+☑ Equity Futures:
+- E-Mini S&P 500 (ES): $3.10
+- E-Mini NASDAQ (NQ): $3.10
+- E-Mini DOW (YM): $3.10
+- E-Mini Russell (RTY): $3.10
+- E-Mini Midcap 400 (EMD): $3.00
+- Nikkei 225 USD (NKD): $4.64
+
+☑ Micro Futures:
+- Micro E-Mini S&P (MES): $1.04
+- Micro E-Mini NASDAQ (MNQ): $1.04
+- Micro E-Mini DOW (MYM): $1.04
+- Micro E-Mini Russell (M2K): $1.04
+- E-Micro Gold (MGC): $1.34
+- Micro Crude Oil (MCL): $1.34
+- E-Micro AUD/USD (M6A): $0.82
+- E-Micro EUR/USD (M6E): $0.82
+
+☑ Currency Futures:
+- Australian Dollar (6A): $3.54
+- British Pound (6B): $3.54
+- Canadian Dollar (6C): $3.54
+- Euro FX (6E): $3.54
+- Japanese Yen (6J): $3.54
+- Swiss Franc (6S): $3.54
+- New Zealand Dollar (6N): $3.54
+
+☑ Energy Futures:
+- Crude Oil (CL): $3.34
+- E-Mini Crude Oil (QM): $2.74
+- E-Mini Natural Gas (QG): $1.34
+- Natural Gas (NG): $3.54
+- RBOB Gasoline (RB): $3.34
+- Heating Oil (HO): $3.34
+
+☑ Metal Futures:
+- Gold (GC): $3.54
+- Silver (SI): $3.54
+- Copper (HG): $3.54
+- E-Mini Silver (QI): $2.34
+- E-Mini Gold (QO): $2.34
+- Platinum (PL): $3.54
+- Palladium (PA): $3.54
+
+☑ Agricultural Futures:
+- Lean Hogs (HE): $4.54
+- Live Cattle (LE): $4.54
+- Feeder Cattle (GF): $4.54
+- Corn (ZC): $4.54
+- Wheat (ZW): $4.54
+- Soybeans (ZS): $4.54
+- Soybean Meal (ZM): $4.54
+- Soybean Oil (ZL): $4.54
+
+☑ Cryptocurrency:
+- Micro Bitcoin (MBT): $5.34
+- Micro Ether (MET): $0.74
+
+Nota: Tradovate generalmente 15-25% más barato que Rithmic
+
+PAÍSES RESTRINGIDOS:
+Afghanistan, Algeria, Azerbaijan, Bahrain, Bangladesh, Belarus, Benin, Brunei, Burkina Faso, Cameroon, Central African Republic, Chad, China, Congo (todas las variantes), Côte d'Ivoire, Cuba, Curaçao, Cyprus, Egypt, Gabon, Grenada, Haiti, Iran, Iraq, Jersey, Jordan, Kazakhstan, Kenya, Kosovo, Kuwait, Latvia, Lebanon, Lesotho, Libya, Madagascar, Maldives, Mauritania, Mauritius, Moldova, Mongolia, Morocco, Mozambique, Namibia, Nepal, New Caledonia, Niger, Nigeria, Occupied Palestinian Territory, Oman, Pakistan, Qatar, Reunion, Russia, Rwanda, Saint Pierre and Miquelon, Saudi Arabia, Senegal, Serbia, Somalia, South Africa, Sri Lanka, Syria, Tanzania, Togo, Trinidad and Tobago, Tunisia, Turkey, Uganda, Ukraine, Uzbekistan, Venezuela, Vietnam, Western Sahara, Yemen, Zambia, Zimbabwe
+
+INFORMACIÓN CRÍTICA DEL CONTRATO:
+
+1. SALDOS INICIALES REALES (Balance inicial de cuenta):
+   - 25K: $23,500
+   - 50K: $47,500
+   - 100K: $97,000
+   - 150K: $145,000
+   - 250K: $243,500
+   - 300K: $292,500
+   - 100K Static: $99,375
+
+3. TRAILING DRAWDOWN:
+   - Se congela en balance inicial + $100
+   - Ejemplo 50K: trailing para en $50,100
+   - Se actualiza con posiciones abiertas hasta alcanzar threshold
+
+4. REGLA DEL 30% PNL NEGATIVO:
+   - Pérdidas abiertas no pueden superar 30% del saldo inicial del día
+   - Por debajo del Safety Net: usar 30% del Safety Net
+   - Al duplicar Safety Net: cambia de 30% a 50%
+   - Ejemplo 50K con Safety Net $2,500: máx pérdida abierta $750
+
+5. GESTIÓN DE RIESGO OBLIGATORIA:
+   - Ratio Riesgo/Beneficio máximo: 5:1
+   - Stops requeridos (pueden ser mentales)
+   - Ratios 3-4:1 aceptables sin revisión
+   - Prohibido usar todo el drawdown como stop
+
+8. TRADING DE NOTICIAS EN PA:
+   - Regla One-Direction: solo long o short durante noticias
+   - No se pueden tener posiciones en ambas direcciones
+   - Aplica a todas las cuentas del trader
+
+9. AUDITORÍAS Y VERIFICACIONES:
+   - Pueden requerir sesiones Zoom en vivo
+   - Grabaciones de sesiones de trading
+   - Verificación de identidad completa
+   - Logs de trading deben mantenerse 30 días mínimo
+   - 48 horas para responder a solicitudes
+
+10. PENALIZACIONES Y PROBATION:
+    - Probation puede limitar retiros
+    - Puede requerir mantener Safety Net completo
+    - Límites en número de contratos
+    - Requisitos adicionales de días de trading
+
+11. CUENTAS COMPARTIDAS/COPY TRADING:
+    - Estrictamente prohibido
+    - Resulta en terminación inmediata
+    - Forfeit de todos los saldos
+    - Sin terceros beneficiarios
+
+13. AUTOMATIZACIÓN:
+    - Semi-automatizada permitida con supervisión constante
+    - Totalmente automatizada prohibida
+    - Bots, algos, HFT prohibidos
+
+14. IMPUESTOS:
+    - Traders reciben 1099 (USA)
+    - Pagados como contratistas independientes
+    - No empleados de Apex
+
+15. LÍMITES DE ERRORES:
+    - Sin responsabilidad por fallas técnicas
+    - Trader debe tener planes de respaldo
+    - Debe tener R-Trader/Tradovate abierto siempre
+
+NOTAS ADICIONALES:
+- Trailing drawdown se actualiza durante posiciones abiertas
+- Dejar posición abierta por error no es eliminatorio
+- Se permite replicar entre cuentas múltiples (máx 20)
+- Sin regla de pérdida diaria
+- Sin regla de escalado de contratos en evaluación
+- Sin restricciones de noticias en evaluación
+- Sesión de trading: 6PM ET - 5PM ET (trades domingo cuentan para lunes)
