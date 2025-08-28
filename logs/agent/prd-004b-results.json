@@ -1,0 +1,21 @@
+{
+  "prd": "PRD-004b",
+  "status": "completed",
+  "golden": {
+    "n": 50,
+    "filled_ids": 50,
+    "unresolved": 0
+  },
+  "eval": {
+    "n": 50,
+    "exact_at_1": 0.74
+  },
+  "smoke": {
+    "p50_latency_ms": 943
+  },
+  "notes": [
+    "intent-gate generated from coverage",
+    "K=5",
+    "warmup enabled? yes"
+  ]
+}

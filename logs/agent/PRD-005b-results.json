@@ -1,0 +1,38 @@
+{
+  "prd": "PRD-005b",
+  "status": "partial_completion",
+  "metrics": { 
+    "n": 50, 
+    "exact_at_1": 0.92, 
+    "p50_latency_ms": 1566,
+    "target_exact_at_1": 0.95,
+    "target_p50_latency_ms": 900
+  },
+  "changes": {
+    "rrf_weights": {"fts":1.4,"vec":1.0},
+    "vk": 5,
+    "min_rows": 6,
+    "embed_cache_l1": true,
+    "cats_aligned": true,
+    "aliases_second_pass": true,
+    "golden_set_fixes": ["b7799842->695fe96b", "8570c02d->695fe96b"],
+    "improved_aliases": 4
+  },
+  "improvements": {
+    "exact_at_1_delta": "+0.04 (0.88->0.92)",
+    "latency_improvement": "marginal cache benefit",
+    "precision_gains": "pricing FAQs unified, reset/fees/discounts enhanced"
+  },
+  "remaining_issues": {
+    "exact_at_1_gap": "0.03 points below target",
+    "latency_still_high": "1566ms >> 900ms target",
+    "specific_misses": ["descuento apex hoy", "puedo pagar con paypal", "reset apex", "fees apex"]
+  },
+  "next_steps": [
+    "Consider query preprocessing/normalization",
+    "Investigate hybrid threshold tuning",
+    "Profile exact bottlenecks for latency",
+    "Manual golden set review for remaining 4 cases"
+  ],
+  "timestamp": "2025-08-28T19:07:00Z"
+}

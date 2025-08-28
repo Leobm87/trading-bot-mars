@@ -1,0 +1,4 @@
+{
+  "vector_skip_intents": ["pricing","payment_methods","platforms","discounts","rules"],
+  "selector_top_k": 2
+}

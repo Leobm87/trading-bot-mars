@@ -18,15 +18,25 @@ function median(arr) {
   const { retrieveTopK, confidentTop1 } = require('../services/common/retriever.cjs');
   const { llmSelectFAQ } = require('../services/common/llm-selector.cjs');
   const { formatFromFAQ, notFound } = require('../services/common/format.cjs');
+  const { embedText } = require('../services/common/embeddings.cjs');
 
   // Mock service with processQuery method that matches the architecture
   const service = {
     supabase,
+    firmId: '854bf730-8420-4297-86f8-3c4a972edcf2', // APEX firm ID
     async processQuery(query) {
+      const { resolvePin } = require('../services/common/pinner.cjs');
+      
+      // 0) Pinner determinista
+      const pinId = resolvePin('apex', query);
+      if (pinId) {
+        return formatFromFAQ({ id: pinId, score: 1.0, rank: 1 });
+      }
+
       const cats = gateIntent(query);
       if (!this.supabase) return notFound();
 
-      const cands = await retrieveTopK(this.supabase, query, cats, 8);
+      const cands = await retrieveTopK(this.supabase, query, cats, this.firmId, embedText);
       if (!cands || cands.length === 0) return notFound();
 
       const top1 = confidentTop1(cands);

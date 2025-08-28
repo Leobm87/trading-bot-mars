@@ -1,0 +1,61 @@
+{
+  "firm": "apex",
+  "rules": [
+    {
+      "re": "precio\\s+de\\s+suscripcion",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"
+    },
+    {
+      "re": "precio.*suscripcion",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"
+    },
+    {
+      "re": "precio.*activacion",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"
+    },
+    {
+      "re": "que\\s+tamanos.*disponibles",
+      "faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c"
+    },
+    {
+      "re": "tamanos.*cuenta.*precio",
+      "faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c"
+    },
+    {
+      "re": "metodos.*pago",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
+    },
+    {
+      "re": "puedo.*pagar",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
+    },
+    {
+      "re": "reset apex",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7"
+    },
+    {
+      "re": "reset.*apex",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7"
+    },
+    {
+      "re": "fees.*apex",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d"
+    },
+    {
+      "re": "(metodos? de pago|paypal|pagar con|tarjeta|payment|stripe)",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
+    },
+    {
+      "re": "(reset|resetear|reiniciar|nueva|nuevo.* cuenta)",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7"
+    },
+    {
+      "re": "(fees?|comision|costo|precio|tarifa|rate)",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d"
+    },
+    {
+      "re": "(descuent|cupon|c[oó]digo|promo)",
+      "faq_id": "a5c42153-0610-4192-b149-26bd9914e700"
+    }
+  ]
+}

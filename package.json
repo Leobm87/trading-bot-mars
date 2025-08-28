@@ -22,7 +22,22 @@
     "export:faqs:apex": "node scripts/export-faqs-apex.cjs",
     "golden:fill": "node scripts/fill-golden-ids.cjs",
     "golden:augment": "node scripts/augment-golden-from-coverage.cjs",
-    "gate:build": "node scripts/build-gate-from-coverage.cjs"
+    "gate:build": "node scripts/build-gate-from-coverage.cjs",
+    "embed:apex": "node scripts/embed-faqs-apex.cjs",
+    "check:vec": "node scripts/check-vec.cjs",
+    "analyze:apex": "node scripts/analyze-failures.cjs",
+    "pins:add": "node scripts/pins-add.cjs",
+    "pins:suggest": "node scripts/pins-suggest.cjs",
+    "aliases:auto:apex": "node scripts/autopatch-aliases.cjs",
+    "aliases:auto:apex:apply": "node scripts/autopatch-aliases.cjs -- --apply",
+    "db:migrate:005a:aliases": "node scripts/apply-aliases-migration.cjs",
+    "short:gen": "node scripts/gen-short-answers.cjs",
+    "short:apply": "node scripts/gen-short-answers.cjs -- --apply",
+    "pins:test": "jest tests/unit/pins-regex.test.js",
+    "pins:guard": "node scripts/pins-ci-guard.cjs",
+    "metrics:apex": "node scripts/metrics-capture.cjs",
+    "start:tg": "node services/telegram/bot.cjs",
+    "health": "node services/telegram/health.cjs"
   },
   "keywords": [
     "prop-trading",
@@ -38,8 +53,10 @@
     "@supabase/supabase-js": "^2.56.0",
     "axios": "^1.11.0",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
+    "minimist": "^1.2.8",
     "openai": "^5.16.0",
+    "telegraf": "^4.16.3",
     "winston": "^3.11.0"
   },
   "devDependencies": {

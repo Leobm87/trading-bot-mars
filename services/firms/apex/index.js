@@ -175,26 +175,39 @@ class ApexService {
      * Process a user query and return Apex-specific response
      */
     async processQuery(query) {
+        const { resolvePin } = require('../../common/pinner.cjs');
         const { gateIntent } = require('../../common/intent-gate.cjs');
         const { retrieveTopK, confidentTop1 } = require('../../common/retriever.cjs');
         const { llmSelectFAQ } = require('../../common/llm-selector.cjs');
         const { formatFromFAQ, notFound } = require('../../common/format.cjs');
+        const { embedText } = require('../../common/embeddings.cjs');
+
+        const firmId = '854bf730-8420-4297-86f8-3c4a972edcf2';
+        
+        // 0) Pinner determinista
+        const pinId = resolvePin('apex', query);
+        if (pinId) {
+            // devolver objeto equivalente a top-1 lexical para que el renderer use DB
+            return await formatFromFAQ({ id: pinId, score: 1.0, rank: 1 });
+        }
 
         const cats = gateIntent(query);
-        // Use the existing supabase client from this service
         const supa = this.supabase;
         if (!supa) return notFound();
 
-        const cands = await retrieveTopK(supa, query, cats, 8);
+        const cands = await retrieveTopK(supa, query, cats, firmId, embedText);
         if (!cands || cands.length === 0) return notFound();
 
-        const top1 = confidentTop1(cands);
-        if (top1) return formatFromFAQ(top1);
+        // Early-accept check for confident top1 based on lexical score
+        const accepted = confidentTop1(Array.isArray(cands) ? cands : []);
+        if (accepted) {
+            return await formatFromFAQ(accepted);
+        }
 
         const pick = await llmSelectFAQ(query, cands);
         if (pick && pick.type === 'FAQ_ID') {
             const hit = cands.find(c => c.id === pick.id);
-            if (hit) return formatFromFAQ(hit);
+            if (hit) return await formatFromFAQ(hit);
         }
         return notFound();
     }
