@@ -17,6 +17,10 @@ const supa = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE
 // health server integrado
 const express = require('express');
 const app = express();
+
+// Middleware para parsear JSON (necesario para webhooks de Telegram)
+app.use(express.json());
+
 app.get('/health', (_req, res) => res.json({ ok: true, ts: new Date().toISOString(), bot: 'telegram-apex' }));
 const healthPort = process.env.PORT || 3000;
 app.listen(healthPort, () => console.log('health on', healthPort));
@@ -168,22 +172,39 @@ bot.on('text', async (ctx) => {
 // Usar webhook en lugar de polling para evitar conflictos en Railway
 const PORT = process.env.PORT || 3000;
 
+// Debug: añadir middleware para ver requests
+app.use((req, res, next) => {
+  console.log('🌐 HTTP Request:', req.method, req.url);
+  if (req.url.includes('/webhook')) {
+    console.log('🎣 Webhook request body:', req.body);
+  }
+  next();
+});
+
 if (process.env.RAILWAY_ENVIRONMENT || process.env.NODE_ENV === 'production') {
   // En producción usar webhook integrado con health server
   const webhookPath = `/webhook`;
-  app.use(bot.webhookCallback(webhookPath));
   
-  // Configurar webhook con Telegram
-  const webhookUrl = process.env.RAILWAY_PUBLIC_DOMAIN 
-    ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}${webhookPath}`
-    : `https://${process.env.RAILWAY_SERVICE_NAME}.up.railway.app${webhookPath}`;
-    
+  // Configurar webhook con Telegram primero
+  const webhookUrl = `https://trading-bot-mars-production.up.railway.app${webhookPath}`;
+  
   bot.telegram.setWebhook(webhookUrl)
-    .then(() => console.log('Telegram bot up (APEX) - webhook mode at', webhookUrl))
-    .catch(err => console.error('Webhook setup failed:', err));
+    .then((result) => {
+      console.log('✅ Webhook configured successfully:', result);
+      console.log('🎣 Webhook URL:', webhookUrl);
+      
+      // Luego configurar el callback
+      app.use(webhookPath, bot.webhookCallback(webhookPath));
+      console.log('🤖 Telegram bot up (APEX) - webhook mode');
+    })
+    .catch(err => {
+      console.error('❌ Webhook setup failed:', err);
+      // Fallback a polling si webhook falla
+      bot.launch().then(() => console.log('🤖 Telegram bot up (APEX) - polling fallback mode'));
+    });
 } else {
   // Localmente usar polling
-  bot.launch().then(() => console.log('Telegram bot up (APEX) - polling mode'));
+  bot.launch().then(() => console.log('🤖 Telegram bot up (APEX) - polling mode'));
 }
 
 process.once('SIGINT', () => bot.stop('SIGINT'));
