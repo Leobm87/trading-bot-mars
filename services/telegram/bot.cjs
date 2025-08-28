@@ -7,7 +7,7 @@ const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 if (!TOKEN) { console.error('Missing TELEGRAM_BOT_TOKEN'); process.exit(1); }
 
 const ALLOWED = new Set(String(process.env.TG_ALLOWED_CHATS||'').split(',').map(s=>s.trim()).filter(Boolean));
-const MODE = (process.env.TG_MODE||'shadow').toLowerCase();   // shadow|live
+const MODE = (process.env.TG_MODE||'live').toLowerCase();   // shadow|live
 const RATE_RPM = Number(process.env.TG_RATE_RPM || 6);
 const FIRM = (process.env.BOT_FIRM||'apex').toLowerCase();
 const FIRM_ID = '854bf730-8420-4297-86f8-3c4a972edcf2';
@@ -103,13 +103,19 @@ const bot = new Telegraf(TOKEN);
 
 bot.start(async (ctx) => {
   const chatId = String(ctx.chat?.id);
-  if (ALLOWED.size && !ALLOWED.has(chatId)) { if (MODE==='live') return; else return; }
+  if (ALLOWED.size && !ALLOWED.has(chatId)) { 
+    if (MODE==='shadow') return; // En shadow mode, ignora chats no permitidos
+    // En live mode, responde a todos
+  }
   await ctx.reply('MARS listo. Pregunta sobre APEX (respuestas breves).');
 });
 
 bot.on('text', async (ctx) => {
   const chatId = String(ctx.chat?.id);
-  if (ALLOWED.size && !ALLOWED.has(chatId)) { if (MODE==='live') return; else return; }
+  if (ALLOWED.size && !ALLOWED.has(chatId)) { 
+    if (MODE==='shadow') return; // En shadow mode, ignora chats no permitidos
+    // En live mode, responde a todos
+  }
   if (!withinRate(chatId)) return ctx.reply('⏳ Límite temporal. Inténtalo en unos segundos.');
 
   const qRaw = ctx.message?.text || '';
