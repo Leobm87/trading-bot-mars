@@ -115,21 +115,38 @@ bot.start(async (ctx) => {
 });
 
 bot.on('text', async (ctx) => {
+  console.log('📨 Received text message:', ctx.message?.text);
+  
   const chatId = String(ctx.chat?.id);
+  console.log('👤 Chat ID:', chatId);
+  
   if (ALLOWED.size && !ALLOWED.has(chatId)) { 
+    console.log('🚫 Chat not in whitelist, mode:', MODE);
     if (MODE==='shadow') return; // En shadow mode, ignora chats no permitidos
     // En live mode, responde a todos
   }
-  if (!withinRate(chatId)) return ctx.reply('⏳ Límite temporal. Inténtalo en unos segundos.');
+  
+  if (!withinRate(chatId)) {
+    console.log('⏳ Rate limit exceeded for chat:', chatId);
+    return ctx.reply('⏳ Límite temporal. Inténtalo en unos segundos.');
+  }
 
   const qRaw = ctx.message?.text || '';
   const q = sanitize(qRaw);
-  if (!q) return ctx.reply('Escribe una pregunta.');
+  console.log('🧹 Sanitized query:', q);
+  
+  if (!q) {
+    console.log('❌ Empty query after sanitization');
+    return ctx.reply('Escribe una pregunta.');
+  }
 
+  console.log('🔍 Processing query:', q);
   const t0 = performance.now();
   try {
     const res = await processQueryFirm(q);
     const ms = Math.round(performance.now() - t0);
+    console.log('✅ Query processed in', ms, 'ms, faq_id:', res.faq_id);
+    
     const payload = String(res.md || 'No encontrado.').slice(0, 3800); // límite TG
     await ctx.replyWithMarkdown(payload);
 
@@ -143,7 +160,7 @@ bot.on('text', async (ctx) => {
       q
     }));
   } catch (e) {
-    console.error('ERR', e);
+    console.error('❌ ERR processing query:', e);
     await ctx.reply('Lo siento, hubo un error. Intenta de nuevo.');
   }
 });
