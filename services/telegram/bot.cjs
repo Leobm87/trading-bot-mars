@@ -14,8 +14,12 @@ const FIRM_ID = '854bf730-8420-4297-86f8-3c4a972edcf2';
 
 const supa = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
 
-// health server
-require('./health.cjs');
+// health server integrado
+const express = require('express');
+const app = express();
+app.get('/health', (_req, res) => res.json({ ok: true, ts: new Date().toISOString(), bot: 'telegram-apex' }));
+const healthPort = process.env.PORT || 3000;
+app.listen(healthPort, () => console.log('health on', healthPort));
 
 // rate limit por chat
 const bucket = new Map();
@@ -144,6 +148,26 @@ bot.on('text', async (ctx) => {
   }
 });
 
-bot.launch().then(()=> console.log('Telegram bot up (APEX)'));
+// Usar webhook en lugar de polling para evitar conflictos en Railway
+const PORT = process.env.PORT || 3000;
+
+if (process.env.RAILWAY_ENVIRONMENT || process.env.NODE_ENV === 'production') {
+  // En producción usar webhook integrado con health server
+  const webhookPath = `/webhook`;
+  app.use(bot.webhookCallback(webhookPath));
+  
+  // Configurar webhook con Telegram
+  const webhookUrl = process.env.RAILWAY_PUBLIC_DOMAIN 
+    ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}${webhookPath}`
+    : `https://${process.env.RAILWAY_SERVICE_NAME}.up.railway.app${webhookPath}`;
+    
+  bot.telegram.setWebhook(webhookUrl)
+    .then(() => console.log('Telegram bot up (APEX) - webhook mode at', webhookUrl))
+    .catch(err => console.error('Webhook setup failed:', err));
+} else {
+  // Localmente usar polling
+  bot.launch().then(() => console.log('Telegram bot up (APEX) - polling mode'));
+}
+
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
