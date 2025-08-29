@@ -120,7 +120,11 @@ class ApexService {
             };
             
             // Warmup the retriever RPC
-            await this.supabase.rpc('faq_retrieve_es', { q: 'warmup', cats: null, k: 1 }).catch(()=>{});
+            try {
+                await this.supabase.rpc('faq_retrieve_es', { q: 'warmup', cats: null, k: 1 });
+            } catch (e) {
+                // Ignore warmup errors
+            }
             
             this.isInitialized = true;
             this.logger.info(`ApexService loaded ${faqs.length} FAQs, ${plans.length} plans, and firm info successfully - ${this.firmInfo ? 'LOADED' : 'NOT_LOADED'}`);

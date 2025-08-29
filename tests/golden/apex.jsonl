@@ -48,3 +48,9 @@
 {"q":"tamanos apex","expected_faq_id":"79b0be6c-7365-4845-a5bc-88a35ae6b10c","source":"coverage_alias"}
 {"q":"¿Cuáles son las comisiones aproximadas por mercado/plataforma?","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","source":"coverage_question"}
 {"q":"fees apex","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","source":"coverage_alias"}
+{"q":"que precios tiene apex?","expected_faq_id":"93849616-e113-43ee-8319-e32d44c1baed","source":"hardening"}
+{"q":"cuanto vale activar la cuenta apex?","expected_faq_id":"93849616-e113-43ee-8319-e32d44c1baed","source":"hardening"}
+{"q":"cuales son las comisiones por contrato en apex?","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","source":"hardening"}
+{"q":"cual es el umbral / safety net de apex?","expected_faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","source":"hardening"}
+{"q":"que colchon tiene apex?","expected_faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","source":"hardening"}
+{"q":"cuales son los paises donde no puedo usar apex?","expected_faq_id":"11633e70-3f32-408a-8778-796e91740e46","source":"hardening"}
