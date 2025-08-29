@@ -7,6 +7,7 @@ const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const PUBLIC_URL = process.env.PUBLIC_URL; // p.ej. https://trading-bot-mars-production.up.railway.app
 const PORT = Number(process.env.PORT || 3000);
 const USE_WEBHOOK = String(process.env.TG_USE_WEBHOOK || 'true') === 'true';
+const DEBUG = String(process.env.DEBUG_WEBHOOK || 'false') === 'true';
 
 // Guardarraíles básicos (whitelist, rate, sanitize)
 const ALLOWED = new Set(String(process.env.TG_ALLOWED_CHATS||'').split(',').map(s=>s.trim()).filter(Boolean));
@@ -48,6 +49,14 @@ const bot = new Telegraf(TOKEN);
 const app = express();
 app.use(express.json());
 
+// Global logging middleware (solo si DEBUG_WEBHOOK=true)
+if (DEBUG) {
+  app.use((req, res, next) => {
+    console.log('REQ', req.method, req.url, new Date().toISOString());
+    next();
+  });
+}
+
 // HANDLERS
 bot.start(async (ctx)=>{
   const id = String(ctx.chat?.id);
@@ -82,7 +91,13 @@ bot.on('text', async (ctx)=>{
       // 1) ACK inmediato para evitar 502
       res.status(200).end();
       // 2) Log de recepción
-      console.log('🎯 POST /webhook', { hasBody: !!req.body, ts: new Date().toISOString() });
+      console.log('🎯 POST /webhook', {
+        hasBody: !!req.body,
+        bodySize: req.body ? JSON.stringify(req.body).length : 0,
+        updateId: req.body?.update_id,
+        messageType: req.body?.message ? 'message' : req.body?.edited_message ? 'edited_message' : 'other',
+        ts: new Date().toISOString()
+      });
       // 3) Procesado asíncrono del update
       bot.handleUpdate(req.body).catch(err => {
         console.error('handleUpdate error', err);
@@ -99,6 +114,32 @@ bot.on('text', async (ctx)=>{
     await bot.telegram.deleteWebhook({ drop_pending_updates: true }).catch(()=>{});
     await bot.launch();
     console.log('Bot launched with long polling');
+  }
+
+  // Rutas de debug (solo si DEBUG_WEBHOOK=true)
+  if (DEBUG) {
+    app.get('/debug/ping', (_req, res) => {
+      res.json({ ok: true, ts: new Date().toISOString() });
+    });
+
+    app.get('/debug/webhook-info', async (_req, res) => {
+      try {
+        const response = await fetch(`https://api.telegram.org/bot${TOKEN}/getWebhookInfo`);
+        const data = await response.json();
+        res.json(data);
+      } catch (error) {
+        console.error('Error fetching webhook info:', error);
+        res.status(500).json({ ok: false, error: error.message });
+      }
+    });
+
+    app.post('/debug/simulate', (req, res) => {
+      console.log('🧪 Simulating webhook update:', req.body);
+      bot.handleUpdate(req.body).catch(err => {
+        console.error('Simulation handleUpdate error', err);
+      });
+      res.json({ ok: true, simulated: true });
+    });
   }
 
   // Health y único listen
