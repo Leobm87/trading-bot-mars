@@ -1,6 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
 import winston from 'winston';
-import OpenAIMatcher from '../../ai/openai-matcher.js';
 
 class ApexService {
     constructor() {
