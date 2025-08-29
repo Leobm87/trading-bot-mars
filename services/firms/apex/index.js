@@ -1,6 +1,6 @@
-const { createClient } = require('@supabase/supabase-js');
-const winston = require('winston');
-const OpenAIMatcher = require('../../ai/openai-matcher');
+import { createClient } from '@supabase/supabase-js';
+import winston from 'winston';
+import OpenAIMatcher from '../../ai/openai-matcher.js';
 
 class ApexService {
     constructor() {
@@ -175,12 +175,12 @@ class ApexService {
      * Process a user query and return Apex-specific response
      */
     async processQuery(query) {
-        const { resolvePin } = require('../../common/pinner.cjs');
-        const { gateIntent } = require('../../common/intent-gate.cjs');
-        const { retrieveTopK, confidentTop1 } = require('../../common/retriever.cjs');
-        const { llmSelectFAQ } = require('../../common/llm-selector.cjs');
-        const { formatFromFAQ, notFound } = require('../../common/format.cjs');
-        const { embedText } = require('../../common/embeddings.cjs');
+        const { resolvePin } = await import('../../common/pinner.cjs');
+        const { gateIntent } = await import('../../common/intent-gate.cjs');
+        const { retrieveTopK, confidentTop1 } = await import('../../common/retriever.cjs');
+        const { llmSelectFAQ } = await import('../../common/llm-selector.cjs');
+        const { formatFromFAQ, notFound } = await import('../../common/format.cjs');
+        const { embedText } = await import('../../common/embeddings.cjs');
 
         const firmId = '854bf730-8420-4297-86f8-3c4a972edcf2';
         
@@ -467,4 +467,4 @@ class ApexService {
     }
 }
 
-module.exports = ApexService;
+export default ApexService;

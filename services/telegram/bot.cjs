@@ -26,7 +26,8 @@ function sanitize(s){
 
 // Tu pipeline existente
 async function processQueryFirm(q){
-  const svc = await import('../firms/apex/index.js');
+  const { default: ApexService } = await import('../firms/apex/index.js');
+  const svc = new ApexService();
   const out = await svc.processQuery(q);
   const { createClient } = require('@supabase/supabase-js');
   const supa = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
