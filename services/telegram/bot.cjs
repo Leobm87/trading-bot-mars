@@ -22,6 +22,22 @@ const app = express();
 app.use(express.json());
 
 app.get('/health', (_req, res) => res.json({ ok: true, ts: new Date().toISOString(), bot: 'telegram-apex' }));
+
+// Endpoint de test para verificar que el servidor funciona
+app.get('/test', (_req, res) => {
+  console.log('🧪 Test endpoint called');
+  res.json({ 
+    message: 'Bot server is working!',
+    timestamp: new Date().toISOString(),
+    webhookPath: '/webhook'
+  });
+});
+
+// Test webhook manual
+app.post('/test-webhook', (req, res) => {
+  console.log('🧪 Test webhook called with body:', JSON.stringify(req.body, null, 2));
+  res.json({ received: true, body: req.body });
+});
 const healthPort = process.env.PORT || 3000;
 app.listen(healthPort, () => console.log('health on', healthPort));
 
@@ -174,9 +190,9 @@ const PORT = process.env.PORT || 3000;
 
 // Debug: añadir middleware para ver requests
 app.use((req, res, next) => {
-  console.log('🌐 HTTP Request:', req.method, req.url);
+  console.log('🌐 HTTP Request:', req.method, req.url, 'from', req.ip);
   if (req.url.includes('/webhook')) {
-    console.log('🎣 Webhook request body:', req.body);
+    console.log('🎣 Webhook request body:', JSON.stringify(req.body, null, 2));
   }
   next();
 });
@@ -192,6 +208,12 @@ if (process.env.RAILWAY_ENVIRONMENT || process.env.NODE_ENV === 'production') {
     .then((result) => {
       console.log('✅ Webhook configured successfully:', result);
       console.log('🎣 Webhook URL:', webhookUrl);
+      
+      // Verificar webhook info
+      return bot.telegram.getWebhookInfo();
+    })
+    .then((webhookInfo) => {
+      console.log('📋 Webhook info:', JSON.stringify(webhookInfo, null, 2));
       
       // Luego configurar el callback
       app.use(webhookPath, bot.webhookCallback(webhookPath));
