@@ -36,8 +36,7 @@
     "pins:test": "jest tests/unit/pins-regex.test.js",
     "pins:guard": "node scripts/pins-ci-guard.cjs",
     "metrics:apex": "node scripts/metrics-capture.cjs",
-    "start:tg": "node services/telegram/bot.cjs",
-    "health": "node services/telegram/health.cjs"
+    "start:tg": "node services/telegram/bot.cjs"
   },
   "keywords": [
     "prop-trading",
@@ -48,6 +47,7 @@
   ],
   "author": "Braian Basanta & Claude Code",
   "license": "ISC",
+  "engines": { "node": ">=20" },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.4",
     "@supabase/supabase-js": "^2.56.0",
