@@ -74,18 +74,22 @@ bot.on('text', async (ctx)=>{
 (async ()=>{
   if (USE_WEBHOOK) {
     if (!PUBLIC_URL) { console.error('Set PUBLIC_URL'); process.exit(1); }
-    const path = '/webhook'; // EXACTO
-    // parser + logger antes del webhook
+    const path = '/webhook';
+
+    // Parser + ACK inmediato
     app.use(express.json({ limit: '1mb' }));
     app.post(path, (req, res) => {
-      console.log('🎯 POST /webhook', { len: (req.rawBody?.length||0), hasBody: !!req.body, ts: new Date().toISOString() });
-      bot.handleUpdate(req.body, res).catch(err => {
+      // 1) ACK inmediato para evitar 502
+      res.status(200).end();
+      // 2) Log de recepción
+      console.log('🎯 POST /webhook', { hasBody: !!req.body, ts: new Date().toISOString() });
+      // 3) Procesado asíncrono del update
+      bot.handleUpdate(req.body).catch(err => {
         console.error('handleUpdate error', err);
-        res.status(200).end(); // evita 502 en caso de error interno
       });
     });
 
-    // reset + set
+    // Limpieza + registro del webhook
     await bot.telegram.deleteWebhook({ drop_pending_updates: true }).catch(()=>{});
     await bot.telegram.setWebhook(`${PUBLIC_URL}${path}`, {
       allowed_updates: ['message','edited_message']
@@ -97,6 +101,7 @@ bot.on('text', async (ctx)=>{
     console.log('Bot launched with long polling');
   }
 
+  // Health y único listen
   app.get('/health', (_req, res)=>res.json({ ok:true, ts:new Date().toISOString() }));
   app.listen(PORT, ()=> console.log('HTTP listening on', PORT));
 })();
