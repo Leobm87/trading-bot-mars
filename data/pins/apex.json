@@ -56,6 +56,50 @@
     {
       "re": "(descuent|cupon|c[oó]digo|promo)",
       "faq_id": "a5c42153-0610-4192-b149-26bd9914e700"
+    },
+    {
+      "re": "(?:que\\s+(?:cuentas|tipos|tamañ?os).*apex|tamañ?os\\s+de\\s+cuentas?|planes?)",
+      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
+    },
+    {
+      "re": "(?:precios?|precio|cu[aá]nto\\s+cuesta|coste|activaci[oó]n|suscripci[oó]n).*apex",
+      "faq_id": "fc6cb870-1364-4db7-b092-c341c9aa726d"
+    },
+    {
+      "re": "(?:l[ií]mites?\\s+por\\s+cuenta|contratos\\s+por\\s+cuenta|daily\\s+loss|drawdown\\s+por\\s+cuenta)",
+      "faq_id": "26099319-b39e-4553-8219-1087d440c787"
+    },
+    {
+      "re": "(?:max(?:imo)?\\s+drawdown|max\\s*dd).*apex",
+      "faq_id": "b0410c27-2dad-44c1-9031-52c4a56f2fc3"
+    },
+    {
+      "re": "(?:fase\\s+live|cuenta\\s+live|promoci[oó]n\\s+live)",
+      "faq_id": "cc3365a5-da92-45b5-b48c-8f89cd64a5ba"
+    },
+    {
+      "re": "(?:regla\\s+de\\s+consistencia|consistencia\\s*30|mayor\\s*d[ií]a)",
+      "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32"
+    },
+    {
+      "re": "(?:copy\\s*trading|cuentas?\\s+compartidas|replicar\\s+entre\\s+cuentas|multicuenta)",
+      "faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b"
+    },
+    {
+      "re": "(?:automatizaci[oó]n|automatizar|bot|algo|hft|autom[aá]tico)",
+      "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2"
+    },
+    {
+      "re": "(?:posici[oó]n\\s+abierta\\s+por\\s+error|overnight\\s+por\\s+error|dej[ée]\\s+abierta)",
+      "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1"
+    },
+    {
+      "re": "(?:pa[ií]ses?\\s+(?:no\\s+)?permitidos|pa[ií]ses?\\s+restringidos|restricciones\\s+pa[ií]s|countries\\s+restricted)",
+      "faq_id": "6a6465dc-15f2-4467-b47f-51f1159828e3"
+    },
+    {
+      "re": "(?:safety\\s*net|umbral|colch[oó]n)",
+      "faq_id": "da173bf4-8852-4ffc-847f-67486bf3ffd7"
     }
   ]
 }
