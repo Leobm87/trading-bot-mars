@@ -215,8 +215,12 @@ if (process.env.RAILWAY_ENVIRONMENT || process.env.NODE_ENV === 'production') {
     .then((webhookInfo) => {
       console.log('📋 Webhook info:', JSON.stringify(webhookInfo, null, 2));
       
-      // Luego configurar el callback
-      app.use(webhookPath, bot.webhookCallback(webhookPath));
+      // Configurar el webhook callback directamente
+      const webhookCallback = bot.webhookCallback(webhookPath);
+      app.post(webhookPath, (req, res) => {
+        console.log('🎯 Webhook POST received');
+        webhookCallback(req, res);
+      });
       console.log('🤖 Telegram bot up (APEX) - webhook mode');
     })
     .catch(err => {
