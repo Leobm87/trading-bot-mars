@@ -52,21 +52,21 @@ app.use(express.json());
 bot.start(async (ctx)=>{
   const id = String(ctx.chat?.id);
   if (ALLOWED.size && !ALLOWED.has(id)) return;
-  await ctx.reply('MARS listo (APEX). Envíame tu pregunta.');
+  ctx.reply('MARS listo (APEX). Envíame tu pregunta.').catch(()=>{});
 });
 bot.on('text', async (ctx)=>{
   const id = String(ctx.chat?.id);
   if (ALLOWED.size && !ALLOWED.has(id)) return;
-  if (!withinRate(id)) return ctx.reply('⏳ Límite temporal. Intenta en unos segundos.');
+  if (!withinRate(id)) return ctx.reply('⏳ Límite temporal. Intenta en unos segundos.').catch(()=>{});
   const q = sanitize(ctx.message?.text || '');
-  if (!q) return ctx.reply('Escribe una pregunta.');
+  if (!q) return ctx.reply('Escribe una pregunta.').catch(()=>{});
   try {
     const res = await processQueryFirm(q);
-    await ctx.replyWithMarkdown(String(res.md).slice(0,3800));
+    ctx.replyWithMarkdown(String(res.md).slice(0,3800)).catch(()=>{});
     console.log(JSON.stringify({ ts:new Date().toISOString(), chat:id, ok:true, faq_id:res.faq_id||null, q }));
   } catch (e) {
     console.error('ERR', e);
-    await ctx.reply('Lo siento, hubo un error. Intenta de nuevo.');
+    ctx.reply('Lo siento, hubo un error. Intenta de nuevo.').catch(()=>{});
   }
 });
 
@@ -74,10 +74,18 @@ bot.on('text', async (ctx)=>{
 (async ()=>{
   if (USE_WEBHOOK) {
     if (!PUBLIC_URL) { console.error('Set PUBLIC_URL'); process.exit(1); }
-    const path = '/webhook'; // **DURO**: igual que lo que le dices a Telegram
-    // Monta EXACTAMENTE la ruta en esta MISMA app:
-    app.use(path, (req, res, next) => bot.webhookCallback(path)(req, res, next));
-    // Asegura borrar webhooks previos y setear el nuevo
+    const path = '/webhook'; // EXACTO
+    // parser + logger antes del webhook
+    app.use(express.json({ limit: '1mb' }));
+    app.post(path, (req, res) => {
+      console.log('🎯 POST /webhook', { len: (req.rawBody?.length||0), hasBody: !!req.body, ts: new Date().toISOString() });
+      bot.handleUpdate(req.body, res).catch(err => {
+        console.error('handleUpdate error', err);
+        res.status(200).end(); // evita 502 en caso de error interno
+      });
+    });
+
+    // reset + set
     await bot.telegram.deleteWebhook({ drop_pending_updates: true }).catch(()=>{});
     await bot.telegram.setWebhook(`${PUBLIC_URL}${path}`, {
       allowed_updates: ['message','edited_message']
