@@ -1,0 +1,45 @@
+{
+  "rollback_executed": true,
+  "baseline_restored": "51bb15e",
+  "pins_before_rollback": 26,
+  "pins_after_rollback": 26,
+  "violated_patterns_removed": [
+    {
+      "re": "(?=.*\\b(comisi[oó]n|comisiones|fees?|por\\s+contrato|ES|NQ|CL|GC|YM|RTY|MES|MNQ|MYM|M2K|MGC|MCL)\\b)",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "issue": "LOOKBEHIND_PROHIBITED"
+    },
+    {
+      "re": "(?=.*\\b(precio|precios|coste|cuanto\\s+(vale|cuesta)|activar|suscrip|mensualidad)\\b)(?!.*\\b(comisi[oó]n|comisiones|fees?|por\\s+contrato|ES|NQ|CL|GC|YM|RTY|MES|MNQ|MYM|M2K|MGC|MCL)\\b)",
+      "faq_id": "93849616-e113-43ee-8319-e32d44c1baed",
+      "issue": "LOOKBEHIND_PROHIBITED"
+    },
+    {
+      "re": "\\b(safety\\s*net|umbral|colch[oó]n|threshold)\\b",
+      "faq_id": "a7615c5a-9daa-49a7-8aaf-12499819b4cc",
+      "issue": "ADDED_POST_F7"
+    },
+    {
+      "re": "\\b(m[ií]nimo\\s+(para\\s+)?retirar|m[ií]nimo\\s+retiro)\\b",
+      "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "issue": "ADDED_POST_F7"
+    }
+  ],
+  "valid_fixes_preserved": [
+    {
+      "re": "(?:safety\\s*net|umbral|colch[oó]n).*(?:retirar|retir|withdraw|payout)",
+      "faq_id": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "reason": "Withdrawal safety net fix confirmed from F7"
+    },
+    {
+      "re": "(?:primer|primeros?)\\s+(?:\\d+\\s+)?(?:retiro|payout|cobr|pag)",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38", 
+      "reason": "First withdrawal fix confirmed from F7"
+    }
+  ],
+  "regex_compliance": {
+    "lookbehind_usage": false,
+    "lookahead_usage": false,
+    "flags_position": "compliant"
+  }
+}

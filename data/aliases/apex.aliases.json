@@ -1,0 +1,264 @@
+[
+  {
+    "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "aliases": [
+      "activar cuenta apex",
+      "costo activacion apex", 
+      "precio activacion apex",
+      "cuota activacion apex",
+      "activar cuenta financiada",
+      "mensual activacion",
+      "suscripcion mensual apex",
+      "pago unico activacion",
+      "cuanto cuesta activar apex",
+      "activacion apex",
+      "cuanto vale activar cuenta"
+    ]
+  },
+  {
+    "faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "aliases": [
+      "safety net apex",
+      "umbral apex", 
+      "umbral cuenta apex",
+      "safety net 25k",
+      "safety net 50k", 
+      "safety net 100k",
+      "umbral minimo apex",
+      "proteccion cuenta apex",
+      "safety net umbral",
+      "umbrales por tamano"
+    ]
+  },
+  {
+    "faq_id": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+    "aliases": [
+      "saldo inicial apex",
+      "balance inicial apex",
+      "saldo real apex",
+      "balance real cuenta",
+      "saldo cuenta PA",
+      "balance cuenta PA",
+      "saldos iniciales reales",
+      "balance inicial 25k",
+      "balance inicial 50k",
+      "balance inicial 100k"
+    ]
+  },
+  {
+    "faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+    "aliases": [
+      "horario apex",
+      "horario sesion apex",
+      "horario trading apex",
+      "domingo lunes apex",
+      "operaciones domingo",
+      "sesion trading apex",
+      "horario de sesion",
+      "operaciones domingo lunes"
+    ]
+  },
+  {
+    "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "aliases": [
+      "comisiones apex",
+      "comisiones tradovate",
+      "comisiones rithmic", 
+      "costo comisiones",
+      "r-trader abierto",
+      "tradovate abierto",
+      "respaldo tecnico",
+      "comisiones por mercado",
+      "comisiones plataforma"
+    ]
+  },
+  {
+    "faq_id": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+    "aliases": [
+      "reglas evaluacion apex",
+      "evaluacion apex",
+      "restricciones evaluacion",
+      "noticias evaluacion",
+      "reglas challenge",
+      "restricciones noticias evaluacion",
+      "restricciones de noticias de evaluacion",
+      "hay restricciones de noticias de evaluacion"
+    ]
+  },
+  {
+    "faq_id": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "aliases": [
+      "overnight apex",
+      "swing trading apex",
+      "noticias overnight",
+      "trading noticias overnight",
+      "restriccion noticias overnight",
+      "one direction rule",
+      "regla una direccion",
+      "reglas overnight apex",
+      "puedo hacer overnight",
+      "tradear noticias apex",
+      "hay restriccion noticias"
+    ]
+  },
+  {
+    "faq_id": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+    "aliases": [
+      "plataformas apex",
+      "plataformas soportadas",
+      "ninjatrader apex",
+      "tradovate apex",
+      "rithmic apex",
+      "proveedores datos apex",
+      "software trading apex",
+      "que plataformas soporta",
+      "plataformas disponibles",
+      "tengo que tener r-trader o tradovate abiertos siempre",
+      "tener abiertas plataformas",
+      "r-trader abierto siempre",
+      "tradovate abierto siempre"
+    ]
+  },
+  {
+    "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "aliases": [
+      "frecuencia retiro apex",
+      "payouts apex",
+      "cada cuando retirar",
+      "profit split apex",
+      "retiro demanda",
+      "cada cuanto puedo retirar",
+      "retiro apex payouts"
+    ]
+  },
+  {
+    "faq_id": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+    "aliases": [
+      "requisitos retiro apex",
+      "requisitos payout",
+      "condiciones retiro",
+      "8 dias trading",
+      "5 dias profit", 
+      "regla consistencia",
+      "30 por ciento regla",
+      "que requisitos retirar"
+    ]
+  },
+  {
+    "faq_id": "bed584a4-c195-4981-892a-3b33df356e21",
+    "aliases": [
+      "limite retiro apex",
+      "maximo retiro apex",
+      "500 dolares minimo",
+      "limite maximo retiro",
+      "limites de retiro",
+      "retiro apex limite"
+    ]
+  },
+  {
+    "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+    "aliases": [
+      "trailing drawdown apex",
+      "static drawdown apex",
+      "tipos drawdown apex",
+      "drawdown congelado",
+      "drawdown fijo",
+      "que tipos drawdown",
+      "como funciona trailing"
+    ]
+  },
+  {
+    "faq_id": "12764769-c253-40a2-abdb-ba32b305f48a",
+    "aliases": [
+      "profit target apex",
+      "objetivo evaluacion",
+      "target evaluacion",
+      "dias minimos evaluacion",
+      "meta profit apex",
+      "profit target dias minimos",
+      "regla apex profit target"
+    ]
+  },
+  {
+    "faq_id": "5b235d0a-b257-4292-adae-df65c21e689c",
+    "aliases": [
+      "contratos maximos apex",
+      "escalado contratos",
+      "limite contratos apex",
+      "contratos safety net",
+      "50 por ciento contratos",
+      "micros contratos apex",
+      "como funciona escalado",
+      "contratos por tamano"
+    ]
+  },
+  {
+    "faq_id": "c2586246-9604-4acb-9831-dc3188d73d42",
+    "aliases": [
+      "30 por ciento pnl",
+      "regla 30 pnl negativo",
+      "perdidas abiertas 30",
+      "limite perdidas abiertas",
+      "30 por ciento regla",
+      "30% pnl negativo apex",
+      "que es regla 30"
+    ]
+  },
+  {
+    "faq_id": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+    "aliases": [
+      "gestion riesgo apex",
+      "reglas riesgo apex", 
+      "ratio 5:1",
+      "riesgo beneficio apex",
+      "stops apex",
+      "risk management apex",
+      "5:1 apex",
+      "reglas gestion riesgo"
+    ]
+  },
+  {
+    "faq_id": "93849616-e113-43ee-8319-e32d44c1baed",
+    "aliases": [
+      "precios apex",
+      "costo evaluacion apex",
+      "precios cuentas apex",
+      "tamanos apex", 
+      "costo challenge apex",
+      "que precios tiene apex",
+      "cuanto cuestan cuentas"
+    ]
+  },
+  {
+    "faq_id": "11633e70-3f32-408a-8778-796e91740e46", 
+    "aliases": [
+      "paises restringidos apex",
+      "restricciones pais apex",
+      "paises prohibidos",
+      "geografia apex",
+      "eligibilidad pais",
+      "donde puedo usar apex",
+      "cuales paises no puedo usar",
+      "restricciones por pais"
+    ]
+  },
+  {
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "aliases": [
+      "minimo retiro 500",
+      "primeros cinco retiros",
+      "limite primeros retiros", 
+      "minimo cobrar apex",
+      "monto minimo retiro",
+      "500 dolares retiro",
+      "sexto retiro sin limite",
+      "primeros 5 retiros",
+      "minimo retiro apex",
+      "monto minimo retirar",
+      "cuando puedo retirar primera vez",
+      "importe minimo retiro",
+      "minimo para cobrar",
+      "cuanto es minimo para retirar"
+    ]
+  }
+]

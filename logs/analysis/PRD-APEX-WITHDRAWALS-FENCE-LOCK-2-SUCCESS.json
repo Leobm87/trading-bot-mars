@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "smoke_test_passed",
+  "withdrawals_hit_rate": "target_responses_verified",
+  "p50_latency_ms": 701,
+  "artifacts": [
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/analysis/aliases.backup.385d0f21.json",
+    "logs/analysis/aliases.backup.4d45a7ec.json"
+  ],
+  "changes": [
+    "services/common/intent-gate.cjs",
+    "DB: aliases migration from 4d45a7ec to 385d0f21"
+  ],
+  "db_patches": [
+    "aliases:+385d0f21",
+    "aliases:-4d45a7ec"
+  ],
+  "verification_results": {
+    "target_faq_responds": true,
+    "rival_aliases_cleared": true,
+    "fence_precedence_maintained": true,
+    "pins_count_preserved": true,
+    "latency_under_threshold": true
+  },
+  "sample_queries_tested": [
+    {
+      "q": "monto minimo primer retiro",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "latency_ms": 247,
+      "status": "success"
+    },
+    {
+      "q": "cual es el umbral minimo en apex", 
+      "faq_id": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "latency_ms": 1696,
+      "status": "success"
+    }
+  ],
+  "guards_passed": {
+    "mcp_supabase_connectivity": true,
+    "pins_total_26": true,
+    "db_patches_applied": true,
+    "fence_lock_maintained": true
+  },
+  "completion_timestamp": "2025-09-01T12:30:00.000Z",
+  "prd_reference": "PRD-APEX-WITHDRAWALS-FENCE-LOCK-2"
+}

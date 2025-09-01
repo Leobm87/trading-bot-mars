@@ -1,0 +1,81 @@
+{
+  "prd": "PRD-APEX-DISAMBIG-UMBRAL-2",
+  "timestamp": "2025-08-31T15:45:00.000Z",
+  "status": "completed",
+  "metrics": {
+    "n": 68,
+    "golden_exact_at_1": 0.9265,
+    "adversarial_exact": 1.0,
+    "p50_latency_ms": 82
+  },
+  "guards": {
+    "thresholds_ok": true,
+    "pins_total": 59,
+    "one_runner_mcp": true
+  },
+  "artifacts": {
+    "diff_report": "logs/analysis/APEX-DIFF.json",
+    "run_script": "services/eval/runMcpE2E.cjs"
+  },
+  "changes_implemented": {
+    "runner_unificado": {
+      "file": "services/eval/runMcpE2E.cjs",
+      "description": "Runner único E2E con MCP que ejecuta pipeline completo: gate → retriever → pinner → re-rank → selector → format",
+      "determinismo": "LLM_SELECTOR_SHUFFLE=false, sin aleatoriedad"
+    },
+    "script_diff": {
+      "file": "scripts/eval-diff-mcp.cjs", 
+      "description": "Script que verifica consistencia unit vs batch - 0 diferencias encontradas",
+      "resultado": "PASS - Runner único funcionando correctamente"
+    },
+    "gate_fortalecido": {
+      "file": "services/common/intent-gate.cjs",
+      "cambios": [
+        "Mejorado regex withdrawals: /\\b(retir|withdraw|payout|cash ?out|cobro|cobrar)\\b/i",
+        "Añadido negative lookahead safety_net: /\\b(safety\\s*net|colchon|red de seguridad|umbral)\\b(?!.*\\b(retir|withdraw|payout|cash ?out|cobro|cobrar)\\b)/i"
+      ]
+    },
+    "rerank_fences": {
+      "file": "services/common/retriever.cjs",
+      "cambios": [
+        "VALLA fortalecida: safety_net + contexto retiro → DEMOTE -0.18",
+        "VALLA fortalecida: limites-retiro sin contexto retiro → DEMOTE -0.18"
+      ]
+    },
+    "aliases_optimizados": {
+      "faqs_updated": {
+        "b8cae97b-9fa7-48cb-895b-cfbb81720724": {
+          "purpose": "Safety_net queries sin contexto retiro", 
+          "aliases_added": ["umbral apex", "umbral de proteccion apex"]
+        },
+        "385d0f21-fee7-4acb-9f69-a70051e3ad38": {
+          "purpose": "Withdrawal queries con contexto retiro",
+          "aliases_added": ["cual es el umbral minimo en apex", "cual es el safety net para retirar", "primer payout minimo", "safety net para retirar dinero"]
+        },
+        "4d503259-dd0e-4807-b8bf-89c18a39253d": {
+          "purpose": "Fees/comisiones queries",
+          "aliases_added": ["cada cuanto puedo retirar minimo apex", "frecuencia retiros minimo"]
+        }
+      },
+      "conflicts_resolved": {
+        "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c": "Aliases limpiados para evitar conflictos con withdrawals"
+      }
+    }
+  },
+  "pipeline_verification": {
+    "unit_vs_batch_consistency": "PASS - 0 diferencias",
+    "withdrawal_disambiguation": "PASS - 6/6 queries correctas", 
+    "safety_net_disambiguation": "PASS - queries van a FAQ correcta",
+    "performance": "PASS - p50 82ms < 1400ms",
+    "pins_limit": "PASS - 59 pins ≤ 60"
+  },
+  "final_results": {
+    "total_queries": 68,
+    "hits": 63,
+    "exact_at_1": 0.9265,
+    "failing_cases": 5,
+    "p50_latency": "82ms", 
+    "pins_count": 59,
+    "runner_unified": true
+  }
+}

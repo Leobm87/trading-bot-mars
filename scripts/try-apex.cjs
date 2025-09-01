@@ -55,7 +55,12 @@ function median(arr) {
     await service.initialize();
   }
 
-  const queries = [
+  // Parse CLI args for --q
+  const args = process.argv.slice(2);
+  const qIndex = args.findIndex(arg => arg === '--q');
+  const customQuery = qIndex !== -1 && args[qIndex + 1] ? args[qIndex + 1] : null;
+  
+  const queries = customQuery ? [customQuery] : [
     "cual es el umbral minimo en apex",
     "metodos de pago apex",
     "cuanto cuesta activar apex",

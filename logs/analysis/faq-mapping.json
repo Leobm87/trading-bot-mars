@@ -1,0 +1,40 @@
+{
+  "canonicalSlugs": {
+    "apex.pricing.planes": "precios-cuentas",
+    "apex.pricing.activacion": "cuotas-activacion",
+    "apex.payout.commissions": "comisiones",
+    "apex.risk.safety_net": "apex-safety-net",
+    "apex.payout.min_withdrawal": "payouts-frecuencia"
+  },
+  "faqMapping": {
+    "695fe96b-19a3-4b05-b43b-b8c3833de569": "cuotas-activacion",
+    "93849616-e113-43ee-8319-e32d44c1baed": "precios-cuentas",
+    "79b0be6c-7365-4845-a5bc-88a35ae6b10c": "planes-disponibles",
+    "9ea973b6-d106-4b54-9cf7-d75805c5d394": "planes",
+    "4d503259-dd0e-4807-b8bf-89c18a39253d": "comisiones",
+    "da173bf4-8852-4ffc-847f-67486bf3ffd7": "safety-net",
+    "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c": "umbral-minimo",
+    "a7615c5a-9daa-49a7-8aaf-12499819b4cc": "apex-safety-net",
+    "4d45a7ec-0812-48cf-b9f0-117f42158615": "payouts-frecuencia",
+    "8ed04281-8628-4787-ad5e-ed7e5938afd3": "payout-frecuencia",
+    "bed584a4-c195-4981-892a-3b33df356e21": "limits-retiro",
+    "dfd0f38b-a6f1-4f40-8772-03424b00fdc7": "horario-sesion",
+    "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea": "apex-evaluation-rules",
+    "e8a1e102-393d-4bc1-b551-e2cf7f521ed8": "overnight-news",
+    "fd2f4df9-950b-4059-a8cf-1c2e45195fdd": "saldos-iniciales-reales",
+    "4c484cef-5715-480f-8c16-914610866a62": "metodos-de-pago",
+    "8c0189a8-b20d-4adc-859f-18a8885d91e7": "reset-evaluacion",
+    "4ad18cc5-0a00-4a3d-bd11-1ac38352f797": "plataformas-disponibles",
+    "424e35e9-9d2d-4cc0-bfb5-991f2f8c5047": "descuentos",
+    "a5c42153-0610-4192-b149-26bd9914e700": "descuentos",
+    "11633e70-3f32-408a-8778-796e91740e46": "restricciones-paises",
+    "6a6465dc-15f2-4467-b47f-51f1159828e3": "paises-restringidos",
+    "21a7f8bc-22c8-4032-a3a2-862b7182e3f9": "payouts-requisitos",
+    "4edf6f7f-1103-4bbc-8021-c76a18133f85": "drawdown-tipos",
+    "12764769-c253-40a2-abdb-ba32b305f48a": "evaluacion-objetivo-minimos",
+    "5b235d0a-b257-4292-adae-df65c21e689c": "escalado-contratos",
+    "c2586246-9604-4acb-9831-dc3188d73d42": "regla-30-negativo",
+    "8b327b84-cb63-4312-94cc-b7fcefb97122": "gestion-riesgo"
+  },
+  "missingInMap": []
+}

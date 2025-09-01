@@ -183,8 +183,6 @@ class ApexService {
         const { retrieveTopK, confidentTop1 } = await import('../../common/retriever.cjs');
         const { llmSelectFAQ } = await import('../../common/llm-selector.cjs');
         const { formatFromFAQ, notFound } = await import('../../common/format.cjs');
-        const { embedText } = await import('../../common/embeddings.cjs');
-
         const firmId = '854bf730-8420-4297-86f8-3c4a972edcf2';
         
         // 0) Pinner determinista
@@ -198,7 +196,32 @@ class ApexService {
         const supa = this.supabase;
         if (!supa) return notFound();
 
-        const cands = await retrieveTopK(supa, query, cats, firmId, embedText);
+        // FALLBACK: si no hay OpenAI, usar solo retrieval lexical
+        let cands = [];
+        try {
+            if (process.env.OPENAI_API_KEY) {
+                const { embedText } = await import('../../common/embeddings.cjs');
+                cands = await retrieveTopK(supa, query, cats, firmId, embedText);
+            } else {
+                console.warn('[APEX] OpenAI no disponible, usando solo lexical');
+                // Importar función lexical directamente
+                const lexical = require('../../common/retriever.cjs').lexical || 
+                    (async (sb, q, fid, c, k=8) => {
+                        const { data, error } = await sb.rpc('faq_retrieve_es_v2', { q, firm: fid, cats: c, k });
+                        if (error) throw error;
+                        return data || [];
+                    });
+                cands = await lexical(supa, query, firmId, cats, 8);
+            }
+        } catch (error) {
+            console.warn('[APEX] Retrieval failed, usando lexical básico:', error.message);
+            // Fallback básico hardcoded
+            const { data, error: lexError } = await supa.rpc('faq_retrieve_es_v2', { 
+                q: query, firm: firmId, cats, k: 8 
+            });
+            if (lexError) throw lexError;
+            cands = data || [];
+        }
         if (!cands || cands.length === 0) return notFound();
 
         // Early-accept check for confident top1 based on lexical score
@@ -207,11 +230,22 @@ class ApexService {
             return await formatFromFAQ(accepted);
         }
 
-        const pick = await llmSelectFAQ(query, cands);
-        if (pick && pick.type === 'FAQ_ID') {
-            const hit = cands.find(c => c.id === pick.id);
-            if (hit) return await formatFromFAQ(hit);
+        // LLM Selector con fallback determinista si OpenAI no disponible
+        try {
+            if (process.env.OPENAI_API_KEY) {
+                const pick = await llmSelectFAQ(query, cands);
+                if (pick && pick.type === 'FAQ_ID') {
+                    const hit = cands.find(c => c.id === pick.id);
+                    if (hit) return await formatFromFAQ(hit);
+                }
+            } else {
+                console.warn('[APEX] OpenAI no disponible, usando fallback determinista');
+            }
+        } catch (error) {
+            console.warn('[APEX] LLM selector failed, usando fallback determinista:', error.message);
         }
+        
+        // Fallback determinista: devolver NONE (pipeline conservador)
         return notFound();
     }
     

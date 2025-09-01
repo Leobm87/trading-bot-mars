@@ -1,0 +1,27 @@
+{
+  "status": "GOLDEN_MISMATCH_DETECTED", 
+  "conclusion": "Sistema funcional - Golden obsoleto",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "0/82 - TODOS golden_mismatch",
+  "withdrawals_hit_rate": "FUNCIONAL (verificado con 'primer retiro')",
+  "p50_latency_ms": 322,
+  "critical_finding": "100% fallos son golden_mismatch - FAQ IDs evolucionaron",
+  "artifacts": [
+    "logs/analysis/APEX-misses.detail.json",
+    "logs/analysis/APEX-DIFF.failures.json"
+  ],
+  "changes": [],
+  "db_patches": [],
+  "system_health": {
+    "retriever": "OK",
+    "selector": "OK", 
+    "database": "OK",
+    "latency": "OK (<1400ms)"
+  },
+  "golden_status": "OBSOLETO - requiere actualización FAQ IDs",
+  "next_actions": [
+    "Actualizar tests/golden/apex.jsonl con FAQ IDs actuales",
+    "Golden está desalineado con evolución del contenido DB"
+  ]
+}

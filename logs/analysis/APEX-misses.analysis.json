@@ -1,0 +1,341 @@
+{
+  "summary": {
+    "total_misses": 54,
+    "golden_mismatch": 11,
+    "retriever_fail": 43,
+    "selector_fail": 0,
+    "unknown": 0
+  },
+  "details": {
+    "golden_mismatch": [
+      {
+        "q": "cuanto cuesta activar la cuenta financiada en apex?",
+        "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+        "predicted": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "teneis opcion de activacion mensual cual es el precio?",
+        "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+        "predicted": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "Cual es el safety Net umbral de una cuenta de 100k ?",
+        "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+        "predicted": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "Dime el safety Net de 25k 50k y 300k en una sola respuesta",
+        "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+        "predicted": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "cual es el umbral minimo en apex",
+        "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+        "predicted": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "cuanto cuesta activar apex",
+        "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+        "predicted": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?",
+        "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+        "predicted": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "activacion apex",
+        "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+        "predicted": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "¿Qué tipos de drawdown usa APEX y cómo funciona el trailing?",
+        "expected": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+        "predicted": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "que precios tiene apex?",
+        "expected": "93849616-e113-43ee-8319-e32d44c1baed",
+        "predicted": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      },
+      {
+        "q": "umbral apex",
+        "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+        "predicted": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+        "reason": "Pipeline returned valid FAQ, potential golden mismatch"
+      }
+    ],
+    "retriever_fail": [
+      {
+        "q": "cuales son los saldos iniciales reales (balance inicial) para 25k, 50k y 100k?",
+        "expected": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "Cual es el horario de sesión y si las operaciones del domingo cuentan para el lunes?",
+        "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "Tengo que tener R-Trader o Tradovate abiertos siempre?",
+        "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "Hay restricciones de noticias de evaluacion?",
+        "expected": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "reglas overnight apex",
+        "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "que plataformas soporta apex",
+        "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "hay restriccion de noticias apex",
+        "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?",
+        "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "payouts apex",
+        "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "retiro apex payouts",
+        "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Qué requisitos debo cumplir para retirar en APEX?",
+        "expected": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "requisitos retiro apex",
+        "expected": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Cuáles son los límites de retiro en APEX?",
+        "expected": "bed584a4-c195-4981-892a-3b33df356e21",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "limite retiro apex",
+        "expected": "bed584a4-c195-4981-892a-3b33df356e21",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "retiro apex limite retiro",
+        "expected": "bed584a4-c195-4981-892a-3b33df356e21",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "trailing drawdown apex",
+        "expected": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Cuál es el profit target y días mínimos de la evaluación en APEX?",
+        "expected": "12764769-c253-40a2-abdb-ba32b305f48a",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "profit target apex",
+        "expected": "12764769-c253-40a2-abdb-ba32b305f48a",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "regla apex profit target",
+        "expected": "12764769-c253-40a2-abdb-ba32b305f48a",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Puedo hacer overnight o tradear noticias en APEX?",
+        "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "overnight apex",
+        "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "regla apex overnight",
+        "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Cuál es el horario de sesión de APEX?",
+        "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "horario apex",
+        "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "regla apex horario",
+        "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Qué plataformas y proveedores de datos están disponibles en APEX?",
+        "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "plataformas apex",
+        "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Cómo funciona el escalado de contratos y el uso de contratos por tamaño?",
+        "expected": "5b235d0a-b257-4292-adae-df65c21e689c",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "contratos maximos apex",
+        "expected": "5b235d0a-b257-4292-adae-df65c21e689c",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Qué es la regla del 30% PNL negativo en APEX?",
+        "expected": "c2586246-9604-4acb-9831-dc3188d73d42",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "30% pnl negativo apex",
+        "expected": "c2586246-9604-4acb-9831-dc3188d73d42",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "¿Qué reglas de gestión de riesgo exige APEX?",
+        "expected": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "5:1 apex",
+        "expected": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "tamanos apex",
+        "expected": "93849616-e113-43ee-8319-e32d44c1baed",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "cuanto vale activar la cuenta apex?",
+        "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "cuales son los paises donde no puedo usar apex?",
+        "expected": "11633e70-3f32-408a-8778-796e91740e46",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "primeros 5 retiros",
+        "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "minimo retiro apex",
+        "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "monto minimo retirar",
+        "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "cuando puedo retirar primera vez",
+        "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "importe mínimo retiro",
+        "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "mínimo para cobrar",
+        "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      },
+      {
+        "q": "cuánto es el mínimo para retirar",
+        "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "predicted": "NONE",
+        "reason": "Pipeline returned NONE - likely retriever failed to find expected in top candidates"
+      }
+    ],
+    "selector_fail": [],
+    "unknown": []
+  }
+}

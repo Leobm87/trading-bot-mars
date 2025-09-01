@@ -1,10 +1,15 @@
 {
   "meta": { "firm_id": "854bf730-8420-4297-86f8-3c4a972edcf2", "as_of": "2025-01-31" },
   "faqs": [
+    { "slug":"safety-net-tamaños", "category":"rules",
+      "question":"¿Cuáles son los Safety Net (umbrales) por tamaño de cuenta en APEX?",
+      "aliases":["safety net","safety net por tamaño","colchon de seguridad","umbral de protección","protección de cuenta","dime safety net","que colchon tiene apex"],
+      "answer_md":"**Safety Net por tamaño de cuenta:**\n\n| Tamaño de cuenta | Safety Net |\n|-----------------|------------|\n| $25,000 | $26,600 |\n| $50,000 | $52,600 |\n| $100,000 | $103,100 |\n| $150,000 | $155,100 |\n| $250,000 | $256,600 |\n| $300,000 | $307,600 |\n| $100,000 Static | $102,600 |\n\nEl Safety Net es el umbral de protección que define cuándo obtienes contratos completos (100%) y también es requerido para retiros.\n\nFuente: informacion-apex.txt"
+    },
     { "slug":"umbral-minimo", "category":"withdrawals",
-      "question":"¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
-      "aliases":["umbral","umbral minimo","safety net","mínimo para retirar","payout threshold"],
-      "answer_md":"**Safety Net (Umbral Mínimo) para retiros:**\n\n| Tamaño de cuenta | Safety Net |\n|-----------------|------------|\n| $25,000 | $26,600 |\n| $50,000 | $52,600 |\n| $100,000 | $103,100 |\n| $150,000 | $155,100 |\n| $250,000 | $256,600 |\n| $300,000 | $307,600 |\n| $100,000 Static | $102,600 |\n\nDebes alcanzar el Safety Net correspondiente a tu cuenta para poder realizar retiros.\n\nFuente: informacion-apex.txt"
+      "question":"¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX? (no es retiro mínimo)",
+      "aliases":["umbral minimo para retirar","umbral retiro","safety net para retiros","requisito retiro","threshold retiro"],
+      "answer_md":"**Umbral mínimo para poder retirar (Safety Net requerido):**\n\n| Tamaño de cuenta | Safety Net requerido |\n|-----------------|---------------------|\n| $25,000 | $26,600 |\n| $50,000 | $52,600 |\n| $100,000 | $103,100 |\n| $150,000 | $155,100 |\n| $250,000 | $256,600 |\n| $300,000 | $307,600 |\n| $100,000 Static | $102,600 |\n\nDebes alcanzar este umbral (Safety Net) para poder realizar retiros. Este no es el monto mínimo de retiro ($500), sino el balance requerido.\n\nFuente: informacion-apex.txt"
     },
     { "slug":"metodos-de-pago", "category":"payment_methods",
       "question":"¿Qué métodos de pago acepta APEX?",
@@ -22,8 +27,8 @@
       "answer_md":"**Opciones para reset de evaluación:**\n\n1. **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automáticamente\n\n2. **Pago inmediato:** Pagar $80 para resetear inmediatamente sin esperar\n\nFuente: informacion-apex.txt"
     },
     { "slug":"payouts-frecuencia", "category":"withdrawals",
-      "question":"¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?",
-      "aliases":["payouts","retiro","withdrawal frequency","profit split","minimo retiro"],
+      "question":"¿Cada cuánto puedo retirar y cuál es el mínimo en APEX? (cada cuánto pagan, no safety net)",
+      "aliases":["payout mínimo","mínimo de retiro","primer retiro","first payout","min cashout","primer cobro","frecuencia de pagos","cada cuánto pagan","payout schedule","calendario de pagos"],
       "answer_md":"**Frecuencia y condiciones de retiro:**\n\n- **Frecuencia:** A demanda (cuando quieras)\n- **Requisito mínimo:** 8 días de trading activo\n- **Monto mínimo:** $500\n\n**Profit split:**\n- 100% para ti en los primeros $25,000 de ganancias\n- 90/10 después (90% trader, 10% APEX)\n\nFuente: informacion-apex.txt"
     },
     { "slug":"payouts-requisitos", "category":"withdrawals",
@@ -58,8 +63,8 @@
     },
     { "slug":"plataformas-disponibles", "category":"platforms",
       "question":"¿Qué plataformas y proveedores de datos están disponibles en APEX?",
-      "aliases":["plataformas","ninjatrader","tradovate","rithmic","wealthcharts","tradingview"],
-      "answer_md":"**Proveedores de datos:**\n- ✓ Rithmic\n- ✓ Tradovate\n- ✓ WealthCharts\n\n**Plataformas soportadas:**\n- ✓ NinjaTrader (Gratis)\n- ✓ Tradovate (Gratis)\n- ✓ Rithmic (Gratis)\n- ✓ ATAS\n- ✓ BookMap\n- ✓ EdgeProX\n- ✓ Finamark\n- ✓ Jigsaw Daytradr\n- ✓ MotiveWave\n- ✓ Quantower\n- ✓ R Trader Pro\n- ✓ Sierra Chart\n- ✓ TradingView\n- ✓ VolFix\n- ✓ WealthCharts\n\nFuente: informacion-apex.txt"
+      "aliases":["plataformas disponibles","ninjatrader","tradovate","rithmic","wealthcharts","tradingview","r-trader abierto","tradovate abierto","plataformas abiertas requeridas"],
+      "answer_md":"**Proveedores de datos:**\n- ✓ Rithmic\n- ✓ Tradovate\n- ✓ WealthCharts\n\n**Plataformas soportadas:**\n- ✓ NinjaTrader (Gratis)\n- ✓ Tradovate (Gratis)\n- ✓ Rithmic (Gratis)\n- ✓ ATAS\n- ✓ BookMap\n- ✓ EdgeProX\n- ✓ Finamark\n- ✓ Jigsaw Daytradr\n- ✓ MotiveWave\n- ✓ Quantower\n- ✓ R Trader Pro\n- ✓ Sierra Chart\n- ✓ TradingView\n- ✓ VolFix\n- ✓ WealthCharts\n\n**Requisito importante:** Debes tener R-Trader/Tradovate abierto siempre como plan de respaldo por fallas técnicas.\n\nFuente: informacion-apex.txt"
     },
     { "slug":"escalado-contratos", "category":"rules",
       "question":"¿Cómo funciona el escalado de contratos y el uso de contratos por tamaño?",

@@ -1,9 +1,15 @@
 const OpenAI = require('openai');
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 
 async function llmSelectFAQ(query, candidates) {
+  // Lazy instantiation - solo crear client cuando se necesite
+  if (!process.env.OPENAI_API_KEY) {
+    throw new Error('OpenAI API key not available for LLM selector');
+  }
+  
+  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  
   const prompt = `
 You are a STRICT FAQ selector. User query: "${query}"
 Choose ONLY one of these IDs or NONE. Do NOT invent.

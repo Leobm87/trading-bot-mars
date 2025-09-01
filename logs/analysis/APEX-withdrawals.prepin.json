@@ -1,0 +1,35 @@
+{
+  "status": "sanity_prepin_check",
+  "timestamp": "2025-09-01T12:00:00.000Z",
+  "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+  "rival_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+  "db_patches_applied": [
+    {
+      "action": "clear_rival_aliases",
+      "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "aliases_cleared": 15,
+      "status": "completed"
+    },
+    {
+      "action": "merge_aliases_to_target",  
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "aliases_added": 15,
+      "total_aliases": 65,
+      "status": "completed"
+    }
+  ],
+  "fence_lock_applied": true,
+  "code_changes": [
+    "services/common/intent-gate.cjs: withdrawals fence precedence maintained"
+  ],
+  "aliases_verification": {
+    "target_has_rival_aliases": true,
+    "rival_aliases_cleared": true,
+    "no_duplicate_conflicts": true
+  },
+  "next_steps": [
+    "run_tests",
+    "measure_metrics", 
+    "verify_pins_total_26"
+  ]
+}

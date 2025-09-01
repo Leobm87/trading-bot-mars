@@ -1,0 +1,57 @@
+
+> trading-bot-mars@1.0.0 eval:apex
+> node scripts/eval-apex.cjs
+
+[ApexService] 2025-08-31T21:17:00.895Z info: ApexService constructor initialized
+{
+  "prd": "PRD-002",
+  "n": 82,
+  "exact_at_1": 0.7683,
+  "by_intent": {
+    "pricing": {
+      "n": 6,
+      "hit": 1
+    },
+    "account_specs": {
+      "n": 3,
+      "hit": 1
+    },
+    "rules": {
+      "n": 5,
+      "hit": 3
+    },
+    "platforms": {
+      "n": 2,
+      "hit": 1
+    },
+    "payment_methods": {
+      "n": 3,
+      "hit": 3
+    },
+    "discounts": {
+      "n": 1,
+      "hit": 1
+    },
+    "withdrawals": {
+      "n": 19,
+      "hit": 16
+    },
+    "safety_net": {
+      "n": 3,
+      "hit": 2
+    },
+    "undefined": {
+      "n": 40,
+      "hit": 35
+    }
+  },
+  "sources_pct": {
+    "db": 97.6,
+    "llm_select": 0,
+    "none": 2.4
+  },
+  "latency_ms": {
+    "p50": 197,
+    "p95": 1643
+  }
+}

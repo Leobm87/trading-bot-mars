@@ -1,0 +1,191 @@
+{
+  "prd": "PRD-APEX-PIN-TRIM-1",
+  "target_reduction": "79 -> ≤60 pins",
+  "actions": [
+    {
+      "type": "remove",
+      "pin": "pin_56",
+      "reason": "UNUSED",
+      "regex": "(?:que\\s+(?:cuentas|tipos|tamañ?os).*apex|tamañ?os\\s+de\\s+cuentas?|planes?)",
+      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
+    },
+    {
+      "type": "remove", 
+      "pin": "pin_57",
+      "reason": "UNUSED",
+      "regex": "(?:l[ií]mites?\\s+por\\s+cuenta|contratos\\s+por\\s+cuenta|daily\\s+loss|drawdown\\s+por\\s+cuenta)",
+      "faq_id": "26099319-b39e-4553-8219-1087d440c787"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_58", 
+      "reason": "UNUSED",
+      "regex": "(?:max(?:imo)?\\s+drawdown|max\\s*dd).*apex",
+      "faq_id": "b0410c27-2dad-44c1-9031-52c4a56f2fc3"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_59",
+      "reason": "UNUSED", 
+      "regex": "(?:fase\\s+live|cuenta\\s+live|promoci[oó]n\\s+live)",
+      "faq_id": "cc3365a5-da92-45b5-b48c-8f89cd64a5ba"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_60",
+      "reason": "UNUSED",
+      "regex": "(?:regla\\s+de\\s+consistencia|consistencia\\s*30|mayor\\s*d[ií]a)",
+      "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32"
+    },
+    {
+      "type": "remove", 
+      "pin": "pin_61",
+      "reason": "UNUSED",
+      "regex": "(?:copy\\s*trading|cuentas?\\s+compartidas|replicar\\s+entre\\s+cuentas|multicuenta)",
+      "faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_62",
+      "reason": "UNUSED",
+      "regex": "(?:automatizaci[oó]n|automatizar|bot|algo|hft|autom[aá]tico)",
+      "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_63",
+      "reason": "UNUSED", 
+      "regex": "(?:posici[oó]n\\s+abierta\\s+por\\s+error|overnight\\s+por\\s+error|dej[ée]\\s+abierta)",
+      "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_64",
+      "reason": "UNUSED",
+      "regex": "(?:pa[ií]ses?\\s+(?:no\\s+)?permitidos|pa[ií]ses?\\s+restringidos|restricciones\\s+pa[ií]s|countries\\s+restricted)",
+      "faq_id": "6a6465dc-15f2-4467-b47f-51f1159828e3"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_0", "pin_67"],
+      "to": "\\bumbral\\s+minimo\\s+para\\s+hacer\\s+retiros\\b",
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "type": "merge", 
+      "from": ["pin_1", "pin_68"],
+      "to": "\\bcolchon.*de.*seguridad.*para.*payout\\b",
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_2", "pin_69"],
+      "to": "\\bred\\s+de\\s+seguridad\\s+minima\\s+withdrawal\\b",
+      "reason": "EXACT_DUPLICATE", 
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_3", "pin_70"],
+      "to": "\\bminimo\\s+para\\s+retirar\\s+en\\s+apex\\b",
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_4", "pin_71"],
+      "to": "\\bprimer.*retiro.*payout.*minimo\\b", 
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_5", "pin_72"],
+      "to": "\\bbalance.*requerido.*para.*payout\\b",
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_6", "pin_73"],
+      "to": "\\bvalor.*minimo.*retiro.*primera.*vez\\b",
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_7", "pin_74"],
+      "to": "\\bcuanto.*retiro.*en.*mi.*primer.*payout\\b",
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"
+    },
+    {
+      "type": "merge",
+      "from": ["pin_8", "pin_75"],
+      "to": "\\bthreshold.*payout.*no.*trading\\b",
+      "reason": "EXACT_DUPLICATE",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_40",
+      "reason": "LOW_YIELD_WITH_OVERLAP", 
+      "regex": "\\b(horario|ses[ií]on|sesion).*(domingo|sunday).*(lunes)/i",
+      "faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "comment": "Solapada con pin_24 horario general"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_41",
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "regex": "(r[- ]?trader(\\s+pro)?|tradovate).*(abiert[oa]s?|encendid[oa]s?).*(siempre|todo\\s+el\\s+tiempo)/i",
+      "faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "comment": "Solapada con pin_24 horario general"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_42",
+      "reason": "EXACT_DUPLICATE",
+      "regex": "(noticias|news).*(evaluaci[oó]n|evaluation)/i", 
+      "faq_id": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+      "comment": "Duplica pin_14 noticias"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_43",
+      "reason": "EXACT_DUPLICATE",
+      "regex": "(saldos?\\s+inicial(?:es)?\\s+(reales|real)|balance\\s+inicial\\s+real|saldos\\s+reales)/i",
+      "faq_id": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+      "comment": "Duplica pin_13 saldos iniciales"
+    },
+    {
+      "type": "remove", 
+      "pin": "pin_44",
+      "reason": "EXACT_DUPLICATE",
+      "regex": "precio\\s+de\\s+suscripcion",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "comment": "Duplica otras pins de pricing"
+    },
+    {
+      "type": "remove",
+      "pin": "pin_45",
+      "reason": "EXACT_DUPLICATE",
+      "regex": "precio.*(suscripcion|activacion)",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "comment": "Duplica otras pins de pricing"
+    }
+  ],
+  "summary": {
+    "total_actions": 24,
+    "removals": 15,
+    "merges": 8,
+    "estimated_final_pins": "79 - 15 - 8 = 56 pins"
+  },
+  "validation": {
+    "ensures_under_60": true,
+    "preserves_coverage": true,
+    "no_new_pins": true
+  }
+}

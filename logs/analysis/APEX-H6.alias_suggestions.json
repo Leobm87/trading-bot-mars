@@ -1,0 +1,158 @@
+{
+  "da173bf4-8852-4ffc-847f-67486bf3ffd7": {
+    "faq_id": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "slug": "safety-net",
+    "question": "¿Cuál es el Safety Net (umbral) por tamaño?",
+    "current_aliases": [
+      "umbral",
+      "threshold",
+      "colchón",
+      "colchon",
+      "safety net",
+      "umbral mínimo safety net",
+      "umbral mínimo para poder retirar",
+      "safety net umbral mínimo",
+      "umbral para retirar apex"
+    ],
+    "failed_queries": [
+      "Cual es el safety Net umbral de una cuenta de 100k ?",
+      "Dime el safety Net de 25k 50k y 300k en una sola respuesta",
+      "cual es el safety net para retirar",
+      "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+      "umbral apex",
+      "retiro apex umbral",
+      "cual es el umbral / safety net de apex?",
+      "que colchon tiene apex?"
+    ],
+    "aliases": [
+      "cuenta",
+      "100k",
+      "cual es",
+      "cual es el",
+      "dime",
+      "300k",
+      "sola"
+    ],
+    "rationale": "Extracted from 8 failed queries. High-signal terms not present in current question/aliases."
+  },
+  "a7615c5a-9daa-49a7-8aaf-12499819b4cc": {
+    "faq_id": "a7615c5a-9daa-49a7-8aaf-12499819b4cc",
+    "slug": "apex-safety-net",
+    "question": "¿Cuál es el umbral mínimo (Safety Net) para poder retirar?",
+    "current_aliases": [
+      "safety net",
+      "red de seguridad",
+      "colchón",
+      "colchon",
+      "protección",
+      "proteccion",
+      "umbral",
+      "threshold",
+      "safety-net",
+      "umbral mínimo",
+      "mínimo para retirar",
+      "minimo retiro",
+      "umbral minimo para retirar",
+      "colchon seguridad retiro",
+      "proteccion minima payout"
+    ],
+    "failed_queries": [
+      "cual es el umbral minimo en apex"
+    ],
+    "aliases": [
+      "minimo",
+      "apex"
+    ],
+    "rationale": "Extracted from 1 failed queries. High-signal terms not present in current question/aliases."
+  },
+  "695fe96b-19a3-4b05-b43b-b8c3833de569": {
+    "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "slug": "cuotas-activacion",
+    "question": "¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?",
+    "current_aliases": [
+      "activacion",
+      "cuotas activacion",
+      "precio activar",
+      "coste activar",
+      "suscripcion mensual",
+      "activation cost"
+    ],
+    "failed_queries": [
+      "cuanto cuesta activar apex",
+      "precio apex activacion"
+    ],
+    "aliases": [
+      "cuanto",
+      "cuesta",
+      "activar",
+      "precio"
+    ],
+    "rationale": "Extracted from 2 failed queries. High-signal terms not present in current question/aliases."
+  },
+  "4d45a7ec-0812-48cf-b9f0-117f42158615": {
+    "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "slug": "payouts-frecuencia",
+    "question": "¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?",
+    "current_aliases": [
+      "mínimo de retiro",
+      "minimo de retiro",
+      "retiro mínimo",
+      "retiro minimo",
+      "payout mínimo",
+      "payout minimo",
+      "min cashout",
+      "min withdrawal",
+      "primer retiro",
+      "min primer payout",
+      "frecuencia retiros"
+    ],
+    "failed_queries": [
+      "payouts apex",
+      "retiro apex payouts"
+    ],
+    "aliases": [
+      "payouts",
+      "retiro"
+    ],
+    "rationale": "Extracted from 2 failed queries. High-signal terms not present in current question/aliases."
+  },
+  "93849616-e113-43ee-8319-e32d44c1baed": {
+    "faq_id": "93849616-e113-43ee-8319-e32d44c1baed",
+    "slug": "precios-cuentas",
+    "question": "¿Cuánto cuestan las cuentas de evaluación?",
+    "current_aliases": [
+      "precio",
+      "precios",
+      "coste",
+      "costo",
+      "cuesta",
+      "vale",
+      "mensual",
+      "suscripción",
+      "suscrip",
+      "planes",
+      "cuentas",
+      "tarifa",
+      "descuento",
+      "código",
+      "codigo",
+      "promo",
+      "cupón",
+      "cupon",
+      "tamanos",
+      "tamaños",
+      "cuanto",
+      "costan",
+      "costar"
+    ],
+    "failed_queries": [
+      "tamanos apex",
+      "que precios tiene apex?"
+    ],
+    "aliases": [
+      "apex",
+      "tiene"
+    ],
+    "rationale": "Extracted from 2 failed queries. High-signal terms not present in current question/aliases."
+  }
+}

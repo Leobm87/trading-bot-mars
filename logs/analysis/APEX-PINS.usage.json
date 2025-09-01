@@ -1,0 +1,1571 @@
+{
+  "timestamp": "2025-08-31T16:21:04.409Z",
+  "total_pins": 79,
+  "total_queries": 92,
+  "pins_usage": [
+    {
+      "pin_index": 0,
+      "pin_name": "pin_0",
+      "regex": "\\bumbral\\s+minimo\\s+para\\s+hacer\\s+retiros\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "umbral minimo para hacer retiros"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 67,
+          "common_queries": [
+            "umbral minimo para hacer retiros"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 1,
+      "pin_name": "pin_1",
+      "regex": "\\bcolchon.*de.*seguridad.*para.*payout\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "colchon de seguridad para payout"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 68,
+          "common_queries": [
+            "colchon de seguridad para payout"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 2,
+      "pin_name": "pin_2",
+      "regex": "\\bred\\s+de\\s+seguridad\\s+minima\\s+withdrawal\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "red de seguridad minima withdrawal"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 69,
+          "common_queries": [
+            "red de seguridad minima withdrawal"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 3,
+      "pin_name": "pin_3",
+      "regex": "\\bminimo\\s+para\\s+retirar\\s+en\\s+apex\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "minimo para retirar en apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 70,
+          "common_queries": [
+            "minimo para retirar en apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 4,
+      "pin_name": "pin_4",
+      "regex": "\\bprimer.*retiro.*payout.*minimo\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "primer retiro payout minimo"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 18,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 35,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 71,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 5,
+      "pin_name": "pin_5",
+      "regex": "\\bbalance.*requerido.*para.*payout\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "balance requerido para payout"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 72,
+          "common_queries": [
+            "balance requerido para payout"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 6,
+      "pin_name": "pin_6",
+      "regex": "\\bvalor.*minimo.*retiro.*primera.*vez\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "valor minimo retiro primera vez"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 73,
+          "common_queries": [
+            "valor minimo retiro primera vez"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 7,
+      "pin_name": "pin_7",
+      "regex": "\\bcuanto.*retiro.*en.*mi.*primer.*payout\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "cuanto retiro en mi primer payout"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 18,
+          "common_queries": [
+            "cuanto retiro en mi primer payout"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 74,
+          "common_queries": [
+            "cuanto retiro en mi primer payout"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 8,
+      "pin_name": "pin_8",
+      "regex": "\\bthreshold.*payout.*no.*trading\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "threshold payout no trading"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 75,
+          "common_queries": [
+            "threshold payout no trading"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 9,
+      "pin_name": "pin_9",
+      "regex": "\\b(umbral\\s+m[ií]nim[oa]?)\\b.*\\b(cuenta|trading|cuentas)\\b.*\\bretirar\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 10,
+      "pin_name": "pin_10",
+      "regex": "(\\b(m[ií]nim[oa]?|minimo|min\\.?)\\b.*\\b(retiro|payout|withdraw)\\b)|(\\b(primer|first)\\b.*\\b(retiro|payout)\\b)",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 5,
+      "unique_queries": [
+        "primer payout minimo",
+        "primer retiro payout minimo",
+        "valor minimo retiro primera vez",
+        "cuanto retiro en mi primer payout",
+        "safety net vs minimo payout"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 11,
+      "pin_name": "pin_11",
+      "regex": "\\b(frecuencia|cada\\s+cuant|payout\\s+schedule|calendario)\\b.*\\b(pag|retir|payout)\\b|\\bcada\\s+cuanto\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "cada cuanto pagan sin safety"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 12,
+      "pin_name": "pin_12",
+      "regex": "\\b(saldo|saldos)\\s+(inicial|iniciales)\\s+(real|reales)|starting\\s+balance|arranque",
+      "target_faq_id": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+      "fires": 1,
+      "unique_queries": [
+        "cuales son los saldos iniciales reales (balance inicial) para 25k, 50k y 100k?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 13,
+      "pin_name": "pin_13",
+      "regex": "(noticias?|news).*(evaluaci[oó]n|evaluation|restricci[oó]n)",
+      "target_faq_id": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+      "fires": 1,
+      "unique_queries": [
+        "Hay restricciones de noticias de evaluacion?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 14,
+      "pin_name": "pin_14",
+      "regex": "\\b(restricci[oó]n.*noticias|overnight|reglas.*overnight|tradear.*noticias)\\b",
+      "target_faq_id": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+      "fires": 6,
+      "unique_queries": [
+        "Hay restricciones de noticias de evaluacion?",
+        "reglas overnight apex",
+        "hay restriccion de noticias apex",
+        "¿Puedo hacer overnight o tradear noticias en APEX?",
+        "overnight apex",
+        "regla apex overnight"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 15,
+      "pin_name": "pin_15",
+      "regex": "\\b(plataformas?|proveedores?.*datos|soporta|disponibles)\\b.*apex",
+      "target_faq_id": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+      "fires": 3,
+      "unique_queries": [
+        "que plataformas soporta apex",
+        "¿Qué plataformas y proveedores de datos están disponibles en APEX?",
+        "plataformas apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 16,
+      "pin_name": "pin_16",
+      "regex": "\\b(cuotas?|activaci[oó]n)\\b.*(financiada|apex)",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 2,
+      "unique_queries": [
+        "¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?",
+        "activacion apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 17,
+          "common_queries": [
+            "activacion apex"
+          ],
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    {
+      "pin_index": 17,
+      "pin_name": "pin_17",
+      "regex": "\\bactivaci[oó]n\\s+apex|activar.*apex(?!.*comisi)",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 4,
+      "unique_queries": [
+        "cuanto cuesta activar la cuenta financiada en apex?",
+        "cuanto cuesta activar apex",
+        "activacion apex",
+        "cuanto vale activar la cuenta apex?"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 16,
+          "common_queries": [
+            "activacion apex"
+          ],
+          "overlap_ratio": 0.25
+        }
+      ]
+    },
+    {
+      "pin_index": 18,
+      "pin_name": "pin_18",
+      "regex": "\\b(payouts?|retiro.*payouts)\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 9,
+      "unique_queries": [
+        "payouts apex",
+        "retiro apex payouts",
+        "primer payout minimo",
+        "colchon de seguridad para payout",
+        "primer retiro payout minimo",
+        "balance requerido para payout",
+        "cuanto retiro en mi primer payout",
+        "safety net vs minimo payout",
+        "threshold payout no trading"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 4,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 0.1111111111111111
+        },
+        {
+          "pin_index": 7,
+          "common_queries": [
+            "cuanto retiro en mi primer payout"
+          ],
+          "overlap_ratio": 0.1111111111111111
+        },
+        {
+          "pin_index": 35,
+          "common_queries": [
+            "primer retiro payout minimo",
+            "safety net vs minimo payout"
+          ],
+          "overlap_ratio": 0.2222222222222222
+        },
+        {
+          "pin_index": 71,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 0.1111111111111111
+        },
+        {
+          "pin_index": 74,
+          "common_queries": [
+            "cuanto retiro en mi primer payout"
+          ],
+          "overlap_ratio": 0.1111111111111111
+        }
+      ]
+    },
+    {
+      "pin_index": 19,
+      "pin_name": "pin_19",
+      "regex": "\\brequisitos?\\b.*(retir|payout)",
+      "target_faq_id": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+      "fires": 2,
+      "unique_queries": [
+        "¿Qué requisitos debo cumplir para retirar en APEX?",
+        "requisitos retiro apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 20,
+      "pin_name": "pin_20",
+      "regex": "\\bl[ií]mites?\\b.*(retir|payout)",
+      "target_faq_id": "bed584a4-c195-4981-892a-3b33df356e21",
+      "fires": 3,
+      "unique_queries": [
+        "¿Cuáles son los límites de retiro en APEX?",
+        "limite retiro apex",
+        "retiro apex limite retiro"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 21,
+      "pin_name": "pin_21",
+      "regex": "\\b(trailing.*drawdown|tipos.*drawdown)\\b",
+      "target_faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "fires": 2,
+      "unique_queries": [
+        "¿Qué tipos de drawdown usa APEX y cómo funciona el trailing?",
+        "trailing drawdown apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 22,
+      "pin_name": "pin_22",
+      "regex": "\\bprofit\\s+target\\b",
+      "target_faq_id": "12764769-c253-40a2-abdb-ba32b305f48a",
+      "fires": 3,
+      "unique_queries": [
+        "¿Cuál es el profit target y días mínimos de la evaluación en APEX?",
+        "profit target apex",
+        "regla apex profit target"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 23,
+      "pin_name": "pin_23",
+      "regex": "\\bhorario\\b(?!.*comisi)",
+      "target_faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "fires": 4,
+      "unique_queries": [
+        "Cual es el horario de sesión y si las operaciones del domingo cuentan para el lunes?",
+        "¿Cuál es el horario de sesión de APEX?",
+        "horario apex",
+        "regla apex horario"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 24,
+      "pin_name": "pin_24",
+      "regex": "\\bcontratos?\\s+(m[aá]ximos?|por|escalado)\\b",
+      "target_faq_id": "5b235d0a-b257-4292-adae-df65c21e689c",
+      "fires": 2,
+      "unique_queries": [
+        "¿Cómo funciona el escalado de contratos y el uso de contratos por tamaño?",
+        "contratos maximos apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 25,
+      "pin_name": "pin_25",
+      "regex": "\\b30%\\s*pnl\\s*negativo\\b",
+      "target_faq_id": "c2586246-9604-4acb-9831-dc3188d73d42",
+      "fires": 2,
+      "unique_queries": [
+        "¿Qué es la regla del 30% PNL negativo en APEX?",
+        "30% pnl negativo apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 26,
+      "pin_name": "pin_26",
+      "regex": "\\b(reglas?.*gesti[oó]n.*riesgo|5:1)\\b",
+      "target_faq_id": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+      "fires": 2,
+      "unique_queries": [
+        "¿Qué reglas de gestión de riesgo exige APEX?",
+        "5:1 apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 27,
+      "pin_name": "pin_27",
+      "regex": "\\bpa[ií]ses?\\b.*(no.*usar|restringidos|prohibidos)",
+      "target_faq_id": "11633e70-3f32-408a-8778-796e91740e46",
+      "fires": 1,
+      "unique_queries": [
+        "cuales son los paises donde no puedo usar apex?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 28,
+      "pin_name": "pin_28",
+      "regex": "\\b(cuota|precio)s?\\s+activaci[oó]n\\b|\\bactivar\\s+(pa|cuenta)\\b|\\bprecio\\s+activar\\b/i",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 29,
+      "pin_name": "pin_29",
+      "regex": "(?=.*\\b(comisi[oó]n|comisiones|fees?|por\\s+contrato|rithmic|tradovate|split|round\\s+trip|rt)\\b)(?!.*\\bES\\b)",
+      "target_faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "fires": 8,
+      "unique_queries": [
+        "Tengo que tener R-Trader o Tradovate abiertos siempre?",
+        "¿Cuáles son las comisiones aproximadas por mercado/plataforma?",
+        "fees apex",
+        "cuales son las comisiones por contrato en apex?",
+        "que precios de comisiones tiene apex?",
+        "cuanto cuesta las comisiones por contrato?",
+        "precios de fees apex",
+        "coste de comisiones rithmic"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 77,
+          "common_queries": [
+            "¿Cuáles son las comisiones aproximadas por mercado/plataforma?",
+            "fees apex",
+            "cuales son las comisiones por contrato en apex?",
+            "que precios de comisiones tiene apex?",
+            "cuanto cuesta las comisiones por contrato?",
+            "precios de fees apex",
+            "coste de comisiones rithmic"
+          ],
+          "overlap_ratio": 0.875
+        }
+      ]
+    },
+    {
+      "pin_index": 30,
+      "pin_name": "pin_30",
+      "regex": "\\bqu[eé]\\s+(precios|precio)\\s+(tiene|tien)\\s+apex(?!.*comisiones)\\b",
+      "target_faq_id": "93849616-e113-43ee-8319-e32d44c1baed",
+      "fires": 1,
+      "unique_queries": [
+        "que precios tiene apex?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 31,
+      "pin_name": "pin_31",
+      "regex": "\\bopci[oó]n.*activaci[oó]n.*mensual.*precio(?!.*comisiones)\\b",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 1,
+      "unique_queries": [
+        "teneis opcion de activacion mensual cual es el precio?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 32,
+      "pin_name": "pin_32",
+      "regex": "\\bprecio.*suscripci[oó]n.*apex(?!.*comisiones)\\b",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 1,
+      "unique_queries": [
+        "precio de suscripcion apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 43,
+          "common_queries": [
+            "precio de suscripcion apex"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 44,
+          "common_queries": [
+            "precio de suscripcion apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 33,
+      "pin_name": "pin_33",
+      "regex": "\\bprecio.*activaci[oó]n.*apex(?!.*comisiones)\\b",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 34,
+      "pin_name": "pin_34",
+      "regex": "\\btama[ñn]os.*cuentas?.*disponibles.*precio(?!.*comisiones)\\b",
+      "target_faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c",
+      "fires": 1,
+      "unique_queries": [
+        "¿Qué tamaños de cuenta están disponibles y cuál es su precio?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 35,
+      "pin_name": "pin_35",
+      "regex": "(?=.*\\b(m[ií]nim[oa]?\\s*(retir|payout)|primer\\s+retiro|frecuencia\\s*retir)\\b)",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 2,
+      "unique_queries": [
+        "primer retiro payout minimo",
+        "safety net vs minimo payout"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 4,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 0.5
+        },
+        {
+          "pin_index": 18,
+          "common_queries": [
+            "primer retiro payout minimo",
+            "safety net vs minimo payout"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 71,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    {
+      "pin_index": 36,
+      "pin_name": "pin_36",
+      "regex": "\\b(safety\\s*net|umbral)\\s+(100k|cuenta\\s+de\\s+100k)\\b",
+      "target_faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 37,
+      "pin_name": "pin_37",
+      "regex": "\\b(safety\\s*net).*\\b(por\\s+tama[ñn]o|tama[ñn]os?)\\b",
+      "target_faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 38,
+      "pin_name": "pin_38",
+      "regex": "\\b(umbral\\s+m[ií]nimo)\\s+(para\\s+retirar|en\\s+apex)\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "cual es el umbral minimo en apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 39,
+      "pin_name": "pin_39",
+      "regex": "(horario|ses[ií]on|sesion).*(domingo|sunday).*(lunes)/i",
+      "target_faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 40,
+      "pin_name": "pin_40",
+      "regex": "(r[- ]?trader(\\s+pro)?|tradovate).*(abiert[oa]s?|encendid[oa]s?).*(siempre|todo\\s+el\\s+tiempo)/i",
+      "target_faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 41,
+      "pin_name": "pin_41",
+      "regex": "(noticias|news).*(evaluaci[oó]n|evaluation)/i",
+      "target_faq_id": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 42,
+      "pin_name": "pin_42",
+      "regex": "(saldos?\\s+inicial(?:es)?\\s+(reales|real)|balance\\s+inicial\\s+real|saldos\\s+reales)/i",
+      "target_faq_id": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 43,
+      "pin_name": "pin_43",
+      "regex": "precio\\s+de\\s+suscripcion",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 1,
+      "unique_queries": [
+        "precio de suscripcion apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 32,
+          "common_queries": [
+            "precio de suscripcion apex"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 44,
+          "common_queries": [
+            "precio de suscripcion apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 44,
+      "pin_name": "pin_44",
+      "regex": "precio.*(suscripcion|activacion)",
+      "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "fires": 2,
+      "unique_queries": [
+        "precio de suscripcion apex",
+        "precio apex activacion"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 32,
+          "common_queries": [
+            "precio de suscripcion apex"
+          ],
+          "overlap_ratio": 0.5
+        },
+        {
+          "pin_index": 43,
+          "common_queries": [
+            "precio de suscripcion apex"
+          ],
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    {
+      "pin_index": 45,
+      "pin_name": "pin_45",
+      "regex": "\\btama[ñn]os\\s+apex\\b",
+      "target_faq_id": "93849616-e113-43ee-8319-e32d44c1baed",
+      "fires": 1,
+      "unique_queries": [
+        "tamanos apex"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 46,
+      "pin_name": "pin_46",
+      "regex": "que\\s+tamanos.*disponibles",
+      "target_faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 47,
+      "pin_name": "pin_47",
+      "regex": "tamanos.*cuenta.*precio",
+      "target_faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 48,
+      "pin_name": "pin_48",
+      "regex": "metodos.*pago",
+      "target_faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+      "fires": 1,
+      "unique_queries": [
+        "metodos de pago apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 52,
+          "common_queries": [
+            "metodos de pago apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 49,
+      "pin_name": "pin_49",
+      "regex": "puedo.*pagar",
+      "target_faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+      "fires": 1,
+      "unique_queries": [
+        "puedo pagar con paypal en apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 52,
+          "common_queries": [
+            "puedo pagar con paypal en apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 50,
+      "pin_name": "pin_50",
+      "regex": "reset.*apex",
+      "target_faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "fires": 2,
+      "unique_queries": [
+        "¿Cómo hago un reset de la evaluación de APEX?",
+        "reset apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 53,
+          "common_queries": [
+            "¿Cómo hago un reset de la evaluación de APEX?",
+            "reset apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 51,
+      "pin_name": "pin_51",
+      "regex": "\\bqu[eé]\\s+m[eé]todos\\s+(de\\s+)?pago\\s+(acepta|soporta|tiene)\\s+apex\\b",
+      "target_faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+      "fires": 1,
+      "unique_queries": [
+        "¿Qué métodos de pago acepta APEX?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 52,
+      "pin_name": "pin_52",
+      "regex": "(metodos? de pago|paypal|pagar con|tarjeta|payment|stripe)",
+      "target_faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+      "fires": 2,
+      "unique_queries": [
+        "metodos de pago apex",
+        "puedo pagar con paypal en apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 48,
+          "common_queries": [
+            "metodos de pago apex"
+          ],
+          "overlap_ratio": 0.5
+        },
+        {
+          "pin_index": 49,
+          "common_queries": [
+            "puedo pagar con paypal en apex"
+          ],
+          "overlap_ratio": 0.5
+        }
+      ]
+    },
+    {
+      "pin_index": 53,
+      "pin_name": "pin_53",
+      "regex": "(reset|resetear|reiniciar|nueva|nuevo.* cuenta)",
+      "target_faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "fires": 2,
+      "unique_queries": [
+        "¿Cómo hago un reset de la evaluación de APEX?",
+        "reset apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 50,
+          "common_queries": [
+            "¿Cómo hago un reset de la evaluación de APEX?",
+            "reset apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 54,
+      "pin_name": "pin_54",
+      "regex": "(descuent|cupon|c[oó]digo|promo)",
+      "target_faq_id": "a5c42153-0610-4192-b149-26bd9914e700",
+      "fires": 1,
+      "unique_queries": [
+        "descuento apex hoy"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 55,
+      "pin_name": "pin_55",
+      "regex": "(?:que\\s+(?:cuentas|tipos|tamañ?os).*apex|tamañ?os\\s+de\\s+cuentas?|planes?)",
+      "target_faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+      "fires": 1,
+      "unique_queries": [
+        "¿Qué tamaños de cuenta están disponibles y cuál es su precio?"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 56,
+      "pin_name": "pin_56",
+      "regex": "(?:l[ií]mites?\\s+por\\s+cuenta|contratos\\s+por\\s+cuenta|daily\\s+loss|drawdown\\s+por\\s+cuenta)",
+      "target_faq_id": "26099319-b39e-4553-8219-1087d440c787",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 57,
+      "pin_name": "pin_57",
+      "regex": "(?:max(?:imo)?\\s+drawdown|max\\s*dd).*apex",
+      "target_faq_id": "b0410c27-2dad-44c1-9031-52c4a56f2fc3",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 58,
+      "pin_name": "pin_58",
+      "regex": "(?:fase\\s+live|cuenta\\s+live|promoci[oó]n\\s+live)",
+      "target_faq_id": "cc3365a5-da92-45b5-b48c-8f89cd64a5ba",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 59,
+      "pin_name": "pin_59",
+      "regex": "(?:regla\\s+de\\s+consistencia|consistencia\\s*30|mayor\\s*d[ií]a)",
+      "target_faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 60,
+      "pin_name": "pin_60",
+      "regex": "(?:copy\\s*trading|cuentas?\\s+compartidas|replicar\\s+entre\\s+cuentas|multicuenta)",
+      "target_faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 61,
+      "pin_name": "pin_61",
+      "regex": "(?:automatizaci[oó]n|automatizar|bot|algo|hft|autom[aá]tico)",
+      "target_faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 62,
+      "pin_name": "pin_62",
+      "regex": "(?:posici[oó]n\\s+abierta\\s+por\\s+error|overnight\\s+por\\s+error|dej[ée]\\s+abierta)",
+      "target_faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 63,
+      "pin_name": "pin_63",
+      "regex": "(?:pa[ií]ses?\\s+(?:no\\s+)?permitidos|pa[ií]ses?\\s+restringidos|restricciones\\s+pa[ií]s|countries\\s+restricted)",
+      "target_faq_id": "6a6465dc-15f2-4467-b47f-51f1159828e3",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 64,
+      "pin_name": "pin_64",
+      "regex": "\\b(umbral.*m[ií]nim[oa]?.*safety\\s*net|safety\\s*net.*umbral.*m[ií]nim[oa]?)\\b(?!.*\\b(retir|withdraw|payout|para\\s+(poder\\s+)?retirar)\\b)",
+      "target_faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "fires": 0,
+      "unique_queries": [],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 65,
+      "pin_name": "pin_65",
+      "regex": "\\b(safety\\s*net|umbral).*\\b(para\\s+(poder\\s+)?retirar)\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 4,
+      "unique_queries": [
+        "cual es el safety net para retirar",
+        "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+        "umbral para retirar en apex",
+        "safety net para retirar dinero"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 66,
+      "pin_name": "pin_66",
+      "regex": "\\bretiro\\s+apex\\s+umbral\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "retiro apex umbral"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 67,
+      "pin_name": "pin_67",
+      "regex": "\\bumbral\\s+minimo\\s+para\\s+hacer\\s+retiros\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "umbral minimo para hacer retiros"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 0,
+          "common_queries": [
+            "umbral minimo para hacer retiros"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 68,
+      "pin_name": "pin_68",
+      "regex": "\\bcolchon.*de.*seguridad.*para.*payout\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "colchon de seguridad para payout"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 1,
+          "common_queries": [
+            "colchon de seguridad para payout"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 69,
+      "pin_name": "pin_69",
+      "regex": "\\bred\\s+de\\s+seguridad\\s+minima\\s+withdrawal\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "red de seguridad minima withdrawal"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 2,
+          "common_queries": [
+            "red de seguridad minima withdrawal"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 70,
+      "pin_name": "pin_70",
+      "regex": "\\bminimo\\s+para\\s+retirar\\s+en\\s+apex\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "minimo para retirar en apex"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 3,
+          "common_queries": [
+            "minimo para retirar en apex"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 71,
+      "pin_name": "pin_71",
+      "regex": "\\bprimer.*retiro.*payout.*minimo\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "primer retiro payout minimo"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 4,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 18,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 35,
+          "common_queries": [
+            "primer retiro payout minimo"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 72,
+      "pin_name": "pin_72",
+      "regex": "\\bbalance.*requerido.*para.*payout\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "balance requerido para payout"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 5,
+          "common_queries": [
+            "balance requerido para payout"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 73,
+      "pin_name": "pin_73",
+      "regex": "\\bvalor.*minimo.*retiro.*primera.*vez\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "valor minimo retiro primera vez"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 6,
+          "common_queries": [
+            "valor minimo retiro primera vez"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 74,
+      "pin_name": "pin_74",
+      "regex": "\\bcuanto.*retiro.*en.*mi.*primer.*payout\\b",
+      "target_faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "fires": 1,
+      "unique_queries": [
+        "cuanto retiro en mi primer payout"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 7,
+          "common_queries": [
+            "cuanto retiro en mi primer payout"
+          ],
+          "overlap_ratio": 1
+        },
+        {
+          "pin_index": 18,
+          "common_queries": [
+            "cuanto retiro en mi primer payout"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 75,
+      "pin_name": "pin_75",
+      "regex": "\\bthreshold.*payout.*no.*trading\\b",
+      "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "fires": 1,
+      "unique_queries": [
+        "threshold payout no trading"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 8,
+          "common_queries": [
+            "threshold payout no trading"
+          ],
+          "overlap_ratio": 1
+        }
+      ]
+    },
+    {
+      "pin_index": 76,
+      "pin_name": "pin_76",
+      "regex": "(?:safety\\s*net|umbral|colch[oó]n)(?!.*\\b(retir|withdraw|payout|cash\\s?out|cobro|cobrar)\\b)",
+      "target_faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "fires": 18,
+      "unique_queries": [
+        "Cual es el safety Net umbral de una cuenta de 100k ?",
+        "Dime el safety Net de 25k 50k y 300k en una sola respuesta",
+        "cual es el umbral minimo en apex",
+        "cual es el safety net para retirar",
+        "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+        "umbral apex",
+        "retiro apex umbral",
+        "cual es el umbral / safety net de apex?",
+        "que colchon tiene apex?",
+        "umbral de proteccion apex",
+        "umbral para retirar en apex",
+        "safety net para retirar dinero",
+        "umbral minimo para hacer retiros",
+        "colchon de seguridad en cuentas",
+        "proteccion umbral para trading",
+        "umbral trading vs retiro minimo",
+        "colchon seguridad no retiro"
+      ],
+      "overlaps_with": []
+    },
+    {
+      "pin_index": 77,
+      "pin_name": "pin_77",
+      "regex": "(?=.*\\b(comisi[oó]n|comisiones|fees?|por\\s+contrato|ES|NQ|CL|GC|YM|RTY|MES|MNQ|MYM|M2K|MGC|MCL)\\b)",
+      "target_faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "fires": 19,
+      "unique_queries": [
+        "teneis opcion de activacion mensual cual es el precio?",
+        "Cual es el safety Net umbral de una cuenta de 100k ?",
+        "Cual es el horario de sesión y si las operaciones del domingo cuentan para el lunes?",
+        "cual es el umbral minimo en apex",
+        "cual es el safety net para retirar",
+        "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+        "¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?",
+        "¿Cuál es el profit target y días mínimos de la evaluación en APEX?",
+        "¿Cuál es el horario de sesión de APEX?",
+        "¿Qué es la regla del 30% PNL negativo en APEX?",
+        "¿Qué tamaños de cuenta están disponibles y cuál es su precio?",
+        "¿Cuáles son las comisiones aproximadas por mercado/plataforma?",
+        "fees apex",
+        "cuales son las comisiones por contrato en apex?",
+        "cual es el umbral / safety net de apex?",
+        "que precios de comisiones tiene apex?",
+        "cuanto cuesta las comisiones por contrato?",
+        "precios de fees apex",
+        "coste de comisiones rithmic"
+      ],
+      "overlaps_with": [
+        {
+          "pin_index": 29,
+          "common_queries": [
+            "¿Cuáles son las comisiones aproximadas por mercado/plataforma?",
+            "fees apex",
+            "cuales son las comisiones por contrato en apex?",
+            "que precios de comisiones tiene apex?",
+            "cuanto cuesta las comisiones por contrato?",
+            "precios de fees apex",
+            "coste de comisiones rithmic"
+          ],
+          "overlap_ratio": 0.3684210526315789
+        }
+      ]
+    },
+    {
+      "pin_index": 78,
+      "pin_name": "pin_78",
+      "regex": "(?=.*\\b(precio|coste|cuanto\\s+(vale|cuesta)|activar|suscrip)\\b)(?!.*\\b(comisi[oó]n|fees?)\\b)",
+      "target_faq_id": "93849616-e113-43ee-8319-e32d44c1baed",
+      "fires": 9,
+      "unique_queries": [
+        "cuanto cuesta activar la cuenta financiada en apex?",
+        "teneis opcion de activacion mensual cual es el precio?",
+        "cuanto cuesta activar apex",
+        "precio de suscripcion apex",
+        "precio apex activacion",
+        "¿Qué tamaños de cuenta están disponibles y cuál es su precio?",
+        "cuanto vale activar la cuenta apex?",
+        "cuanto cuesta las comisiones por contrato?",
+        "coste de comisiones rithmic"
+      ],
+      "overlaps_with": []
+    }
+  ],
+  "summary": {
+    "unused_pins": 20,
+    "low_yield_pins": 22,
+    "high_overlap_pins": 26
+  },
+  "candidates_for_removal": [
+    {
+      "pin_index": 0,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 1,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 2,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 3,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 4,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 3
+    },
+    {
+      "pin_index": 5,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 6,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 7,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 2
+    },
+    {
+      "pin_index": 8,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 9,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 28,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 32,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 2
+    },
+    {
+      "pin_index": 33,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 36,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 37,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 39,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 40,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 41,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 42,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 43,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 2
+    },
+    {
+      "pin_index": 46,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 47,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 48,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 49,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 56,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 57,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 58,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 59,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 60,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 61,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 62,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 63,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 64,
+      "reason": "UNUSED",
+      "fires": 0,
+      "overlaps": 0
+    },
+    {
+      "pin_index": 67,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 68,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 69,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 70,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 71,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 3
+    },
+    {
+      "pin_index": 72,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 73,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    },
+    {
+      "pin_index": 74,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 2
+    },
+    {
+      "pin_index": 75,
+      "reason": "LOW_YIELD_WITH_OVERLAP",
+      "fires": 1,
+      "overlaps": 1
+    }
+  ]
+}

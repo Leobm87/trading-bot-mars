@@ -30,11 +30,13 @@
     "pins:suggest": "node scripts/pins-suggest.cjs",
     "aliases:auto:apex": "node scripts/autopatch-aliases.cjs",
     "aliases:auto:apex:apply": "node scripts/autopatch-aliases.cjs -- --apply",
+    "aliases:apex:apply": "node scripts/aliases/apply-apex-aliases.cjs",
     "db:migrate:005a:aliases": "node scripts/apply-aliases-migration.cjs",
     "short:gen": "node scripts/gen-short-answers.cjs",
     "short:apply": "node scripts/gen-short-answers.cjs -- --apply",
     "pins:test": "jest tests/unit/pins-regex.test.js",
     "pins:guard": "node scripts/pins-ci-guard.cjs",
+    "health:db": "node scripts/db-health.cjs",
     "metrics:apex": "node scripts/metrics-capture.cjs",
     "start:tg": "node services/telegram/bot.cjs"
   },
@@ -47,10 +49,12 @@
   ],
   "author": "Braian Basanta & Claude Code",
   "license": "ISC",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.4",
-    "@supabase/supabase-js": "^2.56.0",
+    "@supabase/supabase-js": "^2.56.1",
     "axios": "^1.11.0",
     "dotenv": "^16.3.1",
     "express": "^4.19.2",

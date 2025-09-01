@@ -1,0 +1,13 @@
+{"q":"teneis opcion de activacion mensual cual es el precio?","expected_faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","intent":"pricing"}
+{"q":"Cual es el safety Net umbral de una cuenta de 100k ?","expected_faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","intent":"account_specs"}
+{"q":"Dime el safety Net de 25k 50k y 300k en una sola respuesta","expected_faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","intent":"account_specs"}
+{"q":"Tengo que tener R-Trader o Tradovate abiertos siempre?","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","intent":"platforms"}
+{"q":"cual es el umbral minimo en apex","expected_faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","intent":"withdrawals"}
+{"q":"precio de suscripcion apex","expected_faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","intent":"pricing"}
+{"q":"hay restriccion de noticias apex","expected_faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","intent":"rules"}
+{"q":"¿Qué métodos de pago acepta APEX?","expected_faq_id":"4c484cef-5715-480f-8c16-914610866a62","source":"coverage_question"}
+{"q":"precio apex activacion","expected_faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","source":"coverage_category"}
+{"q":"¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","source":"coverage_question"}
+{"q":"tamanos apex","expected_faq_id":"93849616-e113-43ee-8319-e32d44c1baed","source":"coverage_alias"}
+{"q":"¿Qué tamaños de cuenta están disponibles y cuál es su precio?","expected_faq_id":"79b0be6c-7365-4845-a5bc-88a35ae6b10c","source":"coverage_question"}
+{"q":"cuanto vale activar la cuenta apex?","expected_faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","source":"hardening"}

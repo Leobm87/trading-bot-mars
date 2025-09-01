@@ -1,0 +1,24 @@
+{"q":"que precios de comisiones tiene apex?","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","intent":"commissions","source":"adversarial_conflict"}
+{"q":"cuanto cuesta las comisiones por contrato?","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","intent":"commissions","source":"adversarial_conflict"}
+{"q":"precios de fees apex","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","intent":"commissions","source":"adversarial_conflict"}
+{"q":"coste de comisiones rithmic","expected_faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","intent":"commissions","source":"adversarial_conflict"}
+{"q":"safety net para retirar dinero","expected_faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"umbral minimo para hacer retiros","expected_faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"colchon de seguridad para payout","expected_faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"red de seguridad minima withdrawal","expected_faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"minimo para retirar en apex","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"min_withdrawal","source":"adversarial_conflict"}
+{"q":"colchon de seguridad en cuentas","expected_faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"primer retiro payout minimo","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"min_withdrawal","source":"adversarial_conflict"}
+{"q":"proteccion umbral para trading","expected_faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"balance requerido para payout","expected_faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"threshold de proteccion general","expected_faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","intent":"safety_net","source":"adversarial_conflict"}
+{"q":"valor minimo retiro primera vez","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"min_withdrawal","source":"adversarial_conflict"}
+{"q":"cuanto retiro en mi primer payout","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"min_withdrawal","source":"adversarial_conflict"}
+{"q":"periodicidad de pagos apex","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"frequency","source":"adversarial_conflict"}
+{"q":"timing retiros apex","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"frequency","source":"adversarial_conflict"}
+{"q":"safety net vs minimo payout","expected_faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","intent":"safety_net","source":"adversarial_triadic"}
+{"q":"umbral trading vs retiro minimo","expected_faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","intent":"safety_net","source":"adversarial_triadic"}
+{"q":"primer cobro cuanto minimo","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"min_withdrawal","source":"adversarial_triadic"}
+{"q":"cada cuanto pagan sin safety","expected_faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","intent":"frequency","source":"adversarial_triadic"}
+{"q":"colchon seguridad no retiro","expected_faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","intent":"safety_net","source":"adversarial_triadic"}
+{"q":"threshold payout no trading","expected_faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","intent":"safety_net","source":"adversarial_triadic"}

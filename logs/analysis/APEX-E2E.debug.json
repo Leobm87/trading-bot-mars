@@ -1,0 +1,46 @@
+[
+  {
+    "q": "cuánto es el mínimo para retirar",
+    "expected_faq_id": null,
+    "got_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "gate_intent": [
+      "withdrawals",
+      "payment_methods",
+      "rules",
+      "pricing",
+      "platforms",
+      "discounts"
+    ],
+    "top8_pre_pin": [],
+    "top8_post_pin": [],
+    "top8_post_rerank": [
+      {
+        "id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+        "slug": "limites-retiro",
+        "score": 0.68927925825119
+      },
+      {
+        "id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+        "slug": "comisiones",
+        "score": 0.148000332713127
+      },
+      {
+        "id": "18a506de-403c-4c83-a528-2884be2b2a8e",
+        "slug": "apex-umbral-minimo-retiros-100k",
+        "score": 0.16800000160932563
+      },
+      {
+        "id": "8ed04281-8628-4787-ad5e-ed7e5938afd3",
+        "slug": "payout-frecuencia",
+        "score": 0.14516667133197192
+      },
+      {
+        "id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+        "slug": "evaluacion-minima",
+        "score": 0.181875
+      }
+    ],
+    "selector_choice": null,
+    "margin": 0.541278925538063
+  }
+]

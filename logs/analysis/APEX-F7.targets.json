@@ -1,0 +1,298 @@
+[
+  {
+    "cluster": "undefined",
+    "q": "teneis opcion de activacion mensual cual es el precio?",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "cuales son los saldos iniciales reales (balance inicial) para 25k, 50k y 100k?",
+    "expected": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "Cual es el horario de sesión y si las operaciones del domingo cuentan para el lunes?",
+    "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "Tengo que tener R-Trader o Tradovate abiertos siempre?",
+    "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "Hay restricciones de noticias de evaluacion?",
+    "expected": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "reglas overnight apex",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "que plataformas soporta apex",
+    "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "cual es el safety net para retirar",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "hay restriccion de noticias apex",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "umbral apex",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "retiro apex umbral",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?",
+    "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "payouts apex",
+    "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "retiro apex payouts",
+    "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Qué requisitos debo cumplir para retirar en APEX?",
+    "expected": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "requisitos retiro apex",
+    "expected": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Cuáles son los límites de retiro en APEX?",
+    "expected": "bed584a4-c195-4981-892a-3b33df356e21",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Qué tipos de drawdown usa APEX y cómo funciona el trailing?",
+    "expected": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+    "predicted": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "regla apex profit target",
+    "expected": "12764769-c253-40a2-abdb-ba32b305f48a",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "regla apex overnight",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "regla apex horario",
+    "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Qué plataformas y proveedores de datos están disponibles en APEX?",
+    "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Cómo funciona el escalado de contratos y el uso de contratos por tamaño?",
+    "expected": "5b235d0a-b257-4292-adae-df65c21e689c",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "contratos maximos apex",
+    "expected": "5b235d0a-b257-4292-adae-df65c21e689c",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "30% pnl negativo apex",
+    "expected": "c2586246-9604-4acb-9831-dc3188d73d42",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "¿Qué reglas de gestión de riesgo exige APEX?",
+    "expected": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "5:1 apex",
+    "expected": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "tamanos apex",
+    "expected": "93849616-e113-43ee-8319-e32d44c1baed",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "que precios tiene apex?",
+    "expected": "93849616-e113-43ee-8319-e32d44c1baed",
+    "predicted": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "cuanto vale activar la cuenta apex?",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "cual es el umbral / safety net de apex?",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "que colchon tiene apex?",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "cuales son los paises donde no puedo usar apex?",
+    "expected": "11633e70-3f32-408a-8778-796e91740e46",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  },
+  {
+    "cluster": "undefined",
+    "q": "umbral de proteccion apex",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "umbral para retirar en apex",
+    "expected": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+    "predicted": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "prepin_top8": [],
+    "stage_derail": "golden_mismatch"
+  },
+  {
+    "cluster": "undefined",
+    "q": "minimo retiro apex",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "NONE",
+    "prepin_top8": [],
+    "stage_derail": "selector"
+  }
+]

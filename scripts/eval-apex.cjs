@@ -21,8 +21,7 @@ function safeJSONL(filePath) {
 
   const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
 
-  // Create service with inline functionality matching apex/index.js structure
-  const { resolvePin } = require('../services/common/pinner.cjs');
+  // Use same inline pipeline as try-apex.cjs for consistency
   const { gateIntent } = require('../services/common/intent-gate.cjs');
   const { retrieveTopK, confidentTop1 } = require('../services/common/retriever.cjs');
   const { llmSelectFAQ } = require('../services/common/llm-selector.cjs');
@@ -33,10 +32,12 @@ function safeJSONL(filePath) {
     supabase,
     firmId: '854bf730-8420-4297-86f8-3c4a972edcf2', // APEX firm ID
     async processQuery(query) {
+      const { resolvePin } = require('../services/common/pinner.cjs');
+      
       // 0) Pinner determinista
       const pinId = resolvePin('apex', query);
       if (pinId) {
-        return formatFromFAQ({ id: pinId, score: 1.0, rank: 1 });
+        return await formatFromFAQ({ id: pinId, score: 1.0, rank: 1 });
       }
 
       const cats = gateIntent(query);
@@ -45,16 +46,13 @@ function safeJSONL(filePath) {
       const cands = await retrieveTopK(this.supabase, query, cats, this.firmId, embedText);
       if (!cands || cands.length === 0) return notFound();
 
-      // Early-accept check for confident top1 based on lexical score
-      const accepted = confidentTop1(Array.isArray(cands) ? cands : []);
-      if (accepted) {
-        return formatFromFAQ(accepted);
-      }
+      const top1 = confidentTop1(cands);
+      if (top1) return await formatFromFAQ(top1);
 
       const pick = await llmSelectFAQ(query, cands);
       if (pick && pick.type === 'FAQ_ID') {
         const hit = cands.find(c => c.id === pick.id);
-        if (hit) return formatFromFAQ(hit);
+        if (hit) return await formatFromFAQ(hit);
       }
       return notFound();
     }

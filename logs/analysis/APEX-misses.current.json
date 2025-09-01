@@ -1,0 +1,20 @@
+{
+  "current_metrics": {
+    "exact_at_1": "66/82",
+    "missing": 16,
+    "by_intent_missing": {
+      "pricing": "4/6 missing",
+      "rules": "2/5 missing", 
+      "platforms": "1/2 missing",
+      "withdrawals": "4/19 missing",
+      "undefined": "5/40 missing"
+    }
+  },
+  "status": "PARTIAL_SUCCESS",
+  "target_missing": "16 fixes needed for 82/82",
+  "tripwire_status": {
+    "pins_total": "26/26 ✓",
+    "p50_latency": "187ms < 1400ms ✓",
+    "withdrawals_hit_rate": "15/19 (needs 19/19)"
+  }
+}

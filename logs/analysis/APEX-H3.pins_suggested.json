@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "unknown_slug_fd2f4df9",
+    "pattern": "(saldo(s)?\\\\s+inicial(es)?|starting\\\\s+balance|arranque)",
+    "rationale": "Initial balance pattern",
+    "category": "initial_balance",
+    "queries": 1,
+    "sample_query": "cuales son los saldos iniciales reales (balance inicial) para 25k, 50k y 100k?"
+  },
+  {
+    "slug": "unknown_slug_a52c53f3",
+    "pattern": "(notici(a|as)|news.*evaluaci(ó|o)n)",
+    "rationale": "News evaluation pattern",
+    "category": "news_evaluation",
+    "queries": 1,
+    "sample_query": "Hay restricciones de noticias de evaluacion?"
+  },
+  {
+    "slug": "unknown_slug_e8a1e102",
+    "pattern": "(notici(a|as)|news.*evaluaci(ó|o)n)",
+    "rationale": "News evaluation pattern",
+    "category": "news_evaluation",
+    "queries": 5,
+    "sample_query": "reglas overnight apex"
+  },
+  {
+    "slug": "unknown_slug_4ad18cc5",
+    "pattern": "\\\\b(plataformas|soporta|proveedores|datos|disponibles)\\\\b",
+    "rationale": "Specific terms pattern: plataformas, soporta, proveedores, datos, disponibles",
+    "category": "general",
+    "queries": 3,
+    "sample_query": "que plataformas soporta apex"
+  },
+  {
+    "slug": "unknown_slug_4c484cef",
+    "pattern": "\\\\b(todos|pago|acepta)\\\\b",
+    "rationale": "Specific terms pattern: todos, pago, acepta",
+    "category": "general",
+    "queries": 1,
+    "sample_query": "¿Qué métodos de pago acepta APEX?"
+  },
+  {
+    "slug": "unknown_slug_695fe96b",
+    "pattern": "\\\\b(cuotas|activaci|cuenta|financiada|activacion)\\\\b",
+    "rationale": "Specific terms pattern: cuotas, activaci, cuenta, financiada, activacion",
+    "category": "general",
+    "queries": 2,
+    "sample_query": "¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?"
+  },
+  {
+    "slug": "unknown_slug_4d45a7ec",
+    "pattern": "\\\\b(payouts|retiro)\\\\b",
+    "rationale": "Specific terms pattern: payouts, retiro",
+    "category": "general",
+    "queries": 2,
+    "sample_query": "payouts apex"
+  },
+  {
+    "slug": "unknown_slug_21a7f8bc",
+    "pattern": "\\\\b(requisitos|cumplir|para|retirar|retiro)\\\\b",
+    "rationale": "Specific terms pattern: requisitos, cumplir, para, retirar, retiro",
+    "category": "general",
+    "queries": 2,
+    "sample_query": "¿Qué requisitos debo cumplir para retirar en APEX?"
+  },
+  {
+    "slug": "unknown_slug_bed584a4",
+    "pattern": "\\\\b(mites|retiro|limite)\\\\b",
+    "rationale": "Specific terms pattern: mites, retiro, limite",
+    "category": "general",
+    "queries": 3,
+    "sample_query": "¿Cuáles son los límites de retiro en APEX?"
+  },
+  {
+    "slug": "unknown_slug_4edf6f7f",
+    "pattern": "\\\\b(tipos|drawdown|funciona|trailing)\\\\b",
+    "rationale": "Specific terms pattern: tipos, drawdown, funciona, trailing",
+    "category": "general",
+    "queries": 2,
+    "sample_query": "¿Qué tipos de drawdown usa APEX y cómo funciona el trailing?"
+  },
+  {
+    "slug": "unknown_slug_12764769",
+    "pattern": "\\\\b(profit|target|regla)\\\\b",
+    "rationale": "Specific terms pattern: profit, target, regla",
+    "category": "general",
+    "queries": 2,
+    "sample_query": "profit target apex"
+  },
+  {
+    "slug": "unknown_slug_dfd0f38b",
+    "pattern": "\\\\b(horario|regla)\\\\b",
+    "rationale": "Specific terms pattern: horario, regla",
+    "category": "general",
+    "queries": 2,
+    "sample_query": "horario apex"
+  },
+  {
+    "slug": "unknown_slug_5b235d0a",
+    "pattern": "\\\\b(contratos|maximos)\\\\b",
+    "rationale": "Specific terms pattern: contratos, maximos",
+    "category": "general",
+    "queries": 1,
+    "sample_query": "contratos maximos apex"
+  },
+  {
+    "slug": "unknown_slug_c2586246",
+    "pattern": "\\\\b(negativo)\\\\b",
+    "rationale": "Specific terms pattern: negativo",
+    "category": "general",
+    "queries": 1,
+    "sample_query": "30% pnl negativo apex"
+  },
+  {
+    "slug": "unknown_slug_8b327b84",
+    "pattern": "\\\\b(reglas|gesti|riesgo|exige)\\\\b",
+    "rationale": "Specific terms pattern: reglas, gesti, riesgo, exige",
+    "category": "general",
+    "queries": 2,
+    "sample_query": "¿Qué reglas de gestión de riesgo exige APEX?"
+  },
+  {
+    "slug": "unknown_slug_11633e70",
+    "pattern": "\\\\b(paises|usar)\\\\b",
+    "rationale": "Specific terms pattern: paises, usar",
+    "category": "general",
+    "queries": 1,
+    "sample_query": "cuales son los paises donde no puedo usar apex?"
+  }
+]

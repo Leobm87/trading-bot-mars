@@ -1,0 +1,105 @@
+{
+  "prd": "PRD-APEX-HARDENING-7",
+  "status": "TRIPWIRE_ACTIVATED",
+  "metrics_current": {
+    "golden_exact_at_1": 1.0,
+    "adversarial_exact": 0.5,
+    "off_exact": 0.6563,
+    "p50_latency_ms": 84
+  },
+  "metrics_target": {
+    "golden_exact_at_1": 1.0,
+    "adversarial_exact": 1.0,
+    "off_exact": 0.75,
+    "p50_latency_ms": "<1400"
+  },
+  "problems_identified": [
+    {
+      "category": "semantic_disambiguation", 
+      "description": "Safety Net vs Min Withdrawal FAQs se confunden semánticamente",
+      "faqs_affected": [
+        {
+          "id": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+          "type": "safety_net",
+          "conflicts_with": ["a7615c5a-9daa-49a7-8aaf-12499819b4cc", "4d45a7ec-0812-48cf-b9f0-117f42158615"]
+        },
+        {
+          "id": "a7615c5a-9daa-49a7-8aaf-12499819b4cc", 
+          "type": "min_threshold",
+          "conflicts_with": ["da173bf4-8852-4ffc-847f-67486bf3ffd7"]
+        },
+        {
+          "id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+          "type": "payout_frequency", 
+          "conflicts_with": ["da173bf4-8852-4ffc-847f-67486bf3ffd7"]
+        }
+      ]
+    },
+    {
+      "category": "gate_effectiveness",
+      "description": "Gates duros no discriminan suficientemente adversarial queries",
+      "examples": [
+        {
+          "query": "safety net para retirar dinero",
+          "expected": "a7615c5a-9daa-49a7-8aaf-12499819b4cc",
+          "got": "da173bf4-8852-4ffc-847f-67486bf3ffd7",
+          "issue": "Gate permite 'safety net' + 'retiro' ambiguity"
+        },
+        {
+          "query": "minimo para retirar en apex", 
+          "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+          "got": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+          "issue": "Wrong FAQ selection entirely"
+        }
+      ]
+    }
+  ],
+  "top_10_off_failures": [
+    {
+      "faq_id": "da173bf4-8852-4ffc-847f-67486bf3ffd7", 
+      "failures": 8,
+      "type": "safety_net",
+      "example_queries": [
+        "Cual es el safety Net umbral de una cuenta de 100k ?",
+        "safety net para retirar",
+        "umbral apex",
+        "que colchon tiene apex?"
+      ],
+      "confusion_target": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c"
+    },
+    {
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "failures": 3,
+      "type": "platform_requirements", 
+      "example_queries": [
+        "Tengo que tener R-Trader o Tradovate abiertos siempre?",
+        "cuales son las comisiones por contrato en apex?",
+        "fees apex"
+      ],
+      "confusion_target": "null"
+    },
+    {
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+      "failures": 2,
+      "type": "payment_methods",
+      "example_queries": [
+        "metodos de pago apex",
+        "puedo pagar con paypal en apex"
+      ],
+      "confusion_target": "null"
+    }
+  ],
+  "recommendations": {
+    "immediate": [
+      "Revisar títulos/questions de FAQs safety_net vs min_threshold para mayor discriminación semántica",
+      "Considerar split de FAQ da173bf4 en dos FAQs específicas: 'Safety Net Rules' vs 'Withdrawal Minimums'",
+      "Revisar embeddings de FAQ a0efa7bb que está capturando queries erróneas"
+    ],
+    "architectural": [
+      "Evaluar si moveR señal discriminante a title/question fields (requiere aprobación arquitectura)",
+      "Considerar pins más específicos para queries adversariales",
+      "Re-evaluar threshold fallback 0.45/0.12"
+    ]
+  },
+  "next_steps": "STOP per PRD rules - report to user for architecture decision"
+}

@@ -50,12 +50,20 @@
       "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7"
     },
     {
+      "re": "(fees?|comision|costo|precio|tarifa|rate)",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d"
+    },
+    {
       "re": "(descuent|cupon|c[oó]digo|promo)",
       "faq_id": "a5c42153-0610-4192-b149-26bd9914e700"
     },
     {
       "re": "(?:que\\s+(?:cuentas|tipos|tamañ?os).*apex|tamañ?os\\s+de\\s+cuentas?|planes?)",
       "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
+    },
+    {
+      "re": "(?:precios?|precio|cu[aá]nto\\s+cuesta|coste|activaci[oó]n|suscripci[oó]n).*apex",
+      "faq_id": "fc6cb870-1364-4db7-b092-c341c9aa726d"
     },
     {
       "re": "(?:l[ií]mites?\\s+por\\s+cuenta|contratos\\s+por\\s+cuenta|daily\\s+loss|drawdown\\s+por\\s+cuenta)",
@@ -90,24 +98,12 @@
       "faq_id": "6a6465dc-15f2-4467-b47f-51f1159828e3"
     },
     {
-      "re": "(?:safety\\s*net|umbral|colch[oó]n)",
-      "faq_id": "da173bf4-8852-4ffc-847f-67486bf3ffd7"
+      "re": "(?:safety\\s*net|umbral|colch[oó]n).*(?:retirar|retir|withdraw|payout)",
+      "faq_id": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c"
     },
     {
-      "re": "(?=.*\\b(comisi[oó]n|comisiones|fees?|por\\s+contrato|ES|NQ|CL|GC|YM|RTY|MES|MNQ|MYM|M2K|MGC|MCL)\\b)",
-      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d"
-    },
-    {
-      "re": "(?=.*\\b(precio|precios|coste|cuanto\\s+(vale|cuesta)|activar|suscrip|mensualidad)\\b)(?!.*\\b(comisi[oó]n|comisiones|fees?|por\\s+contrato|ES|NQ|CL|GC|YM|RTY|MES|MNQ|MYM|M2K|MGC|MCL)\\b)",
-      "faq_id": "93849616-e113-43ee-8319-e32d44c1baed"
-    },
-    {
-      "re": "\\b(safety\\s*net|umbral|colch[oó]n|threshold)\\b",
-      "faq_id": "a7615c5a-9daa-49a7-8aaf-12499819b4cc"
-    },
-    {
-      "re": "\\b(m[ií]nimo\\s+(para\\s+)?retirar|m[ií]nimo\\s+retiro)\\b",
-      "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"
+      "re": "(?:primer|primeros?|m[ií]nimo)\\s+(?:\\d+\\s+)?(?:retiro|payout|cobr|pag)",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
     }
   ]
 }

@@ -154,3 +154,361 @@
 {"when":"2025-08-29T20:03:53.989Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":62}
 {"when":"2025-08-29T20:03:54.061Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":65}
 {"when":"2025-08-29T20:03:55.429Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1365}
+{"when":"2025-08-29T20:27:45.833Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":233}
+{"when":"2025-08-29T20:27:45.928Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":91}
+{"when":"2025-08-29T20:27:46.002Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":71}
+{"when":"2025-08-29T20:27:47.207Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1202}
+{"when":"2025-08-29T20:27:59.637Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":209}
+{"when":"2025-08-29T20:27:59.703Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":62}
+{"when":"2025-08-29T20:27:59.767Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":61}
+{"when":"2025-08-29T20:28:01.323Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1553}
+{"when":"2025-08-29T20:28:12.216Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":236}
+{"when":"2025-08-29T20:28:12.281Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":61}
+{"when":"2025-08-29T20:28:12.377Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":93}
+{"when":"2025-08-29T20:28:13.734Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1353}
+{"when":"2025-08-29T20:54:17.505Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":258}
+{"when":"2025-08-29T20:54:17.692Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":183}
+{"when":"2025-08-29T20:54:17.779Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"93849616-e113-43ee-8319-e32d44c1baed","ms":83}
+{"when":"2025-08-29T20:54:18.964Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1182}
+{"when":"2025-08-29T21:04:50.778Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":272}
+{"when":"2025-08-29T21:04:50.867Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":75}
+{"when":"2025-08-29T21:04:50.960Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"93849616-e113-43ee-8319-e32d44c1baed","ms":89}
+{"when":"2025-08-29T21:04:52.324Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1362}
+{"when":"2025-08-30T18:42:45.582Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":371}
+{"when":"2025-08-30T18:42:45.708Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":119}
+{"when":"2025-08-30T18:42:45.835Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"93849616-e113-43ee-8319-e32d44c1baed","ms":122}
+{"when":"2025-08-30T18:42:49.128Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":3288}
+{"when":"2025-08-30T18:44:18.818Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":338}
+{"when":"2025-08-30T18:44:18.900Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":76}
+{"when":"2025-08-30T18:44:19.021Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"93849616-e113-43ee-8319-e32d44c1baed","ms":115}
+{"when":"2025-08-30T18:44:21.201Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":2176}
+{"when":"2025-08-30T19:10:08.444Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":306}
+{"when":"2025-08-30T19:10:08.557Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":109}
+{"when":"2025-08-30T19:10:08.660Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"93849616-e113-43ee-8319-e32d44c1baed","ms":100}
+{"when":"2025-08-30T19:10:11.709Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":3046}
+{"when":"2025-08-30T19:11:47.201Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":289}
+{"when":"2025-08-30T19:11:47.281Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":77}
+{"when":"2025-08-30T19:11:47.363Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"93849616-e113-43ee-8319-e32d44c1baed","ms":79}
+{"when":"2025-08-30T19:11:48.980Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1614}
+{"when":"2025-08-30T19:12:02.043Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":249}
+{"when":"2025-08-30T19:12:02.155Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":108}
+{"when":"2025-08-30T19:12:02.247Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"93849616-e113-43ee-8319-e32d44c1baed","ms":89}
+{"when":"2025-08-30T19:12:03.783Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1533}
+{"when":"2025-08-30T19:18:15.039Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":271}
+{"when":"2025-08-30T19:18:15.149Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":107}
+{"when":"2025-08-30T19:18:15.244Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":91}
+{"when":"2025-08-30T19:18:15.319Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":71}
+{"when":"2025-08-30T19:32:59.763Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":281}
+{"when":"2025-08-30T19:32:59.888Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":121}
+{"when":"2025-08-30T19:32:59.979Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":87}
+{"when":"2025-08-30T19:33:00.070Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":88}
+{"when":"2025-08-30T19:42:06.598Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":254}
+{"when":"2025-08-30T19:42:06.709Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":108}
+{"when":"2025-08-30T19:42:06.815Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":103}
+{"when":"2025-08-30T19:42:06.918Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":99}
+{"when":"2025-08-30T19:45:20.955Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":224}
+{"when":"2025-08-30T19:45:21.055Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":96}
+{"when":"2025-08-30T19:45:21.159Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":102}
+{"when":"2025-08-30T19:45:21.243Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":79}
+{"when":"2025-08-30T19:46:39.757Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":249}
+{"when":"2025-08-30T19:46:39.856Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":95}
+{"when":"2025-08-30T19:46:39.952Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":93}
+{"when":"2025-08-30T19:46:40.017Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":61}
+{"when":"2025-08-30T19:49:05.332Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":256}
+{"when":"2025-08-30T19:49:05.433Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":95}
+{"when":"2025-08-30T19:49:05.558Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":122}
+{"when":"2025-08-30T19:49:05.666Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":103}
+{"when":"2025-08-30T19:59:15.217Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":229}
+{"when":"2025-08-30T19:59:15.336Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":109}
+{"when":"2025-08-30T19:59:15.438Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":99}
+{"when":"2025-08-30T19:59:15.525Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":85}
+{"when":"2025-08-30T20:02:25.836Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":245}
+{"when":"2025-08-30T20:02:25.939Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":99}
+{"when":"2025-08-30T20:02:26.005Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":63}
+{"when":"2025-08-30T20:02:26.100Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":91}
+{"when":"2025-08-30T20:02:38.676Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":265}
+{"when":"2025-08-30T20:02:38.798Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":114}
+{"when":"2025-08-30T20:02:38.865Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":62}
+{"when":"2025-08-30T20:02:38.961Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":93}
+{"when":"2025-08-30T20:11:31.389Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":205}
+{"when":"2025-08-30T20:11:31.457Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":60}
+{"when":"2025-08-30T20:11:31.522Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":63}
+{"when":"2025-08-30T20:11:31.595Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":69}
+{"when":"2025-08-30T20:19:25.034Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":260}
+{"when":"2025-08-30T20:19:25.163Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":124}
+{"when":"2025-08-30T20:19:25.274Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":108}
+{"when":"2025-08-30T20:19:25.346Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":68}
+{"when":"2025-08-30T20:22:01.404Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":228}
+{"when":"2025-08-30T20:22:01.491Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":84}
+{"when":"2025-08-30T20:22:01.579Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":84}
+{"when":"2025-08-30T20:22:01.645Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":62}
+{"when":"2025-08-30T20:27:13.650Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":285}
+{"when":"2025-08-30T20:27:13.773Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":119}
+{"when":"2025-08-30T20:27:13.858Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":81}
+{"when":"2025-08-30T20:27:13.948Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":86}
+{"when":"2025-08-30T20:59:24.992Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a7615c5a-9daa-49a7-8aaf-12499819b4cc","ms":252}
+{"when":"2025-08-30T20:59:25.083Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":87}
+{"when":"2025-08-30T20:59:25.165Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":79}
+{"when":"2025-08-30T20:59:25.247Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":80}
+{"when":"2025-08-31T00:16:17.188Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":300}
+{"when":"2025-08-31T00:16:17.301Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":98}
+{"when":"2025-08-31T00:16:17.396Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":92}
+{"when":"2025-08-31T00:16:17.477Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":75}
+{"when":"2025-08-31T13:23:49.887Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":218}
+{"when":"2025-08-31T13:23:50.020Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":116}
+{"when":"2025-08-31T13:23:50.095Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":72}
+{"when":"2025-08-31T13:23:50.171Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":73}
+{"when":"2025-08-31T13:47:37.004Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":184}
+{"when":"2025-08-31T13:47:37.084Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":73}
+{"when":"2025-08-31T13:47:37.162Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":75}
+{"when":"2025-08-31T13:47:37.241Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":75}
+{"when":"2025-08-31T14:04:03.104Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":3310}
+{"when":"2025-08-31T14:04:03.210Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":102}
+{"when":"2025-08-31T14:04:03.304Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":91}
+{"when":"2025-08-31T14:04:03.399Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":92}
+{"when":"2025-08-31T14:11:59.929Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":215}
+{"when":"2025-08-31T14:12:00.028Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":95}
+{"when":"2025-08-31T14:12:00.130Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":98}
+{"when":"2025-08-31T14:12:00.233Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":100}
+{"when":"2025-08-31T14:13:34.996Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":263}
+{"when":"2025-08-31T14:13:35.117Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":117}
+{"when":"2025-08-31T14:13:35.210Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":90}
+{"when":"2025-08-31T14:13:35.308Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":94}
+{"when":"2025-08-31T14:16:21.152Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":238}
+{"when":"2025-08-31T14:16:21.214Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":57}
+{"when":"2025-08-31T14:16:21.310Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":93}
+{"when":"2025-08-31T14:16:21.386Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":73}
+{"when":"2025-08-31T14:16:26.407Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":214}
+{"when":"2025-08-31T14:16:26.505Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":90}
+{"when":"2025-08-31T14:16:26.576Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":67}
+{"when":"2025-08-31T14:16:26.680Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":101}
+{"when":"2025-08-31T14:17:53.850Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":236}
+{"when":"2025-08-31T14:17:53.930Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":75}
+{"when":"2025-08-31T14:17:53.999Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":66}
+{"when":"2025-08-31T14:17:54.066Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":65}
+{"when":"2025-08-31T14:20:05.776Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":222}
+{"when":"2025-08-31T14:20:05.874Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":95}
+{"when":"2025-08-31T14:20:05.984Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":107}
+{"when":"2025-08-31T14:20:06.079Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":92}
+{"when":"2025-08-31T14:37:03.038Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":235}
+{"when":"2025-08-31T14:37:03.135Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":93}
+{"when":"2025-08-31T14:37:03.227Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":89}
+{"when":"2025-08-31T14:37:03.340Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":110}
+{"when":"2025-08-31T14:52:23.880Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":234}
+{"when":"2025-08-31T14:52:23.972Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":89}
+{"when":"2025-08-31T14:52:24.065Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":90}
+{"when":"2025-08-31T14:52:24.144Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":75}
+{"when":"2025-08-31T14:52:48.707Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":213}
+{"when":"2025-08-31T14:52:48.821Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":110}
+{"when":"2025-08-31T14:52:48.916Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":91}
+{"when":"2025-08-31T14:52:48.992Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":73}
+{"when":"2025-08-31T14:56:11.773Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":304}
+{"when":"2025-08-31T14:56:11.893Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":117}
+{"when":"2025-08-31T14:56:11.980Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":83}
+{"when":"2025-08-31T14:56:12.059Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":76}
+{"when":"2025-08-31T15:02:48.058Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":224}
+{"when":"2025-08-31T15:02:48.128Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":65}
+{"when":"2025-08-31T15:02:48.193Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":62}
+{"when":"2025-08-31T15:02:48.262Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":65}
+{"when":"2025-08-31T15:04:40.624Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":257}
+{"when":"2025-08-31T15:04:40.717Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":89}
+{"when":"2025-08-31T15:04:40.806Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":85}
+{"when":"2025-08-31T15:04:40.882Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":73}
+{"when":"2025-08-31T15:05:33.207Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":218}
+{"when":"2025-08-31T15:05:33.282Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":71}
+{"when":"2025-08-31T15:05:33.354Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":69}
+{"when":"2025-08-31T15:05:33.422Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":64}
+{"when":"2025-08-31T15:08:49.663Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":244}
+{"when":"2025-08-31T15:08:49.742Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":75}
+{"when":"2025-08-31T15:08:49.819Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":72}
+{"when":"2025-08-31T15:10:30.893Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":282}
+{"when":"2025-08-31T15:10:31.015Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":119}
+{"when":"2025-08-31T15:10:31.118Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":99}
+{"when":"2025-08-31T15:10:48.337Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":255}
+{"when":"2025-08-31T15:10:48.408Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":69}
+{"when":"2025-08-31T15:10:48.487Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":76}
+{"when":"2025-08-31T15:10:48.564Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":74}
+{"when":"2025-08-31T15:11:44.857Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":235}
+{"when":"2025-08-31T15:11:44.952Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":91}
+{"when":"2025-08-31T15:11:45.052Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":97}
+{"when":"2025-08-31T15:11:45.144Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":89}
+{"when":"2025-08-31T15:11:57.241Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":252}
+{"when":"2025-08-31T15:11:57.354Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":108}
+{"when":"2025-08-31T15:11:57.436Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":77}
+{"when":"2025-08-31T15:11:57.512Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":73}
+{"when":"2025-08-31T15:12:28.608Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":235}
+{"when":"2025-08-31T15:12:28.672Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":56}
+{"when":"2025-08-31T15:12:28.741Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":66}
+{"when":"2025-08-31T15:12:28.815Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":69}
+{"when":"2025-08-31T15:13:48.261Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":272}
+{"when":"2025-08-31T15:13:48.382Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":116}
+{"when":"2025-08-31T15:13:48.484Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":99}
+{"when":"2025-08-31T15:13:48.608Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":119}
+{"when":"2025-08-31T15:24:02.380Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":275}
+{"when":"2025-08-31T15:24:02.487Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":103}
+{"when":"2025-08-31T15:24:02.596Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":105}
+{"when":"2025-08-31T15:24:02.717Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":118}
+{"when":"2025-08-31T15:24:46.284Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":245}
+{"when":"2025-08-31T15:24:46.367Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":79}
+{"when":"2025-08-31T15:24:46.449Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":78}
+{"when":"2025-08-31T15:24:46.518Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":66}
+{"when":"2025-08-31T15:24:55.815Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":273}
+{"when":"2025-08-31T15:24:55.900Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":82}
+{"when":"2025-08-31T15:24:56.012Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":109}
+{"when":"2025-08-31T15:24:56.082Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":66}
+{"when":"2025-08-31T15:25:35.285Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":391}
+{"when":"2025-08-31T15:25:35.417Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":128}
+{"when":"2025-08-31T15:25:35.558Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":137}
+{"when":"2025-08-31T15:25:35.691Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":129}
+{"when":"2025-08-31T15:25:46.946Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":398}
+{"when":"2025-08-31T15:25:47.056Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":107}
+{"when":"2025-08-31T15:25:47.156Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":97}
+{"when":"2025-08-31T15:25:47.267Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":107}
+{"when":"2025-08-31T15:26:41.373Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":394}
+{"when":"2025-08-31T15:26:41.511Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":135}
+{"when":"2025-08-31T15:26:41.641Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":126}
+{"when":"2025-08-31T15:26:41.740Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":96}
+{"when":"2025-08-31T15:26:46.339Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":315}
+{"when":"2025-08-31T15:26:46.468Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":125}
+{"when":"2025-08-31T15:26:46.593Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":122}
+{"when":"2025-08-31T15:26:46.705Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":108}
+{"when":"2025-08-31T15:57:15.561Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":311}
+{"when":"2025-08-31T15:57:15.642Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":72}
+{"when":"2025-08-31T15:57:15.759Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":112}
+{"when":"2025-08-31T15:57:15.840Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":76}
+{"when":"2025-08-31T18:11:17.281Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":227}
+{"when":"2025-08-31T18:11:17.337Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":52}
+{"when":"2025-08-31T18:11:17.450Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":110}
+{"when":"2025-08-31T18:11:17.511Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":58}
+{"when":"2025-08-31T18:12:14.221Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":1815}
+{"when":"2025-08-31T18:12:28.949Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":2219}
+{"when":"2025-08-31T18:14:33.800Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":272}
+{"when":"2025-08-31T18:15:09.867Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":239}
+{"when":"2025-08-31T18:15:44.384Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"35c71f9d-57ae-42e3-a24f-c99810e47915","ms":2112}
+{"when":"2025-08-31T18:16:57.276Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":238}
+{"when":"2025-08-31T18:40:33.446Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":2228}
+{"when":"2025-08-31T18:41:02.286Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":233}
+{"when":"2025-08-31T19:03:04.935Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":232}
+{"when":"2025-08-31T19:04:28.419Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":244}
+{"when":"2025-08-31T19:05:31.831Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":194}
+{"when":"2025-08-31T19:22:55.086Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":2481}
+{"when":"2025-08-31T19:23:05.065Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":229}
+{"when":"2025-08-31T19:23:23.412Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":273}
+{"when":"2025-08-31T19:23:51.678Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":227}
+{"when":"2025-08-31T19:24:40.482Z","firm":"apex","q":"importe mínimo retiro","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":254}
+{"when":"2025-08-31T19:25:07.198Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":246}
+{"when":"2025-08-31T19:29:52.439Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":1653}
+{"when":"2025-08-31T19:29:58.843Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":257}
+{"when":"2025-08-31T19:30:04.121Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":244}
+{"when":"2025-08-31T19:30:12.541Z","firm":"apex","q":"cuando puedo retirar primera vez","selector":"db","faq_id":"35c71f9d-57ae-42e3-a24f-c99810e47915","ms":2295}
+{"when":"2025-08-31T19:30:19.725Z","firm":"apex","q":"primer cobro cuanto","selector":"none","faq_id":null,"ms":1244}
+{"when":"2025-08-31T19:30:25.757Z","firm":"apex","q":"monto minimo retirar","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":245}
+{"when":"2025-08-31T19:30:31.743Z","firm":"apex","q":"importe mínimo retiro","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":226}
+{"when":"2025-08-31T19:30:38.296Z","firm":"apex","q":"mínimo para cobrar","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":1763}
+{"when":"2025-08-31T19:30:45.728Z","firm":"apex","q":"primer pago mínimo","selector":"db","faq_id":"18a506de-403c-4c83-a528-2884be2b2a8e","ms":1765}
+{"when":"2025-08-31T19:30:52.945Z","firm":"apex","q":"primer pago en apex","selector":"none","faq_id":null,"ms":1288}
+{"when":"2025-08-31T19:30:58.846Z","firm":"apex","q":"cuánto es el mínimo para retirar","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":255}
+{"when":"2025-08-31T19:31:15.169Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":2325}
+{"when":"2025-08-31T19:31:28.434Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":196}
+{"when":"2025-08-31T19:31:28.514Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":77}
+{"when":"2025-08-31T19:31:28.630Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":113}
+{"when":"2025-08-31T19:31:28.705Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":71}
+{"when":"2025-08-31T19:31:34.199Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":271}
+{"when":"2025-08-31T19:31:34.278Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":74}
+{"when":"2025-08-31T19:31:34.348Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":68}
+{"when":"2025-08-31T19:31:34.528Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":176}
+{"when":"2025-08-31T19:31:39.232Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":298}
+{"when":"2025-08-31T19:31:39.300Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":64}
+{"when":"2025-08-31T19:31:39.365Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":60}
+{"when":"2025-08-31T19:31:39.425Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":57}
+{"when":"2025-08-31T19:31:59.791Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":2609}
+{"when":"2025-08-31T19:32:05.805Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":213}
+{"when":"2025-08-31T19:32:11.721Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":390}
+{"when":"2025-08-31T19:32:18.487Z","firm":"apex","q":"cuando puedo retirar primera vez","selector":"db","faq_id":"35c71f9d-57ae-42e3-a24f-c99810e47915","ms":1719}
+{"when":"2025-08-31T19:32:25.786Z","firm":"apex","q":"primer cobro cuanto","selector":"none","faq_id":null,"ms":2500}
+{"when":"2025-08-31T19:32:30.666Z","firm":"apex","q":"monto minimo retirar","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":215}
+{"when":"2025-08-31T19:32:35.836Z","firm":"apex","q":"importe mínimo retiro","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":199}
+{"when":"2025-08-31T19:32:42.052Z","firm":"apex","q":"mínimo para cobrar","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":2454}
+{"when":"2025-08-31T19:32:48.034Z","firm":"apex","q":"primer pago mínimo","selector":"db","faq_id":"18a506de-403c-4c83-a528-2884be2b2a8e","ms":1542}
+{"when":"2025-08-31T19:32:55.143Z","firm":"apex","q":"primer pago en apex","selector":"none","faq_id":null,"ms":1948}
+{"when":"2025-08-31T19:33:00.499Z","firm":"apex","q":"cuánto es el mínimo para retirar","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":255}
+{"when":"2025-08-31T19:56:28.359Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":361}
+{"when":"2025-08-31T19:56:37.739Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":247}
+{"when":"2025-08-31T19:57:01.423Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":241}
+{"when":"2025-08-31T19:57:43.500Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":565}
+{"when":"2025-08-31T19:57:53.795Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":451}
+{"when":"2025-08-31T20:23:00.209Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":373}
+{"when":"2025-08-31T20:25:02.965Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":388}
+{"when":"2025-08-31T20:26:32.731Z","firm":"apex","q":"safety net para retirar dinero","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":221}
+{"when":"2025-08-31T20:27:09.410Z","firm":"apex","q":"safety net para retirar dinero","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":255}
+{"when":"2025-08-31T20:32:06.855Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":395}
+{"when":"2025-08-31T20:32:18.012Z","firm":"apex","q":"monto minimo retirar","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":387}
+{"when":"2025-08-31T20:32:27.579Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":401}
+{"when":"2025-08-31T20:36:16.190Z","firm":"apex","q":"cual es el safety net para retirar","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":242}
+{"when":"2025-08-31T20:36:57.611Z","firm":"apex","q":"cual es el safety net para retirar","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":231}
+{"when":"2025-08-31T20:37:21.053Z","firm":"apex","q":"cual es el safety net para retirar","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":219}
+{"when":"2025-08-31T20:41:34.498Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":371}
+{"when":"2025-08-31T20:51:11.586Z","firm":"apex","q":"safety net umbral","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":267}
+{"when":"2025-08-31T20:55:04.873Z","firm":"apex","q":"cuanto cuesta activar la cuenta financiada en apex?","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":245}
+{"when":"2025-08-31T20:58:46.372Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":464}
+{"when":"2025-08-31T21:11:32.365Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":411}
+{"when":"2025-08-31T21:19:01.310Z","firm":"apex","q":"cuanto cuesta activar la cuenta financiada en apex?","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":206}
+{"when":"2025-08-31T21:34:55.030Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":234}
+{"when":"2025-08-31T21:35:48.947Z","firm":"apex","q":"cuanto cuesta activar la cuenta financiada en apex?","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":330}
+{"when":"2025-08-31T21:36:16.164Z","firm":"apex","q":"umbral apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":323}
+{"when":"2025-08-31T21:39:24.916Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":322}
+{"when":"2025-09-01T06:14:55.983Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":348}
+{"when":"2025-09-01T06:51:31.553Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":297}
+{"when":"2025-09-01T06:51:37.893Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":1839}
+{"when":"2025-09-01T06:51:43.863Z","firm":"apex","q":"payouts apex","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":1703}
+{"when":"2025-09-01T06:51:56.306Z","firm":"apex","q":"safety net para retirar","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":207}
+{"when":"2025-09-01T07:04:06.130Z","firm":"apex","q":"cuanto cuesta activar la cuenta financiada en apex?","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":257}
+{"when":"2025-09-01T07:04:57.088Z","firm":"apex","q":"umbral apex","selector":"db","faq_id":"da173bf4-8852-4ffc-847f-67486bf3ffd7","ms":220}
+{"when":"2025-09-01T07:06:03.905Z","firm":"apex","q":"cuanto cuesta activar la cuenta financiada en apex?","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":237}
+{"when":"2025-09-01T07:06:13.326Z","firm":"apex","q":"umbral apex","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":238}
+{"when":"2025-09-01T07:06:25.627Z","firm":"apex","q":"primeros 5 retiros","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":2556}
+{"when":"2025-09-01T07:06:55.456Z","firm":"apex","q":"primeros 5 retiros","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":247}
+{"when":"2025-09-01T07:07:05.360Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":1769}
+{"when":"2025-09-01T07:09:19.195Z","firm":"apex","q":"cuales son los saldos iniciales reales (balance inicial) para 25k, 50k y 100k?","selector":"db","faq_id":"fd2f4df9-950b-4059-a8cf-1c2e45195fdd","ms":5012}
+{"when":"2025-09-01T07:09:28.535Z","firm":"apex","q":"primer payout minimo","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":209}
+{"when":"2025-09-01T07:12:58.766Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":213}
+{"when":"2025-09-01T07:16:35.218Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":208}
+{"when":"2025-09-01T07:24:02.549Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":256}
+{"when":"2025-09-01T07:27:26.790Z","firm":"apex","q":"test latencia","selector":"none","faq_id":null,"ms":1846}
+{"when":"2025-09-01T07:28:02.510Z","firm":"apex","q":"payouts apex","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":1942}
+{"when":"2025-09-01T07:28:11.050Z","firm":"apex","q":"safety net para retirar","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":235}
+{"when":"2025-09-01T07:28:19.614Z","firm":"apex","q":"monto minimo retirar","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":423}
+{"when":"2025-09-01T07:28:40.680Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":238}
+{"when":"2025-09-01T07:29:06.667Z","firm":"apex","q":"¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":252}
+{"when":"2025-09-01T07:30:55.473Z","firm":"apex","q":"¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":213}
+{"when":"2025-09-01T07:31:19.761Z","firm":"apex","q":"Cual es el horario de sesión y si las operaciones del domingo cuentan para el lunes?","selector":"db","faq_id":"dfd0f38b-a6f1-4f40-8772-03424b00fdc7","ms":1762}
+{"when":"2025-09-01T07:31:30.557Z","firm":"apex","q":"Hay restricciones de noticias de evaluacion?","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1741}
+{"when":"2025-09-01T07:35:43.836Z","firm":"apex","q":"Hay restricciones de noticias de evaluacion?","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1944}
+{"when":"2025-09-01T07:36:00.535Z","firm":"apex","q":"Hay restricciones de noticias de evaluacion?","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1851}
+{"when":"2025-09-01T07:36:24.980Z","firm":"apex","q":"Hay restricciones de noticias de evaluacion?","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1893}
+{"when":"2025-09-01T07:37:03.203Z","firm":"apex","q":"Tengo que tener R-Trader o Tradovate abiertos siempre?","selector":"none","faq_id":null,"ms":909}
+{"when":"2025-09-01T07:38:10.557Z","firm":"apex","q":"Tengo que tener R-Trader o Tradovate abiertos siempre?","selector":"none","faq_id":null,"ms":847}
+{"when":"2025-09-01T07:38:40.389Z","firm":"apex","q":"Tengo que tener R-Trader o Tradovate abiertos siempre?","selector":"db","faq_id":"4ad18cc5-0a00-4a3d-bd11-1ac38352f797","ms":210}
+{"when":"2025-09-01T07:41:42.965Z","firm":"apex","q":"¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":326}
+{"when":"2025-09-01T07:41:53.274Z","firm":"apex","q":"Tengo que tener R-Trader o Tradovate abiertos siempre?","selector":"db","faq_id":"4ad18cc5-0a00-4a3d-bd11-1ac38352f797","ms":212}
+{"when":"2025-09-01T07:57:58.386Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":257}
+{"when":"2025-09-01T07:58:10.052Z","firm":"apex","q":"safety net para retirar dinero","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":220}
+{"when":"2025-09-01T07:58:25.820Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":245}
+{"when":"2025-09-01T07:59:37.768Z","firm":"apex","q":"reglas de consistencia","selector":"db","faq_id":"b8336088-d2ad-4bc0-9141-b46d516c7a32","ms":1963}
+{"when":"2025-09-01T07:59:47.953Z","firm":"apex","q":"regla de daily loss","selector":"db","faq_id":"26099319-b39e-4553-8219-1087d440c787","ms":299}
+{"when":"2025-09-01T08:03:09.649Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":1812}
+{"when":"2025-09-01T08:04:56.041Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":1839}
+{"when":"2025-09-01T08:05:05.673Z","firm":"apex","q":"primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":219}
+{"when":"2025-09-01T08:05:21.891Z","firm":"apex","q":"minimo retiro apex","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":197}
+{"when":"2025-09-01T08:05:32.376Z","firm":"apex","q":"cuanto cobrar primer payout","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":192}
+{"when":"2025-09-01T08:07:32.032Z","firm":"apex","q":"Cual es el horario de sesión y si las operaciones del domingo cuentan para el lunes?","selector":"db","faq_id":"dfd0f38b-a6f1-4f40-8772-03424b00fdc7","ms":1689}
+{"when":"2025-09-01T08:29:46.999Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":1606}
+{"when":"2025-09-01T08:29:47.060Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":57}
+{"when":"2025-09-01T08:29:47.159Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":96}
+{"when":"2025-09-01T08:29:48.468Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1306}
+{"when":"2025-09-01T08:30:00.008Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":1696}
+{"when":"2025-09-01T08:30:00.129Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":118}
+{"when":"2025-09-01T08:30:00.228Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":96}
+{"when":"2025-09-01T08:30:01.514Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1284}
+{"when":"2025-09-01T08:30:34.948Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":247}
+{"when":"2025-09-01T08:30:47.940Z","firm":"apex","q":"cada cuanto puedo retirar","selector":"db","faq_id":"8ed04281-8628-4787-ad5e-ed7e5938afd3","ms":1906}

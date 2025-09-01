@@ -1,0 +1,1 @@
+{"pins_total":25,"missing_pin":{"name":"unknown","reason":"eval_script_broken_undefined_returns"},"critical_issue":"all_82_queries_return_undefined","next_action":"fix_eval_before_pin"}

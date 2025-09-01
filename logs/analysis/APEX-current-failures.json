@@ -1,0 +1,600 @@
+[
+  {
+    "q": "cuanto cuesta activar la cuenta financiada en apex?",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "pricing"
+  },
+  {
+    "q": "teneis opcion de activacion mensual cual es el precio?",
+    "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "pricing"
+  },
+  {
+    "q": "Cual es el safety Net umbral de una cuenta de 100k ?",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "account_specs"
+  },
+  {
+    "q": "Dime el safety Net de 25k 50k y 300k en una sola respuesta",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "account_specs"
+  },
+  {
+    "q": "cuales son los saldos iniciales reales (balance inicial) para 25k, 50k y 100k?",
+    "expected": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "account_specs"
+  },
+  {
+    "q": "Cual es el horario de sesión y si las operaciones del domingo cuentan para el lunes?",
+    "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "rules"
+  },
+  {
+    "q": "Tengo que tener R-Trader o Tradovate abiertos siempre?",
+    "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "platforms"
+  },
+  {
+    "q": "Hay restricciones de noticias de evaluacion?",
+    "expected": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "rules"
+  },
+  {
+    "q": "cual es el umbral minimo en apex",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "rules"
+  },
+  {
+    "q": "metodos de pago apex",
+    "expected": "4c484cef-5715-480f-8c16-914610866a62",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "payment_methods"
+  },
+  {
+    "q": "cuanto cuesta activar apex",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "pricing"
+  },
+  {
+    "q": "reglas overnight apex",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "rules"
+  },
+  {
+    "q": "descuento apex hoy",
+    "expected": "a5c42153-0610-4192-b149-26bd9914e700",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "discounts"
+  },
+  {
+    "q": "que plataformas soporta apex",
+    "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "platforms"
+  },
+  {
+    "q": "cual es el safety net para retirar",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals"
+  },
+  {
+    "q": "puedo pagar con paypal en apex",
+    "expected": "4c484cef-5715-480f-8c16-914610866a62",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "payment_methods"
+  },
+  {
+    "q": "precio de suscripcion apex",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "pricing"
+  },
+  {
+    "q": "hay restriccion de noticias apex",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "rules"
+  },
+  {
+    "q": "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "coverage_question"
+  },
+  {
+    "q": "umbral apex",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "safety_net",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "retiro apex umbral",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "coverage_category"
+  },
+  {
+    "q": "¿Qué métodos de pago acepta APEX?",
+    "expected": "4c484cef-5715-480f-8c16-914610866a62",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "payment_methods",
+    "source": "coverage_question"
+  },
+  {
+    "q": "¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "pricing",
+    "source": "coverage_question"
+  },
+  {
+    "q": "activacion apex",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "pricing",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "precio apex activacion",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_category"
+  },
+  {
+    "q": "¿Cómo hago un reset de la evaluación de APEX?",
+    "expected": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "reset apex",
+    "expected": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Cada cuánto puedo retirar y cuál es el mínimo en APEX?",
+    "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "payouts apex",
+    "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "retiro apex payouts",
+    "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_category"
+  },
+  {
+    "q": "¿Qué requisitos debo cumplir para retirar en APEX?",
+    "expected": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "requisitos retiro apex",
+    "expected": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Cuáles son los límites de retiro en APEX?",
+    "expected": "bed584a4-c195-4981-892a-3b33df356e21",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "limite retiro apex",
+    "expected": "bed584a4-c195-4981-892a-3b33df356e21",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "retiro apex limite retiro",
+    "expected": "bed584a4-c195-4981-892a-3b33df356e21",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_category"
+  },
+  {
+    "q": "¿Qué tipos de drawdown usa APEX y cómo funciona el trailing?",
+    "expected": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "trailing drawdown apex",
+    "expected": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Cuál es el profit target y días mínimos de la evaluación en APEX?",
+    "expected": "12764769-c253-40a2-abdb-ba32b305f48a",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "profit target apex",
+    "expected": "12764769-c253-40a2-abdb-ba32b305f48a",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "regla apex profit target",
+    "expected": "12764769-c253-40a2-abdb-ba32b305f48a",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_category"
+  },
+  {
+    "q": "¿Puedo hacer overnight o tradear noticias en APEX?",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "overnight apex",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "regla apex overnight",
+    "expected": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_category"
+  },
+  {
+    "q": "¿Cuál es el horario de sesión de APEX?",
+    "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "horario apex",
+    "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "regla apex horario",
+    "expected": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_category"
+  },
+  {
+    "q": "¿Qué plataformas y proveedores de datos están disponibles en APEX?",
+    "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "plataformas apex",
+    "expected": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Cómo funciona el escalado de contratos y el uso de contratos por tamaño?",
+    "expected": "5b235d0a-b257-4292-adae-df65c21e689c",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "contratos maximos apex",
+    "expected": "5b235d0a-b257-4292-adae-df65c21e689c",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Qué es la regla del 30% PNL negativo en APEX?",
+    "expected": "c2586246-9604-4acb-9831-dc3188d73d42",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "30% pnl negativo apex",
+    "expected": "c2586246-9604-4acb-9831-dc3188d73d42",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Qué reglas de gestión de riesgo exige APEX?",
+    "expected": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "5:1 apex",
+    "expected": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Qué tamaños de cuenta están disponibles y cuál es su precio?",
+    "expected": "79b0be6c-7365-4845-a5bc-88a35ae6b10c",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "tamanos apex",
+    "expected": "93849616-e113-43ee-8319-e32d44c1baed",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "¿Cuáles son las comisiones aproximadas por mercado/plataforma?",
+    "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_question"
+  },
+  {
+    "q": "fees apex",
+    "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "coverage_alias"
+  },
+  {
+    "q": "que precios tiene apex?",
+    "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "hardening"
+  },
+  {
+    "q": "cuanto vale activar la cuenta apex?",
+    "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "hardening"
+  },
+  {
+    "q": "cuales son las comisiones por contrato en apex?",
+    "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "hardening"
+  },
+  {
+    "q": "cual es el umbral / safety net de apex?",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "hardening"
+  },
+  {
+    "q": "que colchon tiene apex?",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "hardening"
+  },
+  {
+    "q": "cuales son los paises donde no puedo usar apex?",
+    "expected": "11633e70-3f32-408a-8778-796e91740e46",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "source": "hardening"
+  },
+  {
+    "q": "umbral apex",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "safety_net",
+    "source": "prd_disambig"
+  },
+  {
+    "q": "umbral de proteccion apex",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "safety_net",
+    "source": "prd_disambig"
+  },
+  {
+    "q": "umbral para retirar en apex",
+    "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_disambig"
+  },
+  {
+    "q": "primer payout minimo",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_disambig"
+  },
+  {
+    "q": "primer retiro limite",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_hotfix_1"
+  },
+  {
+    "q": "limites primer payout",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_hotfix_1"
+  },
+  {
+    "q": "primeros 5 retiros",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_hotfix_1"
+  },
+  {
+    "q": "minimo retiro apex",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "monto minimo retirar",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "cuando puedo retirar primera vez",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "monto minimo primer retiro",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "cuanto cobrar primer payout",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "primer cobro cuanto",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "importe mínimo retiro",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "mínimo para cobrar",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "primer pago mínimo",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "primer pago en apex",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  },
+  {
+    "q": "cuánto es el mínimo para retirar",
+    "expected": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "predicted": "ERROR",
+    "error": "processQueryFirm is not a function",
+    "intent": "withdrawals",
+    "source": "prd_apex_withdrawals_recovery_final"
+  }
+]

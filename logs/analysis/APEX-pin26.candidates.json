@@ -1,0 +1,41 @@
+[
+  {
+    "pattern": "/\\b(primer|primeros?|minimo?)\\s+(retiro|payout|cobr|pag)/i",
+    "covers": 12,
+    "examples": [
+      "primer payout minimo",
+      "primer retiro limite", 
+      "monto minimo primer retiro",
+      "cuanto cobrar primer payout",
+      "minimo retiro apex",
+      "primer cobro cuanto"
+    ],
+    "false_positive_risk": "low",
+    "target_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "rationale": "Cluster más grande con 12 queries sobre límites del primer retiro/payout"
+  },
+  {
+    "pattern": "/\\b(activa[cr]|suscripci[oó]n)\\s+(cuenta|apex|precio)/i",
+    "covers": 8,
+    "examples": [
+      "cuanto cuesta activar la cuenta financiada en apex",
+      "activacion apex",
+      "precio apex activacion",
+      "cuanto vale activar la cuenta apex"
+    ],
+    "false_positive_risk": "medium",
+    "target_faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+    "rationale": "Segundo cluster sobre precios de activación pero compete con pin existente"
+  },
+  {
+    "pattern": "/\\b(metodos?\\s+de\\s+pago|como\\s+pagar|paypal)/i",
+    "covers": 3,
+    "examples": [
+      "metodos de pago apex",
+      "puedo pagar con paypal en apex"
+    ],
+    "false_positive_risk": "low", 
+    "target_faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+    "rationale": "Cluster pequeño pero específico sobre métodos de pago"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-31T16:11:34.809Z",
+  "prd": "PRD-APEX-DISAMBIG-UMBRAL-2",
+  "total_queries": 68,
+  "differences_found": 0,
+  "consistency_check": "PASS",
+  "unit_metrics": {
+    "exact_at_1": 1,
+    "avg_latency": 147.13235294117646
+  },
+  "batch_metrics": {
+    "exact_at_1": 1,
+    "avg_latency": 77.1029411764706
+  },
+  "differences": []
+}
