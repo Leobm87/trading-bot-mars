@@ -18,7 +18,7 @@ const buckets = {
     /requisitos retiro/i, /limite retiro/i, /maximo retiro/i
   ],
   pricing: [/cuotas-activacion/i, /activacion/i, /activation fee/i, /cuota de activacion/i, /pago unico/i, /suscripcion mensual/i, /reset-evaluacion/i, /reset/i, /reinicio/i, /restart/i, /pago inmediato/i, /renovacion/i, /planes-disponibles/i, /tamanos/i, /precios/i, /planes/i, /1-step/i, /static/i],
-  payment_methods: [/metod|forma|cómo pagar|paypal|tarjeta|visa|mastercard/i],
+  payment_methods: [/\b(forma[s]?\s+de\s+pago|metodo[s]?\s+de\s+pago|pago|pagar|tarjeta|cr[eé]dito|d[eé]bito|paypal|stripe|wise|transferencia|sepa|iban|i[\W_]*deal|bancontact|apple\s*pay|google\s*pay|sofort|giropay|suscripci[óo]n|pago\s*u[níi]co)\b/i],
   rules: [
     // SAFETY_NET (después de withdrawals) - solo si NO tiene contexto retiro
     /\b(safety\s*net|colchon|red de seguridad|umbral)\b(?!.*\b(retir|withdraw|payout|cash ?out|cobro|cobrar)\b)/i,
@@ -39,25 +39,23 @@ function gateIntent(query) {
   
   // PRD-APEX-WITHDRAWALS-HOTFIX-2: precedencia y exclusiones
   
-  // 1) RETIRO tiene precedencia absoluta
-  if (/\b(retir|withdraw|payout|cash ?out|cobro|cobrar)\b/i.test(q)) {
-    // EXCLUSIÓN: si también contiene términos de métodos de pago, no procesar payment_methods
-    if (/\b(metod|paypal|tarjeta|visa|mastercard)\b/i.test(q)) {
-      // Retiro + métodos de pago -> solo withdrawals
-      return ["withdrawals"];
-    }
-    // Solo retiro -> procesar withdrawals primeiro
-    const hits = order.filter(k => buckets[k].some(r => r.test(q)));
-    return hits.length ? hits : order;
+  // 1) WITHDRAWALS tiene precedencia sobre PAYMENT_METHODS (PRD-APEX-WITHDRAWALS-FENCE-LOCK-3)
+  if (/\b(retir|retiro|retirar|retirada|withdraw|payout|cash ?out|cobro|cobrar)\b/i.test(q)) {
+    return ["withdrawals"];
   }
   
-  // 2) SAFETY_NET solo si NO hay contexto retiro
-  if (/\b(safety\s*net|colchon|umbral)\b/i.test(q) && !/\b(retir|withdraw|payout|cash ?out|cobro|cobrar)\b/i.test(q)) {
+  // 2) PAYMENT_METHODS solo si NO hay contexto retiro
+  if (/\b(tarjeta|paypal|stripe|wise|transferencia|sepa|iban|ideal|iDEAL|bancontact|apple pay|google pay|sofort|giropay|suscripción|pago único)\b/i.test(q) && !/\b(retir|retiro|retirar|retirada|withdraw|payout|cash ?out|cobro|cobrar)\b/i.test(q)) {
+    return ["payment_methods"];
+  }
+  
+  // 3) SAFETY_NET solo si NO hay contexto retiro
+  if (/\b(safety\s*net|colchon|umbral)\b/i.test(q) && !/\b(retir|retiro|retirar|retirada|withdraw|payout|cash ?out|cobro|cobrar)\b/i.test(q)) {
     return ["rules"];
   }
   
-  // 3) PAYMENT_METHODS con exclusión de retiro
-  if (/\b(metod|forma|paypal|tarjeta|visa|mastercard)\b/i.test(q) && !/\b(retir|withdraw|payout|cash ?out|cobro|cobrar)\b/i.test(q)) {
+  // 4) PAYMENT_METHODS con exclusión de retiro (legacy, ya cubierto arriba)
+  if (/\b(metod|forma|paypal|tarjeta|visa|mastercard)\b/i.test(q) && !/\b(retir|retiro|retirar|retirada|withdraw|payout|cash ?out|cobro|cobrar)\b/i.test(q)) {
     return ["payment_methods"];
   }
   

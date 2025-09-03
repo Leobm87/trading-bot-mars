@@ -19,6 +19,33 @@ const VECTOR_SKIP = new Set(cfg.vector_skip_intents || []);
 const SELECTOR_TOP_K = Number(cfg.selector_top_k || 4);
 
 const MIN_ROWS = 6;
+
+// PRD-APEX-WITHDRAWALS-FENCE-LOCK-3: Fences para limpiar rival content
+function applyFences(rows, query, cats = []) {
+  if (!Array.isArray(rows)) return rows;
+  
+  const q = String(query || '').toLowerCase();
+  const hasWithdrawals = cats.includes('withdrawals');
+  const hasPaymentMethods = cats.includes('payment_methods');
+  
+  return rows.filter(faq => {
+    if (!faq || !faq.id) return true;
+    
+    // FENCE 1: Si intent=withdrawals, excluir FAQs de payment_methods
+    if (hasWithdrawals) {
+      const isPaymentFaq = /\b(m[eé]todo(?:s)?|forma(?:s)?)\s+de\s+pago\b|tarjeta|visa|mastercard|paypal|apple\s*pay|google\s*pay|transferencia|sepa|cripto|crypto|bitcoin|stripe|wise|suscripci[oó]n|recurring|activation.*fee|comprar|checkout/i.test(faq.question || '');
+      if (isPaymentFaq) return false;
+    }
+    
+    // FENCE 2: Si intent=payment_methods, excluir FAQs de withdrawals
+    if (hasPaymentMethods) {
+      const isWithdrawalFaq = /\b(retir|retiro|retirar|retirada|payouts?|withdraw(?:al)?|safety\s+net|umbral|consistencia|cohesion)\b/i.test(faq.question || '');
+      if (isWithdrawalFaq) return false;
+    }
+    
+    return true;
+  });
+}
 const K  = Number(process.env.RETRIEVE_K || 5);
 const VK = Number(process.env.VECTOR_K   || 5);
 const VEC_EXPAND_SYNONYMS = String(process.env.VEC_EXPAND_SYNONYMS || 'false') === 'true';
@@ -145,19 +172,29 @@ function reRankResults(query, results, supabase, cats = []) {
       }
     }
     
-    // 5) VALLAS SEMÁNTICAS PRD-APEX-WITHDRAWALS-MCP-FINAL (WITHDRAWALS_FENCE_LOCK_2)
-    // Trigger tokens para firm_id APEX
-    const triggerTokens = /\b(min|minimo|mínimo|primer|primera|payout|cobro|retiro|retirar)\b/i;
-    const isWithdrawalsIntent = cats && cats.includes('withdrawals');
-    const hasTriggerTokens = triggerTokens.test(queryText);
+    // 5) VALLAS SEMÁNTICAS PRD-APEX-PAYMENT-METHODS-FENCE-LOCK-1
+    // Payment methods triggers: preferir payment_methods sobre withdrawals
+    const paymentTriggers = /\b(tarjeta|paypal|stripe|wise|transferencia|sepa|iban|ideal|iDEAL|bancontact|apple pay|google pay|sofort|giropay|suscripción|pago único)\b/i;
+    const isPaymentMethodsIntent = cats && cats.includes('payment_methods');
+    const hasPaymentTriggers = paymentTriggers.test(queryText);
     
-    // Si Top-8 incluye 385d0f21 → boost fuerte (+0.35) bajo trigger
-    if (faq.id === '385d0f21-fee7-4acb-9f69-a70051e3ad38' && (hasTriggerTokens || isWithdrawalsIntent)) {
+    // PAYMENT_METHODS_FAQ_ID boost cuando hay payment triggers
+    if (faq.id === '4c484cef-5715-480f-8c16-914610866a62' && (hasPaymentTriggers || isPaymentMethodsIntent)) {
+      score += 0.35;
+    }
+    
+    // Withdrawals triggers (ampliados: cubrir 'minimo retiro' y variantes)
+    const withdrawalTriggers = /\b(retirar|retiro|withdraw(?:al)?|payout|cobrar|primer\s+retiro|m[ií]nimo\s+de\s+retiro|m[ií]nimo\s+retiro|minim[oa].*retiro)\b/i;
+    const isWithdrawalsIntent = cats && cats.includes('withdrawals');
+    const hasWithdrawalTriggers = withdrawalTriggers.test(queryText);
+    
+    // Si Top-8 incluye 385d0f21 → boost fuerte (+0.35) bajo withdrawal trigger
+    if (faq.id === '385d0f21-fee7-4acb-9f69-a70051e3ad38' && (hasWithdrawalTriggers || isWithdrawalsIntent)) {
       score += 0.35;
     }
     
     // Siempre bajo trigger → demote fuerte (−0.50) a 4d45a7ec
-    if (faq.id === '4d45a7ec-0812-48cf-b9f0-117f42158615' && (hasTriggerTokens || isWithdrawalsIntent)) {
+    if (faq.id === '4d45a7ec-0812-48cf-b9f0-117f42158615' && (hasWithdrawalTriggers || isWithdrawalsIntent)) {
       score -= 0.50;
     }
     
@@ -167,8 +204,41 @@ function reRankResults(query, results, supabase, cats = []) {
     }
     
     // BOOST MUY fuerte a apex.payout.limites-retiro para queries de retiro mínimo
-    if (faq.slug === 'apex.payout.limites-retiro' && (/primer.*retiro|minimo.*retiro|primer.*payout|cuanto.*cobrar.*primer|cobrar.*primer/i.test(queryText))) {
+    if (faq.slug === 'apex.payout.limites-retiro' && (/primer.*retiro|minim[oa].*retiro|primer.*payout|cu[aá]nto.*cobrar.*primer|cobrar.*primer/i.test(queryText))) {
       score += 0.35; // Aumentado de 0.20 a 0.35
+    }
+
+    // NEWS + EVALUACIÓN: preferir reglas de evaluación (a52c53f3) frente a overnight/news (e8a1e102)
+    if (/\bnotici(?:a|as)\b/i.test(queryText) && /\bevaluaci[oó]n\b/i.test(queryText)) {
+      if (faq.id === 'a52c53f3-8f43-43d1-9d08-4cab9b2f0fea') score += 0.25;
+      if (faq.id === 'e8a1e102-393d-4bc1-b551-e2cf7f521ed8') score -= 0.20;
+    }
+
+    // "tamaños apex" → priorizar precios-cuentas (93849616)
+    if (/\btamañ?os?\b/i.test(queryText) && /\bapex\b/i.test(queryText)) {
+      if (faq.id === '93849616-e113-43ee-8319-e32d44c1baed') score += 0.35;
+    }
+
+    // Requisitos de retiro → preferir payouts-requisitos (21a7f8bc)
+    if (/(requisit|condicion|debo\s+cumplir).*retir/i.test(queryText)) {
+      if (faq.id === '21a7f8bc-22c8-4032-a3a2-862b7182e3f9') score += 0.20;
+      if (faq.id === '35c71f9d-57ae-42e3-a24f-c99810e47915') score -= 0.15;
+    }
+
+    // Contratos máximos → preferir escalado-contratos (5b235d0a) frente a límites por cuenta (26099319)
+    if (/\bcontratos?\b/i.test(queryText) && /maxim/i.test(queryText)) {
+      if (faq.id === '5b235d0a-b257-4292-adae-df65c21e689c') score += 0.25;
+      if (faq.id === '26099319-b39e-4553-8219-1087d440c787') score -= 0.20;
+    }
+
+    // Países restringidos → preferir 11633e70 sobre variantes cuando el texto indica restricción/uso
+    if (/\bpa[ií]ses?\b/i.test(queryText) && /(restringid|no\s+puedo\s+usar|prohibid)/i.test(queryText)) {
+      if (faq.id === '11633e70-3f32-408a-8778-796e91740e46') {
+        score += 0.20;
+      }
+      if (faq.id === '6a6465dc-15f2-4467-b47f-51f1159828e3') {
+        score -= 0.15;
+      }
     }
     
     // Intent mismatch penalty general máximo -0.12 (ya existente)
@@ -257,6 +327,9 @@ async function retrieveTopK(supabase, query, cats, firm_id, embedText, k = K) {
     const fb2 = await lexical(supabase, query, firm_id, null, k);
     if (fb2.length > rows.length) rows = fb2;
   }
+  // PRD-APEX-WITHDRAWALS-FENCE-LOCK-3: Aplicar fences antes de EARLY-ACCEPT
+  rows = applyFences(rows, query, hasCats ? cats : []);
+  
   // EARLY-ACCEPT basándose en score lexical (NO RRF)
   const top1 = confidentTop1(rows);
   if (HYBRID_ONLY_WHEN_UNSURE && top1) return rows;
@@ -264,7 +337,7 @@ async function retrieveTopK(supabase, query, cats, firm_id, embedText, k = K) {
   // Si todas las categorías detectadas están en la lista de skip → NO vector; devolvemos lexical top-K para selector
   const allSkippable = hasCats && cats.every(c => VECTOR_SKIP.has(c));
   if (allSkippable) {
-    return rows.slice(0, Math.max(SELECTOR_TOP_K, 4));
+    return applyFences(rows.slice(0, Math.max(SELECTOR_TOP_K, 4)), query, cats);
   }
 
   // 2) VECTOR + RRF si NO fue confident
@@ -277,9 +350,9 @@ async function retrieveTopK(supabase, query, cats, firm_id, embedText, k = K) {
   
   // Skip LLM selector if fused top-1 has clear margin
   const fusedTop = fusedConfidentTop1(fused);
-  if (fusedTop) return fused.slice(0, 8); // caller will see top[0] and skip selector
+  if (fusedTop) return applyFences(fused.slice(0, 8), query, cats); // caller will see top[0] and skip selector
   
-  return fused.slice(0, 8);
+  return applyFences(fused.slice(0, 8), query, cats);
 }
 
 module.exports = { retrieveTopK, confidentTop1, fusedConfidentTop1 };

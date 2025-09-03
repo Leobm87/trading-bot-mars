@@ -20,11 +20,12 @@ async function formatFromFAQ(faq, opts = {}) {
   
   const useShort = style === 'short' && answer_short_md && !opts.forceFull;
   const text = useShort ? answer_short_md : faq.answer_md;
-  return { ok: true, source: "db", faq_id: faq.id, text };
+  return { ok: true, source: "db", faq_id: faq.id, response: text, text };
 }
 
 function notFound() {
-  return { ok: false, source: "none", text: "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño." };
+  const msg = "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño.";
+  return { ok: false, source: "none", response: msg, text: msg };
 }
 
 module.exports = { formatFromFAQ, notFound };

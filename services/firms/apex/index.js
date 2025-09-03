@@ -205,7 +205,8 @@ class ApexService {
             } else {
                 console.warn('[APEX] OpenAI no disponible, usando solo lexical');
                 // Importar función lexical directamente
-                const lexical = require('../../common/retriever.cjs').lexical || 
+                const retrieverModule = await import('../../common/retriever.cjs');
+                const lexical = retrieverModule.lexical || 
                     (async (sb, q, fid, c, k=8) => {
                         const { data, error } = await sb.rpc('faq_retrieve_es_v2', { q, firm: fid, cats: c, k });
                         if (error) throw error;
