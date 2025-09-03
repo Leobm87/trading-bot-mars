@@ -1,0 +1,117 @@
+{
+  "firm": "apex",
+  "rules": [
+    {
+      "re": "precio\\s+de\\s+suscripcion",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"
+    },
+    {
+      "re": "precio.*suscripcion",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"
+    },
+    {
+      "re": "(?:precio|cuanto|cost|cuot).*(?:activar|activacion|suscripcion)|^\\n?\\s*activaci[oó]n\\s+apex\\b",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"
+    },
+    {
+      "re": "que\\s+tamanos.*disponibles",
+      "faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c"
+    },
+    {
+      "re": "(?:tamanos.*cuenta.*precio|\\btamanos\\s+apex\\b)",
+      "faq_id": "93849616-e113-43ee-8319-e32d44c1baed"
+    },
+    {
+      "re": "metodos.*pago",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
+    },
+    {
+      "re": "puedo.*pagar",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
+    },
+    {
+      "re": "reset apex",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7"
+    },
+    {
+      "re": "^(?!.*\\b(primer|l[ií]mites?)).*(?:(?:^|\\b)payouts?(?!\\s+m[ií]nimo)|frecuencia.*pag|cada.*cuant|cuando.*pag)",
+      "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"
+    },
+    {
+      "re": "fees.*apex",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d"
+    },
+    {
+      "re": "(metodos? de pago|paypal|pagar con|tarjeta|payment|stripe)",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
+    },
+    {
+      "re": "(reset|resetear|reiniciar|nueva|nuevo.* cuenta)",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7"
+    },
+    {
+      "re": "(fees?|comision|costo|precio|tarifa|rate|r.?trader.*abiert|tradovate.*abiert)",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d"
+    },
+    {
+      "re": "(descuent|cupon|c[oó]digo|promo)",
+      "faq_id": "a5c42153-0610-4192-b149-26bd9914e700"
+    },
+    {
+      "re": "(?:que\\s+(?:cuentas|tipos|tamañ?os).*apex|tamañ?os\\s+de\\s+cuentas?|planes?)",
+      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
+    },
+    {
+      "re": "(?:precios?|precio|cu[aá]nto\\s+cuesta|coste|activaci[oó]n|suscripci[oó]n).*apex",
+      "faq_id": "fc6cb870-1364-4db7-b092-c341c9aa726d"
+    },
+    {
+      "re": "(?:l[ií]mites?\\s+por\\s+cuenta|contratos\\s+por\\s+cuenta|daily\\s+loss|drawdown\\s+por\\s+cuenta)",
+      "faq_id": "26099319-b39e-4553-8219-1087d440c787"
+    },
+    {
+      "re": "(?:max(?:imo)?\\s+drawdown|max\\s*dd).*apex",
+      "faq_id": "b0410c27-2dad-44c1-9031-52c4a56f2fc3"
+    },
+    {
+      "re": "(?:fase\\s+live|cuenta\\s+live|promoci[oó]n\\s+live)",
+      "faq_id": "cc3365a5-da92-45b5-b48c-8f89cd64a5ba"
+    },
+    {
+      "re": "(?:regla\\s+de\\s+consistencia|consistencia\\s*30|mayor\\s*d[ií]a)",
+      "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32"
+    },
+    {
+      "re": "(?:copy\\s*trading|cuentas?\\s+compartidas|replicar\\s+entre\\s+cuentas|multicuenta)",
+      "faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b"
+    },
+    {
+      "re": "(?:automatizaci[oó]n|automatizar|bot|algo|hft|autom[aá]tico)",
+      "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2"
+    },
+    {
+      "re": "(?:posici[oó]n\\s+abierta\\s+por\\s+error|overnight\\s+por\\s+error|dej[ée]\\s+abierta)",
+      "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1"
+    },
+    {
+      "re": "(?:pa[ií]ses?\\s+(?:no\\s+)?permitidos|pa[ií]ses?\\s+restringidos|restricciones\\s+pa[ií]s|countries\\s+restricted)",
+      "faq_id": "11633e70-3f32-408a-8778-796e91740e46"
+    },
+    {
+      "re": "(?:safety\\s*net|umbral.*m[ií]nimo|colch[oó]n|cual.*umbral|umbral.*retirar|retiro.*umbral|umbral.*apex)",
+      "faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724"
+    },
+    {
+      "re": "(primer.{0,10}(retir|payout)|m[ií]nimo.{0,10}retir|l[ií]mite.{0,10}(primer|payout))",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "re": "primer\\s+(cobro|pago|payout)\\s+(cuanto|m[ií]nimo|en\\s+apex)",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "re": "primer\\s+pago\\s+(m[ií]nimo|en\\s+apex)",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    }
+  ]
+}

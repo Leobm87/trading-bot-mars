@@ -12,7 +12,8 @@ describe('APEX Pin #26 - Primer retiro/payout', () => {
       'cuanto cobrar primer payout',
       'primer cobro cuanto',
       'primeros retiros limite',
-      'primer pago minimo'
+      'primer pago minimo',
+      'minimo retiro apex' // Added as withdrawal alias in PRD-5
     ];
 
     test.each(truePositives)('should match: "%s"', (query) => {
@@ -26,7 +27,6 @@ describe('APEX Pin #26 - Primer retiro/payout', () => {
       'segundo retiro apex', // no "primer"
       'retiro normal apex', // no "primer" 
       'primer trading', // no retiro/payout
-      'minimo retiro apex', // missing "primer"
       'umbral apex', // different intent
       'precio apex activacion', // different intent
       'reset apex' // different intent
@@ -38,17 +38,17 @@ describe('APEX Pin #26 - Primer retiro/payout', () => {
     });
   });
 
-  test('Total pins should be 26', () => {
+  test('Total pins should be 11', () => {
     const fs = require('fs');
     const pinsData = JSON.parse(fs.readFileSync('data/pins/apex.json', 'utf8'));
-    expect(pinsData.rules.length).toBe(26);
+    expect(pinsData.rules.length).toBe(11);
   });
 
-  test('Pin #26 should be the primer retiro pin', () => {
+  test('Primer retiro PIN should exist and match pattern', () => {
     const fs = require('fs');
     const pinsData = JSON.parse(fs.readFileSync('data/pins/apex.json', 'utf8'));
-    const pin26 = pinsData.rules[25]; // 0-indexed
-    expect(pin26.faq_id).toBe(expectedFaqId);
-    expect(pin26.re).toMatch(/primer.*retiro|payout|cobr|pag/);
+    const primerRetiroPin = pinsData.rules.find(r => r.faq_id === expectedFaqId);
+    expect(primerRetiroPin).toBeDefined();
+    expect(primerRetiroPin.re).toMatch(/primer.*retir|payout|cobr|pag/);
   });
 });
