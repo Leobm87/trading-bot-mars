@@ -10,7 +10,11 @@
       "faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c"
     },
     {
-      "re": "(?:precio|cuanto\\s+cuesta|costo).*cuenta.*(?:50k|50\\s*000|cincuenta)",
+      "re": "(?:precio|cuanto\\s+(?:cuesta|sale|vale)).*cuenta.*(?:50k|50\\s*000|cincuenta)",
+      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
+    },
+    {
+      "re": "cuanto\\s+sale\\s+la\\s+(?:cuenta\\s+)?(?:de\\s+)?(?:25k|50k|100k)",
       "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
     },
     {

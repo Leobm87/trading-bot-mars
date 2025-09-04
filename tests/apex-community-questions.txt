@@ -1,0 +1,194 @@
+# 🎯 PREGUNTAS DE LA COMUNIDAD PARA TESTEAR APEX BOT
+# Basado en informacion-apex.txt - Estilo coloquial/real
+
+## 💰 PRECIOS Y CUENTAS
+1. cuanto sale la cuenta de 50k?
+2. que precio tiene la de 100k?
+3. cual es la mas barata?
+4. hay alguna cuenta de 200k?
+5. cuanto cuesta la static?
+6. que diferencia hay entre la normal y la static?
+7. cual me conviene si tengo 500 dolares?
+8. puedo cambiar de cuenta despues?
+9. cuantas cuentas puedo tener a la vez?
+10. hay descuentos o cupones?
+
+## 📊 EVALUACIÓN
+11. cuanto tengo que ganar para pasar?
+12. en cuanto tiempo tengo que pasar la evaluacion?
+13. cuantos dias minimo tengo que tradear?
+14. necesito dias ganadores?
+15. que pasa si no paso en un mes?
+16. puedo hacer la evaluacion el fin de semana?
+17. cual es el profit target de la 50k?
+18. es una o dos fases?
+19. hay limite de tiempo?
+20. puedo tradear micros en la evaluacion?
+
+## 💸 DRAWDOWN Y PÉRDIDAS
+21. cuanto puedo perder en la de 100k?
+22. como funciona el trailing?
+23. cuando se congela el drawdown?
+24. hay limite de perdida diaria?
+25. que pasa si toco el drawdown?
+26. el trailing sigue con posiciones abiertas?
+27. cual es el drawdown de la static?
+28. puedo perder 5k en un dia?
+29. se resetea el drawdown cada dia?
+30. las comisiones cuentan para el drawdown?
+
+## 🚫 REGLAS Y RESTRICCIONES
+31. puedo dejar trades abiertos de noche?
+32. puedo hacer swing trading?
+33. se puede tradear noticias?
+34. que es la regla one direction?
+35. hay regla de consistencia?
+36. como funciona el 30%?
+37. puedo usar EA o robots?
+38. se puede copytrade?
+39. puedo compartir mi cuenta con un amigo?
+40. que pasa si rompo una regla?
+
+## 💵 RETIROS Y PAGOS
+41. cuando puedo sacar plata?
+42. cuanto es lo minimo que puedo retirar?
+43. cada cuanto puedo cobrar?
+44. como me pagan?
+45. puedo retirar con crypto?
+46. que es wise y plane?
+47. cuanto me quedo yo del profit?
+48. hay limite maximo de retiro?
+49. que es el safety net?
+50. cuando puedo hacer mi primer retiro?
+
+## 🎮 TRADING Y CONTRATOS
+51. cuantos contratos puedo usar?
+52. cuando puedo usar todos los contratos?
+53. puedo tradear nasdaq?
+54. que instrumentos hay?
+55. puedo operar crypto?
+56. cuantos micros son un mini?
+57. hay oro y petroleo?
+58. que es mejor para principiantes?
+59. puedo hacer scalping?
+60. hay limit de trades por dia?
+
+## 💻 PLATAFORMAS Y BROKERS
+61. que plataformas puedo usar?
+62. tradingview funciona?
+63. ninjatrader es gratis?
+64. que es mejor rithmic o tradovate?
+65. cuanto cobran de comisiones?
+66. las comisiones son por lado o round trip?
+67. puedo usar mt4 o mt5?
+68. necesito pagar por los datos?
+69. cual tiene menos latencia?
+70. puedo usar sierra chart?
+
+## 🔄 RESET Y ACTIVACIÓN PA
+71. cuanto cuesta resetear si pierdo?
+72. puedo resetear gratis?
+73. que es la activacion pa?
+74. tengo que pagar mensual despues de pasar?
+75. cuanto es la mensualidad?
+76. puedo pagar una sola vez?
+77. que pasa si no pago la mensualidad?
+78. cuanto cuesta activar la funded?
+79. hay que pagar 85 dolares siempre?
+80. puedo pausar mi cuenta?
+
+## 🌍 PAÍSES Y PAGOS
+81. funciona en argentina?
+82. puedo desde españa?
+83. aceptan venezolanos?
+84. funciona en colombia?
+85. como pago desde latinoamerica?
+86. aceptan paypal?
+87. puedo pagar con binance?
+88. que paises estan prohibidos?
+89. necesito kyc?
+90. piden documentos?
+
+## ⚠️ SITUACIONES ESPECÍFICAS
+91. que pasa si dejo un trade abierto por error?
+92. puedo tradear el domingo?
+93. a que hora cierra el mercado?
+94. me eliminan si pierdo un dia 2k?
+95. puedo recuperar mi cuenta si la pierdo?
+96. dan segundas oportunidades?
+97. que es el ratio 5:1?
+98. puedo arriesgar todo el drawdown?
+99. hay auditoria?
+100. me pueden quitar la cuenta funded?
+
+## 🤔 PREGUNTAS FRECUENTES COLOQUIALES
+101. vale la pena apex?
+102. es mejor que ftmo?
+103. pagan de verdad?
+104. cuanto tarda el payout?
+105. hay gente cobrando?
+106. es scam?
+107. cuanto puedo ganar al mes?
+108. necesito experiencia?
+109. con cuanto empiezo?
+110. que cuenta me recomiendan?
+
+## 📈 DETALLES TÉCNICOS
+111. cual es el apalancamiento?
+112. hay slippage?
+113. que spread tienen?
+114. los gaps cuentan?
+115. puedo usar indicadores?
+116. hay vps gratis?
+117. que latencia tienen?
+118. puedo usar multiple pantallas?
+119. hay api para trading?
+120. soportan webhooks?
+
+## 💡 COMPARACIONES Y DUDAS
+121. que diferencia hay con topstep?
+122. es mas facil que otras props?
+123. por que no hay perdida diaria?
+124. por que el trailing para en 100?
+125. puedo pasar en un dia?
+126. cual es el truco?
+127. hay letra pequeña?
+128. que no me estan diciendo?
+129. cual es el catch?
+130. por que tan barato?
+
+## 🎯 ESTRATEGIAS Y CONSEJOS
+131. puedo hacer hft?
+132. funciona el martingala?
+133. puedo hacer grid?
+134. se puede hedging?
+135. puedo promediar?
+136. hay limite de lotes?
+137. cuanto riesgo por trade?
+138. cuantos trades al dia maximo?
+139. puedo tradear indices?
+140. funciona en forex?
+
+## 📋 PROCESO Y TIEMPO
+141. cuanto tardan en aprobarme?
+142. cuando me dan la cuenta pa?
+143. cuanto tarda el reset?
+144. en cuanto tiempo pagan?
+145. hay soporte 24/7?
+146. hablan español?
+147. cuanto tarda la verificacion?
+148. cuando puedo empezar a tradear?
+149. hay demo antes?
+150. puedo pausar la evaluacion?
+
+# BONUS: PREGUNTAS MUY COLOQUIALES
+151. apex es confiable bro?
+152. estan pagando ahorita?
+153. me clavan con las comisiones?
+154. puedo tradear btc?
+155. que onda con los impuestos?
+156. me van a joder si gano mucho?
+157. puedo meter a mi primo?
+158. sirve para vivir de esto?
+159. cuanta gente pasa la prueba?
+160. me la puedo jugar toda en un trade?

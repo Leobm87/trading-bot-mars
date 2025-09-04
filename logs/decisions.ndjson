@@ -615,3 +615,5 @@
 {"when":"2025-09-04T15:44:45.823Z","firm":"apex","q":"¿cuales son las comisiones?","selector":"db","faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","ms":184}
 {"when":"2025-09-04T15:44:50.447Z","firm":"apex","q":"¿que es el safety net?","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":216}
 {"when":"2025-09-04T15:45:02.728Z","firm":"apex","q":"cuanto cuesta la cuenta de 50k","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":204}
+{"when":"2025-09-04T16:38:36.989Z","firm":"apex","q":"cuanto sale la cuenta de 50k?","selector":"db","faq_id":"80d9c0e7-c37e-459d-a28d-f70a169fe3df","ms":1863}
+{"when":"2025-09-04T16:40:00.736Z","firm":"apex","q":"hay descuentos?","selector":"db","faq_id":"a5c42153-0610-4192-b149-26bd9914e700","ms":265}
