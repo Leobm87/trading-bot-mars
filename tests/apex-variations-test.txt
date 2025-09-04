@@ -1,0 +1,835 @@
+# APEX TRADING BOT - TEST CON VARIACIONES LÉXICAS
+# Generado automáticamente con 3-5 variaciones por pregunta
+
+## 💰 PRECIOS Y PLANES (10 preguntas)
+# Originales: 10 | Con variaciones: ~40
+
+# ORIGINAL: cuanto cuesta la cuenta de 25k?
+cuanto cuesta la cuenta de 25k?
+cual es el precio la cuenta de 25k?
+cual es el precio cuesta la cuenta de 25k?
+me puedes decir cuanto cuesta la cuenta de 25k?
+cuanto cuesta cuenta de 25k??
+
+# ORIGINAL: cuanto sale la cuenta de 50k?
+cuanto sale la cuenta de 50k?
+cuanto sale la cuenta de trading de 50k?
+cual es el precio sale la cuenta de 50k?
+me puedes decir cuanto sale la cuenta de 50k?
+cuanto sale cuenta de 50k??
+
+# ORIGINAL: que precio tiene la de 100k?
+que precio tiene la de 100k?
+cuales precio tiene la de 100k?
+cual precio tiene la de 100k?
+me puedes decir que precio tiene la de 100k?
+precio tiene de 100k??
+
+# ORIGINAL: cual es la cuenta mas barata?
+cual es la cuenta mas barata?
+cual es la cuenta de trading mas barata?
+me puedes decir cual es la cuenta mas barata?
+cuenta mas barata??
+
+# ORIGINAL: cuanto cuesta la static de 50k?
+cuanto cuesta la static de 50k?
+que precio tiene la static de 50k?
+cual es el precio cuesta la static de 50k?
+me puedes decir cuanto cuesta la static de 50k?
+cuanto cuesta static de 50k??
+
+# ORIGINAL: que diferencia hay entre normal y static?
+que diferencia hay entre normal y static?
+que diferencia existe entre normal y static?
+cual diferencia hay entre normal y static?
+me puedes decir que diferencia hay entre normal y static?
+diferencia hay entre normal y static??
+
+# ORIGINAL: hay descuentos disponibles?
+hay descuentos disponibles?
+ofrecen descuentos disponibles?
+me puedes decir hay descuentos disponibles?
+
+# ORIGINAL: cual cuenta me conviene con 500 dolares?
+cual cuenta me conviene con 500 dolares?
+cual cuenta de trading me conviene con 500 dolares?
+me puedes decir cual cuenta me conviene con 500 dolares?
+cuenta me conviene con 500 dolares??
+
+# ORIGINAL: puedo tener varias cuentas a la vez?
+puedo tener varias cuentas a la vez?
+se puede tener varias cuentas a la vez?
+me puedes decir puedo tener varias cuentas a la vez?
+tener varias cuentas a vez??
+
+# ORIGINAL: como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?
+como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?
+como trabajan los precios de las cuentas grandes (150k, 250k, 300k)?
+me puedes decir como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?
+
+## 📊 EVALUACIÓN CRÍTICA (15 preguntas)
+# Originales: 15 | Con variaciones: ~60
+
+# ORIGINAL: cual es el profit target para pasar?
+cual es el profit target para pasar?
+cual es el target para pasar?
+me puedes decir cual es el profit target para pasar?
+profit target para pasar??
+
+# ORIGINAL: en cuanto tiempo maximo tengo que pasar?
+en cuanto tiempo maximo tengo que pasar?
+en cuanto tiempo maximo tengo cuales pasar?
+me puedes decir en cuanto tiempo maximo tengo que pasar?
+en cuanto tiempo maximo tengo pasar??
+
+# ORIGINAL: cuantos dias minimo de trading necesito?
+cuantos dias minimo de trading necesito?
+cuantos dias minimo de trading es necesario?
+cual es el precios dias minimo de trading necesito?
+me puedes decir cuantos dias minimo de trading necesito?
+cuantos dias minimo de trading ??
+
+# ORIGINAL: puedo pasar solo con micros?
+puedo pasar solo con micros?
+se puede pasar solo con micros?
+me puedes decir puedo pasar solo con micros?
+pasar solo con micros??
+
+# ORIGINAL: que pasa si paso pero no activo la PA?
+que pasa si paso pero no activo la PA?
+cuales pasa si paso pero no activo la pa?
+cual pasa si paso pero no activo la pa?
+me puedes decir que pasa si paso pero no activo la pa?
+pasa si paso pero no activo pa??
+
+# ORIGINAL: puedo elegir cuando empezar la evaluacion?
+puedo elegir cuando empezar la evaluacion?
+es posible elegir cuando empezar la evaluacion?
+se puede elegir cuando empezar la evaluacion?
+me puedes decir puedo elegir cuando empezar la evaluacion?
+elegir cuando empezar evaluacion??
+
+# ORIGINAL: se puede pausar o extender la evaluacion?
+se puede pausar o extender la evaluacion?
+se puede pausar o extender la examen?
+me puedes decir se puede pausar o extender la evaluacion?
+se puede pausar o extender evaluacion??
+
+# ORIGINAL: puedo tradear los fines de semana?
+puedo tradear los fines de semana?
+puedes tradear los fines de semana?
+se puede tradear los fines de semana?
+me puedes decir puedo tradear los fines de semana?
+tradear los fines de semana??
+
+# ORIGINAL: es evaluacion de una o dos fases?
+es evaluacion de una o dos fases?
+es challenge de una o dos fases?
+me puedes decir es evaluacion de una o dos fases?
+evaluacion de una o dos fases??
+
+# ORIGINAL: que pasa si no llego al profit target?
+que pasa si no llego al profit target?
+que pasa si no llego al profit?
+cual pasa si no llego al profit target?
+me puedes decir que pasa si no llego al profit target?
+pasa si no llego al profit target??
+
+# ORIGINAL: necesito dias ganadores consecutivos?
+necesito dias ganadores consecutivos?
+es necesario dias ganadores consecutivos?
+me puedes decir necesito dias ganadores consecutivos?
+dias ganadores consecutivos??
+
+# ORIGINAL: cual es el profit target de cada cuenta?
+cual es el profit target de cada cuenta?
+cual es el profit target de cada cuenta de trading?
+me puedes decir cual es el profit target de cada cuenta?
+profit target de cada cuenta??
+
+# ORIGINAL: puedo cambiar de cuenta durante la evaluacion?
+puedo cambiar de cuenta durante la evaluacion?
+es posible cambiar de cuenta durante la evaluacion?
+se puede cambiar de cuenta durante la evaluacion?
+me puedes decir puedo cambiar de cuenta durante la evaluacion?
+cambiar de cuenta durante evaluacion??
+
+# ORIGINAL: hay fee por reset de evaluacion?
+hay fee por reset de evaluacion?
+existe fee por reset de evaluacion?
+me puedes decir hay fee por reset de evaluacion?
+
+# ORIGINAL: cuantas veces puedo resetear?
+cuantas veces puedo resetear?
+cuantas veces podria resetear?
+me puedes decir cuantas veces puedo resetear?
+cuantas veces resetear??
+
+## 💸 DRAWDOWN Y GESTIÓN DE RIESGO (12 preguntas)
+# Originales: 12 | Con variaciones: ~48
+
+# ORIGINAL: cual es el drawdown maximo de cada cuenta?
+cual es el drawdown maximo de cada cuenta?
+cual es el drawdown maximo de cada cuenta fondeada?
+me puedes decir cual es el drawdown maximo de cada cuenta?
+drawdown maximo de cada cuenta??
+
+# ORIGINAL: como funciona el trailing drawdown?
+como funciona el trailing drawdown?
+como trabaja el trailing drawdown?
+me puedes decir como funciona el trailing drawdown?
+como funciona trailing drawdown??
+
+# ORIGINAL: cuando se congela el trailing en 100 dolares?
+cuando se congela el trailing en 100 dolares?
+que dia se congela el trailing en 100 dolares?
+me puedes decir cuando se congela el trailing en 100 dolares?
+cuando se congela trailing en 100 dolares??
+
+# ORIGINAL: hay limite de perdida diaria?
+hay limite de perdida diaria?
+tienen limite de perdida diaria?
+me puedes decir hay limite de perdida diaria?
+
+# ORIGINAL: que pasa si toco el drawdown maximo?
+que pasa si toco el drawdown maximo?
+que pasa si toco el max loss maximo?
+cual pasa si toco el drawdown maximo?
+me puedes decir que pasa si toco el drawdown maximo?
+pasa si toco drawdown maximo??
+
+# ORIGINAL: el trailing sigue con trades abiertos?
+el trailing sigue con trades abiertos?
+el trailing sigue mediante trades abiertos?
+me puedes decir el trailing sigue con trades abiertos?
+trailing sigue con trades abiertos??
+
+# ORIGINAL: cual es el EOD drawdown vs trailing?
+cual es el EOD drawdown vs trailing?
+cual es el eod dd vs trailing?
+me puedes decir cual es el eod drawdown vs trailing?
+eod drawdown vs trailing??
+
+# ORIGINAL: las comisiones afectan al drawdown?
+las comisiones afectan al drawdown?
+las comisiones afectan al perdida maxima?
+me puedes decir las comisiones afectan al drawdown?
+
+# ORIGINAL: como se calcula el drawdown en la static?
+como se calcula el drawdown en la static?
+como se calcula el perdida maxima en la static?
+me puedes decir como se calcula el drawdown en la static?
+como se calcula drawdown en static??
+
+# ORIGINAL: puedo perder todo el drawdown en un dia?
+puedo perder todo el drawdown en un dia?
+puedes perder todo el drawdown en un dia?
+se puede perder todo el drawdown en un dia?
+me puedes decir puedo perder todo el drawdown en un dia?
+perder todo drawdown en un dia??
+
+# ORIGINAL: como se resetea el balance para el drawdown?
+como se resetea el balance para el drawdown?
+como se resetea el balance para el perdida maxima?
+me puedes decir como se resetea el balance para el drawdown?
+como se resetea balance para el drawdown??
+
+# ORIGINAL: que pasa con gaps y slippage en el drawdown?
+que pasa con gaps y slippage en el drawdown?
+que pasa con gaps y slippage en el perdida maxima?
+cual pasa con gaps y slippage en el drawdown?
+me puedes decir que pasa con gaps y slippage en el drawdown?
+pasa con gaps y slippage en drawdown??
+
+## 🚫 REGLAS TRADING (15 preguntas)
+# Originales: 15 | Con variaciones: ~60
+
+# ORIGINAL: puedo dejar trades abiertos overnight?
+puedo dejar trades abiertos overnight?
+puedes dejar trades abiertos overnight?
+se puede dejar trades abiertos overnight?
+me puedes decir puedo dejar trades abiertos overnight?
+dejar trades abiertos overnight??
+
+# ORIGINAL: se puede tradear durante noticias importantes?
+se puede tradear durante noticias importantes?
+me puedes decir se puede tradear durante noticias importantes?
+
+# ORIGINAL: puedo operar durante FOMC y NFP?
+puedo operar durante FOMC y NFP?
+es posible operar durante fomc y nfp?
+se puede operar durante fomc y nfp?
+me puedes decir puedo operar durante fomc y nfp?
+operar durante fomc y nfp??
+
+# ORIGINAL: que es la regla de consistencia del 30%?
+que es la regla de consistencia del 30%?
+cuales es la regla de consistencia del 30%?
+cual es la regla de consistencia del 30%?
+me puedes decir que es la regla de consistencia del 30%?
+regla de consistencia del 30%??
+
+# ORIGINAL: como funciona la regla one direction?
+como funciona la regla one direction?
+como va la regla one direction?
+me puedes decir como funciona la regla one direction?
+como funciona regla one direction??
+
+# ORIGINAL: puedo usar EA o robots de trading?
+puedo usar EA o robots de trading?
+podria usar ea o robots de trading?
+se puede usar ea o robots de trading?
+me puedes decir puedo usar ea o robots de trading?
+usar ea o robots de trading??
+
+# ORIGINAL: esta permitido el copy trading?
+esta permitido el copy trading?
+me puedes decir esta permitido el copy trading?
+esta permitido copy trading??
+
+# ORIGINAL: puedo compartir cuenta con otro trader?
+puedo compartir cuenta con otro trader?
+puedes compartir cuenta con otro trader?
+se puede compartir cuenta con otro trader?
+me puedes decir puedo compartir cuenta con otro trader?
+compartir cuenta con otro trader??
+
+# ORIGINAL: que pasa si violo una regla?
+que pasa si violo una regla?
+cual pasa si violo una regla?
+me puedes decir que pasa si violo una regla?
+pasa si violo una regla??
+
+# ORIGINAL: hay blacklist de estrategias prohibidas?
+hay blacklist de estrategias prohibidas?
+existe blacklist de estrategias prohibidas?
+me puedes decir hay blacklist de estrategias prohibidas?
+
+# ORIGINAL: puedo hacer hedging en la misma cuenta?
+puedo hacer hedging en la misma cuenta?
+se puede hacer hedging en la misma cuenta?
+me puedes decir puedo hacer hedging en la misma cuenta?
+hacer hedging en misma cuenta??
+
+# ORIGINAL: esta permitido el HFT?
+esta permitido el HFT?
+me puedes decir esta permitido el hft?
+esta permitido hft??
+
+# ORIGINAL: hay limite maximo de trades por dia?
+hay limite maximo de trades por dia?
+ofrecen limite maximo de trades por dia?
+me puedes decir hay limite maximo de trades por dia?
+
+# ORIGINAL: puedo tradear todos los instrumentos desde el dia 1?
+puedo tradear todos los instrumentos desde el dia 1?
+podria tradear todos los instrumentos desde el dia 1?
+se puede tradear todos los instrumentos desde el dia 1?
+me puedes decir puedo tradear todos los instrumentos desde el dia 1?
+tradear todos los instrumentos desde dia 1??
+
+# ORIGINAL: que pasa con rollovers de contratos?
+que pasa con rollovers de contratos?
+cual pasa con rollovers de contratos?
+me puedes decir que pasa con rollovers de contratos?
+pasa con rollovers de contratos??
+
+## 💵 RETIROS Y PAGOS (15 preguntas)
+# Originales: 15 | Con variaciones: ~60
+
+# ORIGINAL: cuando puedo hacer mi primer retiro?
+cuando puedo hacer mi primer retiro?
+cuando me dejan hacer mi primer retiro?
+me puedes decir cuando puedo hacer mi primer retiro?
+cuando hacer mi primer retiro??
+
+# ORIGINAL: cual es el minimo para retirar?
+cual es el minimo para retirar?
+que es el minimo para retirar?
+me puedes decir cual es el minimo para retirar?
+minimo para retirar??
+
+# ORIGINAL: cada cuanto puedo solicitar retiros?
+cada cuanto puedo solicitar retiros?
+cada cuanto podria solicitar retiros?
+me puedes decir cada cuanto puedo solicitar retiros?
+cada cuanto solicitar retiros??
+
+# ORIGINAL: como funcionan los metodos de pago (wise/plane)?
+como funcionan los metodos de pago (wise/plane)?
+como trabajan los metodos de pago (wise/plane)?
+me puedes decir como funcionan los metodos de pago (wise/plane)?
+
+# ORIGINAL: que porcentaje del profit me quedo?
+que porcentaje del profit me quedo?
+cual porcentaje del profit me quedo?
+me puedes decir que porcentaje del profit me quedo?
+porcentaje del profit me quedo??
+
+# ORIGINAL: hay limite maximo de retiro mensual?
+hay limite maximo de retiro mensual?
+cuentan con limite maximo de retiro mensual?
+me puedes decir hay limite maximo de retiro mensual?
+
+# ORIGINAL: que es el safety net o threshold?
+que es el safety net o threshold?
+cual es el safety net o threshold?
+me puedes decir que es el safety net o threshold?
+safety net o threshold??
+
+# ORIGINAL: puedo hacer retiros parciales?
+puedo hacer retiros parciales?
+me dejan hacer retiros parciales?
+se puede hacer retiros parciales?
+me puedes decir puedo hacer retiros parciales?
+hacer retiros parciales??
+
+# ORIGINAL: que pasa si retiro todo el profit?
+que pasa si retiro todo el profit?
+que pasa si payout todo el profit?
+cual pasa si retiro todo el profit?
+me puedes decir que pasa si retiro todo el profit?
+pasa si retiro todo profit??
+
+# ORIGINAL: puedo reinvertir ganancias en mas contratos?
+puedo reinvertir ganancias en mas contratos?
+me dejan reinvertir ganancias en mas contratos?
+se puede reinvertir ganancias en mas contratos?
+me puedes decir puedo reinvertir ganancias en mas contratos?
+reinvertir ganancias en mas contratos??
+
+# ORIGINAL: cuanto tarda en llegar el payout?
+cuanto tarda en llegar el payout?
+cuanto tarda dentro de llegar el payout?
+cual es el precio tarda en llegar el payout?
+me puedes decir cuanto tarda en llegar el payout?
+cuanto tarda en llegar payout??
+
+# ORIGINAL: hay fee por retiro?
+hay fee por retiro?
+tienen fee por retiro?
+me puedes decir hay fee por retiro?
+
+# ORIGINAL: necesito mantener minimo en la cuenta?
+necesito mantener minimo en la cuenta?
+es obligatorio mantener minimo en la cuenta?
+me puedes decir necesito mantener minimo en la cuenta?
+mantener minimo en cuenta??
+
+# ORIGINAL: como se calculan los impuestos?
+como se calculan los impuestos?
+me puedes decir como se calculan los impuestos?
+
+# ORIGINAL: puedo retirar en crypto o paypal?
+puedo retirar en crypto o paypal?
+puedes retirar en crypto o paypal?
+se puede retirar en crypto o paypal?
+me puedes decir puedo retirar en crypto o paypal?
+retirar en crypto o paypal??
+
+## 🎮 INSTRUMENTOS Y CONTRATOS (10 preguntas)
+# Originales: 10 | Con variaciones: ~40
+
+# ORIGINAL: que instrumentos puedo tradear?
+que instrumentos puedo tradear?
+que instrumentos se puede tradear?
+cual instrumentos puedo tradear?
+me puedes decir que instrumentos puedo tradear?
+instrumentos tradear??
+
+# ORIGINAL: cuantos contratos puedo usar al inicio?
+cuantos contratos puedo usar al inicio?
+cuantos contratos es posible usar al inicio?
+cual es el precios contratos puedo usar al inicio?
+me puedes decir cuantos contratos puedo usar al inicio?
+cuantos contratos usar al inicio??
+
+# ORIGINAL: cuando puedo usar el maximo de contratos?
+cuando puedo usar el maximo de contratos?
+cuando podria usar el maximo de contratos?
+me puedes decir cuando puedo usar el maximo de contratos?
+cuando usar maximo de contratos??
+
+# ORIGINAL: puedo tradear nasdaq y sp500?
+puedo tradear nasdaq y sp500?
+es posible tradear nasdaq y sp500?
+se puede tradear nasdaq y sp500?
+me puedes decir puedo tradear nasdaq y sp500?
+tradear nasdaq y sp500??
+
+# ORIGINAL: esta disponible el oro y petroleo?
+esta disponible el oro y petroleo?
+me puedes decir esta disponible el oro y petroleo?
+esta disponible oro y petroleo??
+
+# ORIGINAL: puedo operar crypto futuros?
+puedo operar crypto futuros?
+se puede operar crypto futuros?
+me puedes decir puedo operar crypto futuros?
+operar crypto futuros??
+
+# ORIGINAL: cual es la diferencia entre micros y minis?
+cual es la diferencia entre micros y minis?
+que es la diferencia entre micros y minis?
+me puedes decir cual es la diferencia entre micros y minis?
+diferencia entre micros y minis??
+
+# ORIGINAL: que es mejor para principiantes, micros o minis?
+que es mejor para principiantes, micros o minis?
+cual es mejor para principiantes, micros o minis?
+me puedes decir que es mejor para principiantes, micros o minis?
+mejor para principiantes, micros o minis??
+
+# ORIGINAL: como se escalan los contratos segun el balance?
+como se escalan los contratos segun el balance?
+como se escalan los usandotratos segun el balance?
+me puedes decir como se escalan los contratos segun el balance?
+como se escalan los contratos segun balance??
+
+# ORIGINAL: puedo tradear forex futuros?
+puedo tradear forex futuros?
+puedes tradear forex futuros?
+se puede tradear forex futuros?
+me puedes decir puedo tradear forex futuros?
+tradear forex futuros??
+
+## 💻 PLATAFORMAS Y TECNOLOGÍA (10 preguntas)
+# Originales: 10 | Con variaciones: ~40
+
+# ORIGINAL: que plataformas puedo usar?
+que plataformas puedo usar?
+que plataformas se puede usar?
+cual plataformas puedo usar?
+me puedes decir que plataformas puedo usar?
+plataformas usar??
+
+# ORIGINAL: tradingview esta disponible para apex?
+tradingview esta disponible para apex?
+tradingview esta disponible para apex trader?
+me puedes decir tradingview esta disponible para apex?
+
+# ORIGINAL: ninjatrader tiene costo adicional?
+ninjatrader tiene costo adicional?
+ninjatrader tidurantee costo adicional?
+me puedes decir ninjatrader tiene costo adicional?
+
+# ORIGINAL: que diferencia hay entre rithmic y tradovate?
+que diferencia hay entre rithmic y tradovate?
+que diferencia tienen entre rithmic y tradovate?
+cual diferencia hay entre rithmic y tradovate?
+me puedes decir que diferencia hay entre rithmic y tradovate?
+diferencia hay entre rithmic y tradovate??
+
+# ORIGINAL: cuanto son las comisiones por contrato?
+cuanto son las comisiones por contrato?
+cuanto son las comisiones por a traves detrato?
+cual es el precio son las comisiones por contrato?
+me puedes decir cuanto son las comisiones por contrato?
+
+# ORIGINAL: necesito pagar data feed aparte?
+necesito pagar data feed aparte?
+es obligatorio pagar data feed aparte?
+me puedes decir necesito pagar data feed aparte?
+pagar data feed aparte??
+
+# ORIGINAL: cual plataforma tiene menor latencia?
+cual plataforma tiene menor latencia?
+cual plataforma tidurantee menor latencia?
+me puedes decir cual plataforma tiene menor latencia?
+plataforma tiene menor latencia??
+
+# ORIGINAL: puedo usar sierra chart o quantower?
+puedo usar sierra chart o quantower?
+se puede usar sierra chart o quantower?
+me puedes decir puedo usar sierra chart o quantower?
+usar sierra chart o quantower??
+
+# ORIGINAL: puedo tradear desde movil?
+puedo tradear desde movil?
+es posible tradear desde movil?
+se puede tradear desde movil?
+me puedes decir puedo tradear desde movil?
+tradear desde movil??
+
+# ORIGINAL: que pasa si tengo problemas de conexion?
+que pasa si tengo problemas de conexion?
+cual pasa si tengo problemas de conexion?
+me puedes decir que pasa si tengo problemas de conexion?
+pasa si tengo problemas de conexion??
+
+## 🔄 RESET Y PA (12 preguntas)
+# Originales: 12 | Con variaciones: ~48
+
+# ORIGINAL: cuanto cuesta resetear la evaluacion?
+cuanto cuesta resetear la evaluacion?
+cuanto vale resetear la evaluacion?
+cual es el precio cuesta resetear la evaluacion?
+me puedes decir cuanto cuesta resetear la evaluacion?
+cuanto cuesta resetear evaluacion??
+
+# ORIGINAL: hay reset gratis disponible?
+hay reset gratis disponible?
+tienen reset gratis disponible?
+me puedes decir hay reset gratis disponible?
+
+# ORIGINAL: que es la activacion PA?
+que es la activacion PA?
+cuales es la activacion pa?
+cual es la activacion pa?
+me puedes decir que es la activacion pa?
+activacion pa??
+
+# ORIGINAL: cuanto cuesta activar la cuenta PA?
+cuanto cuesta activar la cuenta PA?
+que precio tiene activar la cuenta pa?
+cual es el precio cuesta activar la cuenta pa?
+me puedes decir cuanto cuesta activar la cuenta pa?
+cuanto cuesta activar cuenta pa??
+
+# ORIGINAL: tengo que pagar mensualidad despues de pasar?
+tengo que pagar mensualidad despues de pasar?
+tengo que pagar subscription despues de pasar?
+me puedes decir tengo que pagar mensualidad despues de pasar?
+tengo pagar mensualidad despues de pasar??
+
+# ORIGINAL: cuanto es la mensualidad por tamaño de cuenta?
+cuanto es la mensualidad por tamaño de cuenta?
+cuanto es la mensualidad por tamaño de cuenta fondeada?
+cual es el precio es la mensualidad por tamaño de cuenta?
+me puedes decir cuanto es la mensualidad por tamaño de cuenta?
+cuanto mensualidad por tamaño de cuenta??
+
+# ORIGINAL: que pasa si no pago la mensualidad?
+que pasa si no pago la mensualidad?
+que pasa si no pago la suscripcion?
+cual pasa si no pago la mensualidad?
+me puedes decir que pasa si no pago la mensualidad?
+pasa si no pago mensualidad??
+
+# ORIGINAL: puedo pausar la cuenta PA?
+puedo pausar la cuenta PA?
+se puede pausar la cuenta pa?
+me puedes decir puedo pausar la cuenta pa?
+pausar cuenta pa??
+
+# ORIGINAL: hay descuento en la activacion PA?
+hay descuento en la activacion PA?
+tienen descuento en la activacion pa?
+me puedes decir hay descuento en la activacion pa?
+hay descuento en activacion pa??
+
+# ORIGINAL: cuanto tiempo tengo para activar despues de pasar?
+cuanto tiempo tengo para activar despues de pasar?
+cuanto tiempo tengo con el fin de activar despues de pasar?
+cual es el precio tiempo tengo para activar despues de pasar?
+me puedes decir cuanto tiempo tengo para activar despues de pasar?
+
+# ORIGINAL: pierdo la cuenta si no pago un mes?
+pierdo la cuenta si no pago un mes?
+pierdo la cuenta de trading si no pago un mes?
+me puedes decir pierdo la cuenta si no pago un mes?
+pierdo cuenta si no pago un mes??
+
+# ORIGINAL: puedo reactivar una cuenta pausada?
+puedo reactivar una cuenta pausada?
+puedes reactivar una cuenta pausada?
+se puede reactivar una cuenta pausada?
+me puedes decir puedo reactivar una cuenta pausada?
+reactivar una cuenta pausada??
+
+## 🌍 PAÍSES Y VERIFICACIÓN (8 preguntas)
+# Originales: 8 | Con variaciones: ~32
+
+# ORIGINAL: desde que paises puedo operar?
+desde que paises puedo operar?
+desde que paises me dejan operar?
+me puedes decir desde que paises puedo operar?
+desde paises operar??
+
+# ORIGINAL: apex funciona en españa y latinoamerica?
+apex funciona en españa y latinoamerica?
+apex trader funciona en españa y latinoamerica?
+me puedes decir apex funciona en españa y latinoamerica?
+
+# ORIGINAL: que paises estan prohibidos?
+que paises estan prohibidos?
+cuales paises estan prohibidos?
+cual paises estan prohibidos?
+me puedes decir que paises estan prohibidos?
+paises estan prohibidos??
+
+# ORIGINAL: necesito pasar KYC?
+necesito pasar KYC?
+hace falta pasar kyc?
+me puedes decir necesito pasar kyc?
+
+# ORIGINAL: que documentos necesito?
+que documentos necesito?
+que documentos requiero?
+cual documentos necesito?
+me puedes decir que documentos necesito?
+documentos ??
+
+# ORIGINAL: aceptan paypal o crypto para pagar?
+aceptan paypal o crypto para pagar?
+aceptan paypal o crypto de cara a pagar?
+me puedes decir aceptan paypal o crypto para pagar?
+
+# ORIGINAL: como pago desde latinoamerica?
+como pago desde latinoamerica?
+me puedes decir como pago desde latinoamerica?
+
+# ORIGINAL: cuanto tarda la verificacion?
+cuanto tarda la verificacion?
+cual es el precio tarda la verificacion?
+me puedes decir cuanto tarda la verificacion?
+cuanto tarda verificacion??
+
+## ⚠️ SITUACIONES Y SOPORTE (12 preguntas)
+# Originales: 12 | Con variaciones: ~48
+
+# ORIGINAL: que pasa si dejo un trade abierto por error overnight?
+que pasa si dejo un trade abierto por error overnight?
+cual pasa si dejo un trade abierto por error overnight?
+me puedes decir que pasa si dejo un trade abierto por error overnight?
+pasa si dejo un trade abierto por error overnight??
+
+# ORIGINAL: a que hora exacta cierra el mercado?
+a que hora exacta cierra el mercado?
+a cuales hora exacta cierra el mercado?
+me puedes decir a que hora exacta cierra el mercado?
+a hora exacta cierra mercado??
+
+# ORIGINAL: que pasa si pierdo mas del drawdown permitido?
+que pasa si pierdo mas del drawdown permitido?
+que pasa si pierdo mas del dd permitido?
+cual pasa si pierdo mas del drawdown permitido?
+me puedes decir que pasa si pierdo mas del drawdown permitido?
+pasa si pierdo mas del drawdown permitido??
+
+# ORIGINAL: puedo recuperar una cuenta eliminada?
+puedo recuperar una cuenta eliminada?
+me dejan recuperar una cuenta eliminada?
+se puede recuperar una cuenta eliminada?
+me puedes decir puedo recuperar una cuenta eliminada?
+recuperar una cuenta eliminada??
+
+# ORIGINAL: como reporto problemas tecnicos?
+como reporto problemas tecnicos?
+me puedes decir como reporto problemas tecnicos?
+
+# ORIGINAL: hay soporte en español?
+hay soporte en español?
+esta disponible soporte en español?
+me puedes decir hay soporte en español?
+
+# ORIGINAL: cuanto tarda el soporte en responder?
+cuanto tarda el soporte en responder?
+cuanto tarda el soporte durante responder?
+cual es el precio tarda el soporte en responder?
+me puedes decir cuanto tarda el soporte en responder?
+cuanto tarda soporte en responder??
+
+# ORIGINAL: que garantias tengo si hay problemas con la plataforma?
+que garantias tengo si hay problemas con la plataforma?
+que garantias tengo si ofrecen problemas con la plataforma?
+cual garantias tengo si hay problemas con la plataforma?
+me puedes decir que garantias tengo si hay problemas con la plataforma?
+garantias tengo si hay problemas con plataforma??
+
+# ORIGINAL: puedo cambiar mi estrategia despues de empezar?
+puedo cambiar mi estrategia despues de empezar?
+puedes cambiar mi estrategia despues de empezar?
+se puede cambiar mi estrategia despues de empezar?
+me puedes decir puedo cambiar mi estrategia despues de empezar?
+cambiar mi estrategia despues de empezar??
+
+# ORIGINAL: hay auditoria de trades?
+hay auditoria de trades?
+esta disponible auditoria de trades?
+me puedes decir hay auditoria de trades?
+
+# ORIGINAL: cuando puedo empezar a tradear tras el pago?
+cuando puedo empezar a tradear tras el pago?
+cuando es posible empezar a tradear tras el pago?
+me puedes decir cuando puedo empezar a tradear tras el pago?
+cuando empezar a tradear tras pago??
+
+# ORIGINAL: puedo pausar la evaluacion por vacaciones?
+puedo pausar la evaluacion por vacaciones?
+puedes pausar la evaluacion por vacaciones?
+se puede pausar la evaluacion por vacaciones?
+me puedes decir puedo pausar la evaluacion por vacaciones?
+pausar evaluacion por vacaciones??
+
+## 🏆 CONFIANZA Y COMPARACIÓN (11 preguntas)
+# Originales: 11 | Con variaciones: ~44
+
+# ORIGINAL: por que elegir apex sobre otras props?
+por que elegir apex sobre otras props?
+por que elegir apex trading sobre otras props?
+me puedes decir por que elegir apex sobre otras props?
+por elegir apex sobre otras props??
+
+# ORIGINAL: que ventajas tiene apex vs ftmo?
+que ventajas tiene apex vs ftmo?
+que ventajas tiene apextrader vs ftmo?
+cual ventajas tiene apex vs ftmo?
+me puedes decir que ventajas tiene apex vs ftmo?
+ventajas tiene apex vs ftmo??
+
+# ORIGINAL: como es apex comparado con topstep?
+como es apex comparado con topstep?
+como es apex trader comparado con topstep?
+me puedes decir como es apex comparado con topstep?
+como apex comparado con topstep??
+
+# ORIGINAL: apex paga consistentemente?
+apex paga consistentemente?
+apex funded paga consistentemente?
+me puedes decir apex paga consistentemente?
+
+# ORIGINAL: cuantos traders activos tienen?
+cuantos traders activos tienen?
+cuantos traders activos tiduranteen?
+cual es el precios traders activos tienen?
+me puedes decir cuantos traders activos tienen?
+
+# ORIGINAL: que porcentaje pasa la evaluacion?
+que porcentaje pasa la evaluacion?
+que porcentaje pasa la challenge?
+cual porcentaje pasa la evaluacion?
+me puedes decir que porcentaje pasa la evaluacion?
+porcentaje pasa evaluacion??
+
+# ORIGINAL: tienen regulacion o garantias?
+tienen regulacion o garantias?
+tiduranteen regulacion o garantias?
+me puedes decir tienen regulacion o garantias?
+
+# ORIGINAL: cuanto puedo ganar realisticamente al mes?
+cuanto puedo ganar realisticamente al mes?
+cuanto podria ganar realisticamente al mes?
+cual es el precio puedo ganar realisticamente al mes?
+me puedes decir cuanto puedo ganar realisticamente al mes?
+cuanto ganar realisticamente al mes??
+
+# ORIGINAL: necesito experiencia previa?
+necesito experiencia previa?
+requiero experiencia previa?
+me puedes decir necesito experiencia previa?
+experiencia previa??
+
+# ORIGINAL: es apex bueno para principiantes?
+es apex bueno para principiantes?
+es apex trader bueno para principiantes?
+me puedes decir es apex bueno para principiantes?
+apex bueno para principiantes??
+
+# ORIGINAL: apex es sostenible a largo plazo?
+apex es sostenible a largo plazo?
+apex trader es sostenible a largo plazo?
+me puedes decir apex es sostenible a largo plazo?
+apex sostenible a largo plazo??
+
+# TOTAL: 130 preguntas originales → 538 con variaciones

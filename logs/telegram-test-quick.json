@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0,
+    "notFound": 0,
+    "successRate": "100.0%",
+    "avgResponseTime": "2577ms",
+    "withTitles": 4,
+    "withMarkdown": 5,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "cuanto cuesta la cuenta de 50k?",
+      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+      "responseTime": 5750,
+      "preview": "### 💰 Precios de Evaluación APEX\n\n**Cuentas disponibles:**\n- $25,000 ($147/mes)\n- $50,000 ($167/mes)\n- $100,000 ($207/mes)\n- $150,000 ($297/mes)\n- $250,000 ($517/mes)\n- $300,000 ($657/mes)\n- $100,000"
+    },
+    {
+      "query": "puedo dejar trades abiertos de noche?",
+      "faq_id": "af40dafa-27ed-4674-bccc-431c5766a5bf",
+      "responseTime": 2989,
+      "preview": "### ❌ Posiciones Overnight en APEX\n\n**NO PERMITIDO**\n- Todas las posiciones DEBEN cerrarse antes del cierre de sesión (5:00 PM ET)\n- No se permite swing trading ni mantener posiciones overnight\n- Viol"
+    },
+    {
+      "query": "hay regla de consistencia?",
+      "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32",
+      "responseTime": 667,
+      "preview": "### ⚖️ Regla de Consistencia 30% APEX\n\n**¿Qué es?**\nEl día de mayor profit no puede representar >30% del total acumulado.\n\n**Características:**\n- Se evalúa al solicitar retiro\n- NO elimina la cuenta, "
+    },
+    {
+      "query": "como puedo retirar dinero?",
+      "faq_id": "07a149b0-1866-42f0-b5ff-1320a57cb7b7",
+      "responseTime": 824,
+      "preview": "### 💸 Cómo Retirar Dinero en APEX\n\n**Métodos de Retiro:**\n- **WISE (Solo USA):** Rápido, para traders de EE. UU.\n- **PLANE (Internacional):** Seguro, para traders fuera de EE. UU.\n\n**Requisitos para "
+    },
+    {
+      "query": "que plataformas puedo usar?",
+      "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+      "responseTime": 2654,
+      "preview": "- **Instrumentos Permitidos**: Futuros (ES, NQ, YM, RTY, CL, GC, SI, NG), Micros (MES, MNQ, MYM, M2K, MCL, MGC), Forex (6E, 6B, 6J, 6A, 6C), Crypto (MBT, MET).\n- **NO permitido**: Acciones individuale"
+    }
+  ],
+  "failed": [],
+  "notFound": [],
+  "timestamp": "2025-09-04T16:48:28.450Z"
+}

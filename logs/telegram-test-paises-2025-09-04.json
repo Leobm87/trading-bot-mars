@@ -1,0 +1,45 @@
+{
+  "category": "paises",
+  "summary": {
+    "total": 10,
+    "successful": 3,
+    "failed": 0,
+    "notFound": 7,
+    "successRate": "30.0%",
+    "avgResponseTime": "982ms",
+    "withTitles": 0,
+    "withMarkdown": 2,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "aceptan paypal?",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+      "responseTime": 119,
+      "preview": "- **Métodos de pago para comprar evaluaciones:**  \n  - Tarjeta de crédito/débito\n\n- **Métodos de pago para recibir payouts (retiros):**  \n  - WISE (para traders en USA)  \n  - PLANE (para traders inter"
+    },
+    {
+      "query": "puedo pagar con binance?",
+      "faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+      "responseTime": 154,
+      "preview": "- **Métodos de pago para comprar evaluaciones:**  \n  - Tarjeta de crédito/débito\n\n- **Métodos de pago para recibir payouts (retiros):**  \n  - WISE (para traders en USA)  \n  - PLANE (para traders inter"
+    },
+    {
+      "query": "que paises estan prohibidos?",
+      "faq_id": "6a6465dc-15f2-4467-b47f-51f1159828e3",
+      "responseTime": 1559,
+      "preview": "Clave (ES): Cuba y Venezuela no están permitidos.\n\nEjemplos: Rusia, Irán, Afganistán, Bielorrusia.\n\nLista completa: consulta la web oficial (puede cambiar)."
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "funciona en argentina?",
+    "puedo desde españa?",
+    "aceptan venezolanos?",
+    "funciona en colombia?",
+    "como pago desde latinoamerica?",
+    "necesito kyc?",
+    "piden documentos?"
+  ],
+  "timestamp": "2025-09-04T17:59:18.868Z"
+}

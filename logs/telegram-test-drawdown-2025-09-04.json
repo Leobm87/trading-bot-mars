@@ -1,0 +1,75 @@
+{
+  "category": "drawdown",
+  "summary": {
+    "total": 10,
+    "successful": 9,
+    "failed": 0,
+    "notFound": 1,
+    "successRate": "90.0%",
+    "avgResponseTime": "1167ms",
+    "withTitles": 1,
+    "withMarkdown": 9,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "cuanto puedo perder en la de 100k?",
+      "faq_id": "7058f129-93c3-43f8-bb92-e375875940fd",
+      "responseTime": 750,
+      "preview": "- CME (Chicago Mercantile Exchange)\n- CBOT (Chicago Board of Trade)\n- NYMEX (New York Mercantile Exchange)\n- COMEX\n- Acceso completo a sus instrumentos en todos los exchanges."
+    },
+    {
+      "query": "como funciona el trailing?",
+      "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "responseTime": 1675,
+      "preview": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ejemplo: en una cuenta de $50K, el trailing se congela en $50,100.\n- Se actualiza con posiciones abier"
+    },
+    {
+      "query": "cuando se congela el drawdown?",
+      "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "responseTime": 1697,
+      "preview": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ejemplo: en una cuenta de $50K, el trailing se congela en $50,100.\n- Se actualiza con posiciones abier"
+    },
+    {
+      "query": "hay limite de perdida diaria?",
+      "faq_id": "c2586246-9604-4acb-9831-dc3188d73d42",
+      "responseTime": 1542,
+      "preview": "- Las pérdidas en posiciones abiertas no pueden superar el 30% del saldo inicial del día.\n- Si el saldo está por debajo del Safety Net, se usa el 30% del Safety Net como base.\n- Al duplicar el Safety "
+    },
+    {
+      "query": "que pasa si toco el drawdown?",
+      "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "responseTime": 1609,
+      "preview": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ejemplo: en una cuenta de $50K, el trailing se congela en $50,100.\n- Se actualiza con posiciones abier"
+    },
+    {
+      "query": "el trailing sigue con posiciones abiertas?",
+      "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "responseTime": 1820,
+      "preview": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ejemplo: en una cuenta de $50K, el trailing se congela en $50,100.\n- Se actualiza con posiciones abier"
+    },
+    {
+      "query": "cual es el drawdown de la static?",
+      "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "responseTime": 1129,
+      "preview": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ejemplo: en una cuenta de $50K, el trailing se congela en $50,100.\n- Se actualiza con posiciones abier"
+    },
+    {
+      "query": "se resetea el drawdown cada dia?",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "responseTime": 131,
+      "preview": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automáticamente.\n- **Pago inmediato:** Pagar $80 para resetear inmediatamente sin esperar."
+    },
+    {
+      "query": "las comisiones cuentan para el drawdown?",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "responseTime": 122,
+      "preview": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://support.apextraderfunding.com/hc/en-us/articles/4404825514139-Commissions-for-Rithmic\n- **Tradovate:** ht"
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "puedo perder 5k en un dia?"
+  ],
+  "timestamp": "2025-09-04T17:58:02.709Z"
+}

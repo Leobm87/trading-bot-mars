@@ -1,0 +1,65 @@
+{
+  "category": "reset",
+  "summary": {
+    "total": 10,
+    "successful": 7,
+    "failed": 0,
+    "notFound": 3,
+    "successRate": "70.0%",
+    "avgResponseTime": "1011ms",
+    "withTitles": 2,
+    "withMarkdown": 7,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "cuanto cuesta resetear si pierdo?",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "responseTime": 647,
+      "preview": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automáticamente.\n- **Pago inmediato:** Pagar $80 para resetear inmediatamente sin esperar."
+    },
+    {
+      "query": "puedo resetear gratis?",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "responseTime": 133,
+      "preview": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automáticamente.\n- **Pago inmediato:** Pagar $80 para resetear inmediatamente sin esperar."
+    },
+    {
+      "query": "tengo que pagar mensual despues de pasar?",
+      "faq_id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+      "responseTime": 1226,
+      "preview": "### 🚀 Costos de Activación PA en APEX\n\n**Opción 1 - Pago Único:**\n- 25K: $130\n- 50K: $140\n- 100K: $220\n- 150K: $260\n- 250K: $300\n- 300K: $340\n- 100K Static: $220\n\n**Opción 2 - Suscripción Mensual:**\n"
+    },
+    {
+      "query": "cuanto es la mensualidad?",
+      "faq_id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+      "responseTime": 3174,
+      "preview": "### 🚀 Costos de Activación PA en APEX\n\n**Opción 1 - Pago Único:**\n- 25K: $130\n- 50K: $140\n- 100K: $220\n- 150K: $260\n- 250K: $300\n- 300K: $340\n- 100K Static: $220\n\n**Opción 2 - Suscripción Mensual:**\n"
+    },
+    {
+      "query": "que pasa si no pago la mensualidad?",
+      "faq_id": "58dfa75f-ad03-47b9-9a8e-0df85def7e58",
+      "responseTime": 1370,
+      "preview": "- Las cuentas de evaluación y PA tienen suscripciones mensuales.\n- Si no se paga la suscripción mensual, la cuenta se cierra automáticamente.\n- Es crucial mantener los pagos al día para conservar el a"
+    },
+    {
+      "query": "cuanto cuesta activar la funded?",
+      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "responseTime": 120,
+      "preview": "- **Opción 1 - Pago único:**\n  - $25,000: $130\n  - $50,000: $140\n  - $100,000: $220\n  - $150,000: $260\n  - $250,000: $300\n  - $300,000: $340\n  - $100,000 Static: $220\n\n- **Opción 2 - Suscripción mensu"
+    },
+    {
+      "query": "puedo pausar mi cuenta?",
+      "faq_id": "99b1ead4-4928-4947-b325-218b81ccd33c",
+      "responseTime": 1402,
+      "preview": "- ✅ Se puede pausar la suscripción temporalmente.\n- Mantienes el progreso actual y las ganancias acumuladas.\n- ✅ Se puede resetear la evaluación si se violan reglas.\n- Costo del reset: $80 (pago inmed"
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "que es la activacion pa?",
+    "puedo pagar una sola vez?",
+    "hay que pagar 85 dolares siempre?"
+  ],
+  "timestamp": "2025-09-04T17:59:08.433Z"
+}

@@ -1,0 +1,80 @@
+{
+  "total": 50,
+  "successful": 45,
+  "failed": 5,
+  "byCategory": {
+    "💰 PRECIOS Y PLANES (10 preguntas)": {
+      "total": 6,
+      "successful": 6,
+      "failed": 0
+    },
+    "📊 EVALUACIÓN CRÍTICA (15 preguntas)": {
+      "total": 6,
+      "successful": 6,
+      "failed": 0
+    },
+    "💸 DRAWDOWN Y GESTIÓN DE RIESGO (12 preguntas)": {
+      "total": 6,
+      "successful": 4,
+      "failed": 2
+    },
+    "🚫 REGLAS TRADING (15 preguntas)": {
+      "total": 6,
+      "successful": 4,
+      "failed": 2
+    },
+    "💵 RETIROS Y PAGOS (15 preguntas)": {
+      "total": 6,
+      "successful": 6,
+      "failed": 0
+    },
+    "🎮 INSTRUMENTOS Y CONTRATOS (10 preguntas)": {
+      "total": 6,
+      "successful": 6,
+      "failed": 0
+    },
+    "💻 PLATAFORMAS Y TECNOLOGÍA (10 preguntas)": {
+      "total": 6,
+      "successful": 6,
+      "failed": 0
+    },
+    "🔄 RESET Y PA (12 preguntas)": {
+      "total": 6,
+      "successful": 5,
+      "failed": 1
+    },
+    "🌍 PAÍSES Y VERIFICACIÓN (8 preguntas)": {
+      "total": 2,
+      "successful": 2,
+      "failed": 0
+    }
+  },
+  "failedQuestions": [
+    {
+      "category": "💸 DRAWDOWN Y GESTIÓN DE RIESGO (12 preguntas)",
+      "original": "como se calcula el drawdown en la static?",
+      "variant": "como se calcula el limite de perdida en la static?"
+    },
+    {
+      "category": "💸 DRAWDOWN Y GESTIÓN DE RIESGO (12 preguntas)",
+      "original": "cual es el EOD drawdown vs trailing?",
+      "variant": "cual es el eod limite de perdida vs trailing?"
+    },
+    {
+      "category": "🚫 REGLAS TRADING (15 preguntas)",
+      "original": "hay blacklist de estrategias prohibidas?",
+      "variant": "hay blacklist de estrategias prohibidas?"
+    },
+    {
+      "category": "🚫 REGLAS TRADING (15 preguntas)",
+      "original": "hay blacklist de estrategias prohibidas?",
+      "variant": "existe blacklist de estrategias prohibidas?"
+    },
+    {
+      "category": "🔄 RESET Y PA (12 preguntas)",
+      "original": "hay descuento en la activacion PA?",
+      "variant": "ofrecen descuento en la activacion pa?"
+    }
+  ],
+  "timestamp": "2025-09-04T19:13:26.722Z"
+}

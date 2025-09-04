@@ -1,0 +1,70 @@
+{
+  "category": "reglas",
+  "summary": {
+    "total": 10,
+    "successful": 8,
+    "failed": 0,
+    "notFound": 2,
+    "successRate": "80.0%",
+    "avgResponseTime": "1688ms",
+    "withTitles": 2,
+    "withMarkdown": 8,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "puedo dejar trades abiertos de noche?",
+      "faq_id": "af40dafa-27ed-4674-bccc-431c5766a5bf",
+      "responseTime": 2072,
+      "preview": "### ❌ Posiciones Overnight en APEX\n\n**NO PERMITIDO**\n- Todas las posiciones DEBEN cerrarse antes del cierre de sesión (5:00 PM ET)\n- No se permite swing trading ni mantener posiciones overnight\n- Viol"
+    },
+    {
+      "query": "se puede tradear noticias?",
+      "faq_id": "f6fd6f34-09c4-436b-9e31-e549b9574623",
+      "responseTime": 1643,
+      "preview": "- **Sí, permitido** hacer trading durante noticias.\n- Regla one-direction: solo long o short, no ambos.\n- Aplica a todas las cuentas del trader."
+    },
+    {
+      "query": "que es la regla one direction?",
+      "faq_id": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+      "responseTime": 1728,
+      "preview": "- ❌ No se permite overnight/swing trading en cuenta financiada (PA).\n- Todas las posiciones deben cerrarse antes del cierre de sesión.\n- ✓ El trading de noticias está permitido con restricciones.\n- **"
+    },
+    {
+      "query": "hay regla de consistencia?",
+      "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32",
+      "responseTime": 117,
+      "preview": "### ⚖️ Regla de Consistencia 30% APEX\n\n**¿Qué es?**\nEl día de mayor profit no puede representar >30% del total acumulado.\n\n**Características:**\n- Se evalúa al solicitar retiro\n- NO elimina la cuenta, "
+    },
+    {
+      "query": "como funciona el 30%?",
+      "faq_id": "c2586246-9604-4acb-9831-dc3188d73d42",
+      "responseTime": 1515,
+      "preview": "- Las pérdidas en posiciones abiertas no pueden superar el 30% del saldo inicial del día.\n- Si el saldo está por debajo del Safety Net, se usa el 30% del Safety Net como base.\n- Al duplicar el Safety "
+    },
+    {
+      "query": "puedo usar EA o robots?",
+      "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2",
+      "responseTime": 2090,
+      "preview": "- **Automatización total prohibida** (bots, algos, HFT).\n- **Semi-automatización permitida** con supervisión constante.\n- Debes estar presente y tomar decisiones.\n- Violación = eliminación inmediata d"
+    },
+    {
+      "query": "se puede copytrade?",
+      "faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b",
+      "responseTime": 4120,
+      "preview": "- **Copy trading prohibido** entre diferentes personas.\n- **Permitido**: replicar TU estrategia en TUS cuentas.\n- **Prohibido**: compartir cuentas o copiar de otros.\n- Máximo 20 cuentas por hogar."
+    },
+    {
+      "query": "puedo compartir mi cuenta con un amigo?",
+      "faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b",
+      "responseTime": 1558,
+      "preview": "- **Copy trading prohibido** entre diferentes personas.\n- **Permitido**: replicar TU estrategia en TUS cuentas.\n- **Prohibido**: compartir cuentas o copiar de otros.\n- Máximo 20 cuentas por hogar."
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "puedo hacer swing trading?",
+    "que pasa si rompo una regla?"
+  ],
+  "timestamp": "2025-09-04T17:58:20.191Z"
+}

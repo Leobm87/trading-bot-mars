@@ -1,0 +1,60 @@
+{
+  "category": "evaluacion",
+  "summary": {
+    "total": 10,
+    "successful": 6,
+    "failed": 0,
+    "notFound": 4,
+    "successRate": "60.0%",
+    "avgResponseTime": "1298ms",
+    "withTitles": 0,
+    "withMarkdown": 6,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "en cuanto tiempo tengo que pasar la evaluacion?",
+      "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+      "responseTime": 1356,
+      "preview": "- **1 día mínimo** requerido (no consecutivos).\n- No hay requisito de días ganadores.\n- Tiempo límite: **ilimitado**."
+    },
+    {
+      "query": "cuantos dias minimo tengo que tradear?",
+      "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+      "responseTime": 1271,
+      "preview": "- **1 día mínimo** requerido (no consecutivos).\n- No hay requisito de días ganadores.\n- Tiempo límite: **ilimitado**."
+    },
+    {
+      "query": "cual es el profit target de la 50k?",
+      "faq_id": "12764769-c253-40a2-abdb-ba32b305f48a",
+      "responseTime": 1246,
+      "preview": "- **Profit target por tamaño:**\n  - $25,000: $1,500\n  - $50,000: $3,000\n  - $100,000: $6,000\n  - $150,000: $9,000\n  - $250,000: $15,000\n  - $300,000: $20,000\n  - $100,000 Static: $2,000\n- **Días mínim"
+    },
+    {
+      "query": "es una o dos fases?",
+      "faq_id": "034b984c-6fe7-4339-9b9f-12144511b438",
+      "responseTime": 1898,
+      "preview": "- La evaluación es de **una sola fase**.\n- Solo necesitas pasar **1 evaluación**; no hay \"fase 2\" o \"verification phase\".\n- Requisitos para aprobar: alcanzar el **profit target**, mínimo **1 día de tr"
+    },
+    {
+      "query": "hay limite de tiempo?",
+      "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+      "responseTime": 1371,
+      "preview": "- **1 día mínimo** requerido (no consecutivos).\n- No hay requisito de días ganadores.\n- Tiempo límite: **ilimitado**."
+    },
+    {
+      "query": "puedo tradear micros en la evaluacion?",
+      "faq_id": "4dbd61d1-b6a7-481f-a30a-0a811aae7671",
+      "responseTime": 1251,
+      "preview": "- Puedes operar microfuturos: MES (Micro S&P 500), MNQ (Micro Nasdaq), MYM (Micro Dow), M2K (Micro Russell).\n- Los microfuturos tienen 1/10 del valor de los E-minis correspondientes.\n- Son ideales par"
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "cuanto tengo que ganar para pasar?",
+    "necesito dias ganadores?",
+    "que pasa si no paso en un mes?",
+    "puedo hacer la evaluacion el fin de semana?"
+  ],
+  "timestamp": "2025-09-04T17:57:50.432Z"
+}

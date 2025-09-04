@@ -1,0 +1,200 @@
+{
+  "category": "general",
+  "summary": {
+    "total": 70,
+    "successful": 22,
+    "failed": 0,
+    "notFound": 48,
+    "successRate": "31.4%",
+    "avgResponseTime": "1617ms",
+    "withTitles": 1,
+    "withMarkdown": 21,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "que pasa si dejo un trade abierto por error?",
+      "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1",
+      "responseTime": 2027,
+      "preview": "- **Overnight NO permitido** en cuenta PA (debe cerrar antes de 5PM ET).\n- Si dejas posición abierta por error:\n  - Primera vez: advertencia\n  - Reincidencia: posible suspensión\n- Usa stops estrictos "
+    },
+    {
+      "query": "puedo tradear el domingo?",
+      "faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "responseTime": 1746,
+      "preview": "- Horario de sesión de trading: 6:00 PM ET a 4:59 PM ET.\n- Los trades realizados el domingo cuentan para el lunes."
+    },
+    {
+      "query": "a que hora cierra el mercado?",
+      "faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+      "responseTime": 1620,
+      "preview": "- Horario de sesión de trading: 6:00 PM ET a 4:59 PM ET.\n- Los trades realizados el domingo cuentan para el lunes."
+    },
+    {
+      "query": "me eliminan si pierdo un dia 2k?",
+      "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1",
+      "responseTime": 238,
+      "preview": "- **Overnight NO permitido** en cuenta PA (debe cerrar antes de 5PM ET).\n- Si dejas posición abierta por error:\n  - Primera vez: advertencia\n  - Reincidencia: posible suspensión\n- Usa stops estrictos "
+    },
+    {
+      "query": "que es el ratio 5:1?",
+      "faq_id": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+      "responseTime": 1355,
+      "preview": "- **Ratio máximo Riesgo/Beneficio: 5:1**\n  - No arriesgar más de $500 para ganar $100.\n  - Ratios de 3:1 o 4:1 son aceptables sin revisión.\n  \n- **Stops requeridos**\n  - Se permiten stops mentales (no"
+    },
+    {
+      "query": "puedo arriesgar todo el drawdown?",
+      "faq_id": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+      "responseTime": 1910,
+      "preview": "- **Ratio máximo Riesgo/Beneficio: 5:1**\n  - No arriesgar más de $500 para ganar $100.\n  - Ratios de 3:1 o 4:1 son aceptables sin revisión.\n  \n- **Stops requeridos**\n  - Se permiten stops mentales (no"
+    },
+    {
+      "query": "hay auditoria?",
+      "faq_id": "227648ae-20b0-4fff-a7d1-14387a2f03a1",
+      "responseTime": 1466,
+      "preview": "- **Verificaciones requeridas:**\n  - Sesiones Zoom en vivo\n  - Grabaciones de sesiones de trading\n  - Verificación de identidad completa\n  - Mantener logs de trading por 30 días\n  - Responder solicitu"
+    },
+    {
+      "query": "cuanto tarda el payout?",
+      "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "responseTime": 128,
+      "preview": "- **Frecuencia de retiro:** A demanda (cuando quieras)\n- **Requisito mínimo:** 8 días de trading activo\n- **Monto mínimo para retiro:** $500\n- **Profit split:** 100% para ti en los primeros $25,000 de"
+    },
+    {
+      "query": "necesito experiencia?",
+      "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+      "responseTime": 250,
+      "preview": "- **1 día mínimo** requerido (no consecutivos).\n- No hay requisito de días ganadores.\n- Tiempo límite: **ilimitado**."
+    },
+    {
+      "query": "con cuanto empiezo?",
+      "faq_id": "fd2f4df9-950b-4059-a8cf-1c2e45195fdd",
+      "responseTime": 3916,
+      "preview": "Saldos reales: 25K→$23,500, 50K→$47,500, 100K→$97,000, 150K→$145,000, 250K→$243,500, 300K→$292,500, 100K Static→$99,375"
+    },
+    {
+      "query": "puedo usar indicadores?",
+      "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2",
+      "responseTime": 2178,
+      "preview": "- **Automatización total prohibida** (bots, algos, HFT).\n- **Semi-automatización permitida** con supervisión constante.\n- Debes estar presente y tomar decisiones.\n- Violación = eliminación inmediata d"
+    },
+    {
+      "query": "que diferencia hay con topstep?",
+      "faq_id": "188e7c1f-f551-4adc-83f7-da13f18e2a97",
+      "responseTime": 261,
+      "preview": "- **No hay descuentos por volumen**: Apex no ofrece descuentos al comprar múltiples cuentas.\n- **Cobro individual**: Cada cuenta se cobra de forma individual.\n- **Límite de cuentas**: Se permite un má"
+    },
+    {
+      "query": "por que no hay perdida diaria?",
+      "faq_id": "71631094-ead6-415c-87bf-b4cb5962ae13",
+      "responseTime": 1588,
+      "preview": "- Trailing se congela en balance inicial + $100; sin límite de pérdida diaria.\n- Ratio máximo riesgo/beneficio: 5:1; pérdidas abiertas máximas: 30% del saldo inicial del día.\n- El día de mayor profit "
+    },
+    {
+      "query": "por que el trailing para en 100?",
+      "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "responseTime": 1413,
+      "preview": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ejemplo: en una cuenta de $50K, el trailing se congela en $50,100.\n- Se actualiza con posiciones abier"
+    },
+    {
+      "query": "puedo pasar en un dia?",
+      "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+      "responseTime": 2336,
+      "preview": "- **1 día mínimo** requerido (no consecutivos).\n- No hay requisito de días ganadores.\n- Tiempo límite: **ilimitado**."
+    },
+    {
+      "query": "puedo hacer hft?",
+      "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2",
+      "responseTime": 1627,
+      "preview": "- **Automatización total prohibida** (bots, algos, HFT).\n- **Semi-automatización permitida** con supervisión constante.\n- Debes estar presente y tomar decisiones.\n- Violación = eliminación inmediata d"
+    },
+    {
+      "query": "cuanto riesgo por trade?",
+      "faq_id": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+      "responseTime": 1637,
+      "preview": "- **Ratio máximo Riesgo/Beneficio: 5:1**\n  - No arriesgar más de $500 para ganar $100.\n  - Ratios de 3:1 o 4:1 son aceptables sin revisión.\n  \n- **Stops requeridos**\n  - Se permiten stops mentales (no"
+    },
+    {
+      "query": "puedo tradear indices?",
+      "faq_id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+      "responseTime": 1817,
+      "preview": "- Futuros E-minis: ES, NQ, YM, RTY, ZN  \n- Futuros Micros: MES, MNQ, MYM, M2K  \n- Commodities: CL, NG, GC, SI  \n- Agrícolas: ZC, ZW, ZS  \n- Forex futuros: 6E, 6J  \n- Todos los instrumentos están inclu"
+    },
+    {
+      "query": "cuanto tarda el reset?",
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "responseTime": 128,
+      "preview": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automáticamente.\n- **Pago inmediato:** Pagar $80 para resetear inmediatamente sin esperar."
+    },
+    {
+      "query": "puedo pausar la evaluacion?",
+      "faq_id": "99b1ead4-4928-4947-b325-218b81ccd33c",
+      "responseTime": 1835,
+      "preview": "- ✅ Se puede pausar la suscripción temporalmente.\n- Mantienes el progreso actual y las ganancias acumuladas.\n- ✅ Se puede resetear la evaluación si se violan reglas.\n- Costo del reset: $80 (pago inmed"
+    },
+    {
+      "query": "me clavan con las comisiones?",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "responseTime": 120,
+      "preview": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://support.apextraderfunding.com/hc/en-us/articles/4404825514139-Commissions-for-Rithmic\n- **Tradovate:** ht"
+    },
+    {
+      "query": "sirve para vivir de esto?",
+      "faq_id": "034b984c-6fe7-4339-9b9f-12144511b438",
+      "responseTime": 260,
+      "preview": "- La evaluación es de **una sola fase**.\n- Solo necesitas pasar **1 evaluación**; no hay \"fase 2\" o \"verification phase\".\n- Requisitos para aprobar: alcanzar el **profit target**, mínimo **1 día de tr"
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "puedo recuperar mi cuenta si la pierdo?",
+    "dan segundas oportunidades?",
+    "me pueden quitar la cuenta funded?",
+    "vale la pena apex?",
+    "es mejor que ftmo?",
+    "pagan de verdad?",
+    "hay gente cobrando?",
+    "es scam?",
+    "cuanto puedo ganar al mes?",
+    "que cuenta me recomiendan?",
+    "cual es el apalancamiento?",
+    "hay slippage?",
+    "que spread tienen?",
+    "los gaps cuentan?",
+    "hay vps gratis?",
+    "que latencia tienen?",
+    "puedo usar multiple pantallas?",
+    "hay api para trading?",
+    "soportan webhooks?",
+    "es mas facil que otras props?",
+    "cual es el truco?",
+    "hay letra pequeña?",
+    "que no me estan diciendo?",
+    "cual es el catch?",
+    "por que tan barato?",
+    "funciona el martingala?",
+    "puedo hacer grid?",
+    "se puede hedging?",
+    "puedo promediar?",
+    "hay limite de lotes?",
+    "cuantos trades al dia maximo?",
+    "funciona en forex?",
+    "cuanto tardan en aprobarme?",
+    "cuando me dan la cuenta pa?",
+    "en cuanto tiempo pagan?",
+    "hay soporte 24/7?",
+    "hablan español?",
+    "cuanto tarda la verificacion?",
+    "cuando puedo empezar a tradear?",
+    "hay demo antes?",
+    "apex es confiable bro?",
+    "estan pagando ahorita?",
+    "puedo tradear btc?",
+    "que onda con los impuestos?",
+    "me van a joder si gano mucho?",
+    "puedo meter a mi primo?",
+    "cuanta gente pasa la prueba?",
+    "me la puedo jugar toda en un trade?"
+  ],
+  "timestamp": "2025-09-04T18:01:13.318Z"
+}

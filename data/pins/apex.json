@@ -38,5 +38,20 @@
     "pattern": "apex.*principiante|bueno.*novato|empezar.*apex",
     "faq_id": "APEX_PRINCIPIANTES",
     "confidence": 0.95
+  },
+  {
+    "pattern": "(puedo|puedes|se puede).*reset.*apex|reset.*apex|apex.*reset",
+    "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "reset.*evaluacion|resetear.*cuenta|reiniciar.*evaluacion",
+    "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "cuanto.*reset|precio.*reset|costo.*reset|vale.*reset",
+    "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+    "confidence": 0.95
   }
 ]

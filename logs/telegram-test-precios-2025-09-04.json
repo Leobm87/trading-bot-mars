@@ -1,0 +1,59 @@
+{
+  "category": "precios",
+  "summary": {
+    "total": 10,
+    "successful": 0,
+    "failed": 10,
+    "notFound": 0,
+    "successRate": "0.0%",
+    "avgResponseTime": "189ms",
+    "withTitles": 0,
+    "withMarkdown": 0,
+    "tooLong": 0
+  },
+  "successful": [],
+  "failed": [
+    {
+      "query": "cuanto cuesta la cuenta de 25k?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "cuanto sale la cuenta de 50k?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "que precio tiene la de 100k?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "cual es la cuenta mas barata?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "cuanto cuesta la static de 50k?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "que diferencia hay entre normal y static?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "hay descuentos disponibles?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "cual cuenta me conviene con 500 dolares?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "puedo tener varias cuentas a la vez?",
+      "error": "svc.processQuery is not a function"
+    },
+    {
+      "query": "como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?",
+      "error": "svc.processQuery is not a function"
+    }
+  ],
+  "notFound": [],
+  "timestamp": "2025-09-04T18:20:20.082Z"
+}

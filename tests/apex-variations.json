@@ -1,0 +1,1397 @@
+{
+  "generated": "2025-09-04T19:10:57.977Z",
+  "original_count": 130,
+  "variation_count": 538,
+  "categories": {
+    "💰 PRECIOS Y PLANES (10 preguntas)": {
+      "original": [
+        "cuanto cuesta la cuenta de 25k?",
+        "cuanto sale la cuenta de 50k?",
+        "que precio tiene la de 100k?",
+        "cual es la cuenta mas barata?",
+        "cuanto cuesta la static de 50k?",
+        "que diferencia hay entre normal y static?",
+        "hay descuentos disponibles?",
+        "cual cuenta me conviene con 500 dolares?",
+        "puedo tener varias cuentas a la vez?",
+        "como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?"
+      ],
+      "variations": [
+        {
+          "original": "cuanto cuesta la cuenta de 25k?",
+          "variants": [
+            "cuanto cuesta la cuenta de 25k?",
+            "cuanto sale la cuenta de 25k?",
+            "cual es el precio cuesta la cuenta de 25k?",
+            "me puedes decir cuanto cuesta la cuenta de 25k?",
+            "cuanto cuesta cuenta de 25k??"
+          ]
+        },
+        {
+          "original": "cuanto sale la cuenta de 50k?",
+          "variants": [
+            "cuanto sale la cuenta de 50k?",
+            "cuanto sale la cuenta fondeada de 50k?",
+            "cual es el precio sale la cuenta de 50k?",
+            "me puedes decir cuanto sale la cuenta de 50k?",
+            "cuanto sale cuenta de 50k??"
+          ]
+        },
+        {
+          "original": "que precio tiene la de 100k?",
+          "variants": [
+            "que precio tiene la de 100k?",
+            "cuales precio tiene la de 100k?",
+            "cual precio tiene la de 100k?",
+            "me puedes decir que precio tiene la de 100k?",
+            "precio tiene de 100k??"
+          ]
+        },
+        {
+          "original": "cual es la cuenta mas barata?",
+          "variants": [
+            "cual es la cuenta mas barata?",
+            "cual es la cuenta de trading mas barata?",
+            "me puedes decir cual es la cuenta mas barata?",
+            "cuenta mas barata??"
+          ]
+        },
+        {
+          "original": "cuanto cuesta la static de 50k?",
+          "variants": [
+            "cuanto cuesta la static de 50k?",
+            "cuanto sale la static de 50k?",
+            "cual es el precio cuesta la static de 50k?",
+            "me puedes decir cuanto cuesta la static de 50k?",
+            "cuanto cuesta static de 50k??"
+          ]
+        },
+        {
+          "original": "que diferencia hay entre normal y static?",
+          "variants": [
+            "que diferencia hay entre normal y static?",
+            "que diferencia ofrecen entre normal y static?",
+            "cual diferencia hay entre normal y static?",
+            "me puedes decir que diferencia hay entre normal y static?",
+            "diferencia hay entre normal y static??"
+          ]
+        },
+        {
+          "original": "hay descuentos disponibles?",
+          "variants": [
+            "hay descuentos disponibles?",
+            "esta disponible descuentos disponibles?",
+            "me puedes decir hay descuentos disponibles?"
+          ]
+        },
+        {
+          "original": "cual cuenta me conviene con 500 dolares?",
+          "variants": [
+            "cual cuenta me conviene con 500 dolares?",
+            "cual account me conviene con 500 dolares?",
+            "me puedes decir cual cuenta me conviene con 500 dolares?",
+            "cuenta me conviene con 500 dolares??"
+          ]
+        },
+        {
+          "original": "puedo tener varias cuentas a la vez?",
+          "variants": [
+            "puedo tener varias cuentas a la vez?",
+            "puedes tener varias cuentas a la vez?",
+            "se puede tener varias cuentas a la vez?",
+            "me puedes decir puedo tener varias cuentas a la vez?",
+            "tener varias cuentas a vez??"
+          ]
+        },
+        {
+          "original": "como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?",
+          "variants": [
+            "como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?",
+            "como trabajan los precios de las cuentas grandes (150k, 250k, 300k)?",
+            "me puedes decir como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?"
+          ]
+        }
+      ]
+    },
+    "📊 EVALUACIÓN CRÍTICA (15 preguntas)": {
+      "original": [
+        "cual es el profit target para pasar?",
+        "en cuanto tiempo maximo tengo que pasar?",
+        "cuantos dias minimo de trading necesito?",
+        "puedo pasar solo con micros?",
+        "que pasa si paso pero no activo la PA?",
+        "puedo elegir cuando empezar la evaluacion?",
+        "se puede pausar o extender la evaluacion?",
+        "puedo tradear los fines de semana?",
+        "es evaluacion de una o dos fases?",
+        "que pasa si no llego al profit target?",
+        "necesito dias ganadores consecutivos?",
+        "cual es el profit target de cada cuenta?",
+        "puedo cambiar de cuenta durante la evaluacion?",
+        "hay fee por reset de evaluacion?",
+        "cuantas veces puedo resetear?"
+      ],
+      "variations": [
+        {
+          "original": "cual es el profit target para pasar?",
+          "variants": [
+            "cual es el profit target para pasar?",
+            "cual es el objetivo para pasar?",
+            "me puedes decir cual es el profit target para pasar?",
+            "profit target para pasar??"
+          ]
+        },
+        {
+          "original": "en cuanto tiempo maximo tengo que pasar?",
+          "variants": [
+            "en cuanto tiempo maximo tengo que pasar?",
+            "en cuanto tiempo maximo tengo cuales pasar?",
+            "me puedes decir en cuanto tiempo maximo tengo que pasar?",
+            "en cuanto tiempo maximo tengo pasar??"
+          ]
+        },
+        {
+          "original": "cuantos dias minimo de trading necesito?",
+          "variants": [
+            "cuantos dias minimo de trading necesito?",
+            "cuantos dias minimo de trading es necesario?",
+            "cual es el precios dias minimo de trading necesito?",
+            "me puedes decir cuantos dias minimo de trading necesito?",
+            "cuantos dias minimo de trading ??"
+          ]
+        },
+        {
+          "original": "puedo pasar solo con micros?",
+          "variants": [
+            "puedo pasar solo con micros?",
+            "puedes pasar solo con micros?",
+            "se puede pasar solo con micros?",
+            "me puedes decir puedo pasar solo con micros?",
+            "pasar solo con micros??"
+          ]
+        },
+        {
+          "original": "que pasa si paso pero no activo la PA?",
+          "variants": [
+            "que pasa si paso pero no activo la PA?",
+            "cuales pasa si paso pero no activo la pa?",
+            "cual pasa si paso pero no activo la pa?",
+            "me puedes decir que pasa si paso pero no activo la pa?",
+            "pasa si paso pero no activo pa??"
+          ]
+        },
+        {
+          "original": "puedo elegir cuando empezar la evaluacion?",
+          "variants": [
+            "puedo elegir cuando empezar la evaluacion?",
+            "puedes elegir cuando empezar la evaluacion?",
+            "se puede elegir cuando empezar la evaluacion?",
+            "me puedes decir puedo elegir cuando empezar la evaluacion?",
+            "elegir cuando empezar evaluacion??"
+          ]
+        },
+        {
+          "original": "se puede pausar o extender la evaluacion?",
+          "variants": [
+            "se puede pausar o extender la evaluacion?",
+            "se puede pausar o extender la examen?",
+            "me puedes decir se puede pausar o extender la evaluacion?",
+            "se puede pausar o extender evaluacion??"
+          ]
+        },
+        {
+          "original": "puedo tradear los fines de semana?",
+          "variants": [
+            "puedo tradear los fines de semana?",
+            "me dejan tradear los fines de semana?",
+            "se puede tradear los fines de semana?",
+            "me puedes decir puedo tradear los fines de semana?",
+            "tradear los fines de semana??"
+          ]
+        },
+        {
+          "original": "es evaluacion de una o dos fases?",
+          "variants": [
+            "es evaluacion de una o dos fases?",
+            "es prueba de una o dos fases?",
+            "me puedes decir es evaluacion de una o dos fases?",
+            "evaluacion de una o dos fases??"
+          ]
+        },
+        {
+          "original": "que pasa si no llego al profit target?",
+          "variants": [
+            "que pasa si no llego al profit target?",
+            "que pasa si no llego al meta?",
+            "cual pasa si no llego al profit target?",
+            "me puedes decir que pasa si no llego al profit target?",
+            "pasa si no llego al profit target??"
+          ]
+        },
+        {
+          "original": "necesito dias ganadores consecutivos?",
+          "variants": [
+            "necesito dias ganadores consecutivos?",
+            "tengo que dias ganadores consecutivos?",
+            "me puedes decir necesito dias ganadores consecutivos?",
+            "dias ganadores consecutivos??"
+          ]
+        },
+        {
+          "original": "cual es el profit target de cada cuenta?",
+          "variants": [
+            "cual es el profit target de cada cuenta?",
+            "cual es el profit target de cada cuenta fondeada?",
+            "me puedes decir cual es el profit target de cada cuenta?",
+            "profit target de cada cuenta??"
+          ]
+        },
+        {
+          "original": "puedo cambiar de cuenta durante la evaluacion?",
+          "variants": [
+            "puedo cambiar de cuenta durante la evaluacion?",
+            "me dejan cambiar de cuenta durante la evaluacion?",
+            "se puede cambiar de cuenta durante la evaluacion?",
+            "me puedes decir puedo cambiar de cuenta durante la evaluacion?",
+            "cambiar de cuenta durante evaluacion??"
+          ]
+        },
+        {
+          "original": "hay fee por reset de evaluacion?",
+          "variants": [
+            "hay fee por reset de evaluacion?",
+            "ofrecen fee por reset de evaluacion?",
+            "me puedes decir hay fee por reset de evaluacion?"
+          ]
+        },
+        {
+          "original": "cuantas veces puedo resetear?",
+          "variants": [
+            "cuantas veces puedo resetear?",
+            "cuantas veces se puede resetear?",
+            "me puedes decir cuantas veces puedo resetear?",
+            "cuantas veces resetear??"
+          ]
+        }
+      ]
+    },
+    "💸 DRAWDOWN Y GESTIÓN DE RIESGO (12 preguntas)": {
+      "original": [
+        "cual es el drawdown maximo de cada cuenta?",
+        "como funciona el trailing drawdown?",
+        "cuando se congela el trailing en 100 dolares?",
+        "hay limite de perdida diaria?",
+        "que pasa si toco el drawdown maximo?",
+        "el trailing sigue con trades abiertos?",
+        "cual es el EOD drawdown vs trailing?",
+        "las comisiones afectan al drawdown?",
+        "como se calcula el drawdown en la static?",
+        "puedo perder todo el drawdown en un dia?",
+        "como se resetea el balance para el drawdown?",
+        "que pasa con gaps y slippage en el drawdown?"
+      ],
+      "variations": [
+        {
+          "original": "cual es el drawdown maximo de cada cuenta?",
+          "variants": [
+            "cual es el drawdown maximo de cada cuenta?",
+            "cual es el drawdown maximo de cada cuenta fondeada?",
+            "me puedes decir cual es el drawdown maximo de cada cuenta?",
+            "drawdown maximo de cada cuenta??"
+          ]
+        },
+        {
+          "original": "como funciona el trailing drawdown?",
+          "variants": [
+            "como funciona el trailing drawdown?",
+            "como trabaja el trailing drawdown?",
+            "me puedes decir como funciona el trailing drawdown?",
+            "como funciona trailing drawdown??"
+          ]
+        },
+        {
+          "original": "cuando se congela el trailing en 100 dolares?",
+          "variants": [
+            "cuando se congela el trailing en 100 dolares?",
+            "que dia se congela el trailing en 100 dolares?",
+            "me puedes decir cuando se congela el trailing en 100 dolares?",
+            "cuando se congela trailing en 100 dolares??"
+          ]
+        },
+        {
+          "original": "hay limite de perdida diaria?",
+          "variants": [
+            "hay limite de perdida diaria?",
+            "tienen limite de perdida diaria?",
+            "me puedes decir hay limite de perdida diaria?"
+          ]
+        },
+        {
+          "original": "que pasa si toco el drawdown maximo?",
+          "variants": [
+            "que pasa si toco el drawdown maximo?",
+            "que pasa si toco el limite de perdida maximo?",
+            "cual pasa si toco el drawdown maximo?",
+            "me puedes decir que pasa si toco el drawdown maximo?",
+            "pasa si toco drawdown maximo??"
+          ]
+        },
+        {
+          "original": "el trailing sigue con trades abiertos?",
+          "variants": [
+            "el trailing sigue con trades abiertos?",
+            "el trailing sigue a traves de trades abiertos?",
+            "me puedes decir el trailing sigue con trades abiertos?",
+            "trailing sigue con trades abiertos??"
+          ]
+        },
+        {
+          "original": "cual es el EOD drawdown vs trailing?",
+          "variants": [
+            "cual es el EOD drawdown vs trailing?",
+            "cual es el eod limite de perdida vs trailing?",
+            "me puedes decir cual es el eod drawdown vs trailing?",
+            "eod drawdown vs trailing??"
+          ]
+        },
+        {
+          "original": "las comisiones afectan al drawdown?",
+          "variants": [
+            "las comisiones afectan al drawdown?",
+            "las comisiones afectan al perdida maxima?",
+            "me puedes decir las comisiones afectan al drawdown?"
+          ]
+        },
+        {
+          "original": "como se calcula el drawdown en la static?",
+          "variants": [
+            "como se calcula el drawdown en la static?",
+            "como se calcula el limite de perdida en la static?",
+            "me puedes decir como se calcula el drawdown en la static?",
+            "como se calcula drawdown en static??"
+          ]
+        },
+        {
+          "original": "puedo perder todo el drawdown en un dia?",
+          "variants": [
+            "puedo perder todo el drawdown en un dia?",
+            "podria perder todo el drawdown en un dia?",
+            "se puede perder todo el drawdown en un dia?",
+            "me puedes decir puedo perder todo el drawdown en un dia?",
+            "perder todo drawdown en un dia??"
+          ]
+        },
+        {
+          "original": "como se resetea el balance para el drawdown?",
+          "variants": [
+            "como se resetea el balance para el drawdown?",
+            "como se resetea el balance para el max loss?",
+            "me puedes decir como se resetea el balance para el drawdown?",
+            "como se resetea balance para el drawdown??"
+          ]
+        },
+        {
+          "original": "que pasa con gaps y slippage en el drawdown?",
+          "variants": [
+            "que pasa con gaps y slippage en el drawdown?",
+            "que pasa con gaps y slippage en el max loss?",
+            "cual pasa con gaps y slippage en el drawdown?",
+            "me puedes decir que pasa con gaps y slippage en el drawdown?",
+            "pasa con gaps y slippage en drawdown??"
+          ]
+        }
+      ]
+    },
+    "🚫 REGLAS TRADING (15 preguntas)": {
+      "original": [
+        "puedo dejar trades abiertos overnight?",
+        "se puede tradear durante noticias importantes?",
+        "puedo operar durante FOMC y NFP?",
+        "que es la regla de consistencia del 30%?",
+        "como funciona la regla one direction?",
+        "puedo usar EA o robots de trading?",
+        "esta permitido el copy trading?",
+        "puedo compartir cuenta con otro trader?",
+        "que pasa si violo una regla?",
+        "hay blacklist de estrategias prohibidas?",
+        "puedo hacer hedging en la misma cuenta?",
+        "esta permitido el HFT?",
+        "hay limite maximo de trades por dia?",
+        "puedo tradear todos los instrumentos desde el dia 1?",
+        "que pasa con rollovers de contratos?"
+      ],
+      "variations": [
+        {
+          "original": "puedo dejar trades abiertos overnight?",
+          "variants": [
+            "puedo dejar trades abiertos overnight?",
+            "podria dejar trades abiertos overnight?",
+            "se puede dejar trades abiertos overnight?",
+            "me puedes decir puedo dejar trades abiertos overnight?",
+            "dejar trades abiertos overnight??"
+          ]
+        },
+        {
+          "original": "se puede tradear durante noticias importantes?",
+          "variants": [
+            "se puede tradear durante noticias importantes?",
+            "me puedes decir se puede tradear durante noticias importantes?"
+          ]
+        },
+        {
+          "original": "puedo operar durante FOMC y NFP?",
+          "variants": [
+            "puedo operar durante FOMC y NFP?",
+            "puedes operar durante fomc y nfp?",
+            "se puede operar durante fomc y nfp?",
+            "me puedes decir puedo operar durante fomc y nfp?",
+            "operar durante fomc y nfp??"
+          ]
+        },
+        {
+          "original": "que es la regla de consistencia del 30%?",
+          "variants": [
+            "que es la regla de consistencia del 30%?",
+            "cuales es la regla de consistencia del 30%?",
+            "cual es la regla de consistencia del 30%?",
+            "me puedes decir que es la regla de consistencia del 30%?",
+            "regla de consistencia del 30%??"
+          ]
+        },
+        {
+          "original": "como funciona la regla one direction?",
+          "variants": [
+            "como funciona la regla one direction?",
+            "explicame la regla one direction?",
+            "me puedes decir como funciona la regla one direction?",
+            "como funciona regla one direction??"
+          ]
+        },
+        {
+          "original": "puedo usar EA o robots de trading?",
+          "variants": [
+            "puedo usar EA o robots de trading?",
+            "es posible usar ea o robots de trading?",
+            "se puede usar ea o robots de trading?",
+            "me puedes decir puedo usar ea o robots de trading?",
+            "usar ea o robots de trading??"
+          ]
+        },
+        {
+          "original": "esta permitido el copy trading?",
+          "variants": [
+            "esta permitido el copy trading?",
+            "me puedes decir esta permitido el copy trading?",
+            "esta permitido copy trading??"
+          ]
+        },
+        {
+          "original": "puedo compartir cuenta con otro trader?",
+          "variants": [
+            "puedo compartir cuenta con otro trader?",
+            "me dejan compartir cuenta con otro trader?",
+            "se puede compartir cuenta con otro trader?",
+            "me puedes decir puedo compartir cuenta con otro trader?",
+            "compartir cuenta con otro trader??"
+          ]
+        },
+        {
+          "original": "que pasa si violo una regla?",
+          "variants": [
+            "que pasa si violo una regla?",
+            "cual pasa si violo una regla?",
+            "me puedes decir que pasa si violo una regla?",
+            "pasa si violo una regla??"
+          ]
+        },
+        {
+          "original": "hay blacklist de estrategias prohibidas?",
+          "variants": [
+            "hay blacklist de estrategias prohibidas?",
+            "existe blacklist de estrategias prohibidas?",
+            "me puedes decir hay blacklist de estrategias prohibidas?"
+          ]
+        },
+        {
+          "original": "puedo hacer hedging en la misma cuenta?",
+          "variants": [
+            "puedo hacer hedging en la misma cuenta?",
+            "es posible hacer hedging en la misma cuenta?",
+            "se puede hacer hedging en la misma cuenta?",
+            "me puedes decir puedo hacer hedging en la misma cuenta?",
+            "hacer hedging en misma cuenta??"
+          ]
+        },
+        {
+          "original": "esta permitido el HFT?",
+          "variants": [
+            "esta permitido el HFT?",
+            "me puedes decir esta permitido el hft?",
+            "esta permitido hft??"
+          ]
+        },
+        {
+          "original": "hay limite maximo de trades por dia?",
+          "variants": [
+            "hay limite maximo de trades por dia?",
+            "esta disponible limite maximo de trades por dia?",
+            "me puedes decir hay limite maximo de trades por dia?"
+          ]
+        },
+        {
+          "original": "puedo tradear todos los instrumentos desde el dia 1?",
+          "variants": [
+            "puedo tradear todos los instrumentos desde el dia 1?",
+            "podria tradear todos los instrumentos desde el dia 1?",
+            "se puede tradear todos los instrumentos desde el dia 1?",
+            "me puedes decir puedo tradear todos los instrumentos desde el dia 1?",
+            "tradear todos los instrumentos desde dia 1??"
+          ]
+        },
+        {
+          "original": "que pasa con rollovers de contratos?",
+          "variants": [
+            "que pasa con rollovers de contratos?",
+            "cual pasa con rollovers de contratos?",
+            "me puedes decir que pasa con rollovers de contratos?",
+            "pasa con rollovers de contratos??"
+          ]
+        }
+      ]
+    },
+    "💵 RETIROS Y PAGOS (15 preguntas)": {
+      "original": [
+        "cuando puedo hacer mi primer retiro?",
+        "cual es el minimo para retirar?",
+        "cada cuanto puedo solicitar retiros?",
+        "como funcionan los metodos de pago (wise/plane)?",
+        "que porcentaje del profit me quedo?",
+        "hay limite maximo de retiro mensual?",
+        "que es el safety net o threshold?",
+        "puedo hacer retiros parciales?",
+        "que pasa si retiro todo el profit?",
+        "puedo reinvertir ganancias en mas contratos?",
+        "cuanto tarda en llegar el payout?",
+        "hay fee por retiro?",
+        "necesito mantener minimo en la cuenta?",
+        "como se calculan los impuestos?",
+        "puedo retirar en crypto o paypal?"
+      ],
+      "variations": [
+        {
+          "original": "cuando puedo hacer mi primer retiro?",
+          "variants": [
+            "cuando puedo hacer mi primer retiro?",
+            "cuando puedes hacer mi primer retiro?",
+            "me puedes decir cuando puedo hacer mi primer retiro?",
+            "cuando hacer mi primer retiro??"
+          ]
+        },
+        {
+          "original": "cual es el minimo para retirar?",
+          "variants": [
+            "cual es el minimo para retirar?",
+            "dime el minimo para retirar?",
+            "me puedes decir cual es el minimo para retirar?",
+            "minimo para retirar??"
+          ]
+        },
+        {
+          "original": "cada cuanto puedo solicitar retiros?",
+          "variants": [
+            "cada cuanto puedo solicitar retiros?",
+            "cada cuanto me dejan solicitar retiros?",
+            "me puedes decir cada cuanto puedo solicitar retiros?",
+            "cada cuanto solicitar retiros??"
+          ]
+        },
+        {
+          "original": "como funcionan los metodos de pago (wise/plane)?",
+          "variants": [
+            "como funcionan los metodos de pago (wise/plane)?",
+            "como esn los metodos de pago (wise/plane)?",
+            "me puedes decir como funcionan los metodos de pago (wise/plane)?"
+          ]
+        },
+        {
+          "original": "que porcentaje del profit me quedo?",
+          "variants": [
+            "que porcentaje del profit me quedo?",
+            "cual porcentaje del profit me quedo?",
+            "me puedes decir que porcentaje del profit me quedo?",
+            "porcentaje del profit me quedo??"
+          ]
+        },
+        {
+          "original": "hay limite maximo de retiro mensual?",
+          "variants": [
+            "hay limite maximo de retiro mensual?",
+            "existe limite maximo de retiro mensual?",
+            "me puedes decir hay limite maximo de retiro mensual?"
+          ]
+        },
+        {
+          "original": "que es el safety net o threshold?",
+          "variants": [
+            "que es el safety net o threshold?",
+            "cuales es el safety net o threshold?",
+            "cual es el safety net o threshold?",
+            "me puedes decir que es el safety net o threshold?",
+            "safety net o threshold??"
+          ]
+        },
+        {
+          "original": "puedo hacer retiros parciales?",
+          "variants": [
+            "puedo hacer retiros parciales?",
+            "me dejan hacer retiros parciales?",
+            "se puede hacer retiros parciales?",
+            "me puedes decir puedo hacer retiros parciales?",
+            "hacer retiros parciales??"
+          ]
+        },
+        {
+          "original": "que pasa si retiro todo el profit?",
+          "variants": [
+            "que pasa si retiro todo el profit?",
+            "que pasa si withdrawal todo el profit?",
+            "cual pasa si retiro todo el profit?",
+            "me puedes decir que pasa si retiro todo el profit?",
+            "pasa si retiro todo profit??"
+          ]
+        },
+        {
+          "original": "puedo reinvertir ganancias en mas contratos?",
+          "variants": [
+            "puedo reinvertir ganancias en mas contratos?",
+            "podria reinvertir ganancias en mas contratos?",
+            "se puede reinvertir ganancias en mas contratos?",
+            "me puedes decir puedo reinvertir ganancias en mas contratos?",
+            "reinvertir ganancias en mas contratos??"
+          ]
+        },
+        {
+          "original": "cuanto tarda en llegar el payout?",
+          "variants": [
+            "cuanto tarda en llegar el payout?",
+            "cuanto tarda dentro de llegar el payout?",
+            "cual es el precio tarda en llegar el payout?",
+            "me puedes decir cuanto tarda en llegar el payout?",
+            "cuanto tarda en llegar payout??"
+          ]
+        },
+        {
+          "original": "hay fee por retiro?",
+          "variants": [
+            "hay fee por retiro?",
+            "ofrecen fee por retiro?",
+            "me puedes decir hay fee por retiro?"
+          ]
+        },
+        {
+          "original": "necesito mantener minimo en la cuenta?",
+          "variants": [
+            "necesito mantener minimo en la cuenta?",
+            "tengo que mantener minimo en la cuenta?",
+            "me puedes decir necesito mantener minimo en la cuenta?",
+            "mantener minimo en cuenta??"
+          ]
+        },
+        {
+          "original": "como se calculan los impuestos?",
+          "variants": [
+            "como se calculan los impuestos?",
+            "me puedes decir como se calculan los impuestos?"
+          ]
+        },
+        {
+          "original": "puedo retirar en crypto o paypal?",
+          "variants": [
+            "puedo retirar en crypto o paypal?",
+            "se puede retirar en crypto o paypal?",
+            "me puedes decir puedo retirar en crypto o paypal?",
+            "retirar en crypto o paypal??"
+          ]
+        }
+      ]
+    },
+    "🎮 INSTRUMENTOS Y CONTRATOS (10 preguntas)": {
+      "original": [
+        "que instrumentos puedo tradear?",
+        "cuantos contratos puedo usar al inicio?",
+        "cuando puedo usar el maximo de contratos?",
+        "puedo tradear nasdaq y sp500?",
+        "esta disponible el oro y petroleo?",
+        "puedo operar crypto futuros?",
+        "cual es la diferencia entre micros y minis?",
+        "que es mejor para principiantes, micros o minis?",
+        "como se escalan los contratos segun el balance?",
+        "puedo tradear forex futuros?"
+      ],
+      "variations": [
+        {
+          "original": "que instrumentos puedo tradear?",
+          "variants": [
+            "que instrumentos puedo tradear?",
+            "que instrumentos es posible tradear?",
+            "cual instrumentos puedo tradear?",
+            "me puedes decir que instrumentos puedo tradear?",
+            "instrumentos tradear??"
+          ]
+        },
+        {
+          "original": "cuantos contratos puedo usar al inicio?",
+          "variants": [
+            "cuantos contratos puedo usar al inicio?",
+            "cuantos contratos podria usar al inicio?",
+            "cual es el precios contratos puedo usar al inicio?",
+            "me puedes decir cuantos contratos puedo usar al inicio?",
+            "cuantos contratos usar al inicio??"
+          ]
+        },
+        {
+          "original": "cuando puedo usar el maximo de contratos?",
+          "variants": [
+            "cuando puedo usar el maximo de contratos?",
+            "cuando podria usar el maximo de contratos?",
+            "me puedes decir cuando puedo usar el maximo de contratos?",
+            "cuando usar maximo de contratos??"
+          ]
+        },
+        {
+          "original": "puedo tradear nasdaq y sp500?",
+          "variants": [
+            "puedo tradear nasdaq y sp500?",
+            "puedes tradear nasdaq y sp500?",
+            "se puede tradear nasdaq y sp500?",
+            "me puedes decir puedo tradear nasdaq y sp500?",
+            "tradear nasdaq y sp500??"
+          ]
+        },
+        {
+          "original": "esta disponible el oro y petroleo?",
+          "variants": [
+            "esta disponible el oro y petroleo?",
+            "me puedes decir esta disponible el oro y petroleo?",
+            "esta disponible oro y petroleo??"
+          ]
+        },
+        {
+          "original": "puedo operar crypto futuros?",
+          "variants": [
+            "puedo operar crypto futuros?",
+            "me dejan operar crypto futuros?",
+            "se puede operar crypto futuros?",
+            "me puedes decir puedo operar crypto futuros?",
+            "operar crypto futuros??"
+          ]
+        },
+        {
+          "original": "cual es la diferencia entre micros y minis?",
+          "variants": [
+            "cual es la diferencia entre micros y minis?",
+            "dime la diferencia entre micros y minis?",
+            "me puedes decir cual es la diferencia entre micros y minis?",
+            "diferencia entre micros y minis??"
+          ]
+        },
+        {
+          "original": "que es mejor para principiantes, micros o minis?",
+          "variants": [
+            "que es mejor para principiantes, micros o minis?",
+            "cual es mejor para principiantes, micros o minis?",
+            "me puedes decir que es mejor para principiantes, micros o minis?",
+            "mejor para principiantes, micros o minis??"
+          ]
+        },
+        {
+          "original": "como se escalan los contratos segun el balance?",
+          "variants": [
+            "como se escalan los contratos segun el balance?",
+            "como se escalan los a traves detratos segun el balance?",
+            "me puedes decir como se escalan los contratos segun el balance?",
+            "como se escalan los contratos segun balance??"
+          ]
+        },
+        {
+          "original": "puedo tradear forex futuros?",
+          "variants": [
+            "puedo tradear forex futuros?",
+            "me dejan tradear forex futuros?",
+            "se puede tradear forex futuros?",
+            "me puedes decir puedo tradear forex futuros?",
+            "tradear forex futuros??"
+          ]
+        }
+      ]
+    },
+    "💻 PLATAFORMAS Y TECNOLOGÍA (10 preguntas)": {
+      "original": [
+        "que plataformas puedo usar?",
+        "tradingview esta disponible para apex?",
+        "ninjatrader tiene costo adicional?",
+        "que diferencia hay entre rithmic y tradovate?",
+        "cuanto son las comisiones por contrato?",
+        "necesito pagar data feed aparte?",
+        "cual plataforma tiene menor latencia?",
+        "puedo usar sierra chart o quantower?",
+        "puedo tradear desde movil?",
+        "que pasa si tengo problemas de conexion?"
+      ],
+      "variations": [
+        {
+          "original": "que plataformas puedo usar?",
+          "variants": [
+            "que plataformas puedo usar?",
+            "que plataformas es posible usar?",
+            "cual plataformas puedo usar?",
+            "me puedes decir que plataformas puedo usar?",
+            "plataformas usar??"
+          ]
+        },
+        {
+          "original": "tradingview esta disponible para apex?",
+          "variants": [
+            "tradingview esta disponible para apex?",
+            "tradingview esta disponible para apex funded?",
+            "me puedes decir tradingview esta disponible para apex?"
+          ]
+        },
+        {
+          "original": "ninjatrader tiene costo adicional?",
+          "variants": [
+            "ninjatrader tiene costo adicional?",
+            "ninjatrader tidurantee costo adicional?",
+            "me puedes decir ninjatrader tiene costo adicional?"
+          ]
+        },
+        {
+          "original": "que diferencia hay entre rithmic y tradovate?",
+          "variants": [
+            "que diferencia hay entre rithmic y tradovate?",
+            "que diferencia cuentan con entre rithmic y tradovate?",
+            "cual diferencia hay entre rithmic y tradovate?",
+            "me puedes decir que diferencia hay entre rithmic y tradovate?",
+            "diferencia hay entre rithmic y tradovate??"
+          ]
+        },
+        {
+          "original": "cuanto son las comisiones por contrato?",
+          "variants": [
+            "cuanto son las comisiones por contrato?",
+            "cuanto son las comisiones por a traves detrato?",
+            "cual es el precio son las comisiones por contrato?",
+            "me puedes decir cuanto son las comisiones por contrato?"
+          ]
+        },
+        {
+          "original": "necesito pagar data feed aparte?",
+          "variants": [
+            "necesito pagar data feed aparte?",
+            "es necesario pagar data feed aparte?",
+            "me puedes decir necesito pagar data feed aparte?",
+            "pagar data feed aparte??"
+          ]
+        },
+        {
+          "original": "cual plataforma tiene menor latencia?",
+          "variants": [
+            "cual plataforma tiene menor latencia?",
+            "cual plataforma tidentro dee menor latencia?",
+            "me puedes decir cual plataforma tiene menor latencia?",
+            "plataforma tiene menor latencia??"
+          ]
+        },
+        {
+          "original": "puedo usar sierra chart o quantower?",
+          "variants": [
+            "puedo usar sierra chart o quantower?",
+            "puedes usar sierra chart o quantower?",
+            "se puede usar sierra chart o quantower?",
+            "me puedes decir puedo usar sierra chart o quantower?",
+            "usar sierra chart o quantower??"
+          ]
+        },
+        {
+          "original": "puedo tradear desde movil?",
+          "variants": [
+            "puedo tradear desde movil?",
+            "es posible tradear desde movil?",
+            "se puede tradear desde movil?",
+            "me puedes decir puedo tradear desde movil?",
+            "tradear desde movil??"
+          ]
+        },
+        {
+          "original": "que pasa si tengo problemas de conexion?",
+          "variants": [
+            "que pasa si tengo problemas de conexion?",
+            "cual pasa si tengo problemas de conexion?",
+            "me puedes decir que pasa si tengo problemas de conexion?",
+            "pasa si tengo problemas de conexion??"
+          ]
+        }
+      ]
+    },
+    "🔄 RESET Y PA (12 preguntas)": {
+      "original": [
+        "cuanto cuesta resetear la evaluacion?",
+        "hay reset gratis disponible?",
+        "que es la activacion PA?",
+        "cuanto cuesta activar la cuenta PA?",
+        "tengo que pagar mensualidad despues de pasar?",
+        "cuanto es la mensualidad por tamaño de cuenta?",
+        "que pasa si no pago la mensualidad?",
+        "puedo pausar la cuenta PA?",
+        "hay descuento en la activacion PA?",
+        "cuanto tiempo tengo para activar despues de pasar?",
+        "pierdo la cuenta si no pago un mes?",
+        "puedo reactivar una cuenta pausada?"
+      ],
+      "variations": [
+        {
+          "original": "cuanto cuesta resetear la evaluacion?",
+          "variants": [
+            "cuanto cuesta resetear la evaluacion?",
+            "cuanto sale resetear la evaluacion?",
+            "cual es el precio cuesta resetear la evaluacion?",
+            "me puedes decir cuanto cuesta resetear la evaluacion?",
+            "cuanto cuesta resetear evaluacion??"
+          ]
+        },
+        {
+          "original": "hay reset gratis disponible?",
+          "variants": [
+            "hay reset gratis disponible?",
+            "tienen reset gratis disponible?",
+            "me puedes decir hay reset gratis disponible?"
+          ]
+        },
+        {
+          "original": "que es la activacion PA?",
+          "variants": [
+            "que es la activacion PA?",
+            "cuales es la activacion pa?",
+            "cual es la activacion pa?",
+            "me puedes decir que es la activacion pa?",
+            "activacion pa??"
+          ]
+        },
+        {
+          "original": "cuanto cuesta activar la cuenta PA?",
+          "variants": [
+            "cuanto cuesta activar la cuenta PA?",
+            "cuanto vale activar la cuenta pa?",
+            "cual es el precio cuesta activar la cuenta pa?",
+            "me puedes decir cuanto cuesta activar la cuenta pa?",
+            "cuanto cuesta activar cuenta pa??"
+          ]
+        },
+        {
+          "original": "tengo que pagar mensualidad despues de pasar?",
+          "variants": [
+            "tengo que pagar mensualidad despues de pasar?",
+            "tengo que pagar cuota despues de pasar?",
+            "me puedes decir tengo que pagar mensualidad despues de pasar?",
+            "tengo pagar mensualidad despues de pasar??"
+          ]
+        },
+        {
+          "original": "cuanto es la mensualidad por tamaño de cuenta?",
+          "variants": [
+            "cuanto es la mensualidad por tamaño de cuenta?",
+            "cuanto es la mensualidad por tamaño de cuenta de trading?",
+            "cual es el precio es la mensualidad por tamaño de cuenta?",
+            "me puedes decir cuanto es la mensualidad por tamaño de cuenta?",
+            "cuanto mensualidad por tamaño de cuenta??"
+          ]
+        },
+        {
+          "original": "que pasa si no pago la mensualidad?",
+          "variants": [
+            "que pasa si no pago la mensualidad?",
+            "que pasa si no pago la cuota?",
+            "cual pasa si no pago la mensualidad?",
+            "me puedes decir que pasa si no pago la mensualidad?",
+            "pasa si no pago mensualidad??"
+          ]
+        },
+        {
+          "original": "puedo pausar la cuenta PA?",
+          "variants": [
+            "puedo pausar la cuenta PA?",
+            "podria pausar la cuenta pa?",
+            "se puede pausar la cuenta pa?",
+            "me puedes decir puedo pausar la cuenta pa?",
+            "pausar cuenta pa??"
+          ]
+        },
+        {
+          "original": "hay descuento en la activacion PA?",
+          "variants": [
+            "hay descuento en la activacion PA?",
+            "ofrecen descuento en la activacion pa?",
+            "me puedes decir hay descuento en la activacion pa?",
+            "hay descuento en activacion pa??"
+          ]
+        },
+        {
+          "original": "cuanto tiempo tengo para activar despues de pasar?",
+          "variants": [
+            "cuanto tiempo tengo para activar despues de pasar?",
+            "cuanto tiempo tengo para poder activar despues de pasar?",
+            "cual es el precio tiempo tengo para activar despues de pasar?",
+            "me puedes decir cuanto tiempo tengo para activar despues de pasar?"
+          ]
+        },
+        {
+          "original": "pierdo la cuenta si no pago un mes?",
+          "variants": [
+            "pierdo la cuenta si no pago un mes?",
+            "pierdo la account si no pago un mes?",
+            "me puedes decir pierdo la cuenta si no pago un mes?",
+            "pierdo cuenta si no pago un mes??"
+          ]
+        },
+        {
+          "original": "puedo reactivar una cuenta pausada?",
+          "variants": [
+            "puedo reactivar una cuenta pausada?",
+            "podria reactivar una cuenta pausada?",
+            "se puede reactivar una cuenta pausada?",
+            "me puedes decir puedo reactivar una cuenta pausada?",
+            "reactivar una cuenta pausada??"
+          ]
+        }
+      ]
+    },
+    "🌍 PAÍSES Y VERIFICACIÓN (8 preguntas)": {
+      "original": [
+        "desde que paises puedo operar?",
+        "apex funciona en españa y latinoamerica?",
+        "que paises estan prohibidos?",
+        "necesito pasar KYC?",
+        "que documentos necesito?",
+        "aceptan paypal o crypto para pagar?",
+        "como pago desde latinoamerica?",
+        "cuanto tarda la verificacion?"
+      ],
+      "variations": [
+        {
+          "original": "desde que paises puedo operar?",
+          "variants": [
+            "desde que paises puedo operar?",
+            "desde que paises puedes operar?",
+            "me puedes decir desde que paises puedo operar?",
+            "desde paises operar??"
+          ]
+        },
+        {
+          "original": "apex funciona en españa y latinoamerica?",
+          "variants": [
+            "apex funciona en españa y latinoamerica?",
+            "apextrader funciona en españa y latinoamerica?",
+            "me puedes decir apex funciona en españa y latinoamerica?"
+          ]
+        },
+        {
+          "original": "que paises estan prohibidos?",
+          "variants": [
+            "que paises estan prohibidos?",
+            "cual paises estan prohibidos?",
+            "me puedes decir que paises estan prohibidos?",
+            "paises estan prohibidos??"
+          ]
+        },
+        {
+          "original": "necesito pasar KYC?",
+          "variants": [
+            "necesito pasar KYC?",
+            "tengo que pasar kyc?",
+            "me puedes decir necesito pasar kyc?"
+          ]
+        },
+        {
+          "original": "que documentos necesito?",
+          "variants": [
+            "que documentos necesito?",
+            "que documentos tengo que?",
+            "cual documentos necesito?",
+            "me puedes decir que documentos necesito?",
+            "documentos ??"
+          ]
+        },
+        {
+          "original": "aceptan paypal o crypto para pagar?",
+          "variants": [
+            "aceptan paypal o crypto para pagar?",
+            "aceptan paypal o crypto con el fin de pagar?",
+            "me puedes decir aceptan paypal o crypto para pagar?"
+          ]
+        },
+        {
+          "original": "como pago desde latinoamerica?",
+          "variants": [
+            "como pago desde latinoamerica?",
+            "me puedes decir como pago desde latinoamerica?"
+          ]
+        },
+        {
+          "original": "cuanto tarda la verificacion?",
+          "variants": [
+            "cuanto tarda la verificacion?",
+            "cual es el precio tarda la verificacion?",
+            "me puedes decir cuanto tarda la verificacion?",
+            "cuanto tarda verificacion??"
+          ]
+        }
+      ]
+    },
+    "⚠️ SITUACIONES Y SOPORTE (12 preguntas)": {
+      "original": [
+        "que pasa si dejo un trade abierto por error overnight?",
+        "a que hora exacta cierra el mercado?",
+        "que pasa si pierdo mas del drawdown permitido?",
+        "puedo recuperar una cuenta eliminada?",
+        "como reporto problemas tecnicos?",
+        "hay soporte en español?",
+        "cuanto tarda el soporte en responder?",
+        "que garantias tengo si hay problemas con la plataforma?",
+        "puedo cambiar mi estrategia despues de empezar?",
+        "hay auditoria de trades?",
+        "cuando puedo empezar a tradear tras el pago?",
+        "puedo pausar la evaluacion por vacaciones?"
+      ],
+      "variations": [
+        {
+          "original": "que pasa si dejo un trade abierto por error overnight?",
+          "variants": [
+            "que pasa si dejo un trade abierto por error overnight?",
+            "cuales pasa si dejo un trade abierto por error overnight?",
+            "cual pasa si dejo un trade abierto por error overnight?",
+            "me puedes decir que pasa si dejo un trade abierto por error overnight?",
+            "pasa si dejo un trade abierto por error overnight??"
+          ]
+        },
+        {
+          "original": "a que hora exacta cierra el mercado?",
+          "variants": [
+            "a que hora exacta cierra el mercado?",
+            "a cual hora exacta cierra el mercado?",
+            "me puedes decir a que hora exacta cierra el mercado?",
+            "a hora exacta cierra mercado??"
+          ]
+        },
+        {
+          "original": "que pasa si pierdo mas del drawdown permitido?",
+          "variants": [
+            "que pasa si pierdo mas del drawdown permitido?",
+            "que pasa si pierdo mas del max loss permitido?",
+            "cual pasa si pierdo mas del drawdown permitido?",
+            "me puedes decir que pasa si pierdo mas del drawdown permitido?",
+            "pasa si pierdo mas del drawdown permitido??"
+          ]
+        },
+        {
+          "original": "puedo recuperar una cuenta eliminada?",
+          "variants": [
+            "puedo recuperar una cuenta eliminada?",
+            "puedes recuperar una cuenta eliminada?",
+            "se puede recuperar una cuenta eliminada?",
+            "me puedes decir puedo recuperar una cuenta eliminada?",
+            "recuperar una cuenta eliminada??"
+          ]
+        },
+        {
+          "original": "como reporto problemas tecnicos?",
+          "variants": [
+            "como reporto problemas tecnicos?",
+            "me puedes decir como reporto problemas tecnicos?"
+          ]
+        },
+        {
+          "original": "hay soporte en español?",
+          "variants": [
+            "hay soporte en español?",
+            "existe soporte en español?",
+            "me puedes decir hay soporte en español?"
+          ]
+        },
+        {
+          "original": "cuanto tarda el soporte en responder?",
+          "variants": [
+            "cuanto tarda el soporte en responder?",
+            "cuanto tarda el soporte durante responder?",
+            "cual es el precio tarda el soporte en responder?",
+            "me puedes decir cuanto tarda el soporte en responder?",
+            "cuanto tarda soporte en responder??"
+          ]
+        },
+        {
+          "original": "que garantias tengo si hay problemas con la plataforma?",
+          "variants": [
+            "que garantias tengo si hay problemas con la plataforma?",
+            "que garantias tengo si existe problemas con la plataforma?",
+            "cual garantias tengo si hay problemas con la plataforma?",
+            "me puedes decir que garantias tengo si hay problemas con la plataforma?",
+            "garantias tengo si hay problemas con plataforma??"
+          ]
+        },
+        {
+          "original": "puedo cambiar mi estrategia despues de empezar?",
+          "variants": [
+            "puedo cambiar mi estrategia despues de empezar?",
+            "podria cambiar mi estrategia despues de empezar?",
+            "se puede cambiar mi estrategia despues de empezar?",
+            "me puedes decir puedo cambiar mi estrategia despues de empezar?",
+            "cambiar mi estrategia despues de empezar??"
+          ]
+        },
+        {
+          "original": "hay auditoria de trades?",
+          "variants": [
+            "hay auditoria de trades?",
+            "tienen auditoria de trades?",
+            "me puedes decir hay auditoria de trades?"
+          ]
+        },
+        {
+          "original": "cuando puedo empezar a tradear tras el pago?",
+          "variants": [
+            "cuando puedo empezar a tradear tras el pago?",
+            "cuando se puede empezar a tradear tras el pago?",
+            "me puedes decir cuando puedo empezar a tradear tras el pago?",
+            "cuando empezar a tradear tras pago??"
+          ]
+        },
+        {
+          "original": "puedo pausar la evaluacion por vacaciones?",
+          "variants": [
+            "puedo pausar la evaluacion por vacaciones?",
+            "es posible pausar la evaluacion por vacaciones?",
+            "se puede pausar la evaluacion por vacaciones?",
+            "me puedes decir puedo pausar la evaluacion por vacaciones?",
+            "pausar evaluacion por vacaciones??"
+          ]
+        }
+      ]
+    },
+    "🏆 CONFIANZA Y COMPARACIÓN (11 preguntas)": {
+      "original": [
+        "por que elegir apex sobre otras props?",
+        "que ventajas tiene apex vs ftmo?",
+        "como es apex comparado con topstep?",
+        "apex paga consistentemente?",
+        "cuantos traders activos tienen?",
+        "que porcentaje pasa la evaluacion?",
+        "tienen regulacion o garantias?",
+        "cuanto puedo ganar realisticamente al mes?",
+        "necesito experiencia previa?",
+        "es apex bueno para principiantes?",
+        "apex es sostenible a largo plazo?"
+      ],
+      "variations": [
+        {
+          "original": "por que elegir apex sobre otras props?",
+          "variants": [
+            "por que elegir apex sobre otras props?",
+            "por que elegir apex funded sobre otras props?",
+            "me puedes decir por que elegir apex sobre otras props?",
+            "por elegir apex sobre otras props??"
+          ]
+        },
+        {
+          "original": "que ventajas tiene apex vs ftmo?",
+          "variants": [
+            "que ventajas tiene apex vs ftmo?",
+            "que ventajas tiene apex funded vs ftmo?",
+            "cual ventajas tiene apex vs ftmo?",
+            "me puedes decir que ventajas tiene apex vs ftmo?",
+            "ventajas tiene apex vs ftmo??"
+          ]
+        },
+        {
+          "original": "como es apex comparado con topstep?",
+          "variants": [
+            "como es apex comparado con topstep?",
+            "como es apex funded comparado con topstep?",
+            "me puedes decir como es apex comparado con topstep?",
+            "como apex comparado con topstep??"
+          ]
+        },
+        {
+          "original": "apex paga consistentemente?",
+          "variants": [
+            "apex paga consistentemente?",
+            "apextrader paga consistentemente?",
+            "me puedes decir apex paga consistentemente?"
+          ]
+        },
+        {
+          "original": "cuantos traders activos tienen?",
+          "variants": [
+            "cuantos traders activos tienen?",
+            "cuantos traders activos tidentro deen?",
+            "cual es el precios traders activos tienen?",
+            "me puedes decir cuantos traders activos tienen?"
+          ]
+        },
+        {
+          "original": "que porcentaje pasa la evaluacion?",
+          "variants": [
+            "que porcentaje pasa la evaluacion?",
+            "que porcentaje pasa la examen?",
+            "cual porcentaje pasa la evaluacion?",
+            "me puedes decir que porcentaje pasa la evaluacion?",
+            "porcentaje pasa evaluacion??"
+          ]
+        },
+        {
+          "original": "tienen regulacion o garantias?",
+          "variants": [
+            "tienen regulacion o garantias?",
+            "tidentro deen regulacion o garantias?",
+            "me puedes decir tienen regulacion o garantias?"
+          ]
+        },
+        {
+          "original": "cuanto puedo ganar realisticamente al mes?",
+          "variants": [
+            "cuanto puedo ganar realisticamente al mes?",
+            "cuanto se puede ganar realisticamente al mes?",
+            "cual es el precio puedo ganar realisticamente al mes?",
+            "me puedes decir cuanto puedo ganar realisticamente al mes?",
+            "cuanto ganar realisticamente al mes??"
+          ]
+        },
+        {
+          "original": "necesito experiencia previa?",
+          "variants": [
+            "necesito experiencia previa?",
+            "tengo que experiencia previa?",
+            "me puedes decir necesito experiencia previa?",
+            "experiencia previa??"
+          ]
+        },
+        {
+          "original": "es apex bueno para principiantes?",
+          "variants": [
+            "es apex bueno para principiantes?",
+            "es apex trader bueno para principiantes?",
+            "me puedes decir es apex bueno para principiantes?",
+            "apex bueno para principiantes??"
+          ]
+        },
+        {
+          "original": "apex es sostenible a largo plazo?",
+          "variants": [
+            "apex es sostenible a largo plazo?",
+            "apextrader es sostenible a largo plazo?",
+            "me puedes decir apex es sostenible a largo plazo?",
+            "apex sostenible a largo plazo??"
+          ]
+        }
+      ]
+    }
+  }
+}

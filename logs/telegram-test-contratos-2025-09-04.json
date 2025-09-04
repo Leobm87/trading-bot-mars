@@ -1,0 +1,70 @@
+{
+  "category": "contratos",
+  "summary": {
+    "total": 10,
+    "successful": 8,
+    "failed": 0,
+    "notFound": 2,
+    "successRate": "80.0%",
+    "avgResponseTime": "1519ms",
+    "withTitles": 0,
+    "withMarkdown": 8,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "cuantos contratos puedo usar?",
+      "faq_id": "5b235d0a-b257-4292-adae-df65c21e689c",
+      "responseTime": 3042,
+      "preview": "**Escalado de contratos:**\n- Antes del Safety Net: 50% de contratos máximos.\n- Después del Safety Net: 100% disponible.\n- Al duplicar Safety Net: bonus adicional de contratos.\n\nEjemplo 50K: 5 contrato"
+    },
+    {
+      "query": "cuando puedo usar todos los contratos?",
+      "faq_id": "5b235d0a-b257-4292-adae-df65c21e689c",
+      "responseTime": 1788,
+      "preview": "**Escalado de contratos:**\n- Antes del Safety Net: 50% de contratos máximos.\n- Después del Safety Net: 100% disponible.\n- Al duplicar Safety Net: bonus adicional de contratos.\n\nEjemplo 50K: 5 contrato"
+    },
+    {
+      "query": "puedo tradear nasdaq?",
+      "faq_id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+      "responseTime": 1811,
+      "preview": "- Futuros E-minis: ES, NQ, YM, RTY, ZN  \n- Futuros Micros: MES, MNQ, MYM, M2K  \n- Commodities: CL, NG, GC, SI  \n- Agrícolas: ZC, ZW, ZS  \n- Forex futuros: 6E, 6J  \n- Todos los instrumentos están inclu"
+    },
+    {
+      "query": "que instrumentos hay?",
+      "faq_id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+      "responseTime": 1586,
+      "preview": "- Futuros E-minis: ES, NQ, YM, RTY, ZN  \n- Futuros Micros: MES, MNQ, MYM, M2K  \n- Commodities: CL, NG, GC, SI  \n- Agrícolas: ZC, ZW, ZS  \n- Forex futuros: 6E, 6J  \n- Todos los instrumentos están inclu"
+    },
+    {
+      "query": "puedo operar crypto?",
+      "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+      "responseTime": 1758,
+      "preview": "- **Instrumentos Permitidos**: Futuros (ES, NQ, YM, RTY, CL, GC, SI, NG), Micros (MES, MNQ, MYM, M2K, MCL, MGC), Forex (6E, 6B, 6J, 6A, 6C), Crypto (MBT, MET).\n- **NO permitido**: Acciones individuale"
+    },
+    {
+      "query": "cuantos micros son un mini?",
+      "faq_id": "4dbd61d1-b6a7-481f-a30a-0a811aae7671",
+      "responseTime": 1293,
+      "preview": "- Puedes operar microfuturos: MES (Micro S&P 500), MNQ (Micro Nasdaq), MYM (Micro Dow), M2K (Micro Russell).\n- Los microfuturos tienen 1/10 del valor de los E-minis correspondientes.\n- Son ideales par"
+    },
+    {
+      "query": "hay oro y petroleo?",
+      "faq_id": "8cf8ca52-0d1d-45a5-b3b9-81d293ef71ad",
+      "responseTime": 1491,
+      "preview": "- Futuros E-minis: ES, NQ, YM, RTY\n- Microfuturos: MES, MNQ, MYM, M2K\n- Commodities: petróleo CL, gas natural NG, oro GC, plata SI\n- Agrícolas: maíz ZC, trigo ZW, soja ZS\n- Forex futuros: EUR/USD 6E, "
+    },
+    {
+      "query": "que es mejor para principiantes?",
+      "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1",
+      "responseTime": 276,
+      "preview": "- **Overnight NO permitido** en cuenta PA (debe cerrar antes de 5PM ET).\n- Si dejas posición abierta por error:\n  - Primera vez: advertencia\n  - Reincidencia: posible suspensión\n- Usa stops estrictos "
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "puedo hacer scalping?",
+    "hay limit de trades por dia?"
+  ],
+  "timestamp": "2025-09-04T17:58:44.108Z"
+}

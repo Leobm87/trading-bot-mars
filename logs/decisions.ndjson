@@ -617,3 +617,16 @@
 {"when":"2025-09-04T15:45:02.728Z","firm":"apex","q":"cuanto cuesta la cuenta de 50k","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":204}
 {"when":"2025-09-04T16:38:36.989Z","firm":"apex","q":"cuanto sale la cuenta de 50k?","selector":"db","faq_id":"80d9c0e7-c37e-459d-a28d-f70a169fe3df","ms":1863}
 {"when":"2025-09-04T16:40:00.736Z","firm":"apex","q":"hay descuentos?","selector":"db","faq_id":"a5c42153-0610-4192-b149-26bd9914e700","ms":265}
+{"when":"2025-09-04T18:19:20.498Z","firm":"apex","q":"cuanto cuesta la cuenta de 25k?","selector":"db","faq_id":"80d9c0e7-c37e-459d-a28d-f70a169fe3df","ms":1859}
+{"when":"2025-09-04T18:19:49.442Z","firm":"apex","q":"cuanto cuesta la cuenta de 50k?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":210}
+{"when":"2025-09-04T18:52:19.861Z","firm":"apex","q":"cual es la cuenta mas barata?","selector":"db","faq_id":"9a387581-0b8d-4bc1-9c40-696b2bead0a1","ms":442}
+{"when":"2025-09-04T18:55:22.378Z","firm":"apex","q":"cual es el umbral minimo en apex","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":1699}
+{"when":"2025-09-04T18:55:22.619Z","firm":"apex","q":"metodos de pago apex","selector":"db","faq_id":"4c484cef-5715-480f-8c16-914610866a62","ms":237}
+{"when":"2025-09-04T18:55:22.808Z","firm":"apex","q":"cuanto cuesta activar apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":186}
+{"when":"2025-09-04T18:55:23.939Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1128}
+{"when":"2025-09-04T19:03:48.565Z","firm":"apex","q":"test latencia","selector":"db","faq_id":"6ef8d9e9-2fc3-45e0-8731-eb89bf353fc5","ms":2326}
+{"when":"2025-09-04T19:07:31.798Z","firm":"apex","q":"puedes hacer reset en apex?","selector":"none","faq_id":null,"ms":1303}
+{"when":"2025-09-04T19:08:12.712Z","firm":"apex","q":"cuanto cuesta resetear la evaluacion?","selector":"db","faq_id":"99b1ead4-4928-4947-b325-218b81ccd33c","ms":2225}
+{"when":"2025-09-04T19:11:29.918Z","firm":"apex","q":"puedes hacer reset en apex?","selector":"none","faq_id":null,"ms":1240}
+{"when":"2025-09-04T19:12:04.740Z","firm":"apex","q":"puedes hacer reset en apex?","selector":"db","faq_id":"8c0189a8-b20d-4adc-859f-18a8885d91e7","ms":250}
+{"when":"2025-09-04T19:14:38.889Z","firm":"apex","q":"cuanto cuesta resetear la evaluacion?","selector":"db","faq_id":"8c0189a8-b20d-4adc-859f-18a8885d91e7","ms":192}

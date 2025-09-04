@@ -1,0 +1,75 @@
+{
+  "category": "retiros",
+  "summary": {
+    "total": 10,
+    "successful": 9,
+    "failed": 0,
+    "notFound": 1,
+    "successRate": "90.0%",
+    "avgResponseTime": "752ms",
+    "withTitles": 3,
+    "withMarkdown": 9,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "cuando puedo sacar plata?",
+      "faq_id": "07a149b0-1866-42f0-b5ff-1320a57cb7b7",
+      "responseTime": 616,
+      "preview": "### 💸 Cómo Retirar Dinero en APEX\n\n**Métodos de Retiro:**\n- **WISE (Solo USA):** Rápido, para traders de EE. UU.\n- **PLANE (Internacional):** Seguro, para traders fuera de EE. UU.\n\n**Requisitos para "
+    },
+    {
+      "query": "cuanto es lo minimo que puedo retirar?",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "responseTime": 1473,
+      "preview": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K: $2,500\n  - 150K: $2,750\n  - 250K: $3,000\n  - 300K: $3,500\n  - 100K Static: $1,000\n- Desde el 6º re"
+    },
+    {
+      "query": "cada cuanto puedo cobrar?",
+      "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "responseTime": 132,
+      "preview": "- **Frecuencia de retiro:** A demanda (cuando quieras)\n- **Requisito mínimo:** 8 días de trading activo\n- **Monto mínimo para retiro:** $500\n- **Profit split:** 100% para ti en los primeros $25,000 de"
+    },
+    {
+      "query": "como me pagan?",
+      "faq_id": "58dfa75f-ad03-47b9-9a8e-0df85def7e58",
+      "responseTime": 270,
+      "preview": "- Las cuentas de evaluación y PA tienen suscripciones mensuales.\n- Si no se paga la suscripción mensual, la cuenta se cierra automáticamente.\n- Es crucial mantener los pagos al día para conservar el a"
+    },
+    {
+      "query": "que es wise y plane?",
+      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+      "responseTime": 145,
+      "preview": "### 💰 Precios de Evaluación APEX\n\n**Cuentas disponibles:**\n- $25,000 ($147/mes)\n- $50,000 ($167/mes)\n- $100,000 ($207/mes)\n- $150,000 ($297/mes)\n- $250,000 ($517/mes)\n- $300,000 ($657/mes)\n- $100,000"
+    },
+    {
+      "query": "cuanto me quedo yo del profit?",
+      "faq_id": "aab6da23-95bc-47de-b173-4d031fc8090b",
+      "responseTime": 1640,
+      "preview": "- Profit split del 100% para los primeros $25,000 por cuenta.\n- Después de $25,000, el split es 90/10.\n- 90% para el usuario y 10% para Apex."
+    },
+    {
+      "query": "hay limite maximo de retiro?",
+      "faq_id": "bed584a4-c195-4981-892a-3b33df356e21",
+      "responseTime": 1366,
+      "preview": "- **Mínimo de retiro:** $500 (todos los tamaños)\n- **Máximo (primeros 5 retiros):**\n  - $25,000: $1,500\n  - $50,000: $2,000\n  - $100,000: $2,500\n  - $150,000: $2,750\n  - $250,000: $3,000\n  - $300,000:"
+    },
+    {
+      "query": "que es el safety net?",
+      "faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "responseTime": 130,
+      "preview": "### 🛡️ Safety Net (Umbral) por Cuenta\n\n**Safety Net por tamaño:**\n- $25K → $26,600 (profit $1,600)\n- $50K → $52,600 (profit $2,600)\n- $100K → $103,100 (profit $3,100)\n- $150K → $155,100 (profit $5,10"
+    },
+    {
+      "query": "cuando puedo hacer mi primer retiro?",
+      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+      "responseTime": 120,
+      "preview": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K: $2,500\n  - 150K: $2,750\n  - 250K: $3,000\n  - 300K: $3,500\n  - 100K Static: $1,000\n- Desde el 6º re"
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "puedo retirar con crypto?"
+  ],
+  "timestamp": "2025-09-04T17:58:28.312Z"
+}

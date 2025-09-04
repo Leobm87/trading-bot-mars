@@ -1,0 +1,65 @@
+{
+  "category": "plataformas",
+  "summary": {
+    "total": 10,
+    "successful": 7,
+    "failed": 0,
+    "notFound": 3,
+    "successRate": "70.0%",
+    "avgResponseTime": "1301ms",
+    "withTitles": 3,
+    "withMarkdown": 7,
+    "tooLong": 0
+  },
+  "successful": [
+    {
+      "query": "que plataformas puedo usar?",
+      "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+      "responseTime": 2810,
+      "preview": "- **Instrumentos Permitidos**: Futuros (ES, NQ, YM, RTY, CL, GC, SI, NG), Micros (MES, MNQ, MYM, M2K, MCL, MGC), Forex (6E, 6B, 6J, 6A, 6C), Crypto (MBT, MET).\n- **NO permitido**: Acciones individuale"
+    },
+    {
+      "query": "ninjatrader es gratis?",
+      "faq_id": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+      "responseTime": 1358,
+      "preview": "- **Proveedores de datos:** Rithmic, Tradovate, WealthCharts.\n- **Plataformas soportadas:** NinjaTrader (Gratis), Tradovate (Gratis), Rithmic (Gratis), ATAS, BookMap, EdgeProX, Finamark, Jigsaw Daytra"
+    },
+    {
+      "query": "que es mejor rithmic o tradovate?",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "responseTime": 1118,
+      "preview": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://support.apextraderfunding.com/hc/en-us/articles/4404825514139-Commissions-for-Rithmic\n- **Tradovate:** ht"
+    },
+    {
+      "query": "cuanto cobran de comisiones?",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "responseTime": 138,
+      "preview": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://support.apextraderfunding.com/hc/en-us/articles/4404825514139-Commissions-for-Rithmic\n- **Tradovate:** ht"
+    },
+    {
+      "query": "las comisiones son por lado o round trip?",
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "responseTime": 130,
+      "preview": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://support.apextraderfunding.com/hc/en-us/articles/4404825514139-Commissions-for-Rithmic\n- **Tradovate:** ht"
+    },
+    {
+      "query": "necesito pagar por los datos?",
+      "faq_id": "20f69c84-c8a4-403b-9ac7-ae25c938c484",
+      "responseTime": 1448,
+      "preview": "- Los datos en tiempo real NO están incluidos en la cuenta.\n- Se deben pagar por separado los market data feeds.\n- Es un costo adicional del broker/plataforma.\n- Costos típicos: Rithmic ~$85/mes, Trad"
+    },
+    {
+      "query": "puedo usar sierra chart?",
+      "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+      "responseTime": 1813,
+      "preview": "- **Instrumentos Permitidos**: Futuros (ES, NQ, YM, RTY, CL, GC, SI, NG), Micros (MES, MNQ, MYM, M2K, MCL, MGC), Forex (6E, 6B, 6J, 6A, 6C), Crypto (MBT, MET).\n- **NO permitido**: Acciones individuale"
+    }
+  ],
+  "failed": [],
+  "notFound": [
+    "tradingview funciona?",
+    "puedo usar mt4 o mt5?",
+    "cual tiene menos latencia?"
+  ],
+  "timestamp": "2025-09-04T17:58:57.723Z"
+}

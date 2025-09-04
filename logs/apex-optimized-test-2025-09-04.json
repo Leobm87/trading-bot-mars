@@ -1,0 +1,1125 @@
+{
+  "total": 130,
+  "successful": 122,
+  "failed": 8,
+  "byCategory": {
+    "💰 PRECIOS Y PLANES (10 preguntas)": {
+      "total": 10,
+      "successful": 8,
+      "failed": 2,
+      "questions": [
+        {
+          "question": "cuanto cuesta la cuenta de 25k?",
+          "success": true,
+          "faq_id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+          "source": "db",
+          "responseTime": 4667,
+          "response": "### 🚀 Costos de Activación PA en APEX\n\n**Opción 1 - Pago Único:**\n- 25K: $130\n- 50K: $140\n- 100K: $..."
+        },
+        {
+          "question": "cuanto sale la cuenta de 50k?",
+          "success": true,
+          "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+          "source": "db",
+          "responseTime": 66,
+          "response": "### 💰 Precios de Evaluación APEX\n\n**Cuentas disponibles:**\n- $25,000 ($147/mes)\n- $50,000 ($167/mes..."
+        },
+        {
+          "question": "que precio tiene la de 100k?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 79,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "cual es la cuenta mas barata?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 1055,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "cuanto cuesta la static de 50k?",
+          "success": true,
+          "faq_id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+          "source": "db",
+          "responseTime": 1480,
+          "response": "### 🚀 Costos de Activación PA en APEX\n\n**Opción 1 - Pago Único:**\n- 25K: $130\n- 50K: $140\n- 100K: $..."
+        },
+        {
+          "question": "que diferencia hay entre normal y static?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 832,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "hay descuentos disponibles?",
+          "success": true,
+          "faq_id": "a5c42153-0610-4192-b149-26bd9914e700",
+          "source": "db",
+          "responseTime": 78,
+          "response": "### 🎁 Descuentos APEX\n\n**¿Dónde encontrar descuentos activos?**\nEn el grupo de descuentos de nuestr..."
+        },
+        {
+          "question": "cual cuenta me conviene con 500 dolares?",
+          "success": true,
+          "faq_id": "07e38a1d-7843-47f4-bcef-ff106f3af960",
+          "source": "db",
+          "responseTime": 218,
+          "response": "Con $500, la cuenta de **$25,000** ($147/mes) es la mejor opción. Permite 3 pagos mensuales y tiene ..."
+        },
+        {
+          "question": "puedo tener varias cuentas a la vez?",
+          "success": true,
+          "faq_id": "a91fd700-9e22-4508-aafc-35045d5f8d48",
+          "source": "db",
+          "responseTime": 3600,
+          "response": "- Se permite un **máximo de 20 cuentas** por hogar.\n- Es posible **replicar estrategias** entre múlt..."
+        },
+        {
+          "question": "como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?",
+          "success": true,
+          "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+          "source": "db",
+          "responseTime": 66,
+          "response": "### 💰 Precios de Evaluación APEX\n\n**Cuentas disponibles:**\n- $25,000 ($147/mes)\n- $50,000 ($167/mes..."
+        }
+      ]
+    },
+    "📊 EVALUACIÓN CRÍTICA (15 preguntas)": {
+      "total": 15,
+      "successful": 14,
+      "failed": 1,
+      "questions": [
+        {
+          "question": "cual es el profit target para pasar?",
+          "success": true,
+          "faq_id": "12764769-c253-40a2-abdb-ba32b305f48a",
+          "source": "db",
+          "responseTime": 1225,
+          "response": "- **Profit target por tamaño:**\n  - $25,000: $1,500\n  - $50,000: $3,000\n  - $100,000: $6,000\n  - $15..."
+        },
+        {
+          "question": "en cuanto tiempo maximo tengo que pasar?",
+          "success": true,
+          "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+          "source": "db",
+          "responseTime": 1813,
+          "response": "- **1 día mínimo** requerido (no consecutivos).\n- No hay requisito de días ganadores.\n- Tiempo límit..."
+        },
+        {
+          "question": "cuantos dias minimo de trading necesito?",
+          "success": true,
+          "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+          "source": "db",
+          "responseTime": 2470,
+          "response": "- **1 día mínimo** requerido (no consecutivos).\n- No hay requisito de días ganadores.\n- Tiempo límit..."
+        },
+        {
+          "question": "puedo pasar solo con micros?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 658,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "que pasa si paso pero no activo la PA?",
+          "success": true,
+          "faq_id": "4b6b0928-f5ba-429f-baed-3a62933961af",
+          "source": "db",
+          "responseTime": 197,
+          "response": "Tienes **14 días** para activar la PA tras pasar. Si no la activas en ese plazo, pierdes el acceso y..."
+        },
+        {
+          "question": "puedo elegir cuando empezar la evaluacion?",
+          "success": true,
+          "faq_id": "930a78d3-ef55-45c2-be89-bf549761e591",
+          "source": "db",
+          "responseTime": 196,
+          "response": "Sí, la evaluación comienza cuando haces tu **primer trade**. Puedes tomarte el tiempo que necesites ..."
+        },
+        {
+          "question": "se puede pausar o extender la evaluacion?",
+          "success": true,
+          "faq_id": "99b1ead4-4928-4947-b325-218b81ccd33c",
+          "source": "db",
+          "responseTime": 2475,
+          "response": "- ✅ Se puede pausar la suscripción temporalmente.\n- Mantienes el progreso actual y las ganancias acu..."
+        },
+        {
+          "question": "puedo tradear los fines de semana?",
+          "success": true,
+          "faq_id": "40520fd2-7e64-4250-b355-2ca515b055d1",
+          "source": "db",
+          "responseTime": 202,
+          "response": "No, los mercados están cerrados los fines de semana. Abren domingo 6:00 PM ET y cierran viernes 5:00..."
+        },
+        {
+          "question": "es evaluacion de una o dos fases?",
+          "success": true,
+          "faq_id": "034b984c-6fe7-4339-9b9f-12144511b438",
+          "source": "db",
+          "responseTime": 1642,
+          "response": "- La evaluación es de **una sola fase**.\n- Solo necesitas pasar **1 evaluación**; no hay \"fase 2\" o ..."
+        },
+        {
+          "question": "que pasa si no llego al profit target?",
+          "success": true,
+          "faq_id": "e490d802-e73d-42b2-93d3-92aa9009c35e",
+          "source": "db",
+          "responseTime": 201,
+          "response": "Si no alcanzas el profit target, no pasas la evaluación. Debes hacer reset (~$85) para intentar nuev..."
+        },
+        {
+          "question": "necesito dias ganadores consecutivos?",
+          "success": true,
+          "faq_id": "343abfb0-f4a9-4608-b233-12d70c8169ce",
+          "source": "db",
+          "responseTime": 186,
+          "response": "No, APEX no requiere días ganadores consecutivos. Solo necesitas 7 días de trading total y alcanzar ..."
+        },
+        {
+          "question": "cual es el profit target de cada cuenta?",
+          "success": true,
+          "faq_id": "12764769-c253-40a2-abdb-ba32b305f48a",
+          "source": "db",
+          "responseTime": 2570,
+          "response": "- **Profit target por tamaño:**\n  - $25,000: $1,500\n  - $50,000: $3,000\n  - $100,000: $6,000\n  - $15..."
+        },
+        {
+          "question": "puedo cambiar de cuenta durante la evaluacion?",
+          "success": true,
+          "faq_id": "258aa293-79b5-4799-a8e2-470a8cf40bbd",
+          "source": "db",
+          "responseTime": -497,
+          "response": "No puedes cambiar de tamaño durante la evaluación. Debes completarla o comprar una nueva evaluación ..."
+        },
+        {
+          "question": "hay fee por reset de evaluacion?",
+          "success": true,
+          "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+          "source": "db",
+          "responseTime": 63,
+          "response": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automática..."
+        },
+        {
+          "question": "cuantas veces puedo resetear?",
+          "success": true,
+          "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+          "source": "db",
+          "responseTime": 74,
+          "response": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automática..."
+        }
+      ]
+    },
+    "💸 DRAWDOWN Y GESTIÓN DE RIESGO (12 preguntas)": {
+      "total": 12,
+      "successful": 12,
+      "failed": 0,
+      "questions": [
+        {
+          "question": "cual es el drawdown maximo de cada cuenta?",
+          "success": true,
+          "faq_id": "b0410c27-2dad-44c1-9031-52c4a56f2fc3",
+          "source": "db",
+          "responseTime": 1859,
+          "response": "### 📊 Tipos de Drawdown en APEX\n\n**Trailing Drawdown (se congela en balance inicial + $100):**\n- 25..."
+        },
+        {
+          "question": "como funciona el trailing drawdown?",
+          "success": true,
+          "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+          "source": "db",
+          "responseTime": 1079,
+          "response": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ej..."
+        },
+        {
+          "question": "cuando se congela el trailing en 100 dolares?",
+          "success": true,
+          "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+          "source": "db",
+          "responseTime": 1513,
+          "response": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ej..."
+        },
+        {
+          "question": "hay limite de perdida diaria?",
+          "success": true,
+          "faq_id": "53ad8f62-d987-47c8-9b79-4944b8d533eb",
+          "source": "db",
+          "responseTime": 1488,
+          "response": "Sí, APEX no tiene límite de pérdida diaria. Puedes perder hasta el drawdown máximo en un día, pero l..."
+        },
+        {
+          "question": "que pasa si toco el drawdown maximo?",
+          "success": true,
+          "faq_id": "f35052f7-0ee0-45bf-9bbf-f5e705ece830",
+          "source": "db",
+          "responseTime": 182,
+          "response": "La cuenta se **cierra inmediatamente**. En evaluación puedes hacer reset (~$85). En PA necesitas nue..."
+        },
+        {
+          "question": "el trailing sigue con trades abiertos?",
+          "success": true,
+          "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+          "source": "db",
+          "responseTime": 1829,
+          "response": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ej..."
+        },
+        {
+          "question": "cual es el EOD drawdown vs trailing?",
+          "success": true,
+          "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+          "source": "db",
+          "responseTime": 2608,
+          "response": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ej..."
+        },
+        {
+          "question": "las comisiones afectan al drawdown?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 57,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "como se calcula el drawdown en la static?",
+          "success": true,
+          "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+          "source": "db",
+          "responseTime": 1098,
+          "response": "- **Trailing Drawdown (mayoría de cuentas):** se congela al alcanzar el balance inicial + $100.\n- Ej..."
+        },
+        {
+          "question": "puedo perder todo el drawdown en un dia?",
+          "success": true,
+          "faq_id": "53ad8f62-d987-47c8-9b79-4944b8d533eb",
+          "source": "db",
+          "responseTime": 174,
+          "response": "Sí, APEX no tiene límite de pérdida diaria. Puedes perder hasta el drawdown máximo en un día, pero l..."
+        },
+        {
+          "question": "como se resetea el balance para el drawdown?",
+          "success": true,
+          "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+          "source": "db",
+          "responseTime": 57,
+          "response": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automática..."
+        },
+        {
+          "question": "que pasa con gaps y slippage en el drawdown?",
+          "success": true,
+          "faq_id": "44b086d3-024f-4356-93ee-8fb86b165e81",
+          "source": "db",
+          "responseTime": 186,
+          "response": "Gaps y slippage SÍ afectan el drawdown. Si un gap te lleva bajo el límite, la cuenta se cierra sin e..."
+        }
+      ]
+    },
+    "🚫 REGLAS TRADING (15 preguntas)": {
+      "total": 15,
+      "successful": 14,
+      "failed": 1,
+      "questions": [
+        {
+          "question": "puedo dejar trades abiertos overnight?",
+          "success": true,
+          "faq_id": "af40dafa-27ed-4674-bccc-431c5766a5bf",
+          "source": "db",
+          "responseTime": 1113,
+          "response": "### ❌ Posiciones Overnight en APEX\n\n**NO PERMITIDO**\n- Todas las posiciones DEBEN cerrarse antes del..."
+        },
+        {
+          "question": "se puede tradear durante noticias importantes?",
+          "success": true,
+          "faq_id": "f6fd6f34-09c4-436b-9e31-e549b9574623",
+          "source": "db",
+          "responseTime": 1678,
+          "response": "- **Sí, permitido** hacer trading durante noticias.\n- Regla one-direction: solo long o short, no amb..."
+        },
+        {
+          "question": "puedo operar durante FOMC y NFP?",
+          "success": true,
+          "faq_id": "f6fd6f34-09c4-436b-9e31-e549b9574623",
+          "source": "db",
+          "responseTime": 1923,
+          "response": "- **Sí, permitido** hacer trading durante noticias.\n- Regla one-direction: solo long o short, no amb..."
+        },
+        {
+          "question": "que es la regla de consistencia del 30%?",
+          "success": true,
+          "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32",
+          "source": "db",
+          "responseTime": 56,
+          "response": "### ⚖️ Regla de Consistencia 30% APEX\n\n**¿Qué es?**\nEl día de mayor profit no puede representar >30%..."
+        },
+        {
+          "question": "como funciona la regla one direction?",
+          "success": true,
+          "faq_id": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+          "source": "db",
+          "responseTime": 2222,
+          "response": "- ❌ No se permite overnight/swing trading en cuenta financiada (PA).\n- Todas las posiciones deben ce..."
+        },
+        {
+          "question": "puedo usar EA o robots de trading?",
+          "success": true,
+          "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2",
+          "source": "db",
+          "responseTime": 1297,
+          "response": "- **Automatización total prohibida** (bots, algos, HFT).\n- **Semi-automatización permitida** con sup..."
+        },
+        {
+          "question": "esta permitido el copy trading?",
+          "success": true,
+          "faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b",
+          "source": "db",
+          "responseTime": 1480,
+          "response": "- **Copy trading prohibido** entre diferentes personas.\n- **Permitido**: replicar TU estrategia en T..."
+        },
+        {
+          "question": "puedo compartir cuenta con otro trader?",
+          "success": true,
+          "faq_id": "615ada0a-564f-4ce0-9c70-9f4918b19d0b",
+          "source": "db",
+          "responseTime": 1757,
+          "response": "- **Copy trading prohibido** entre diferentes personas.\n- **Permitido**: replicar TU estrategia en T..."
+        },
+        {
+          "question": "que pasa si violo una regla?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 887,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "hay blacklist de estrategias prohibidas?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 56,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "puedo hacer hedging en la misma cuenta?",
+          "success": true,
+          "faq_id": "e0e5b768-02ed-4888-b04b-78f77dbf6ab1",
+          "source": "db",
+          "responseTime": 195,
+          "response": "Sí, el hedging está permitido en APEX. Puedes tener posiciones opuestas en el mismo o diferentes ins..."
+        },
+        {
+          "question": "esta permitido el HFT?",
+          "success": true,
+          "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2",
+          "source": "db",
+          "responseTime": 1319,
+          "response": "- **Automatización total prohibida** (bots, algos, HFT).\n- **Semi-automatización permitida** con sup..."
+        },
+        {
+          "question": "hay limite maximo de trades por dia?",
+          "success": true,
+          "faq_id": "bb93f5e5-52dd-47c7-bb5d-4b2ed72e0c4a",
+          "source": "db",
+          "responseTime": 177,
+          "response": "No hay límite máximo de trades por día. Puedes hacer tantos trades como desees, incluyendo scalping ..."
+        },
+        {
+          "question": "puedo tradear todos los instrumentos desde el dia 1?",
+          "success": true,
+          "faq_id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+          "source": "db",
+          "responseTime": 2174,
+          "response": "- Futuros E-minis: ES, NQ, YM, RTY, ZN  \n- Futuros Micros: MES, MNQ, MYM, M2K  \n- Commodities: CL, N..."
+        },
+        {
+          "question": "que pasa con rollovers de contratos?",
+          "success": true,
+          "faq_id": "407d1d96-f5f8-4999-b779-5bc2e34e9efe",
+          "source": "db",
+          "responseTime": 187,
+          "response": "APEX maneja automáticamente los rollovers. No necesitas hacer nada y no afecta significativamente tu..."
+        }
+      ]
+    },
+    "💵 RETIROS Y PAGOS (15 preguntas)": {
+      "total": 15,
+      "successful": 15,
+      "failed": 0,
+      "questions": [
+        {
+          "question": "cuando puedo hacer mi primer retiro?",
+          "success": true,
+          "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+          "source": "db",
+          "responseTime": 56,
+          "response": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K..."
+        },
+        {
+          "question": "cual es el minimo para retirar?",
+          "success": true,
+          "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+          "source": "db",
+          "responseTime": 62,
+          "response": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K..."
+        },
+        {
+          "question": "cada cuanto puedo solicitar retiros?",
+          "success": true,
+          "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+          "source": "db",
+          "responseTime": 58,
+          "response": "- **Frecuencia de retiro:** A demanda (cuando quieras)\n- **Requisito mínimo:** 8 días de trading act..."
+        },
+        {
+          "question": "como funcionan los metodos de pago (wise/plane)?",
+          "success": true,
+          "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+          "source": "db",
+          "responseTime": 61,
+          "response": "### 💰 Precios de Evaluación APEX\n\n**Cuentas disponibles:**\n- $25,000 ($147/mes)\n- $50,000 ($167/mes..."
+        },
+        {
+          "question": "que porcentaje del profit me quedo?",
+          "success": true,
+          "faq_id": "aab6da23-95bc-47de-b173-4d031fc8090b",
+          "source": "db",
+          "responseTime": 2252,
+          "response": "- Profit split del 100% para los primeros $25,000 por cuenta.\n- Después de $25,000, el split es 90/1..."
+        },
+        {
+          "question": "hay limite maximo de retiro mensual?",
+          "success": true,
+          "faq_id": "bed584a4-c195-4981-892a-3b33df356e21",
+          "source": "db",
+          "responseTime": 1090,
+          "response": "- **Mínimo de retiro:** $500 (todos los tamaños)\n- **Máximo (primeros 5 retiros):**\n  - $25,000: $1,..."
+        },
+        {
+          "question": "que es el safety net o threshold?",
+          "success": true,
+          "faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+          "source": "db",
+          "responseTime": 59,
+          "response": "### 🛡️ Safety Net (Umbral) por Cuenta\n\n**Safety Net por tamaño:**\n- $25K → $26,600 (profit $1,600)\n..."
+        },
+        {
+          "question": "puedo hacer retiros parciales?",
+          "success": true,
+          "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+          "source": "db",
+          "responseTime": 1951,
+          "response": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K..."
+        },
+        {
+          "question": "que pasa si retiro todo el profit?",
+          "success": true,
+          "faq_id": "a1d7c73a-4b4c-4148-93ec-430920c2448f",
+          "source": "db",
+          "responseTime": 185,
+          "response": "Puedes retirar todo el profit. La cuenta continúa con el balance inicial y puedes seguir generando g..."
+        },
+        {
+          "question": "puedo reinvertir ganancias en mas contratos?",
+          "success": true,
+          "faq_id": "e7fd4fb8-de1d-469f-be86-1c60573517eb",
+          "source": "db",
+          "responseTime": 196,
+          "response": "Sí, automáticamente puedes usar más contratos conforme crece tu balance. Cada $12,500 adicionales = ..."
+        },
+        {
+          "question": "cuanto tarda en llegar el payout?",
+          "success": true,
+          "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+          "source": "db",
+          "responseTime": 62,
+          "response": "- **Frecuencia de retiro:** A demanda (cuando quieras)\n- **Requisito mínimo:** 8 días de trading act..."
+        },
+        {
+          "question": "hay fee por retiro?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 61,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "necesito mantener minimo en la cuenta?",
+          "success": true,
+          "faq_id": "134e1f1f-a44a-40f7-a478-44eb91767ce6",
+          "source": "db",
+          "responseTime": 187,
+          "response": "Debes mantener el balance inicial (ej: $50K en cuenta de $50K). Solo retiras ganancias por encima de..."
+        },
+        {
+          "question": "como se calculan los impuestos?",
+          "success": true,
+          "faq_id": "af7890c6-b475-4afb-ae69-6e8e44d979a7",
+          "source": "db",
+          "responseTime": 187,
+          "response": "Eres contratista independiente. APEX no retiene impuestos. Separa 25-30% y consulta un contador segú..."
+        },
+        {
+          "question": "puedo retirar en crypto o paypal?",
+          "success": true,
+          "faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+          "source": "db",
+          "responseTime": 61,
+          "response": "- **Métodos de pago para comprar evaluaciones:**  \n  - Tarjeta de crédito/débito\n\n- **Métodos de pag..."
+        }
+      ]
+    },
+    "🎮 INSTRUMENTOS Y CONTRATOS (10 preguntas)": {
+      "total": 10,
+      "successful": 10,
+      "failed": 0,
+      "questions": [
+        {
+          "question": "que instrumentos puedo tradear?",
+          "success": true,
+          "faq_id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+          "source": "db",
+          "responseTime": 1661,
+          "response": "- Futuros E-minis: ES, NQ, YM, RTY, ZN  \n- Futuros Micros: MES, MNQ, MYM, M2K  \n- Commodities: CL, N..."
+        },
+        {
+          "question": "cuantos contratos puedo usar al inicio?",
+          "success": true,
+          "faq_id": "5b235d0a-b257-4292-adae-df65c21e689c",
+          "source": "db",
+          "responseTime": 1607,
+          "response": "**Escalado de contratos:**\n- Antes del Safety Net: 50% de contratos máximos.\n- Después del Safety Ne..."
+        },
+        {
+          "question": "cuando puedo usar el maximo de contratos?",
+          "success": true,
+          "faq_id": "5b235d0a-b257-4292-adae-df65c21e689c",
+          "source": "db",
+          "responseTime": 1412,
+          "response": "**Escalado de contratos:**\n- Antes del Safety Net: 50% de contratos máximos.\n- Después del Safety Ne..."
+        },
+        {
+          "question": "puedo tradear nasdaq y sp500?",
+          "success": true,
+          "faq_id": "0fe42e97-b9dd-4f92-98ce-251c314a7aa2",
+          "source": "db",
+          "responseTime": 182,
+          "response": "Sí, puedes tradear Nasdaq (NQ/MNQ) y S&P 500 (ES/MES) en versiones mini y micro...."
+        },
+        {
+          "question": "esta disponible el oro y petroleo?",
+          "success": true,
+          "faq_id": "8cf8ca52-0d1d-45a5-b3b9-81d293ef71ad",
+          "source": "db",
+          "responseTime": 1927,
+          "response": "- Futuros E-minis: ES, NQ, YM, RTY\n- Microfuturos: MES, MNQ, MYM, M2K\n- Commodities: petróleo CL, ga..."
+        },
+        {
+          "question": "puedo operar crypto futuros?",
+          "success": true,
+          "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+          "source": "db",
+          "responseTime": 1984,
+          "response": "- **Instrumentos Permitidos**: Futuros (ES, NQ, YM, RTY, CL, GC, SI, NG), Micros (MES, MNQ, MYM, M2K..."
+        },
+        {
+          "question": "cual es la diferencia entre micros y minis?",
+          "success": true,
+          "faq_id": "fc2b3889-90a8-4a92-b8e4-7938394140dc",
+          "source": "db",
+          "responseTime": 179,
+          "response": "Micros son 1/10 del tamaño de minis. Micros: $1.25/tick, margen ~$100. Minis: $12.50/tick, margen ~$..."
+        },
+        {
+          "question": "que es mejor para principiantes, micros o minis?",
+          "success": true,
+          "faq_id": "fc2b3889-90a8-4a92-b8e4-7938394140dc",
+          "source": "db",
+          "responseTime": 1142,
+          "response": "Micros son 1/10 del tamaño de minis. Micros: $1.25/tick, margen ~$100. Minis: $12.50/tick, margen ~$..."
+        },
+        {
+          "question": "como se escalan los contratos segun el balance?",
+          "success": true,
+          "faq_id": "5b235d0a-b257-4292-adae-df65c21e689c",
+          "source": "db",
+          "responseTime": 1475,
+          "response": "**Escalado de contratos:**\n- Antes del Safety Net: 50% de contratos máximos.\n- Después del Safety Ne..."
+        },
+        {
+          "question": "puedo tradear forex futuros?",
+          "success": true,
+          "faq_id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+          "source": "db",
+          "responseTime": 3004,
+          "response": "- Futuros E-minis: ES, NQ, YM, RTY, ZN  \n- Futuros Micros: MES, MNQ, MYM, M2K  \n- Commodities: CL, N..."
+        }
+      ]
+    },
+    "💻 PLATAFORMAS Y TECNOLOGÍA (10 preguntas)": {
+      "total": 10,
+      "successful": 10,
+      "failed": 0,
+      "questions": [
+        {
+          "question": "que plataformas puedo usar?",
+          "success": true,
+          "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+          "source": "db",
+          "responseTime": 2325,
+          "response": "- **Instrumentos Permitidos**: Futuros (ES, NQ, YM, RTY, CL, GC, SI, NG), Micros (MES, MNQ, MYM, M2K..."
+        },
+        {
+          "question": "tradingview esta disponible para apex?",
+          "success": true,
+          "faq_id": "4ad18cc5-0a00-4a3d-bd11-1ac38352f797",
+          "source": "db",
+          "responseTime": 1385,
+          "response": "- **Proveedores de datos:** Rithmic, Tradovate, WealthCharts.\n- **Plataformas soportadas:** NinjaTra..."
+        },
+        {
+          "question": "ninjatrader tiene costo adicional?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 61,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "que diferencia hay entre rithmic y tradovate?",
+          "success": true,
+          "faq_id": "d71c161b-0582-4c94-82d3-2a390224c6f5",
+          "source": "db",
+          "responseTime": 206,
+          "response": "Rithmic: menor latencia, ideal para scalping, $30-40/mes. Tradovate: más fácil de usar, todo-en-uno,..."
+        },
+        {
+          "question": "cuanto son las comisiones por contrato?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 55,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "necesito pagar data feed aparte?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 66,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "cual plataforma tiene menor latencia?",
+          "success": true,
+          "faq_id": "6ef8d9e9-2fc3-45e0-8731-eb89bf353fc5",
+          "source": "db",
+          "responseTime": 188,
+          "response": "**Rithmic** tiene la menor latencia (~5-10ms), ideal para scalping. Tradovate es suficiente para day..."
+        },
+        {
+          "question": "puedo usar sierra chart o quantower?",
+          "success": true,
+          "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+          "source": "db",
+          "responseTime": 1390,
+          "response": "- **Instrumentos Permitidos**: Futuros (ES, NQ, YM, RTY, CL, GC, SI, NG), Micros (MES, MNQ, MYM, M2K..."
+        },
+        {
+          "question": "puedo tradear desde movil?",
+          "success": true,
+          "faq_id": "89d857ff-d11a-4317-a009-c08b3bdf0f73",
+          "source": "db",
+          "responseTime": 197,
+          "response": "Sí, con Tradovate, NinjaTrader Mobile o TradingView. Ideal para gestión, pero el análisis profundo e..."
+        },
+        {
+          "question": "que pasa si tengo problemas de conexion?",
+          "success": true,
+          "faq_id": "774469a0-ba9d-4dcc-b406-c969ee847474",
+          "source": "db",
+          "responseTime": 192,
+          "response": "Tus stops permanecen activos en el servidor. Posiciones siguen abiertas. Ten teléfono de respaldo pa..."
+        }
+      ]
+    },
+    "🔄 RESET Y PA (12 preguntas)": {
+      "total": 12,
+      "successful": 10,
+      "failed": 2,
+      "questions": [
+        {
+          "question": "cuanto cuesta resetear la evaluacion?",
+          "success": true,
+          "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+          "source": "db",
+          "responseTime": 66,
+          "response": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automática..."
+        },
+        {
+          "question": "hay reset gratis disponible?",
+          "success": true,
+          "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+          "source": "db",
+          "responseTime": 59,
+          "response": "- **Esperar renovación mensual:** Si tienes suscripción mensual, esperar a que se renueve automática..."
+        },
+        {
+          "question": "que es la activacion PA?",
+          "success": true,
+          "faq_id": "7dc2303c-77c9-43ca-a9ad-65a758fb12a7",
+          "source": "db",
+          "responseTime": 203,
+          "response": "PA = Cuenta Fondeada. Es el pago ($85/mes o pago único) para activar tu cuenta real después de pasar..."
+        },
+        {
+          "question": "cuanto cuesta activar la cuenta PA?",
+          "success": true,
+          "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+          "source": "db",
+          "responseTime": 65,
+          "response": "- **Opción 1 - Pago único:**\n  - $25,000: $130\n  - $50,000: $140\n  - $100,000: $220\n  - $150,000: $2..."
+        },
+        {
+          "question": "tengo que pagar mensualidad despues de pasar?",
+          "success": true,
+          "faq_id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+          "source": "db",
+          "responseTime": 1318,
+          "response": "### 🚀 Costos de Activación PA en APEX\n\n**Opción 1 - Pago Único:**\n- 25K: $130\n- 50K: $140\n- 100K: $..."
+        },
+        {
+          "question": "cuanto es la mensualidad por tamaño de cuenta?",
+          "success": true,
+          "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+          "source": "db",
+          "responseTime": 1576,
+          "response": "- **Opción 1 - Pago único:**\n  - $25,000: $130\n  - $50,000: $140\n  - $100,000: $220\n  - $150,000: $2..."
+        },
+        {
+          "question": "que pasa si no pago la mensualidad?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 596,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "puedo pausar la cuenta PA?",
+          "success": true,
+          "faq_id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+          "source": "db",
+          "responseTime": 1411,
+          "response": "### 🚀 Costos de Activación PA en APEX\n\n**Opción 1 - Pago Único:**\n- 25K: $130\n- 50K: $140\n- 100K: $..."
+        },
+        {
+          "question": "hay descuento en la activacion PA?",
+          "success": true,
+          "faq_id": "a5c42153-0610-4192-b149-26bd9914e700",
+          "source": "db",
+          "responseTime": 68,
+          "response": "### 🎁 Descuentos APEX\n\n**¿Dónde encontrar descuentos activos?**\nEn el grupo de descuentos de nuestr..."
+        },
+        {
+          "question": "cuanto tiempo tengo para activar despues de pasar?",
+          "success": true,
+          "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+          "source": "db",
+          "responseTime": 60,
+          "response": "- **Opción 1 - Pago único:**\n  - $25,000: $130\n  - $50,000: $140\n  - $100,000: $220\n  - $150,000: $2..."
+        },
+        {
+          "question": "pierdo la cuenta si no pago un mes?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 611,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "puedo reactivar una cuenta pausada?",
+          "success": true,
+          "faq_id": "99b1ead4-4928-4947-b325-218b81ccd33c",
+          "source": "db",
+          "responseTime": 1709,
+          "response": "- ✅ Se puede pausar la suscripción temporalmente.\n- Mantienes el progreso actual y las ganancias acu..."
+        }
+      ]
+    },
+    "🌍 PAÍSES Y VERIFICACIÓN (8 preguntas)": {
+      "total": 8,
+      "successful": 7,
+      "failed": 1,
+      "questions": [
+        {
+          "question": "desde que paises puedo operar?",
+          "success": true,
+          "faq_id": "11633e70-3f32-408a-8778-796e91740e46",
+          "source": "db",
+          "responseTime": 733,
+          "response": "**Países restringidos (resumen):**\n- **Hispanoamérica:** **Cuba y Venezuela** (no elegibles).\n- **Ot..."
+        },
+        {
+          "question": "apex funciona en españa y latinoamerica?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 1495,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "que paises estan prohibidos?",
+          "success": true,
+          "faq_id": "6a6465dc-15f2-4467-b47f-51f1159828e3",
+          "source": "db",
+          "responseTime": 1500,
+          "response": "Clave (ES): Cuba y Venezuela no están permitidos.\n\nEjemplos: Rusia, Irán, Afganistán, Bielorrusia.\n\n..."
+        },
+        {
+          "question": "necesito pasar KYC?",
+          "success": true,
+          "faq_id": "227696b6-aa6a-4324-b38a-09106bfc7e52",
+          "source": "db",
+          "responseTime": 1406,
+          "response": "ID oficial, comprobante de domicilio (<3 meses), y selfie con ID si lo piden. Verificación en 24-48 ..."
+        },
+        {
+          "question": "que documentos necesito?",
+          "success": true,
+          "faq_id": "227696b6-aa6a-4324-b38a-09106bfc7e52",
+          "source": "db",
+          "responseTime": 195,
+          "response": "ID oficial, comprobante de domicilio (<3 meses), y selfie con ID si lo piden. Verificación en 24-48 ..."
+        },
+        {
+          "question": "aceptan paypal o crypto para pagar?",
+          "success": true,
+          "faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+          "source": "db",
+          "responseTime": 67,
+          "response": "- **Métodos de pago para comprar evaluaciones:**  \n  - Tarjeta de crédito/débito\n\n- **Métodos de pag..."
+        },
+        {
+          "question": "como pago desde latinoamerica?",
+          "success": true,
+          "faq_id": "40712951-fee4-44e2-9716-8c07871fb6f4",
+          "source": "db",
+          "responseTime": 217,
+          "response": "Tarjeta internacional, Wise (recomendado), o PayPal. Wise ofrece mejores tipos de cambio y tarjeta v..."
+        },
+        {
+          "question": "cuanto tarda la verificacion?",
+          "success": true,
+          "faq_id": "513896e5-c3e3-4a8e-8435-d18f16cd649d",
+          "source": "db",
+          "responseTime": 191,
+          "response": "24-48 horas en días hábiles. Fines de semana puede extenderse hasta lunes. Documentos claros acelera..."
+        }
+      ]
+    },
+    "⚠️ SITUACIONES Y SOPORTE (12 preguntas)": {
+      "total": 12,
+      "successful": 12,
+      "failed": 0,
+      "questions": [
+        {
+          "question": "que pasa si dejo un trade abierto por error overnight?",
+          "success": true,
+          "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1",
+          "source": "db",
+          "responseTime": 980,
+          "response": "- **Overnight NO permitido** en cuenta PA (debe cerrar antes de 5PM ET).\n- Si dejas posición abierta..."
+        },
+        {
+          "question": "a que hora exacta cierra el mercado?",
+          "success": true,
+          "faq_id": "dfd0f38b-a6f1-4f40-8772-03424b00fdc7",
+          "source": "db",
+          "responseTime": 1530,
+          "response": "- Horario de sesión de trading: 6:00 PM ET a 4:59 PM ET.\n- Los trades realizados el domingo cuentan ..."
+        },
+        {
+          "question": "que pasa si pierdo mas del drawdown permitido?",
+          "success": true,
+          "faq_id": "a43c6fc9-6a70-4530-a5f0-3326f8a5a3ac",
+          "source": "db",
+          "responseTime": 203,
+          "response": "Cuenta cerrada inmediatamente. En evaluación: reset ~$85. En PA: necesitas nueva evaluación completa..."
+        },
+        {
+          "question": "puedo recuperar una cuenta eliminada?",
+          "success": true,
+          "faq_id": "439ead9b-3db7-4489-ab57-97b1186021e9",
+          "source": "db",
+          "responseTime": 195,
+          "response": "No se pueden recuperar. Evaluación: reset ~$85. PA: nueva evaluación completa. Sin excepciones por v..."
+        },
+        {
+          "question": "como reporto problemas tecnicos?",
+          "success": true,
+          "faq_id": "2141f1b0-7ac1-4344-9539-d1c2aeca7616",
+          "source": "db",
+          "responseTime": 1654,
+          "response": "- **Canales de contacto:**\n  - Ticket System: [support.apextraderfunding.com](https://support.apextr..."
+        },
+        {
+          "question": "hay soporte en español?",
+          "success": true,
+          "faq_id": "2141f1b0-7ac1-4344-9539-d1c2aeca7616",
+          "source": "db",
+          "responseTime": 1822,
+          "response": "- **Canales de contacto:**\n  - Ticket System: [support.apextraderfunding.com](https://support.apextr..."
+        },
+        {
+          "question": "cuanto tarda el soporte en responder?",
+          "success": true,
+          "faq_id": "2141f1b0-7ac1-4344-9539-d1c2aeca7616",
+          "source": "db",
+          "responseTime": 2408,
+          "response": "- **Canales de contacto:**\n  - Ticket System: [support.apextraderfunding.com](https://support.apextr..."
+        },
+        {
+          "question": "que garantias tengo si hay problemas con la plataforma?",
+          "success": true,
+          "faq_id": "54ef4dc1-5b04-48a1-9a66-1b2216d7ea91",
+          "source": "db",
+          "responseTime": 251,
+          "response": "Protección solo para fallas comprobadas de APEX/broker. Problemas de internet personal = tu responsa..."
+        },
+        {
+          "question": "puedo cambiar mi estrategia despues de empezar?",
+          "success": true,
+          "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+          "source": "db",
+          "responseTime": 67,
+          "response": "### 💵 Comisiones de Trading en APEX\n\n**Lista completa de comisiones:**\n- **Rithmic:** https://suppo..."
+        },
+        {
+          "question": "hay auditoria de trades?",
+          "success": true,
+          "faq_id": "1873dd3b-536f-46b9-99a2-1cf1031b0a33",
+          "source": "db",
+          "responseTime": 186,
+          "response": "Sí, todos los trades son auditados automáticamente. Buscan violaciones de reglas y patrones de manip..."
+        },
+        {
+          "question": "cuando puedo empezar a tradear tras el pago?",
+          "success": true,
+          "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+          "source": "db",
+          "responseTime": 53,
+          "response": "- **Frecuencia de retiro:** A demanda (cuando quieras)\n- **Requisito mínimo:** 8 días de trading act..."
+        },
+        {
+          "question": "puedo pausar la evaluacion por vacaciones?",
+          "success": true,
+          "faq_id": "99b1ead4-4928-4947-b325-218b81ccd33c",
+          "source": "db",
+          "responseTime": 1609,
+          "response": "- ✅ Se puede pausar la suscripción temporalmente.\n- Mantienes el progreso actual y las ganancias acu..."
+        }
+      ]
+    },
+    "🏆 CONFIANZA Y COMPARACIÓN (11 preguntas)": {
+      "total": 11,
+      "successful": 10,
+      "failed": 1,
+      "questions": [
+        {
+          "question": "por que elegir apex sobre otras props?",
+          "success": true,
+          "faq_id": "dd3a373b-4d82-440b-8afa-4ea29aa7f831",
+          "source": "db",
+          "responseTime": 177,
+          "response": "APEX: tiempo ilimitado, 1 fase, 90% profit, retiros cada 5 días, sin límite diario. Más flexible que..."
+        },
+        {
+          "question": "que ventajas tiene apex vs ftmo?",
+          "success": true,
+          "faq_id": "98180662-41e3-47e7-829e-2e4ea1b4d7ca",
+          "source": "db",
+          "responseTime": 184,
+          "response": "APEX: tiempo ilimitado, 1 fase, retiros cada 5 días. FTMO: drawdown fijo, más Forex. APEX mejor para..."
+        },
+        {
+          "question": "como es apex comparado con topstep?",
+          "success": true,
+          "faq_id": "0d201e09-2d93-4b13-a0db-f0faac4dfc03",
+          "source": "db",
+          "responseTime": 188,
+          "response": "APEX: 90% profit, más flexible, menor costo. TopStep: más antiguo, más educación. APEX gana en térmi..."
+        },
+        {
+          "question": "apex paga consistentemente?",
+          "success": true,
+          "faq_id": "f79b777b-93cf-472f-aaf0-2871e53ba34a",
+          "source": "db",
+          "responseTime": 221,
+          "response": "Sí, APEX paga consistentemente desde 2021. Miles de traders cobrados, pagos cada 5 días sin fallas r..."
+        },
+        {
+          "question": "cuantos traders activos tienen?",
+          "success": true,
+          "faq_id": "e424c64b-3302-4f27-8901-5131caf1c1db",
+          "source": "db",
+          "responseTime": 187,
+          "response": "~50,000 en evaluación, ~5,000 fondeados activos. Comunidad Discord de 30,000+. Crecimiento constante..."
+        },
+        {
+          "question": "que porcentaje pasa la evaluacion?",
+          "success": true,
+          "faq_id": "c222ddad-dfcf-417a-9b82-205179f15960",
+          "source": "db",
+          "responseTime": 193,
+          "response": "~5-10% pasan la evaluación. 70% fallan por drawdown, 20% por overtrading. Tiempo ilimitado mejora pr..."
+        },
+        {
+          "question": "tienen regulacion o garantias?",
+          "success": true,
+          "faq_id": "8bbb1306-9715-48f9-b58d-f845fb7434f9",
+          "source": "db",
+          "responseTime": 187,
+          "response": "Empresa USA registrada, no broker regulado. Sin garantías SIPC/FDIC. Historial sólido desde 2021...."
+        },
+        {
+          "question": "cuanto puedo ganar realisticamente al mes?",
+          "success": true,
+          "faq_id": "12ac5369-c879-4dde-b29f-5b0c0414b00a",
+          "source": "db",
+          "responseTime": 193,
+          "response": "Realista: $1-3K/mes en $25K, $2-5K en $50K, $4-10K en $100K. Top traders: $15K+. Depende de habilida..."
+        },
+        {
+          "question": "necesito experiencia previa?",
+          "success": true,
+          "faq_id": "0df3719d-b944-4265-a891-37fb87466d06",
+          "source": "db",
+          "responseTime": 192,
+          "response": "No requerida oficialmente, pero recomendado 6-12 meses práctica. Sin experiencia <5% pasan. Practica..."
+        },
+        {
+          "question": "es apex bueno para principiantes?",
+          "success": false,
+          "faq_id": null,
+          "source": "none",
+          "responseTime": 1438,
+          "response": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño...."
+        },
+        {
+          "question": "apex es sostenible a largo plazo?",
+          "success": true,
+          "faq_id": "23637ba9-d33f-4de0-8442-524f97d0d30e",
+          "source": "db",
+          "responseTime": 187,
+          "response": "Sostenible desde 2021, modelo probado, pagos consistentes. Tan estable como cualquier prop firm líde..."
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-09-04T18:41:03.405Z"
+}

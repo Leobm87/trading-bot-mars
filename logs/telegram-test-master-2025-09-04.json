@@ -1,0 +1,306 @@
+{
+  "summary": {
+    "total": 160,
+    "successful": 87,
+    "failed": 0,
+    "notFound": 73,
+    "successRate": "54.4%",
+    "avgResponseTime": "1413ms",
+    "categoriesTested": 10,
+    "categoriesSuccessful": 10
+  },
+  "categoryBreakdown": {
+    "precios": {
+      "total": 10,
+      "successful": 8,
+      "failed": 0,
+      "notFound": 2,
+      "successRate": "80.0%",
+      "avgResponseTime": "1576ms",
+      "withTitles": 4,
+      "withMarkdown": 8,
+      "tooLong": 0
+    },
+    "evaluacion": {
+      "total": 10,
+      "successful": 6,
+      "failed": 0,
+      "notFound": 4,
+      "successRate": "60.0%",
+      "avgResponseTime": "1298ms",
+      "withTitles": 0,
+      "withMarkdown": 6,
+      "tooLong": 0
+    },
+    "drawdown": {
+      "total": 10,
+      "successful": 9,
+      "failed": 0,
+      "notFound": 1,
+      "successRate": "90.0%",
+      "avgResponseTime": "1167ms",
+      "withTitles": 1,
+      "withMarkdown": 9,
+      "tooLong": 0
+    },
+    "reglas": {
+      "total": 10,
+      "successful": 8,
+      "failed": 0,
+      "notFound": 2,
+      "successRate": "80.0%",
+      "avgResponseTime": "1688ms",
+      "withTitles": 2,
+      "withMarkdown": 8,
+      "tooLong": 0
+    },
+    "retiros": {
+      "total": 10,
+      "successful": 9,
+      "failed": 0,
+      "notFound": 1,
+      "successRate": "90.0%",
+      "avgResponseTime": "752ms",
+      "withTitles": 3,
+      "withMarkdown": 9,
+      "tooLong": 0
+    },
+    "contratos": {
+      "total": 10,
+      "successful": 8,
+      "failed": 0,
+      "notFound": 2,
+      "successRate": "80.0%",
+      "avgResponseTime": "1519ms",
+      "withTitles": 0,
+      "withMarkdown": 8,
+      "tooLong": 0
+    },
+    "plataformas": {
+      "total": 10,
+      "successful": 7,
+      "failed": 0,
+      "notFound": 3,
+      "successRate": "70.0%",
+      "avgResponseTime": "1301ms",
+      "withTitles": 3,
+      "withMarkdown": 7,
+      "tooLong": 0
+    },
+    "reset": {
+      "total": 10,
+      "successful": 7,
+      "failed": 0,
+      "notFound": 3,
+      "successRate": "70.0%",
+      "avgResponseTime": "1011ms",
+      "withTitles": 2,
+      "withMarkdown": 7,
+      "tooLong": 0
+    },
+    "paises": {
+      "total": 10,
+      "successful": 3,
+      "failed": 0,
+      "notFound": 7,
+      "successRate": "30.0%",
+      "avgResponseTime": "982ms",
+      "withTitles": 0,
+      "withMarkdown": 2,
+      "tooLong": 0
+    },
+    "general": {
+      "total": 70,
+      "successful": 22,
+      "failed": 0,
+      "notFound": 48,
+      "successRate": "31.4%",
+      "avgResponseTime": "1617ms",
+      "withTitles": 1,
+      "withMarkdown": 21,
+      "tooLong": 0
+    }
+  },
+  "topMissingWords": [
+    {
+      "word": "puedo",
+      "count": 18
+    },
+    {
+      "word": "cual",
+      "count": 5
+    },
+    {
+      "word": "cuenta",
+      "count": 5
+    },
+    {
+      "word": "cuanto",
+      "count": 5
+    },
+    {
+      "word": "hacer",
+      "count": 4
+    },
+    {
+      "word": "funciona",
+      "count": 4
+    },
+    {
+      "word": "pasa",
+      "count": 3
+    },
+    {
+      "word": "tengo",
+      "count": 2
+    },
+    {
+      "word": "ganar",
+      "count": 2
+    },
+    {
+      "word": "para",
+      "count": 2
+    },
+    {
+      "word": "necesito",
+      "count": 2
+    },
+    {
+      "word": "mes?",
+      "count": 2
+    },
+    {
+      "word": "dia?",
+      "count": 2
+    },
+    {
+      "word": "trading?",
+      "count": 2
+    },
+    {
+      "word": "trades",
+      "count": 2
+    }
+  ],
+  "topFaqs": [
+    {
+      "faq_id": "4edf6f7f-1103-4bbc-8021-c76a18133f85",
+      "count": 7
+    },
+    {
+      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "count": 6
+    },
+    {
+      "faq_id": "30336df3-0a70-4263-a22b-f9276d562c0a",
+      "count": 5
+    },
+    {
+      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+      "count": 4
+    },
+    {
+      "faq_id": "80d9c0e7-c37e-459d-a28d-f70a169fe3df",
+      "count": 3
+    },
+    {
+      "faq_id": "f125dcbc-ca2c-4e8e-8004-1fa36c7b73b2",
+      "count": 3
+    },
+    {
+      "faq_id": "f21529e5-8e5a-4869-8bf6-11bf62af5c0b",
+      "count": 3
+    },
+    {
+      "faq_id": "7a1a3fd5-c7c5-451c-be01-71670e0c97f1",
+      "count": 3
+    },
+    {
+      "faq_id": "547a10ad-ffac-40ac-8170-240fd01244b1",
+      "count": 3
+    },
+    {
+      "faq_id": "8b327b84-cb63-4312-94cc-b7fcefb97122",
+      "count": 3
+    }
+  ],
+  "allNotFound": [
+    "cual me conviene si tengo 500 dolares?",
+    "puedo cambiar de cuenta despues?",
+    "cuanto tengo que ganar para pasar?",
+    "necesito dias ganadores?",
+    "que pasa si no paso en un mes?",
+    "puedo hacer la evaluacion el fin de semana?",
+    "puedo perder 5k en un dia?",
+    "puedo hacer swing trading?",
+    "que pasa si rompo una regla?",
+    "puedo retirar con crypto?",
+    "puedo hacer scalping?",
+    "hay limit de trades por dia?",
+    "tradingview funciona?",
+    "puedo usar mt4 o mt5?",
+    "cual tiene menos latencia?",
+    "que es la activacion pa?",
+    "puedo pagar una sola vez?",
+    "hay que pagar 85 dolares siempre?",
+    "funciona en argentina?",
+    "puedo desde españa?",
+    "aceptan venezolanos?",
+    "funciona en colombia?",
+    "como pago desde latinoamerica?",
+    "necesito kyc?",
+    "piden documentos?",
+    "puedo recuperar mi cuenta si la pierdo?",
+    "dan segundas oportunidades?",
+    "me pueden quitar la cuenta funded?",
+    "vale la pena apex?",
+    "es mejor que ftmo?",
+    "pagan de verdad?",
+    "hay gente cobrando?",
+    "es scam?",
+    "cuanto puedo ganar al mes?",
+    "que cuenta me recomiendan?",
+    "cual es el apalancamiento?",
+    "hay slippage?",
+    "que spread tienen?",
+    "los gaps cuentan?",
+    "hay vps gratis?",
+    "que latencia tienen?",
+    "puedo usar multiple pantallas?",
+    "hay api para trading?",
+    "soportan webhooks?",
+    "es mas facil que otras props?",
+    "cual es el truco?",
+    "hay letra pequeña?",
+    "que no me estan diciendo?",
+    "cual es el catch?",
+    "por que tan barato?",
+    "funciona el martingala?",
+    "puedo hacer grid?",
+    "se puede hedging?",
+    "puedo promediar?",
+    "hay limite de lotes?",
+    "cuantos trades al dia maximo?",
+    "funciona en forex?",
+    "cuanto tardan en aprobarme?",
+    "cuando me dan la cuenta pa?",
+    "en cuanto tiempo pagan?",
+    "hay soporte 24/7?",
+    "hablan español?",
+    "cuanto tarda la verificacion?",
+    "cuando puedo empezar a tradear?",
+    "hay demo antes?",
+    "apex es confiable bro?",
+    "estan pagando ahorita?",
+    "puedo tradear btc?",
+    "que onda con los impuestos?",
+    "me van a joder si gano mucho?",
+    "puedo meter a mi primo?",
+    "cuanta gente pasa la prueba?",
+    "me la puedo jugar toda en un trade?"
+  ],
+  "allFailed": [],
+  "timestamp": "2025-09-04T18:01:13.324Z",
+  "totalExecutionTime": "232.3s"
+}
