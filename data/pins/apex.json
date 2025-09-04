@@ -1,77 +1,42 @@
-{
-  "firm": "apex",
-  "rules": [
-    {
-      "re": "(?:precio|cuanto|cost|cuot).*(?:activar|activacion|suscripcion)|^\\n?\\s*activaci[oó]n\\s+apex\\b",
-      "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"
-    },
-    {
-      "re": "que\\s+tamanos.*disponibles",
-      "faq_id": "79b0be6c-7365-4845-a5bc-88a35ae6b10c"
-    },
-    {
-      "re": "(?:precio|cuanto\\s+(?:cuesta|sale|vale)).*cuenta.*(?:50k|50\\s*000|cincuenta)",
-      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
-    },
-    {
-      "re": "cuanto\\s+sale\\s+la\\s+(?:cuenta\\s+)?(?:de\\s+)?(?:25k|50k|100k)",
-      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
-    },
-    {
-      "re": "(?:precio|cuanto\\s+cuesta|costo).*(?:cada\\s+cuenta|las\\s+cuentas)",
-      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
-    },
-    {
-      "re": "(?:tamanos.*cuenta.*precio|\\btamanos\\s+apex\\b)",
-      "faq_id": "93849616-e113-43ee-8319-e32d44c1baed"
-    },
-    {
-      "re": "^(?!.*\\b(primer|l[ií]mites?)).*(?:(?:^|\\b)payouts?(?!\\s+m[ií]nimo)|frecuencia.*pag|cada.*cuant|cuando.*pag)",
-      "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"
-    },
-    {
-      "re": "(reset|resetear|reiniciar|nueva|nuevo.* cuenta)",
-      "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7"
-    },
-    {
-      "re": "(fees?|comision|costo|precio|tarifa|rate|r.?trader.*abiert|tradovate.*abiert)",
-      "faq_id": "4d503259-dd0e-4807-b8bf-89c18a39253d"
-    },
-    {
-      "re": "(descuent|cupon|c[oó]digo|promo)",
-      "faq_id": "a5c42153-0610-4192-b149-26bd9914e700"
-    },
-    {
-      "re": "(?:que\\s+(?:cuentas|tipos|tamañ?os).*apex|tamañ?os\\s+de\\s+cuentas?|planes?)",
-      "faq_id": "9ea973b6-d106-4b54-9cf7-d75805c5d394"
-    },
-    {
-      "re": "(?:safety\\s*net|umbral.*m[ií]nimo|colch[oó]n|cual.*umbral|umbral.*retirar|retiro.*umbral|umbral.*apex)",
-      "faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724"
-    },
-    {
-      "re": "(primer.{0,10}(retir|payout|cobro|pago|sacar)|m[ií]nimo.{0,10}(retir|sacar|cobrar)|l[ií]mite.{0,10}(primer|payout))",
-      "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
-    },
-    {
-      "re": "(?:como\\s+)?(?:puedo\\s+)?(?:sacar|cobrar|retirar)\\s+(?:dinero|fondos|plata|mi\\s+dinero)(?:\\s+(?:de|con|en)\\s+apex)?",
-      "faq_id": "07a149b0-1866-42f0-b5ff-1320a57cb7b7"
-    },
-    {
-      "re": "que\\s+necesito.*sacar.*plata",
-      "faq_id": "21a7f8bc-22c8-4032-a3a2-862b7182e3f9"
-    },
-    {
-      "re": "maximo.*(?:sacar|retirar).*cuenta",
-      "faq_id": "35c71f9d-57ae-42e3-a24f-c99810e47915"
-    },
-    {
-      "re": "(metodos? de pago|paypal|pagar con|tarjeta|payment|stripe)",
-      "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
-    },
-    {
-      "re": "(?:regla|norma)?\\s*(?:de\\s*)?consistencia(?:\\s+(?:30|treinta))?",
-      "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32"
-    }
-  ]
-}
+[
+  {
+    "pattern": "cuenta.*barata|mas economica|menor.*precio",
+    "faq_id": "CUENTA_BARATA_25K",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "diferencia.*normal.*static|static.*vs.*normal",
+    "faq_id": "NORMAL_VS_STATIC",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "pasar.*solo.*micros|evaluacion.*micros|micros.*suficiente",
+    "faq_id": "PASAR_CON_MICROS",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "violo.*regla|rompo.*regla|incumplo.*regla",
+    "faq_id": "VIOLAR_REGLA_CONSECUENCIAS",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "no pago.*mensualidad|dejo.*pagar.*mes",
+    "faq_id": "NO_PAGAR_MENSUALIDAD",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "pierdo.*cuenta.*no pago|cuenta.*sin pagar",
+    "faq_id": "PERDER_CUENTA_NO_PAGO",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "apex.*españa|apex.*latinoamerica|funciona.*latam",
+    "faq_id": "APEX_ESPANA_LATAM",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "apex.*principiante|bueno.*novato|empezar.*apex",
+    "faq_id": "APEX_PRINCIPIANTES",
+    "confidence": 0.95
+  }
+]

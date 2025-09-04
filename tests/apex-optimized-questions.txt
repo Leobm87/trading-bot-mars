@@ -1,0 +1,156 @@
+# APEX TRADING BOT - LISTA OPTIMIZADA DE PREGUNTAS (~130 PREGUNTAS)
+# Basadas en consultas reales de traders de habla hispana
+
+## 💰 PRECIOS Y PLANES (10 preguntas)
+cuanto cuesta la cuenta de 25k?
+cuanto sale la cuenta de 50k?
+que precio tiene la de 100k?
+cual es la cuenta mas barata?
+cuanto cuesta la static de 50k?
+que diferencia hay entre normal y static?
+hay descuentos disponibles?
+cual cuenta me conviene con 500 dolares?
+puedo tener varias cuentas a la vez?
+como funcionan los precios de las cuentas grandes (150k, 250k, 300k)?
+
+## 📊 EVALUACIÓN CRÍTICA (15 preguntas)
+cual es el profit target para pasar?
+en cuanto tiempo maximo tengo que pasar?
+cuantos dias minimo de trading necesito?
+puedo pasar solo con micros?
+que pasa si paso pero no activo la PA?
+puedo elegir cuando empezar la evaluacion?
+se puede pausar o extender la evaluacion?
+puedo tradear los fines de semana?
+es evaluacion de una o dos fases?
+que pasa si no llego al profit target?
+necesito dias ganadores consecutivos?
+cual es el profit target de cada cuenta?
+puedo cambiar de cuenta durante la evaluacion?
+hay fee por reset de evaluacion?
+cuantas veces puedo resetear?
+
+## 💸 DRAWDOWN Y GESTIÓN DE RIESGO (12 preguntas)
+cual es el drawdown maximo de cada cuenta?
+como funciona el trailing drawdown?
+cuando se congela el trailing en 100 dolares?
+hay limite de perdida diaria?
+que pasa si toco el drawdown maximo?
+el trailing sigue con trades abiertos?
+cual es el EOD drawdown vs trailing?
+las comisiones afectan al drawdown?
+como se calcula el drawdown en la static?
+puedo perder todo el drawdown en un dia?
+como se resetea el balance para el drawdown?
+que pasa con gaps y slippage en el drawdown?
+
+## 🚫 REGLAS TRADING (15 preguntas)
+puedo dejar trades abiertos overnight?
+se puede tradear durante noticias importantes?
+puedo operar durante FOMC y NFP?
+que es la regla de consistencia del 30%?
+como funciona la regla one direction?
+puedo usar EA o robots de trading?
+esta permitido el copy trading?
+puedo compartir cuenta con otro trader?
+que pasa si violo una regla?
+hay blacklist de estrategias prohibidas?
+puedo hacer hedging en la misma cuenta?
+esta permitido el HFT?
+hay limite maximo de trades por dia?
+puedo tradear todos los instrumentos desde el dia 1?
+que pasa con rollovers de contratos?
+
+## 💵 RETIROS Y PAGOS (15 preguntas)
+cuando puedo hacer mi primer retiro?
+cual es el minimo para retirar?
+cada cuanto puedo solicitar retiros?
+como funcionan los metodos de pago (wise/plane)?
+que porcentaje del profit me quedo?
+hay limite maximo de retiro mensual?
+que es el safety net o threshold?
+puedo hacer retiros parciales?
+que pasa si retiro todo el profit?
+puedo reinvertir ganancias en mas contratos?
+cuanto tarda en llegar el payout?
+hay fee por retiro?
+necesito mantener minimo en la cuenta?
+como se calculan los impuestos?
+puedo retirar en crypto o paypal?
+
+## 🎮 INSTRUMENTOS Y CONTRATOS (10 preguntas)
+que instrumentos puedo tradear?
+cuantos contratos puedo usar al inicio?
+cuando puedo usar el maximo de contratos?
+puedo tradear nasdaq y sp500?
+esta disponible el oro y petroleo?
+puedo operar crypto futuros?
+cual es la diferencia entre micros y minis?
+que es mejor para principiantes, micros o minis?
+como se escalan los contratos segun el balance?
+puedo tradear forex futuros?
+
+## 💻 PLATAFORMAS Y TECNOLOGÍA (10 preguntas)
+que plataformas puedo usar?
+tradingview esta disponible para apex?
+ninjatrader tiene costo adicional?
+que diferencia hay entre rithmic y tradovate?
+cuanto son las comisiones por contrato?
+necesito pagar data feed aparte?
+cual plataforma tiene menor latencia?
+puedo usar sierra chart o quantower?
+puedo tradear desde movil?
+que pasa si tengo problemas de conexion?
+
+## 🔄 RESET Y PA (12 preguntas)
+cuanto cuesta resetear la evaluacion?
+hay reset gratis disponible?
+que es la activacion PA?
+cuanto cuesta activar la cuenta PA?
+tengo que pagar mensualidad despues de pasar?
+cuanto es la mensualidad por tamaño de cuenta?
+que pasa si no pago la mensualidad?
+puedo pausar la cuenta PA?
+hay descuento en la activacion PA?
+cuanto tiempo tengo para activar despues de pasar?
+pierdo la cuenta si no pago un mes?
+puedo reactivar una cuenta pausada?
+
+## 🌍 PAÍSES Y VERIFICACIÓN (8 preguntas)
+desde que paises puedo operar?
+apex funciona en españa y latinoamerica?
+que paises estan prohibidos?
+necesito pasar KYC?
+que documentos necesito?
+aceptan paypal o crypto para pagar?
+como pago desde latinoamerica?
+cuanto tarda la verificacion?
+
+## ⚠️ SITUACIONES Y SOPORTE (12 preguntas)
+que pasa si dejo un trade abierto por error overnight?
+a que hora exacta cierra el mercado?
+que pasa si pierdo mas del drawdown permitido?
+puedo recuperar una cuenta eliminada?
+como reporto problemas tecnicos?
+hay soporte en español?
+cuanto tarda el soporte en responder?
+que garantias tengo si hay problemas con la plataforma?
+puedo cambiar mi estrategia despues de empezar?
+hay auditoria de trades?
+cuando puedo empezar a tradear tras el pago?
+puedo pausar la evaluacion por vacaciones?
+
+## 🏆 CONFIANZA Y COMPARACIÓN (11 preguntas)
+por que elegir apex sobre otras props?
+que ventajas tiene apex vs ftmo?
+como es apex comparado con topstep?
+apex paga consistentemente?
+cuantos traders activos tienen?
+que porcentaje pasa la evaluacion?
+tienen regulacion o garantias?
+cuanto puedo ganar realisticamente al mes?
+necesito experiencia previa?
+es apex bueno para principiantes?
+apex es sostenible a largo plazo?
+
+# TOTAL: 131 preguntas realistas basadas en patrones reales de consulta
