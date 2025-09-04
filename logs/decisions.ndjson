@@ -512,3 +512,106 @@
 {"when":"2025-09-01T08:30:01.514Z","firm":"apex","q":"reglas overnight apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":1284}
 {"when":"2025-09-01T08:30:34.948Z","firm":"apex","q":"monto minimo primer retiro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":247}
 {"when":"2025-09-01T08:30:47.940Z","firm":"apex","q":"cada cuanto puedo retirar","selector":"db","faq_id":"8ed04281-8628-4787-ad5e-ed7e5938afd3","ms":1906}
+{"when":"2025-09-04T06:21:36.027Z","firm":"apex","q":"como puedo sacar dinero con apex?","selector":"none","faq_id":null,"ms":2548}
+{"when":"2025-09-04T06:21:53.978Z","firm":"apex","q":"como puedo retirar dinero con apex?","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":2615}
+{"when":"2025-09-04T06:22:08.514Z","firm":"apex","q":"hay regla de consistencia con apex?","selector":"db","faq_id":"a52c53f3-8f43-43d1-9d08-4cab9b2f0fea","ms":-346}
+{"when":"2025-09-04T06:29:07.302Z","firm":"apex","q":"como puedo sacar dinero con apex?","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":291}
+{"when":"2025-09-04T06:29:18.164Z","firm":"apex","q":"hay regla de consistencia con apex?","selector":"db","faq_id":"b8336088-d2ad-4bc0-9141-b46d516c7a32","ms":521}
+{"when":"2025-09-04T06:31:37.371Z","firm":"apex","q":"hay regla de consistencia con apex?","selector":"db","faq_id":"b8336088-d2ad-4bc0-9141-b46d516c7a32","ms":215}
+{"when":"2025-09-04T06:32:12.288Z","firm":"apex","q":"como puedo sacar dinero con apex?","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":279}
+{"when":"2025-09-04T06:32:54.664Z","firm":"apex","q":"minimo para sacar dinero","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":215}
+{"when":"2025-09-04T14:45:29.767Z","firm":"apex","q":"como sacar dinero","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":251}
+{"when":"2025-09-04T14:50:51.895Z","firm":"apex","q":"como sacar dinero","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":299}
+{"when":"2025-09-04T14:50:54.810Z","firm":"apex","q":"como sacar plata","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":273}
+{"when":"2025-09-04T14:51:00.031Z","firm":"apex","q":"cuando puedo cobrar","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":513}
+{"when":"2025-09-04T14:51:04.941Z","firm":"apex","q":"primer payout minimo","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":220}
+{"when":"2025-09-04T14:51:10.243Z","firm":"apex","q":"safty net","selector":"db","faq_id":"5b235d0a-b257-4292-adae-df65c21e689c","ms":453}
+{"when":"2025-09-04T14:51:18.196Z","firm":"apex","q":"cuanto sale apex","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":3107}
+{"when":"2025-09-04T14:51:24.185Z","firm":"apex","q":"hay consistensia?","selector":"db","faq_id":"cc3365a5-da92-45b5-b48c-8f89cd64a5ba","ms":975}
+{"when":"2025-09-04T14:51:30.029Z","firm":"apex","q":"overnight permitido?","selector":"db","faq_id":"af40dafa-27ed-4674-bccc-431c5766a5bf","ms":1232}
+{"when":"2025-09-04T14:51:37.332Z","firm":"apex","q":"puedo retirar ya?","selector":"db","faq_id":"4d45a7ec-0812-48cf-b9f0-117f42158615","ms":2734}
+{"when":"2025-09-04T14:51:42.397Z","firm":"apex","q":"minimo para sacar","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":230}
+{"when":"2025-09-04T14:51:47.419Z","firm":"apex","q":"¿Cuál es el mínimo para retirar?","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":238}
+{"when":"2025-09-04T14:51:52.419Z","firm":"apex","q":"¿cuál es el mínimo para sacar?","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":193}
+{"when":"2025-09-04T14:51:55.505Z","firm":"apex","q":"¿cuál es el mínimo para cobrar?","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":269}
+{"when":"2025-09-04T14:52:02.474Z","firm":"apex","q":"¿cuál es el mínimo para withdrawar?","selector":"none","faq_id":null,"ms":2121}
+{"when":"2025-09-04T14:52:09.331Z","firm":"apex","q":"¿cuál es el mínimo para hacer cash out?","selector":"db","faq_id":"35c71f9d-57ae-42e3-a24f-c99810e47915","ms":2034}
+{"when":"2025-09-04T14:52:16.071Z","firm":"apex","q":"¿Cuánto cuesta apex?","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":1815}
+{"when":"2025-09-04T14:52:23.407Z","firm":"apex","q":"¿cuanto cuesta apex?","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":2549}
+{"when":"2025-09-04T14:52:27.986Z","firm":"apex","q":"¿qué monto cuesta apex?","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":1875}
+{"when":"2025-09-04T14:52:35.403Z","firm":"apex","q":"¿qué cantidad cuesta apex?","selector":"db","faq_id":"fc6cb870-1364-4db7-b092-c341c9aa726d","ms":2557}
+{"when":"2025-09-04T14:53:55.684Z","firm":"apex","q":"retiro minimo apex","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":420}
+{"when":"2025-09-04T14:54:00.753Z","firm":"apex","q":"cual es el safty net","selector":"db","faq_id":"aab6da23-95bc-47de-b173-4d031fc8090b","ms":415}
+{"when":"2025-09-04T14:54:08.661Z","firm":"apex","q":"regla de consistensia","selector":"db","faq_id":"71631094-ead6-415c-87bf-b4cb5962ae13","ms":2987}
+{"when":"2025-09-04T14:54:11.993Z","firm":"apex","q":"overnight permitdo","selector":"db","faq_id":"af40dafa-27ed-4674-bccc-431c5766a5bf","ms":1429}
+{"when":"2025-09-04T14:54:17.310Z","firm":"apex","q":"drawdawn maximo","selector":"db","faq_id":"b0410c27-2dad-44c1-9031-52c4a56f2fc3","ms":1827}
+{"when":"2025-09-04T14:54:22.705Z","firm":"apex","q":"como hacer withdraw en apex","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":2312}
+{"when":"2025-09-04T14:54:23.318Z","firm":"apex","q":"what is el safety net","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":229}
+{"when":"2025-09-04T14:54:30.290Z","firm":"apex","q":"puedo make trades overnight?","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":2182}
+{"when":"2025-09-04T14:54:33.566Z","firm":"apex","q":"minimum para el withdrawal","selector":"db","faq_id":"30336df3-0a70-4263-a22b-f9276d562c0a","ms":379}
+{"when":"2025-09-04T14:54:40.590Z","firm":"apex","q":"trading rules de apex","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":2350}
+{"when":"2025-09-04T14:54:43.934Z","firm":"apex","q":"apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":331}
+{"when":"2025-09-04T14:54:49.406Z","firm":"apex","q":"?","selector":"none","faq_id":null,"ms":1260}
+{"when":"2025-09-04T14:55:13.600Z","firm":"apex","q":"retiro minimo apex","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":442}
+{"when":"2025-09-04T14:57:42.541Z","firm":"apex","q":"como sacar dinero","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":294}
+{"when":"2025-09-04T14:57:47.733Z","firm":"apex","q":"como sacar plata","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":267}
+{"when":"2025-09-04T14:57:54.545Z","firm":"apex","q":"puedo retirar ya","selector":"db","faq_id":"21a7f8bc-22c8-4032-a3a2-862b7182e3f9","ms":2172}
+{"when":"2025-09-04T14:57:57.767Z","firm":"apex","q":"cuando cobro","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":434}
+{"when":"2025-09-04T14:58:02.531Z","firm":"apex","q":"minimo para sacar","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":233}
+{"when":"2025-09-04T14:58:07.700Z","firm":"apex","q":"safty net","selector":"db","faq_id":"5b235d0a-b257-4292-adae-df65c21e689c","ms":436}
+{"when":"2025-09-04T14:58:11.333Z","firm":"apex","q":"regla consistensia","selector":"db","faq_id":"71631094-ead6-415c-87bf-b4cb5962ae13","ms":2178}
+{"when":"2025-09-04T14:58:14.839Z","firm":"apex","q":"retiro minimo","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":482}
+{"when":"2025-09-04T14:58:19.704Z","firm":"apex","q":"apex","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":397}
+{"when":"2025-09-04T14:58:26.543Z","firm":"apex","q":"info","selector":"none","faq_id":null,"ms":2000}
+{"when":"2025-09-04T14:58:32.223Z","firm":"apex","q":"withdraw minimo","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":2571}
+{"when":"2025-09-04T14:58:35.874Z","firm":"apex","q":"overnight trading","selector":"db","faq_id":"af40dafa-27ed-4674-bccc-431c5766a5bf","ms":1354}
+{"when":"2025-09-04T14:58:44.340Z","firm":"apex","q":"como sacar dinero","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":264}
+{"when":"2025-09-04T15:10:01.144Z","firm":"apex","q":"como retirar money","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":2371}
+{"when":"2025-09-04T15:10:05.926Z","firm":"apex","q":"retiro mínimo apex","selector":"db","faq_id":"bed584a4-c195-4981-892a-3b33df356e21","ms":3040}
+{"when":"2025-09-04T15:10:10.485Z","firm":"apex","q":"trading nocturno permitido?","selector":"db","faq_id":"e8a1e102-393d-4bc1-b551-e2cf7f521ed8","ms":2259}
+{"when":"2025-09-04T15:10:12.704Z","firm":"apex","q":"qué is the umbral de seguridad","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":1756}
+{"when":"2025-09-04T15:10:18.632Z","firm":"apex","q":"umbral de seguridad","selector":"db","faq_id":"a0efa7bb-7219-41d7-8317-55e3fd3c9f0c","ms":2688}
+{"when":"2025-09-04T15:10:20.312Z","firm":"apex","q":"hola necesito toda la informacion sobre apex incluyendo precios reglas retiros y todo lo demas","selector":"db","faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","ms":280}
+{"when":"2025-09-04T15:10:25.666Z","firm":"apex","q":"como sacar dinero","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":374}
+{"when":"2025-09-04T15:10:29.585Z","firm":"apex","q":"regla de consistencia","selector":"db","faq_id":"b8336088-d2ad-4bc0-9141-b46d516c7a32","ms":312}
+{"when":"2025-09-04T15:11:05.825Z","firm":"apex","q":"retiro mínimo","selector":"db","faq_id":"385d0f21-fee7-4acb-9f69-a70051e3ad38","ms":515}
+{"when":"2025-09-04T15:29:03.240Z","firm":"apex","q":"que precio tiene la cuenta de 50k?","selector":"db","faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","ms":317}
+{"when":"2025-09-04T15:29:32.384Z","firm":"apex","q":"cuanto cuesta la cuenta de 50k?","selector":"db","faq_id":"80d9c0e7-c37e-459d-a28d-f70a169fe3df","ms":2020}
+{"when":"2025-09-04T15:36:23.626Z","firm":"apex","q":"que precio tiene la cuenta de 50k?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":259}
+{"when":"2025-09-04T15:36:39.096Z","firm":"apex","q":"cuanto cuesta la cuenta de 50k?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":306}
+{"when":"2025-09-04T15:36:54.494Z","firm":"apex","q":"que precio cuesta cada cuenta?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":242}
+{"when":"2025-09-04T15:37:13.545Z","firm":"apex","q":"como puedo retirar mi dinero con apex?","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":322}
+{"when":"2025-09-04T15:37:29.449Z","firm":"apex","q":"que necesito hacer para poder sacar mi plata?","selector":"db","faq_id":"21a7f8bc-22c8-4032-a3a2-862b7182e3f9","ms":343}
+{"when":"2025-09-04T15:37:45.664Z","firm":"apex","q":"cuanto es lo maximo que puedo sacar con cada cuenta?","selector":"db","faq_id":"35c71f9d-57ae-42e3-a24f-c99810e47915","ms":290}
+{"when":"2025-09-04T15:38:03.636Z","firm":"apex","q":"hay regla de consistencia en apex?","selector":"db","faq_id":"b8336088-d2ad-4bc0-9141-b46d516c7a32","ms":317}
+{"when":"2025-09-04T15:40:45.514Z","firm":"apex","q":"cuanto cuesta la cuenta de 50k?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":253}
+{"when":"2025-09-04T15:40:52.044Z","firm":"apex","q":"que tamaños de cuenta tiene apex?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":2193}
+{"when":"2025-09-04T15:40:56.232Z","firm":"apex","q":"cual es el precio de la cuenta static?","selector":"db","faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","ms":224}
+{"when":"2025-09-04T15:41:02.364Z","firm":"apex","q":"cual es el profit target de la cuenta de 100k?","selector":"db","faq_id":"12764769-c253-40a2-abdb-ba32b305f48a","ms":1577}
+{"when":"2025-09-04T15:41:08.061Z","firm":"apex","q":"cuantos dias minimos para pasar evaluacion?","selector":"db","faq_id":"30336df3-0a70-4263-a22b-f9276d562c0a","ms":1363}
+{"when":"2025-09-04T15:41:14.237Z","firm":"apex","q":"cuanto tiempo tengo para la evaluacion?","selector":"db","faq_id":"30336df3-0a70-4263-a22b-f9276d562c0a","ms":1974}
+{"when":"2025-09-04T15:41:20.269Z","firm":"apex","q":"como funciona el trailing drawdown?","selector":"db","faq_id":"4edf6f7f-1103-4bbc-8021-c76a18133f85","ms":1581}
+{"when":"2025-09-04T15:41:26.475Z","firm":"apex","q":"cual es el drawdown de la cuenta de 50k?","selector":"db","faq_id":"b0410c27-2dad-44c1-9031-52c4a56f2fc3","ms":1868}
+{"when":"2025-09-04T15:41:31.109Z","firm":"apex","q":"hay regla de consistencia en apex?","selector":"db","faq_id":"b8336088-d2ad-4bc0-9141-b46d516c7a32","ms":216}
+{"when":"2025-09-04T15:41:36.834Z","firm":"apex","q":"puedo dejar posiciones overnight?","selector":"db","faq_id":"af40dafa-27ed-4674-bccc-431c5766a5bf","ms":1291}
+{"when":"2025-09-04T15:41:42.747Z","firm":"apex","q":"cuantas cuentas puedo tener?","selector":"db","faq_id":"a91fd700-9e22-4508-aafc-35045d5f8d48","ms":1778}
+{"when":"2025-09-04T15:41:48.655Z","firm":"apex","q":"cuantos contratos en cuenta 100k?","selector":"db","faq_id":"26099319-b39e-4553-8219-1087d440c787","ms":1631}
+{"when":"2025-09-04T15:41:55.185Z","firm":"apex","q":"cuando puedo usar 100% contratos?","selector":"db","faq_id":"5b235d0a-b257-4292-adae-df65c21e689c","ms":1985}
+{"when":"2025-09-04T15:41:59.849Z","firm":"apex","q":"como puedo retirar dinero?","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":229}
+{"when":"2025-09-04T15:42:06.024Z","firm":"apex","q":"que necesito para retirar?","selector":"db","faq_id":"35c71f9d-57ae-42e3-a24f-c99810e47915","ms":1714}
+{"when":"2025-09-04T15:42:10.649Z","firm":"apex","q":"cual es el safety net 50k?","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":185}
+{"when":"2025-09-04T15:42:17.340Z","firm":"apex","q":"como es el profit split?","selector":"db","faq_id":"aab6da23-95bc-47de-b173-4d031fc8090b","ms":2352}
+{"when":"2025-09-04T15:42:21.898Z","firm":"apex","q":"cuanto cuesta activar la pa?","selector":"db","faq_id":"695fe96b-19a3-4b05-b43b-b8c3833de569","ms":191}
+{"when":"2025-09-04T15:42:26.467Z","firm":"apex","q":"cuanto cuesta resetear cuenta?","selector":"db","faq_id":"8c0189a8-b20d-4adc-859f-18a8885d91e7","ms":190}
+{"when":"2025-09-04T15:42:31.044Z","firm":"apex","q":"cuales son las comisiones?","selector":"db","faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","ms":245}
+{"when":"2025-09-04T15:42:37.019Z","firm":"apex","q":"que plataformas puedo usar?","selector":"db","faq_id":"7a1a3fd5-c7c5-451c-be01-71670e0c97f1","ms":1795}
+{"when":"2025-09-04T15:42:52.895Z","firm":"apex","q":"que tamaños de cuenta tiene apex?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":1537}
+{"when":"2025-09-04T15:43:03.715Z","firm":"apex","q":"puedo dejar posiciones overnight?","selector":"db","faq_id":"af40dafa-27ed-4674-bccc-431c5766a5bf","ms":1295}
+{"when":"2025-09-04T15:43:54.746Z","firm":"apex","q":"puedo dejar posiciones overnight?","selector":"db","faq_id":"af40dafa-27ed-4674-bccc-431c5766a5bf","ms":1518}
+{"when":"2025-09-04T15:44:26.185Z","firm":"apex","q":"¿cuanto cuesta la cuenta de 50k?","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":239}
+{"when":"2025-09-04T15:44:30.677Z","firm":"apex","q":"¿como puedo retirar mi dinero?","selector":"db","faq_id":"07a149b0-1866-42f0-b5ff-1320a57cb7b7","ms":205}
+{"when":"2025-09-04T15:44:35.329Z","firm":"apex","q":"¿hay regla de consistencia?","selector":"db","faq_id":"b8336088-d2ad-4bc0-9141-b46d516c7a32","ms":207}
+{"when":"2025-09-04T15:44:40.883Z","firm":"apex","q":"¿puedo dejar posiciones overnight?","selector":"db","faq_id":"af40dafa-27ed-4674-bccc-431c5766a5bf","ms":1330}
+{"when":"2025-09-04T15:44:45.823Z","firm":"apex","q":"¿cuales son las comisiones?","selector":"db","faq_id":"4d503259-dd0e-4807-b8bf-89c18a39253d","ms":184}
+{"when":"2025-09-04T15:44:50.447Z","firm":"apex","q":"¿que es el safety net?","selector":"db","faq_id":"b8cae97b-9fa7-48cb-895b-cfbb81720724","ms":216}
+{"when":"2025-09-04T15:45:02.728Z","firm":"apex","q":"cuanto cuesta la cuenta de 50k","selector":"db","faq_id":"9ea973b6-d106-4b54-9cf7-d75805c5d394","ms":204}

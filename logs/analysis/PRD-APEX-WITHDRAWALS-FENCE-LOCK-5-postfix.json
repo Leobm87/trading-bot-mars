@@ -1,0 +1,107 @@
+
+> trading-bot-mars@1.0.0 analyze:apex
+> node scripts/analyze-failures.cjs
+
+{
+  "firm": "apex",
+  "n": 82,
+  "exact_at_1": 0.8049,
+  "p50_ms": 186,
+  "misses": [
+    {
+      "q": "cuanto cuesta activar la cuenta financiada en apex?",
+      "got": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+      "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "ms": 227
+    },
+    {
+      "q": "Tengo que tener R-Trader o Tradovate abiertos siempre?",
+      "expected": "4d503259-dd0e-4807-b8bf-89c18a39253d",
+      "ms": 594
+    },
+    {
+      "q": "Hay restricciones de noticias de evaluacion?",
+      "got": "e8a1e102-393d-4bc1-b551-e2cf7f521ed8",
+      "expected": "a52c53f3-8f43-43d1-9d08-4cab9b2f0fea",
+      "ms": 1422
+    },
+    {
+      "q": "cual es el umbral minimo en apex",
+      "got": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "ms": 1081
+    },
+    {
+      "q": "cuanto cuesta activar apex",
+      "got": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+      "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "ms": 65
+    },
+    {
+      "q": "cual es el safety net para retirar",
+      "got": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "ms": 60
+    },
+    {
+      "q": "¿Cuál es el umbral mínimo (Safety Net) para poder retirar en APEX?",
+      "got": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "ms": 62
+    },
+    {
+      "q": "retiro apex umbral",
+      "got": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "ms": 2039
+    },
+    {
+      "q": "¿Cuáles son las cuotas de activación de la cuenta financiada en APEX?",
+      "got": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+      "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "ms": 63
+    },
+    {
+      "q": "activacion apex",
+      "got": "fc6cb870-1364-4db7-b092-c341c9aa726d",
+      "expected": "695fe96b-19a3-4b05-b43b-b8c3833de569",
+      "ms": 59
+    },
+    {
+      "q": "payouts apex",
+      "got": "aab6da23-95bc-47de-b173-4d031fc8090b",
+      "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "ms": 2217
+    },
+    {
+      "q": "retiro apex payouts",
+      "got": "07a149b0-1866-42f0-b5ff-1320a57cb7b7",
+      "expected": "4d45a7ec-0812-48cf-b9f0-117f42158615",
+      "ms": 2463
+    },
+    {
+      "q": "tamanos apex",
+      "got": "9ea973b6-d106-4b54-9cf7-d75805c5d394",
+      "expected": "93849616-e113-43ee-8319-e32d44c1baed",
+      "ms": 1965
+    },
+    {
+      "q": "que colchon tiene apex?",
+      "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "ms": 733
+    },
+    {
+      "q": "cuales son los paises donde no puedo usar apex?",
+      "got": "6a6465dc-15f2-4467-b47f-51f1159828e3",
+      "expected": "11633e70-3f32-408a-8778-796e91740e46",
+      "ms": 1544
+    },
+    {
+      "q": "umbral para retirar en apex",
+      "got": "a0efa7bb-7219-41d7-8317-55e3fd3c9f0c",
+      "expected": "b8cae97b-9fa7-48cb-895b-cfbb81720724",
+      "ms": 63
+    }
+  ],
+  "ts": "2025-09-01T10:24:00.110Z"
+}

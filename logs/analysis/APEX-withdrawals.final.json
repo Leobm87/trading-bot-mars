@@ -1,0 +1,116 @@
+[
+  {
+    "q": "primer retiro",
+    "ok": true,
+    "source": "db",
+    "ms": 394
+  },
+  {
+    "q": "retirar dinero",
+    "ok": true,
+    "source": "db",
+    "ms": 274
+  },
+  {
+    "q": "retiro fondos",
+    "ok": true,
+    "source": "db",
+    "ms": 195
+  },
+  {
+    "q": "payout",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "withdraw",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "minimo retiro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "sacar dinero",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "cobro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "withdrawal",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "retirada",
+    "ok": true,
+    "source": "db",
+    "ms": 187
+  },
+  {
+    "q": "cuanto cobrar",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "primer cobro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "monto retiro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "limites retiro",
+    "ok": true,
+    "source": "db",
+    "ms": 180
+  },
+  {
+    "q": "retiro ganancias",
+    "ok": true,
+    "source": "db",
+    "ms": 194
+  },
+  {
+    "q": "solicitar retiro",
+    "ok": true,
+    "source": "db",
+    "ms": 177
+  },
+  {
+    "q": "proceso retiro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "cómo retirar",
+    "ok": true,
+    "source": "db",
+    "ms": 250
+  },
+  {
+    "q": "retirada de fondos",
+    "ok": true,
+    "source": "db",
+    "ms": 163
+  }
+]

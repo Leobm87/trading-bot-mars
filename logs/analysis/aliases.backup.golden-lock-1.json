@@ -1,0 +1,36 @@
+{
+  "meta": { "firm_id": "854bf730-8420-4297-86f8-3c4a972edcf2" },
+  "by_slug": {
+    "limites-retiro": { 
+      "aliases": [
+        "mínimo para retirar", "mínimo de retiro", "primer retiro", "primer payout", "primer cobro",
+        "cash out mínimo", "monto mínimo retirar", "cuánto cobrar primer payout", 
+        "cuando puedo retirar primera vez", "importe mínimo retiro", "mínimo para cobrar",
+        "primer pago mínimo", "primer pago en apex", "cuánto es el mínimo para retirar",
+        "cuánto puedo cobrar la primera vez", "retiro inicial mínimo", "cuanto cobrar primer payout",
+        "monto minimo primer retiro", "minimo retiro apex", "primer cobro cuanto", "monto minimo retirar",
+        "limitados primeros retiros", "límites montos primer payout", "retirar dinero", "retiro fondos",
+        "payout", "withdraw", "sacar dinero", "cobro", "withdrawal", "retirada", "cuanto cobrar",
+        "monto retiro", "limites retiro", "retiro ganancias", "solicitar retiro", "proceso retiro",
+        "cómo retirar", "retirada de fondos", "cobrar", "cuánto cobrar", "cuando cobro", "cuándo cobro"
+      ], 
+      "category": "withdrawals" 
+    },
+    "umbral-minimo": { "aliases": ["umbral", "umbral minimo", "safety net", "payout threshold"], "category": "withdrawals" },
+    "apex-safety-net": { "aliases": ["colchon", "proteccion", "red seguridad", "umbral proteccion", "safety net", "umbral de seguridad", "safety threshold", "red de seguridad"], "category": "withdrawals" },
+    "payouts-frecuencia": { "aliases": ["frecuencia de pagos", "cada cuánto pagan", "periodicidad retiros"], "category": "withdrawals" },
+    "metodos-de-pago": { "aliases": ["métodos de pago disponibles", "formas de pago aceptadas", "payment methods", "cómo pagar con paypal", "tarjeta", "crypto", "transferencia", "formas de pago","métodos de pago","como pago","cómo pago","pagar con tarjeta","tarjeta de crédito","tarjeta de debito","tarjeta de débito","paypal","pay pal","stripe","wise","transferencia bancaria","sepa","iban","iDEAL","ideal","bancontact","apple pay","google pay","sofort","giropay","pago único","pago unico","suscripción","suscripcion"], "category": "payment_methods" },
+    "activar-precio": { "aliases": ["activar", "activation fee", "coste de activacion", "comprar cuenta", "checkout"], "category": "pricing" },
+    "reglas-generales": { "aliases": ["reglas", "normas", "drawdown", "consistency", "daily loss", "overnight", "news"], "category": "rules" },
+    "plataformas": { "aliases": ["plataformas", "ninjatrader", "tradovate", "quantower", "rixo"], "category": "platforms" },
+    "descuentos": { "aliases": ["descuento", "codigo", "cupon", "promo", "rebaja"], "category": "discounts" }
+  },
+  "by_substring": [
+    { "contains": ["umbral","safety net","minimo","colchon","retiro","payout","withdraw"], "aliases": ["umbral", "umbral minimo", "safety net", "minimo para retirar", "colchon", "proteccion", "red seguridad", "primer retiro", "payout minimo", "retirar dinero", "cobro", "withdrawal", "sacar dinero", "proceso retiro"], "category": "withdrawals" },
+    { "contains": ["metodos de pago","formas de pago","paypal","crypto","tarjeta","transferencia","pago","stripe","wise","sepa","iban","ideal","bancontact","apple pay","google pay","sofort","giropay","suscripcion"], "aliases": ["metodos de pago","formas de pago","payment methods","tarjeta","paypal","crypto","transferencia","formas de pago","métodos de pago","como pago","cómo pago","pagar con tarjeta","tarjeta de crédito","tarjeta de debito","tarjeta de débito","paypal","pay pal","stripe","wise","transferencia bancaria","sepa","iban","iDEAL","ideal","bancontact","apple pay","google pay","sofort","giropay","pago único","pago unico","suscripción","suscripcion","cobro automático","cobro automatico"], "category": "payment_methods" },
+    { "contains": ["activar","activation","precio","suscripcion","fee"], "aliases": ["activar","activation fee","coste de activacion","comprar cuenta","suscripcion"], "category": "pricing" },
+    { "contains": ["reglas","drawdown","consistency","daily loss","overnight","news"], "aliases": ["reglas","normas","drawdown","consistency","daily loss","overnight","news"], "category": "rules" },
+    { "contains": ["plataformas","ninjatrader","tradovate","quantower","rixo"], "aliases": ["plataformas","ninjatrader","tradovate","quantower","rixo"], "category": "platforms" },
+    { "contains": ["descuento","cupon","codigo","promo","rebaja"], "aliases": ["descuento","codigo","cupon","promo","rebaja"], "category": "discounts" }
+  ]
+}

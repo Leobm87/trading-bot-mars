@@ -1,0 +1,116 @@
+[
+  {
+    "q": "primer retiro",
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "ok": true,
+    "source": "db"
+  },
+  {
+    "q": "retirar dinero",
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "ok": true,
+    "source": "db"
+  },
+  {
+    "q": "retiro fondos",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "payout",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "withdraw",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "minimo retiro",
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "ok": true,
+    "source": "db"
+  },
+  {
+    "q": "sacar dinero",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "cobro",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "withdrawal",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "retirada",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "cuanto cobrar",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "primer cobro",
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "ok": true,
+    "source": "db"
+  },
+  {
+    "q": "monto retiro",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "limites retiro",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "retiro ganancias",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "solicitar retiro",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "proceso retiro",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "cómo retirar",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  },
+  {
+    "q": "retirada de fondos",
+    "faq_id": null,
+    "ok": false,
+    "source": "none"
+  }
+]

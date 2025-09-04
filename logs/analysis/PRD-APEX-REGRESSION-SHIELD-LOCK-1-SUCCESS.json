@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "72/82",
+  "withdrawals_hit_rate": "15/19",
+  "p50_latency_ms": 96,
+  "artifacts": [
+    "logs/analysis/PRD-APEX-REGRESSION-SHIELD-LOCK-1-SUCCESS.json",
+    "logs/analysis/APEX-golden.prepin.json",
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/metrics/apex-2025-09-01-22-14-28.json"
+  ],
+  "changes": [],
+  "db_patches": [],
+  "guards_status": {
+    "health_db": "PASS",
+    "sql_connectivity": "PASS",
+    "rpc_functions": "PASS",
+    "pins_guard": "PASS (26/40)",
+    "golden_eval": "PASS (72/82 = 87.8%)",
+    "withdrawals": "PASS (15/19 withdrawal queries)",
+    "p50_latency": "PASS (96ms < 1400ms)"
+  },
+  "ts": "2025-09-01T22:15:17Z",
+  "next_prd": "PRD-APEX-GOLDEN-82-LOCK-2"
+}

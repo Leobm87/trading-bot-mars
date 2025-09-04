@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "72/82",
+  "withdrawals_hit_rate": "15/19",
+  "p50_latency_ms": 90,
+  "artifacts": [
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/analysis/APEX-golden.prepin.json",
+    "logs/analysis/PRD-APEX-GOLDEN-82-LOCK-1-SUCCESS.json",
+    "logs/analysis/aliases.backup.golden-lock-1.json"
+  ],
+  "changes": [
+    "data/aliases-apex.json",
+    "data/pins/apex.json"
+  ],
+  "db_patches": [
+    "aliases:+cuotas-activacion",
+    "aliases:+safety-net-tamaños",
+    "aliases:+precios-cuentas",
+    "aliases:+escalado-contratos",
+    "aliases:+restricciones-paises",
+    "pins:edit:safety-net-routing",
+    "pins:edit:activation-routing",
+    "pins:edit:payouts-routing"
+  ],
+  "improvements": {
+    "baseline_exact_at_1": "65/82 (79.3%)",
+    "final_exact_at_1": "72/82 (87.8%)",
+    "delta_queries": "+7",
+    "baseline_p50_ms": 211,
+    "final_p50_ms": 90,
+    "latency_improvement": "57% faster"
+  },
+  "prd_id": "PRD-APEX-GOLDEN-82-LOCK-1",
+  "timestamp": "2025-09-01T10:49:25.167Z"
+}

@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-09-04T14:57:37.546Z",
+  "environment": "production",
+  "service": "apex",
+  "metrics": {
+    "total_tested": 12,
+    "success_count": 0,
+    "failure_count": 12,
+    "success_rate": "0.00",
+    "avg_latency_ms": 0,
+    "p95_latency_ms": 0,
+    "avg_response_length": 0
+  },
+  "critical_queries": [
+    {
+      "query": "como sacar dinero",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "como sacar plata",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "puedo retirar ya",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "cuando cobro",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "minimo para sacar",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "safty net",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "regla consistensia",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "retiro minimo",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "apex",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "info",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "withdraw minimo",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    },
+    {
+      "query": "overnight trading",
+      "found": false,
+      "error": "spawnSync /bin/sh ETIMEDOUT"
+    }
+  ],
+  "failures": [
+    "como sacar dinero",
+    "como sacar plata",
+    "puedo retirar ya",
+    "cuando cobro",
+    "minimo para sacar",
+    "safty net",
+    "regla consistensia",
+    "retiro minimo",
+    "apex",
+    "info",
+    "withdraw minimo",
+    "overnight trading"
+  ],
+  "warnings": [],
+  "recommendations": [
+    "🔴 CRÍTICO: Tasa de éxito < 90% - Agregar aliases urgente",
+    "🔧 Agregar aliases para: como sacar dinero, como sacar plata, puedo retirar ya"
+  ],
+  "health_score": 10
+}

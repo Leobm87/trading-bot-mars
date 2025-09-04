@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "66/82",
+  "withdrawals_hit_rate": "19/19",
+  "p50_latency_ms": 186,
+  "artifacts": [
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/analysis/PRD-APEX-WITHDRAWALS-FENCE-LOCK-5-postfix.json",
+    "logs/analysis/PRD-APEX-WITHDRAWALS-FENCE-LOCK-5-SUCCESS.json"
+  ],
+  "changes": [
+    "data/aliases-apex.json",
+    "scripts/update-withdrawals-aliases.cjs",
+    "tests/pins/apex.pin26.test.js"
+  ],
+  "db_patches": [
+    "aliases:+385d0f21-fee7-4acb-9f69-a70051e3ad38:'cobro|cobrar|cuanto cobrar|cuánto cobrar|cuando cobro|cuándo cobro'",
+    "aliases:-metodos-de-pago:'cobro automático|cobro automatico' (removed conflicting terms)"
+  ],
+  "target_queries_fixed": [
+    "cobro → 385d0f21-fee7-4acb-9f69-a70051e3ad38 ✅",
+    "cuanto cobrar → 385d0f21-fee7-4acb-9f69-a70051e3ad38 ✅"
+  ],
+  "performance_improvement": {
+    "baseline_exact_at_1": "62/82 (75.6%)",
+    "final_exact_at_1": "66/82 (80.5%)", 
+    "queries_fixed": 4,
+    "p50_latency": "186ms < 1400ms target"
+  },
+  "rollback_validated": false,
+  "timestamp": "2025-09-01T10:25:00.000Z"
+}

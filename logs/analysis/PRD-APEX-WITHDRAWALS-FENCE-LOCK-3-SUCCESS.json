@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "prd_id": "PRD-APEX-WITHDRAWALS-FENCE-LOCK-3",
+  "sql_driver": "mcp_supabase",
+  "pins_total": 26,
+  "golden_exact_at_1": "62/82",
+  "golden_exact_at_1_pct": 75.6,
+  "withdrawals_hit_rate": "11/19",
+  "withdrawals_hit_rate_pct": 57.9,
+  "p50_latency_ms": 218,
+  "artifacts": [
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/analysis/APEX-withdrawals.estimate.json"
+  ],
+  "changes": [
+    "services/common/intent-gate.cjs",
+    "services/common/retriever.cjs"
+  ],
+  "db_patches": [
+    "aliases:+385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "aliases:-4c484cef-5715-480f-8c16-914610866a62"
+  ],
+  "improvements": {
+    "gate_precedence": "withdrawals > payment_methods",
+    "retriever_fences": "cross-exclusion implemented",
+    "aliases_enhancement": "22 new aliases for withdrawals FAQ",
+    "unit_tests": "6/6 passed (100%)"
+  },
+  "baseline": {
+    "withdrawals_hit_rate_before": "4/19 (21.1%)",
+    "withdrawals_hit_rate_after": "11/19 (57.9%)",
+    "improvement": "+175% relative, +36.8pp absolute"
+  },
+  "limitations": {
+    "target_not_met": "19/19 withdrawals (100%)",
+    "golden_not_perfect": "82/82 exact@1 (100%)",
+    "remaining_gaps": [
+      "Some withdrawal queries still route to 'none'",
+      "Lexical fallbacks need stronger semantic coverage"
+    ]
+  },
+  "next_steps": [
+    "Expand aliases coverage for edge case withdrawal terms",
+    "Investigate remaining 'none' cases in withdrawals intent",
+    "Consider semantic similarity boost for withdrawal context"
+  ]
+}

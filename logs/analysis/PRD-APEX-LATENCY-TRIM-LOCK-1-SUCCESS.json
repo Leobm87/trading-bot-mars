@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "70/82",
+  "withdrawals_hit_rate": "19/19",
+  "p50_latency_ms": "174",
+  "artifacts": [
+    "logs/analysis/PRD-APEX-LATENCY-TRIM-LOCK-1-SUCCESS.json",
+    "logs/analysis/metrics.baseline.json",
+    "logs/analysis/metrics.after.json",
+    "logs/analysis/env.patch.txt"
+  ],
+  "changes": [
+    ".env"
+  ],
+  "db_patches": [],
+  "performance": {
+    "baseline": { "p50": "190ms", "p95": "2473ms", "exact_at_1": "71/82" },
+    "final": { "p50": "174ms", "p95": "2015ms", "exact_at_1": "70/82" },
+    "improvement": { "p50": "-16ms (-8.4%)", "p95": "-458ms (-18.5%)" }
+  },
+  "config_changes": {
+    "RETRIEVE_K": { "from": 5, "to": 4 },
+    "FUSED_MARGIN_SKIP_LLM": { "from": 0.15, "to": 0.18 }
+  },
+  "guards_verified": {
+    "health_sql": "683ms ✓",
+    "smoke_retriever": "205ms ✓", 
+    "pins_count": "26/26 ✓",
+    "withdrawals_test": "primer_payout_minimo ✓"
+  },
+  "technical_summary": "Reduced latency P50 from 190ms to 174ms (-8.4%) by optimizing retrieval parameters: RETRIEVE_K=4 and FUSED_MARGIN_SKIP_LLM=0.18. All guards passed. Slight exact_at_1 drop (71→70) within acceptable range. P95 also improved significantly (-18.5%)."
+}

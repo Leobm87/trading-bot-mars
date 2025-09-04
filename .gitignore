@@ -3,4 +3,5 @@ node_modules/
 *.log
 .env.local
 dist/
-build/
+build/mcp-servers/
+logs/analysis/env*.txt

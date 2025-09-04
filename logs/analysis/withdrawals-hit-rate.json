@@ -1,0 +1,83 @@
+{
+  "success_count": 17,
+  "total": 19,
+  "hit_rate": "17/19",
+  "results": [
+    {
+      "q": "retirar dinero",
+      "ok": true
+    },
+    {
+      "q": "retiro fondos",
+      "ok": true
+    },
+    {
+      "q": "payout",
+      "ok": true
+    },
+    {
+      "q": "withdraw",
+      "ok": true
+    },
+    {
+      "q": "sacar dinero",
+      "ok": true
+    },
+    {
+      "q": "cobro",
+      "ok": false
+    },
+    {
+      "q": "withdrawal",
+      "ok": true
+    },
+    {
+      "q": "retirada",
+      "ok": true
+    },
+    {
+      "q": "cuanto cobrar",
+      "ok": false
+    },
+    {
+      "q": "monto retiro",
+      "ok": true
+    },
+    {
+      "q": "limites retiro",
+      "ok": true
+    },
+    {
+      "q": "retiro ganancias",
+      "ok": true
+    },
+    {
+      "q": "solicitar retiro",
+      "ok": true
+    },
+    {
+      "q": "proceso retiro",
+      "ok": true
+    },
+    {
+      "q": "cómo retirar",
+      "ok": true
+    },
+    {
+      "q": "retirada de fondos",
+      "ok": true
+    },
+    {
+      "q": "primer retiro",
+      "ok": true
+    },
+    {
+      "q": "minimo retiro",
+      "ok": true
+    },
+    {
+      "q": "primer cobro",
+      "ok": true
+    }
+  ]
+}

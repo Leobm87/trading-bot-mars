@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-09-04T15:10:26.370Z",
+  "coverage_percent": "52.94",
+  "baseline_percent": 92,
+  "improvement_percent": -39.06,
+  "results": {
+    "total": 17,
+    "success": 9,
+    "by_type": {
+      "ambiguous": {
+        "total": 4,
+        "success": 4
+      },
+      "english": {
+        "total": 4,
+        "success": 0
+      },
+      "typo": {
+        "total": 3,
+        "success": 2
+      },
+      "long": {
+        "total": 1,
+        "success": 0
+      },
+      "special": {
+        "total": 1,
+        "success": 1
+      },
+      "emoji": {
+        "total": 1,
+        "success": 1
+      },
+      "control": {
+        "total": 3,
+        "success": 1
+      }
+    }
+  }
+}

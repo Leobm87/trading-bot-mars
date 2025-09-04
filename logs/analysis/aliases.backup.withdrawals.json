@@ -1,0 +1,33 @@
+{
+  "meta": { "firm_id": "854bf730-8420-4297-86f8-3c4a972edcf2" },
+  "by_slug": {
+    "limites-retiro": { 
+      "aliases": [
+        "mínimo para retirar", "mínimo de retiro", "primer retiro", "primer payout", "primer cobro",
+        "cash out mínimo", "monto mínimo retirar", "cuánto cobrar primer payout", 
+        "cuando puedo retirar primera vez", "importe mínimo retiro", "mínimo para cobrar",
+        "primer pago mínimo", "primer pago en apex", "cuánto es el mínimo para retirar",
+        "cuánto puedo cobrar la primera vez", "retiro inicial mínimo", "cuanto cobrar primer payout",
+        "monto minimo primer retiro", "minimo retiro apex", "primer cobro cuanto", "monto minimo retirar",
+        "limitados primeros retiros", "límites montos primer payout"
+      ], 
+      "category": "withdrawals" 
+    },
+    "umbral-minimo": { "aliases": ["umbral", "umbral minimo", "safety net", "payout threshold"], "category": "withdrawals" },
+    "apex-safety-net": { "aliases": ["colchon", "proteccion", "red seguridad", "umbral proteccion", "safety net", "umbral de seguridad", "safety threshold", "red de seguridad"], "category": "withdrawals" },
+    "payouts-frecuencia": { "aliases": ["frecuencia de pagos", "cada cuánto pagan", "periodicidad retiros"], "category": "withdrawals" },
+    "metodos-de-pago": { "aliases": ["métodos de pago disponibles", "formas de pago aceptadas", "payment methods", "cómo pagar con paypal", "tarjeta", "crypto", "transferencia"], "category": "payment_methods" },
+    "activar-precio": { "aliases": ["activar", "activation fee", "coste de activacion", "comprar cuenta", "checkout"], "category": "pricing" },
+    "reglas-generales": { "aliases": ["reglas", "normas", "drawdown", "consistency", "daily loss", "overnight", "news"], "category": "rules" },
+    "plataformas": { "aliases": ["plataformas", "ninjatrader", "tradovate", "quantower", "rixo"], "category": "platforms" },
+    "descuentos": { "aliases": ["descuento", "codigo", "cupon", "promo", "rebaja"], "category": "discounts" }
+  },
+  "by_substring": [
+    { "contains": ["umbral","safety net","minimo","colchon","retiro"], "aliases": ["umbral", "umbral minimo", "safety net", "minimo para retirar", "colchon", "proteccion", "red seguridad", "primer retiro", "payout minimo"], "category": "withdrawals" },
+    { "contains": ["metodos de pago","formas de pago","paypal","crypto","tarjeta","transferencia"], "aliases": ["metodos de pago","formas de pago","payment methods","tarjeta","paypal","crypto","transferencia"], "category": "payment_methods" },
+    { "contains": ["activar","activation","precio","suscripcion","fee"], "aliases": ["activar","activation fee","coste de activacion","comprar cuenta","suscripcion"], "category": "pricing" },
+    { "contains": ["reglas","drawdown","consistency","daily loss","overnight","news"], "aliases": ["reglas","normas","drawdown","consistency","daily loss","overnight","news"], "category": "rules" },
+    { "contains": ["plataformas","ninjatrader","tradovate","quantower","rixo"], "aliases": ["plataformas","ninjatrader","tradovate","quantower","rixo"], "category": "platforms" },
+    { "contains": ["descuento","cupon","codigo","promo","rebaja"], "aliases": ["descuento","codigo","cupon","promo","rebaja"], "category": "discounts" }
+  ]
+}

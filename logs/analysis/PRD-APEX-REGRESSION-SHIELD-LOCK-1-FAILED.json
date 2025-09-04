@@ -1,0 +1,30 @@
+{
+  "status": "failed",
+  "error": "MCP_SUPABASE_SMOKE_TEST_FAILED",
+  "details": {
+    "health_check_latency_ms": 36,
+    "smoke_test_latency_ms": 2303,
+    "smoke_test_results": 0,
+    "threshold_latency_ms": 1500,
+    "firm_id": "854bf730-8420-4297-86f8-3c4a972edcf2",
+    "query": "primer retiro",
+    "function_called": "faq_retrieve_es_v3"
+  },
+  "guards_status": {
+    "sql_driver": "supabase_query",
+    "health_check": "PASS (36ms < 1500ms)",
+    "smoke_retriever": "FAIL (2303ms > 1500ms, 0 results)",
+    "pins_total": "UNKNOWN",
+    "golden_exact_at_1": "UNKNOWN",
+    "withdrawals_hit_rate": "UNKNOWN",
+    "p50_latency_ms": "UNKNOWN"
+  },
+  "rollback_required": true,
+  "artifacts": [
+    "logs/analysis/PRD-APEX-REGRESSION-SHIELD-LOCK-1-FAILED.json",
+    "test-health-smoke.cjs"
+  ],
+  "next_action": "Verificar función faq_retrieve_es_v3 en Supabase y corregir latencia antes de continuar",
+  "prd_id": "PRD-APEX-REGRESSION-SHIELD-LOCK-1",
+  "timestamp": "2025-01-26T16:31:00.000Z"
+}

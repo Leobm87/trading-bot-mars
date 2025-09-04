@@ -1,0 +1,55 @@
+{
+  "metrics": {
+    "prd": "PRD-002",
+    "n": 82,
+    "exact_at_1": 0.7927,
+    "by_intent": {
+      "pricing": {
+        "n": 6,
+        "hit": 2
+      },
+      "account_specs": {
+        "n": 3,
+        "hit": 3
+      },
+      "rules": {
+        "n": 5,
+        "hit": 3
+      },
+      "platforms": {
+        "n": 2,
+        "hit": 1
+      },
+      "payment_methods": {
+        "n": 3,
+        "hit": 3
+      },
+      "discounts": {
+        "n": 1,
+        "hit": 1
+      },
+      "withdrawals": {
+        "n": 19,
+        "hit": 15
+      },
+      "safety_net": {
+        "n": 3,
+        "hit": 3
+      },
+      "undefined": {
+        "n": 40,
+        "hit": 34
+      }
+    },
+    "sources_pct": {
+      "db": 97.6,
+      "llm_select": 0,
+      "none": 2.4
+    },
+    "latency_ms": {
+      "p50": 211,
+      "p95": 2116
+    }
+  },
+  "ts": "2025-09-01T10:39:00.379Z"
+}

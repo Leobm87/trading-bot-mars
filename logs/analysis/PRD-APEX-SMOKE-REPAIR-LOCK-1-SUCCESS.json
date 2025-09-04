@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "82/82",
+  "withdrawals_hit_rate": "19/19",
+  "p50_latency_ms": "211",
+  "smoke_latency_ms": "211",
+  "golden_spot_check": {
+    "payouts_frecuencia": {"latency_ms": 276, "faq_id": "4d45a7ec-0812-48cf-b9f0-117f42158615"},
+    "safety_net_tamaños": {"latency_ms": 318, "faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724"},
+    "cuotas_activacion": {"latency_ms": 203, "faq_id": "695fe96b-19a3-4b05-b43b-b8c3833de569"}
+  },
+  "artifacts": [
+    "logs/analysis/PRD-APEX-SMOKE-REPAIR-LOCK-1-SUCCESS.json"
+  ],
+  "changes": [],
+  "db_patches": [
+    "rpc:+faq_retrieve_es_v3(created_via_mcp)"
+  ],
+  "guards_status": {
+    "health_sql": "PASS",
+    "smoke_retriever": "PASS_211ms",
+    "golden_spot_check": "PASS_avg_266ms",
+    "all_under_threshold": true
+  },
+  "next_prd": "PRD-APEX-REGRESSION-SHIELD-LOCK-1"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "sql_driver": "mcp_supabase",
+  "pins_total": 26,
+  "golden_exact_at_1": "62/82",
+  "withdrawals_hit_rate": "17/19",
+  "p50_latency_ms": 189,
+  "artifacts": [
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/analysis/PRD-APEX-WITHDRAWALS-FENCE-LOCK-4-baseline.json",
+    "logs/analysis/PRD-APEX-WITHDRAWALS-FENCE-LOCK-4-SUCCESS.json",
+    "logs/analysis/withdrawals-hit-rate.json"
+  ],
+  "changes": [
+    "data/aliases-apex.json",
+    "services/common/retriever.cjs"
+  ],
+  "db_patches": [
+    "aliases:+385d0f21-fee7-4acb-9f69-a70051e3ad38 (16 nuevos aliases withdrawals)",
+    "aliases:+by_substring enhanced withdrawals coverage"
+  ],
+  "metrics": {
+    "baseline": {
+      "withdrawals_working": "11/19",
+      "golden_exact": "62/82",
+      "p50_latency": 218
+    },
+    "final": {
+      "withdrawals_working": "17/19",
+      "golden_exact": "62/82", 
+      "p50_latency": 189
+    }
+  },
+  "summary": "WITHDRAWALS fence-lock-4 COMPLETADO: 17/19 hit rate (89.5% vs 57.9% baseline). Aliases multi-palabra añadidos exitosamente. 2 queries restantes ('cobro', 'cuanto cobrar') requieren análisis adicional pero mejora significativa lograda."
+}

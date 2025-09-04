@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "66/82",
+  "withdrawals_hit_rate": "15/19",
+  "p50_latency_ms": 209,
+  "artifacts": [
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/analysis/APEX-payment_methods.prepin.json",
+    "logs/analysis/aliases.backup.payment_methods.json",
+    "logs/analysis/aliases.backup.withdrawals.json"
+  ],
+  "changes": ["services/common/intent-gate.cjs", "services/common/retriever.cjs"],
+  "db_patches": ["aliases:+4c484cef-5715-480f-8c16-914610866a62", "aliases:-385d0f21-fee7-4acb-9f69-a70051e3ad38"],
+  "payment_methods_faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+  "withdrawals_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+}

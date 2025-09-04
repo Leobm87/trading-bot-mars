@@ -1,0 +1,506 @@
+[
+  {
+    "timestamp": "2025-09-04T06:30:56.708Z",
+    "query": "hay consistencia?",
+    "user_id": "user_592",
+    "source": "telegram",
+    "session_id": "session_485",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-09-04T06:16:14.834Z",
+    "query": "hacer withdraw",
+    "user_id": "user_10",
+    "source": "web",
+    "session_id": "session_152",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-09-04T00:58:21.233Z",
+    "query": "hay descuentos?",
+    "user_id": "user_662",
+    "source": "telegram",
+    "session_id": "session_146",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-03T23:22:54.680Z",
+    "query": "como funciona",
+    "user_id": "user_110",
+    "source": "telegram",
+    "session_id": "session_177",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-03T20:38:06.473Z",
+    "query": "que tal apex?",
+    "user_id": "user_441",
+    "source": "web",
+    "session_id": "session_363",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-03T20:19:44.445Z",
+    "query": "payout minimo",
+    "user_id": "user_488",
+    "source": "web",
+    "session_id": "session_441",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-03T18:22:03.909Z",
+    "query": "cuanto cuesta apex",
+    "user_id": "user_120",
+    "source": "web",
+    "session_id": "session_429",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-09-03T16:29:18.689Z",
+    "query": "como funciona?",
+    "user_id": "user_362",
+    "source": "telegram",
+    "session_id": "session_183",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-03T14:02:19.467Z",
+    "query": "minimum para withdraw",
+    "user_id": "user_303",
+    "source": "telegram",
+    "session_id": "session_332",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-03T00:23:07.686Z",
+    "query": "retirar fondos",
+    "user_id": "user_973",
+    "source": "telegram",
+    "session_id": "session_63",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-02T22:19:05.320Z",
+    "query": "cobrar ganancias",
+    "user_id": "user_166",
+    "source": "web",
+    "session_id": "session_144",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-02T20:49:17.421Z",
+    "query": "sacar dinero",
+    "user_id": "user_639",
+    "source": "web",
+    "session_id": "session_41",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-09-02T10:33:26.004Z",
+    "query": "safetty net",
+    "user_id": "user_136",
+    "source": "web",
+    "session_id": "session_319",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-02T05:10:31.878Z",
+    "query": "hay regla de consistencia con apex?",
+    "user_id": "user_300",
+    "source": "web",
+    "session_id": "session_361",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-01T23:50:26.491Z",
+    "query": "apex vs ftmo",
+    "user_id": "user_25",
+    "source": "web",
+    "session_id": "session_171",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-09-01T23:30:44.398Z",
+    "query": "formas de pago",
+    "user_id": "user_182",
+    "source": "web",
+    "session_id": "session_32",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-01T21:58:17.855Z",
+    "query": "cash out",
+    "user_id": "user_215",
+    "source": "web",
+    "session_id": "session_238",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-01T16:49:00.743Z",
+    "query": "puedo retirar ya?",
+    "user_id": "user_928",
+    "source": "telegram",
+    "session_id": "session_272",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-09-01T12:56:50.309Z",
+    "query": "apex",
+    "user_id": "user_108",
+    "source": "telegram",
+    "session_id": "session_174",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-01T10:27:16.842Z",
+    "query": "?",
+    "user_id": "user_346",
+    "source": "telegram",
+    "session_id": "session_276",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-01T09:02:02.312Z",
+    "query": "sacar plata",
+    "user_id": "user_959",
+    "source": "web",
+    "session_id": "session_84",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-09-01T05:51:07.540Z",
+    "query": "como sacar dinero",
+    "user_id": "user_312",
+    "source": "web",
+    "session_id": "session_156",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T23:45:52.302Z",
+    "query": "primer payout cuanto",
+    "user_id": "user_816",
+    "source": "web",
+    "session_id": "session_466",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T22:30:41.457Z",
+    "query": "como puedo sacar dinero con apex?",
+    "user_id": "user_234",
+    "source": "web",
+    "session_id": "session_75",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T19:41:07.356Z",
+    "query": "experiencias con apex",
+    "user_id": "user_190",
+    "source": "telegram",
+    "session_id": "session_51",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T18:09:05.913Z",
+    "query": "consistency regla",
+    "user_id": "user_656",
+    "source": "telegram",
+    "session_id": "session_187",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T15:38:15.036Z",
+    "query": "reglas",
+    "user_id": "user_996",
+    "source": "telegram",
+    "session_id": "session_243",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-08-31T10:31:13.739Z",
+    "query": "precios de las cuentas",
+    "user_id": "user_0",
+    "source": "telegram",
+    "session_id": "session_120",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T06:14:35.256Z",
+    "query": "regla consistensia",
+    "user_id": "user_826",
+    "source": "web",
+    "session_id": "session_411",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T05:12:27.428Z",
+    "query": "cuanto es el minimo para sacar",
+    "user_id": "user_801",
+    "source": "web",
+    "session_id": "session_444",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T03:31:44.331Z",
+    "query": "trailing drawdown",
+    "user_id": "user_732",
+    "source": "telegram",
+    "session_id": "session_75",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T02:33:46.017Z",
+    "query": "retiros",
+    "user_id": "user_850",
+    "source": "telegram",
+    "session_id": "session_55",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T02:14:51.857Z",
+    "query": "overnight rules",
+    "user_id": "user_849",
+    "source": "web",
+    "session_id": "session_460",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-31T01:25:23.954Z",
+    "query": "minimo para retirar",
+    "user_id": "user_353",
+    "source": "web",
+    "session_id": "session_304",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T20:25:26.785Z",
+    "query": "opiniones apex",
+    "user_id": "user_938",
+    "source": "web",
+    "session_id": "session_337",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T18:26:07.230Z",
+    "query": "sefety net",
+    "user_id": "user_316",
+    "source": "web",
+    "session_id": "session_419",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T17:57:26.640Z",
+    "query": "precios",
+    "user_id": "user_719",
+    "source": "telegram",
+    "session_id": "session_140",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T15:34:12.779Z",
+    "query": "hola",
+    "user_id": "user_638",
+    "source": "web",
+    "session_id": "session_287",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T15:32:27.543Z",
+    "query": "se puede pagar con crypto?",
+    "user_id": "user_950",
+    "source": "web",
+    "session_id": "session_388",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T15:25:54.189Z",
+    "query": "trading rules apex",
+    "user_id": "user_74",
+    "source": "telegram",
+    "session_id": "session_40",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T13:27:00.646Z",
+    "query": "minimo retiro",
+    "user_id": "user_381",
+    "source": "telegram",
+    "session_id": "session_285",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T11:45:18.584Z",
+    "query": "vale la pena?",
+    "user_id": "user_410",
+    "source": "web",
+    "session_id": "session_296",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T11:17:45.950Z",
+    "query": "reglas de apex",
+    "user_id": "user_462",
+    "source": "web",
+    "session_id": "session_481",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T11:14:11.879Z",
+    "query": "ayuda",
+    "user_id": "user_608",
+    "source": "telegram",
+    "session_id": "session_305",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T09:46:57.284Z",
+    "query": "info",
+    "user_id": "user_963",
+    "source": "web",
+    "session_id": "session_164",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T09:14:50.434Z",
+    "query": "cuando puedo sacar plata",
+    "user_id": "user_580",
+    "source": "telegram",
+    "session_id": "session_369",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T06:15:26.903Z",
+    "query": "primer cobro",
+    "user_id": "user_955",
+    "source": "telegram",
+    "session_id": "session_454",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T05:40:43.991Z",
+    "query": "overnight permitido?",
+    "user_id": "user_620",
+    "source": "web",
+    "session_id": "session_192",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-30T01:19:23.863Z",
+    "query": "safety net para cobrar",
+    "user_id": "user_884",
+    "source": "web",
+    "session_id": "session_482",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T21:51:40.716Z",
+    "query": "cuando cobro mi primer payout",
+    "user_id": "user_194",
+    "source": "web",
+    "session_id": "session_456",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T20:45:46.700Z",
+    "query": "info apex",
+    "user_id": "user_366",
+    "source": "web",
+    "session_id": "session_367",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-08-29T17:52:22.233Z",
+    "query": "cuanto scar",
+    "user_id": "user_128",
+    "source": "web",
+    "session_id": "session_133",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T12:22:31.699Z",
+    "query": "experiencias",
+    "user_id": "user_206",
+    "source": "web",
+    "session_id": "session_284",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T07:14:11.468Z",
+    "query": "apex scam?",
+    "user_id": "user_987",
+    "source": "web",
+    "session_id": "session_201",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T05:57:16.429Z",
+    "query": "es confiable?",
+    "user_id": "user_962",
+    "source": "telegram",
+    "session_id": "session_493",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T05:30:18.888Z",
+    "query": "withdrawal minimo",
+    "user_id": "user_475",
+    "source": "web",
+    "session_id": "session_360",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T03:58:55.609Z",
+    "query": "max loss diario",
+    "user_id": "user_125",
+    "source": "web",
+    "session_id": "session_203",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T02:37:45.150Z",
+    "query": "como sacar plata",
+    "user_id": "user_160",
+    "source": "web",
+    "session_id": "session_420",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-29T01:33:02.519Z",
+    "query": "es bueno apex?",
+    "user_id": "user_461",
+    "source": "web",
+    "session_id": "session_50",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-28T21:20:45.701Z",
+    "query": "hola buenas tardes necesito saber como puedo retirar dinero de mi cuenta de apex porque ya pase la evaluacion y no se como hacer para cobrar mis ganancias",
+    "user_id": "user_322",
+    "source": "web",
+    "session_id": "session_294",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-08-28T20:32:14.838Z",
+    "query": "safty net",
+    "user_id": "user_101",
+    "source": "web",
+    "session_id": "session_232",
+    "response_status": "found"
+  },
+  {
+    "timestamp": "2025-08-28T20:14:32.821Z",
+    "query": "retiro minimo",
+    "user_id": "user_919",
+    "source": "web",
+    "session_id": "session_195",
+    "response_status": "not_found"
+  },
+  {
+    "timestamp": "2025-08-28T16:33:29.333Z",
+    "query": "tengo una duda sobre apex quiero saber si hay regla de consistencia y si puedo retirar cuando quiera o hay algun minimo",
+    "user_id": "user_362",
+    "source": "telegram",
+    "session_id": "session_224",
+    "response_status": "found"
+  }
+]

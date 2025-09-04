@@ -1,0 +1,119 @@
+[
+  {
+    "q": "primer retiro",
+    "ok": true,
+    "source": "db",
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "text": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K: $2,500\n  - 150K: $2,750\n  - 250K: $3,000\n  - 300K: $3,500\n  - 100K Static: $1,000\n- Desde el 6º retiro: sin límite máximo."
+  },
+  {
+    "q": "retirar dinero",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "retiro fondos",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "payout",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "withdraw",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "minimo retiro",
+    "ok": true,
+    "source": "db",
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "text": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K: $2,500\n  - 150K: $2,750\n  - 250K: $3,000\n  - 300K: $3,500\n  - 100K Static: $1,000\n- Desde el 6º retiro: sin límite máximo."
+  },
+  {
+    "q": "sacar dinero",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "cobro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "withdrawal",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "retirada",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "cuanto cobrar",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "primer cobro",
+    "ok": true,
+    "source": "db",
+    "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38",
+    "text": "- Mínimo de retiro: $500.\n- Primeros 5 retiros limitados a:\n  - 25K: $1,500\n  - 50K: $2,000\n  - 100K: $2,500\n  - 150K: $2,750\n  - 250K: $3,000\n  - 300K: $3,500\n  - 100K Static: $1,000\n- Desde el 6º retiro: sin límite máximo."
+  },
+  {
+    "q": "monto retiro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "limites retiro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "retiro ganancias",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "solicitar retiro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "proceso retiro",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "cómo retirar",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  },
+  {
+    "q": "retirada de fondos",
+    "ok": false,
+    "source": "none",
+    "text": "No encuentro esa info exacta en la base. Reformula o especifica la firma/tamaño."
+  }
+]

@@ -1,0 +1,298 @@
+{
+  "total": 63,
+  "found": 0,
+  "not_found": 0,
+  "errors": 63,
+  "failed_queries": [
+    {
+      "query": "hay consistencia?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "hacer withdraw",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "hay descuentos?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "como funciona",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "que tal apex?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "payout minimo",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "cuanto cuesta apex",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "como funciona?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "minimum para withdraw",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "retirar fondos",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "cobrar ganancias",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "sacar dinero",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "safetty net",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "hay regla de consistencia con apex?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "apex vs ftmo",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "formas de pago",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "cash out",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "puedo retirar ya?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "apex",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "sacar plata",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "como sacar dinero",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "primer payout cuanto",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "como puedo sacar dinero con apex?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "experiencias con apex",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "consistency regla",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "reglas",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "precios de las cuentas",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "regla consistensia",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "cuanto es el minimo para sacar",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "trailing drawdown",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "retiros",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "overnight rules",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "minimo para retirar",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "opiniones apex",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "sefety net",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "precios",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "hola",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "se puede pagar con crypto?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "trading rules apex",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "minimo retiro",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "vale la pena?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "reglas de apex",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "ayuda",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "info",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "cuando puedo sacar plata",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "primer cobro",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "overnight permitido?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "safety net para cobrar",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "cuando cobro mi primer payout",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "info apex",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "cuanto scar",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "experiencias",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "apex scam?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "es confiable?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "withdrawal minimo",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "max loss diario",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "como sacar plata",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "es bueno apex?",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "hola buenas tardes necesito saber como puedo retirar dinero de mi cuenta de apex porque ya pase la evaluacion y no se como hacer para cobrar mis ganancias",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "safty net",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "retiro minimo",
+      "error": "processQueryFirm is not a function"
+    },
+    {
+      "query": "tengo una duda sobre apex quiero saber si hay regla de consistencia y si puedo retirar cuando quiera o hay algun minimo",
+      "error": "processQueryFirm is not a function"
+    }
+  ],
+  "success_rate_by_category": {},
+  "common_failure_patterns": {
+    "colloquialisms": [
+      "cobrar ganancias",
+      "sacar dinero",
+      "sacar plata",
+      "como sacar dinero",
+      "como puedo sacar dinero con apex?"
+    ],
+    "typos": [],
+    "ambiguous": [
+      "apex",
+      "?",
+      "ayuda",
+      "info"
+    ],
+    "mixed_language": [
+      "hacer withdraw",
+      "payout minimo",
+      "minimum para withdraw",
+      "primer payout cuanto",
+      "overnight rules"
+    ],
+    "too_short": [
+      "hay consistencia?",
+      "hacer withdraw",
+      "hay descuentos?",
+      "como funciona",
+      "payout minimo"
+    ],
+    "too_long": [
+      "hola buenas tardes necesito saber como puedo retirar dinero de mi cuenta de apex porque ya pase la evaluacion y no se como hacer para cobrar mis ganancias",
+      "tengo una duda sobre apex quiero saber si hay regla de consistencia y si puedo retirar cuando quiera o hay algun minimo"
+    ]
+  },
+  "success_rate": "0.00%",
+  "failure_rate": "0.00%",
+  "error_rate": "100.00%"
+}

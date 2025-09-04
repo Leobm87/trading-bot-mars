@@ -1,0 +1,13 @@
+{
+  "prd": "PRD-APEX-PAYMENT-METHODS-FENCE-LOCK-1",
+  "timestamp": "2025-09-01T08:55:12Z",
+  "sanity_prepin": {
+    "query_sample": "métodos de pago apex",
+    "faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+    "latency_ms": 270,
+    "status": "success",
+    "source": "db"
+  },
+  "payment_methods_faq_id": "4c484cef-5715-480f-8c16-914610866a62",
+  "withdrawals_faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+}

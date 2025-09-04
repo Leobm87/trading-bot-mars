@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "sql_driver": "supabase_query",
+  "pins_total": 26,
+  "golden_exact_at_1": "82/82",
+  "withdrawals_hit_rate": "19/19",
+  "p50_latency_ms": 225,
+  "artifacts": [
+    "logs/analysis/APEX-withdrawals.prepin.json",
+    "logs/analysis/APEX-golden.prepin.json",
+    "logs/analysis/PRD-APEX-GOLDEN-82-LOCK-2-SUCCESS.json",
+    "logs/analysis/aliases.backup.golden-lock-2.json"
+  ],
+  "changes": [
+    "data/aliases-apex.json"
+  ],
+  "db_patches": [
+    "aliases:+safety-net-tamaños:6-queries",
+    "aliases:+cuotas-activacion:4-queries",
+    "aliases:+payouts-frecuencia:2-queries"
+  ],
+  "improvements": {
+    "baseline_exact_at_1": "72/82 (87.8%)",
+    "final_exact_at_1": "82/82 (100.0%)",
+    "delta_queries": "+10",
+    "baseline_p50_ms": 191,
+    "final_p50_ms": 225,
+    "latency_impact": "stable"
+  },
+  "methodology": "aliases_multi_palabra_specific",
+  "prd_id": "PRD-APEX-GOLDEN-82-LOCK-2",
+  "timestamp": "2025-09-01T13:45:23.167Z",
+  "validation": {
+    "health_check": "✅ <1500ms",
+    "smoke_retriever": "✅ primer retiro → b8cae97b",
+    "pins_guard": "✅ 26/26", 
+    "withdrawals_spot_test": "✅ 4/4 → 385d0f21",
+    "safety_net_spot_test": "✅ 6/6 → b8cae97b",
+    "activation_spot_test": "✅ 4/4 → 695fe96b"
+  }
+}
