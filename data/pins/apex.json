@@ -38,12 +38,20 @@
       "faq_id": "b8cae97b-9fa7-48cb-895b-cfbb81720724"
     },
     {
-      "re": "(primer.{0,10}(retir|payout|cobro|pago)|m[ií]nimo.{0,10}retir|l[ií]mite.{0,10}(primer|payout))",
+      "re": "(primer.{0,10}(retir|payout|cobro|pago|sacar)|m[ií]nimo.{0,10}(retir|sacar|cobrar)|l[ií]mite.{0,10}(primer|payout))",
       "faq_id": "385d0f21-fee7-4acb-9f69-a70051e3ad38"
+    },
+    {
+      "re": "(?:como\\s+)?(?:puedo\\s+)?(?:sacar|cobrar)\\s+(?:dinero|fondos|plata)(?:\\s+(?:de|con|en)\\s+apex)?",
+      "faq_id": "07a149b0-1866-42f0-b5ff-1320a57cb7b7"
     },
     {
       "re": "(metodos? de pago|paypal|pagar con|tarjeta|payment|stripe)",
       "faq_id": "4c484cef-5715-480f-8c16-914610866a62"
+    },
+    {
+      "re": "(?:regla|norma)?\\s*(?:de\\s*)?consistencia(?:\\s+(?:30|treinta))?",
+      "faq_id": "b8336088-d2ad-4bc0-9141-b46d516c7a32"
     }
   ]
 }
