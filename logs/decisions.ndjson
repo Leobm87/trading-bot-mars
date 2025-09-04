@@ -630,3 +630,6 @@
 {"when":"2025-09-04T19:11:29.918Z","firm":"apex","q":"puedes hacer reset en apex?","selector":"none","faq_id":null,"ms":1240}
 {"when":"2025-09-04T19:12:04.740Z","firm":"apex","q":"puedes hacer reset en apex?","selector":"db","faq_id":"8c0189a8-b20d-4adc-859f-18a8885d91e7","ms":250}
 {"when":"2025-09-04T19:14:38.889Z","firm":"apex","q":"cuanto cuesta resetear la evaluacion?","selector":"db","faq_id":"8c0189a8-b20d-4adc-859f-18a8885d91e7","ms":192}
+{"when":"2025-09-04T20:23:57.651Z","firm":"apex","q":"cuantos dias minimo de trading necesito?","selector":"db","faq_id":"e60db1c9-e732-43bc-af99-11756f5e2068","ms":249}
+{"when":"2025-09-04T20:24:09.642Z","firm":"apex","q":"profit target de cada cuenta?","selector":"db","faq_id":"663c6fc6-19f9-4084-ac33-fceb316e6217","ms":237}
+{"when":"2025-09-04T20:24:22.365Z","firm":"apex","q":"cuanto tiempo tengo para activar despues de pasar?","selector":"db","faq_id":"17699057-ee40-4142-8541-447ebd7fe011","ms":227}

@@ -1,0 +1,97 @@
+{
+  "total": 89,
+  "successful": 83,
+  "failed": 6,
+  "byCategory": {
+    "⚠️ SITUACIONES Y SOPORTE (12 preguntas)": {
+      "total": 44,
+      "successful": 38,
+      "failed": 6,
+      "failures": [
+        {
+          "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+          "original": "hay soporte en español?",
+          "variant": "me puedes decir hay soporte en español?",
+          "index": 472
+        },
+        {
+          "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+          "original": "puedo cambiar mi estrategia despues de empezar?",
+          "variant": "puedo cambiar mi estrategia despues de empezar?",
+          "index": 483
+        },
+        {
+          "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+          "original": "puedo cambiar mi estrategia despues de empezar?",
+          "variant": "podria cambiar mi estrategia despues de empezar?",
+          "index": 484
+        },
+        {
+          "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+          "original": "puedo cambiar mi estrategia despues de empezar?",
+          "variant": "se puede cambiar mi estrategia despues de empezar?",
+          "index": 485
+        },
+        {
+          "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+          "original": "puedo cambiar mi estrategia despues de empezar?",
+          "variant": "me puedes decir puedo cambiar mi estrategia despues de empezar?",
+          "index": 486
+        },
+        {
+          "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+          "original": "puedo cambiar mi estrategia despues de empezar?",
+          "variant": "cambiar mi estrategia despues de empezar??",
+          "index": 487
+        }
+      ]
+    },
+    "🏆 CONFIANZA Y COMPARACIÓN (11 preguntas)": {
+      "total": 45,
+      "successful": 45,
+      "failed": 0,
+      "failures": []
+    }
+  },
+  "failedQuestions": [
+    {
+      "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+      "original": "hay soporte en español?",
+      "variant": "me puedes decir hay soporte en español?",
+      "index": 472
+    },
+    {
+      "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+      "original": "puedo cambiar mi estrategia despues de empezar?",
+      "variant": "puedo cambiar mi estrategia despues de empezar?",
+      "index": 483
+    },
+    {
+      "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+      "original": "puedo cambiar mi estrategia despues de empezar?",
+      "variant": "podria cambiar mi estrategia despues de empezar?",
+      "index": 484
+    },
+    {
+      "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+      "original": "puedo cambiar mi estrategia despues de empezar?",
+      "variant": "se puede cambiar mi estrategia despues de empezar?",
+      "index": 485
+    },
+    {
+      "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+      "original": "puedo cambiar mi estrategia despues de empezar?",
+      "variant": "me puedes decir puedo cambiar mi estrategia despues de empezar?",
+      "index": 486
+    },
+    {
+      "category": "⚠️ SITUACIONES Y SOPORTE (12 preguntas)",
+      "original": "puedo cambiar mi estrategia despues de empezar?",
+      "variant": "cambiar mi estrategia despues de empezar??",
+      "index": 487
+    }
+  ],
+  "uniqueFailures": {},
+  "timestamp": "2025-09-04T19:33:28.919Z",
+  "startIndex": 455
+}

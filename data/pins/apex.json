@@ -53,5 +53,91 @@
     "pattern": "cuanto.*reset|precio.*reset|costo.*reset|vale.*reset",
     "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
     "confidence": 0.95
+  },
+  {
+    "pattern": "^(instrumentos?|contratos?)\\s*\\?*$",
+    "faq_id": "47df8b35-d6fe-4fb4-a613-f37c0e37c9e5",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "^(plataformas?)\\s*\\?*$",
+    "faq_id": "c582c07e-af9e-4b5f-a3f5-da0f8c9f6d5b",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "(limite|max|maximo).*(perdida|loss)",
+    "faq_id": "34f8a7b2-8c3d-4e67-b234-5d89c2f3e678",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "reset.*balance|balance.*reset",
+    "faq_id": "3c3b6861-96ac-4dd0-96c9-166b4f5fb5ee",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "blacklist|estrategias?\\s+prohibid",
+    "faq_id": "c4068ff5-8776-431e-9fc8-09f77e21cd59",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "data\\s+feed|feed.*datos|pagar.*feed",
+    "faq_id": "e1201816-771a-4253-8e99-499d61a9b51c",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "limite.*trades?.*dia|maximo.*trades?.*dia",
+    "faq_id": "647b6172-3498-463e-bc06-3b235576ab13",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "tienen.*reset.*gratis|ofrecen.*reset.*gratis",
+    "faq_id": "8c0189a8-b20d-4adc-859f-18a8885d91e7",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "cambiar.*estrategia.*despues|modificar.*estrategia.*empezar",
+    "faq_id": "1044f325-6328-4893-af31-c34533a8eee7",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "paypal|crypto|bitcoin.*pagar",
+    "faq_id": "8a69106f-bdb2-4c35-93e7-5a18bc7ceda3",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "dias?\\s+minim.*trading|cuantos\\s+dias\\s+minim",
+    "faq_id": "e60db1c9-e732-43bc-af99-11756f5e2068",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "profit\\s+target.*cuenta|target.*cada\\s+cuenta",
+    "faq_id": "663c6fc6-19f9-4084-ac33-fceb316e6217",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "tiempo.*activar.*pa|plazo.*activacion|cuanto.*activar.*despues",
+    "faq_id": "17699057-ee40-4142-8541-447ebd7fe011",
+    "confidence": 0.95
+  },
+  {
+    "pattern": "^me\\s+puedes\\s+decir",
+    "faq_id": null,
+    "confidence": 0.0,
+    "action": "strip_prefix"
+  },
+  {
+    "pattern": "withdrawal|payout",
+    "faq_id": "2b6e8a5f-3d4e-4c67-b234-5d89c2f3e456",
+    "confidence": 0.90
+  },
+  {
+    "pattern": "kyc|verificacion.*identidad",
+    "faq_id": "d7f8b234-5c67-4a89-b234-1e89c2f3d456",
+    "confidence": 0.90
+  },
+  {
+    "pattern": "comision.*contrato|costo.*trade",
+    "faq_id": "e1201816-771a-4253-8e99-499d61a9b51c",
+    "confidence": 0.90
   }
 ]
