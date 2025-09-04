@@ -1,0 +1,911 @@
+{
+  "total_variants": 130,
+  "by_category": {
+    "withdrawals": [
+      "¿Cuál es el mínimo para retirar?",
+      "¿cuál es el mínimo para sacar?",
+      "¿cuál es el mínimo para cobrar?",
+      "¿cuál es el mínimo para withdrawar?",
+      "¿cuál es el mínimo para hacer cash out?",
+      "¿cuál es el mínimo para retirar fondos?",
+      "¿cuál es el minimo para retirar?",
+      "¿cuál es el menor para retirar?",
+      "¿cuál es el más bajo para retirar?",
+      "¿cuál es el minimum para retirar?",
+      "¿cuál es el límite inferior para retirar?",
+      "¿cual es el minimo para retirar?",
+      "cuál es el mínimo para retirar",
+      "cuál es el mínimo para retirar?",
+      "cual es el mínimo para retirar",
+      "dime el mínimo para retirar",
+      "¿Cómo puedo retirar dinero?",
+      "¿cómo puedo sacar dinero?",
+      "¿cómo puedo cobrar dinero?",
+      "¿cómo puedo withdrawar dinero?",
+      "¿cómo puedo hacer cash out dinero?",
+      "¿cómo puedo retirar fondos dinero?",
+      "¿cómo puedo retirar plata?",
+      "¿cómo puedo retirar fondos?",
+      "¿cómo puedo retirar ganancias?",
+      "¿cómo puedo retirar profits?",
+      "¿cómo puedo retirar beneficios?",
+      "¿cómo puedo retirar cash?",
+      "¿como puedo retirar dinero?",
+      "¿de qué forma puedo retirar dinero?",
+      "¿qué pasos puedo retirar dinero?",
+      "¿cómo hago puedo retirar dinero?",
+      "¿cómo se puede retirar dinero?",
+      "¿cómo es posible retirar dinero?",
+      "¿cómo está permitido retirar dinero?",
+      "cómo puedo retirar dinero",
+      "cómo puedo retirar dinero?",
+      "como retirar dinero",
+      "quiero retirar dinero",
+      "¿Cuándo puedo hacer mi primer retiro?",
+      "¿cuando puedo hacer mi primer retiro?",
+      "¿en qué momento puedo hacer mi primer retiro?",
+      "¿qué día puedo hacer mi primer retiro?",
+      "¿cuándo se puede hacer mi primer retiro?",
+      "¿cuándo es posible hacer mi primer retiro?",
+      "¿cuándo está permitido hacer mi primer retiro?",
+      "cuándo puedo hacer mi primer retiro",
+      "cuándo puedo hacer mi primer retiro?",
+      "retiro",
+      "¿Qué es el safety net para retiros?",
+      "¿que es el safety net para retiros?",
+      "qué es el safety net para retiros",
+      "qué es el safety net para retiros?",
+      "¿qué es el safty net para retiros?"
+    ],
+    "pricing": [
+      "¿Cuánto cuesta apex?",
+      "¿cuanto cuesta apex?",
+      "¿qué monto cuesta apex?",
+      "¿qué cantidad cuesta apex?",
+      "¿cuánto es cuesta apex?",
+      "cuánto cuesta apex",
+      "cuánto cuesta apex?",
+      "apex",
+      "¿Qué precios tienen las cuentas?",
+      "¿qué precios tienen las accounts?",
+      "¿qué precios tienen las cuenta financiadas?",
+      "¿qué precios tienen las PAs?",
+      "¿qué precios tienen las cuenta PAs?",
+      "¿que precios tienen las cuentas?",
+      "qué precios tienen las cuentas",
+      "qué precios tienen las cuentas?",
+      "¿Hay descuentos disponibles?",
+      "hay descuentos disponibles",
+      "hay descuentos disponibles?",
+      "¿Cómo puedo pagar?",
+      "¿cómo puedo abonar?",
+      "¿cómo puedo depositar?",
+      "¿cómo puedo hacer el pago?",
+      "¿como puedo pagar?",
+      "¿de qué forma puedo pagar?",
+      "¿qué pasos puedo pagar?",
+      "¿cómo hago puedo pagar?",
+      "¿cómo se puede pagar?",
+      "¿cómo es posible pagar?",
+      "¿cómo está permitido pagar?",
+      "cómo puedo pagar",
+      "cómo puedo pagar?",
+      "como pagar",
+      "quiero pagar"
+    ],
+    "rules": [
+      "¿Hay regla de consistencia?",
+      "¿hay rule de consistencia?",
+      "¿hay norma de consistencia?",
+      "¿hay requisito de consistencia?",
+      "¿hay condición de consistencia?",
+      "hay regla de consistencia",
+      "hay regla de consistencia?",
+      "¿hay regla de consistensia?",
+      "regla",
+      "¿Puedo mantener posiciones overnight?",
+      "¿se puede mantener posiciones overnight?",
+      "¿es posible mantener posiciones overnight?",
+      "¿está permitido mantener posiciones overnight?",
+      "puedo mantener posiciones overnight",
+      "puedo mantener posiciones overnight?",
+      "¿Cuál es el drawdown máximo?",
+      "¿cual es el drawdown maximo?",
+      "cuál es el drawdown máximo",
+      "cuál es el drawdown máximo?",
+      "cual es el drawdown máximo",
+      "dime el drawdown máximo",
+      "¿Qué reglas tiene apex?",
+      "¿qué rules tiene apex?",
+      "¿qué normas tiene apex?",
+      "¿qué requisitos tiene apex?",
+      "¿qué condicións tiene apex?",
+      "¿que reglas tiene apex?",
+      "qué reglas tiene apex",
+      "qué reglas tiene apex?",
+      "apex"
+    ]
+  },
+  "all_variants": [
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿Cuál es el mínimo para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el mínimo para sacar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el mínimo para cobrar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el mínimo para withdrawar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el mínimo para hacer cash out?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el mínimo para retirar fondos?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el minimo para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el menor para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el más bajo para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el minimum para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cuál es el límite inferior para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "¿cual es el minimo para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "cuál es el mínimo para retirar",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "cuál es el mínimo para retirar?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "cual es el mínimo para retirar",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuál es el mínimo para retirar?",
+      "variant": "dime el mínimo para retirar",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿Cómo puedo retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo sacar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo cobrar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo withdrawar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo hacer cash out dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo retirar fondos dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo retirar plata?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo retirar fondos?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo retirar ganancias?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo retirar profits?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo retirar beneficios?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo puedo retirar cash?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿como puedo retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿de qué forma puedo retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿qué pasos puedo retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo hago puedo retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo se puede retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo es posible retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "¿cómo está permitido retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "cómo puedo retirar dinero",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "cómo puedo retirar dinero?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "como retirar dinero",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cómo puedo retirar dinero?",
+      "variant": "quiero retirar dinero",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "¿Cuándo puedo hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "¿cuando puedo hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "¿en qué momento puedo hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "¿qué día puedo hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "¿cuándo se puede hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "¿cuándo es posible hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "¿cuándo está permitido hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "cuándo puedo hacer mi primer retiro",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "cuándo puedo hacer mi primer retiro?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuándo puedo hacer mi primer retiro?",
+      "variant": "retiro",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Qué es el safety net para retiros?",
+      "variant": "¿Qué es el safety net para retiros?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Qué es el safety net para retiros?",
+      "variant": "¿que es el safety net para retiros?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Qué es el safety net para retiros?",
+      "variant": "qué es el safety net para retiros",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Qué es el safety net para retiros?",
+      "variant": "qué es el safety net para retiros?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Qué es el safety net para retiros?",
+      "variant": "¿qué es el safty net para retiros?",
+      "category": "withdrawals"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "¿Cuánto cuesta apex?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "¿cuanto cuesta apex?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "¿qué monto cuesta apex?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "¿qué cantidad cuesta apex?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "¿cuánto es cuesta apex?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "cuánto cuesta apex",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "cuánto cuesta apex?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cuánto cuesta apex?",
+      "variant": "apex",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "¿Qué precios tienen las cuentas?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "¿qué precios tienen las accounts?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "¿qué precios tienen las cuenta financiadas?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "¿qué precios tienen las PAs?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "¿qué precios tienen las cuenta PAs?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "¿que precios tienen las cuentas?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "qué precios tienen las cuentas",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Qué precios tienen las cuentas?",
+      "variant": "qué precios tienen las cuentas?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Hay descuentos disponibles?",
+      "variant": "¿Hay descuentos disponibles?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Hay descuentos disponibles?",
+      "variant": "hay descuentos disponibles",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Hay descuentos disponibles?",
+      "variant": "hay descuentos disponibles?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿Cómo puedo pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿cómo puedo abonar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿cómo puedo depositar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿cómo puedo hacer el pago?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿como puedo pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿de qué forma puedo pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿qué pasos puedo pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿cómo hago puedo pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿cómo se puede pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿cómo es posible pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "¿cómo está permitido pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "cómo puedo pagar",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "cómo puedo pagar?",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "como pagar",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Cómo puedo pagar?",
+      "variant": "quiero pagar",
+      "category": "pricing"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "¿Hay regla de consistencia?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "¿hay rule de consistencia?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "¿hay norma de consistencia?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "¿hay requisito de consistencia?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "¿hay condición de consistencia?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "hay regla de consistencia",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "hay regla de consistencia?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "¿hay regla de consistensia?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Hay regla de consistencia?",
+      "variant": "regla",
+      "category": "rules"
+    },
+    {
+      "original": "¿Puedo mantener posiciones overnight?",
+      "variant": "¿Puedo mantener posiciones overnight?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Puedo mantener posiciones overnight?",
+      "variant": "¿se puede mantener posiciones overnight?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Puedo mantener posiciones overnight?",
+      "variant": "¿es posible mantener posiciones overnight?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Puedo mantener posiciones overnight?",
+      "variant": "¿está permitido mantener posiciones overnight?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Puedo mantener posiciones overnight?",
+      "variant": "puedo mantener posiciones overnight",
+      "category": "rules"
+    },
+    {
+      "original": "¿Puedo mantener posiciones overnight?",
+      "variant": "puedo mantener posiciones overnight?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Cuál es el drawdown máximo?",
+      "variant": "¿Cuál es el drawdown máximo?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Cuál es el drawdown máximo?",
+      "variant": "¿cual es el drawdown maximo?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Cuál es el drawdown máximo?",
+      "variant": "cuál es el drawdown máximo",
+      "category": "rules"
+    },
+    {
+      "original": "¿Cuál es el drawdown máximo?",
+      "variant": "cuál es el drawdown máximo?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Cuál es el drawdown máximo?",
+      "variant": "cual es el drawdown máximo",
+      "category": "rules"
+    },
+    {
+      "original": "¿Cuál es el drawdown máximo?",
+      "variant": "dime el drawdown máximo",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "¿Qué reglas tiene apex?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "¿qué rules tiene apex?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "¿qué normas tiene apex?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "¿qué requisitos tiene apex?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "¿qué condicións tiene apex?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "¿que reglas tiene apex?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "qué reglas tiene apex",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "qué reglas tiene apex?",
+      "category": "rules"
+    },
+    {
+      "original": "¿Qué reglas tiene apex?",
+      "variant": "apex",
+      "category": "rules"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "apex",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "info",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "?",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "ayuda",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "hola",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "hola buenas tardes quiero saber toda la informacion sobre apex trading porque estoy interesado en empezar pero no se como funciona ni cuales son los requisitos ni los costos ni nada",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "what is el safety net para withdraw",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "como hacer un withdrawal del account",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "cuanto cuesta apex y como pago y cuando puedo retirar",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "dime todo",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "explícame",
+      "category": "adversarial"
+    },
+    {
+      "original": "ADVERSARIAL",
+      "variant": "no entiendo",
+      "category": "adversarial"
+    }
+  ],
+  "unique_queries": [
+    "¿Cuál es el mínimo para retirar?",
+    "¿cuál es el mínimo para sacar?",
+    "¿cuál es el mínimo para cobrar?",
+    "¿cuál es el mínimo para withdrawar?",
+    "¿cuál es el mínimo para hacer cash out?",
+    "¿cuál es el mínimo para retirar fondos?",
+    "¿cuál es el minimo para retirar?",
+    "¿cuál es el menor para retirar?",
+    "¿cuál es el más bajo para retirar?",
+    "¿cuál es el minimum para retirar?",
+    "¿cuál es el límite inferior para retirar?",
+    "¿cual es el minimo para retirar?",
+    "cuál es el mínimo para retirar",
+    "cuál es el mínimo para retirar?",
+    "cual es el mínimo para retirar",
+    "dime el mínimo para retirar",
+    "¿Cómo puedo retirar dinero?",
+    "¿cómo puedo sacar dinero?",
+    "¿cómo puedo cobrar dinero?",
+    "¿cómo puedo withdrawar dinero?",
+    "¿cómo puedo hacer cash out dinero?",
+    "¿cómo puedo retirar fondos dinero?",
+    "¿cómo puedo retirar plata?",
+    "¿cómo puedo retirar fondos?",
+    "¿cómo puedo retirar ganancias?",
+    "¿cómo puedo retirar profits?",
+    "¿cómo puedo retirar beneficios?",
+    "¿cómo puedo retirar cash?",
+    "¿como puedo retirar dinero?",
+    "¿de qué forma puedo retirar dinero?",
+    "¿qué pasos puedo retirar dinero?",
+    "¿cómo hago puedo retirar dinero?",
+    "¿cómo se puede retirar dinero?",
+    "¿cómo es posible retirar dinero?",
+    "¿cómo está permitido retirar dinero?",
+    "cómo puedo retirar dinero",
+    "cómo puedo retirar dinero?",
+    "como retirar dinero",
+    "quiero retirar dinero",
+    "¿Cuándo puedo hacer mi primer retiro?",
+    "¿cuando puedo hacer mi primer retiro?",
+    "¿en qué momento puedo hacer mi primer retiro?",
+    "¿qué día puedo hacer mi primer retiro?",
+    "¿cuándo se puede hacer mi primer retiro?",
+    "¿cuándo es posible hacer mi primer retiro?",
+    "¿cuándo está permitido hacer mi primer retiro?",
+    "cuándo puedo hacer mi primer retiro",
+    "cuándo puedo hacer mi primer retiro?",
+    "retiro",
+    "¿Qué es el safety net para retiros?",
+    "¿que es el safety net para retiros?",
+    "qué es el safety net para retiros",
+    "qué es el safety net para retiros?",
+    "¿qué es el safty net para retiros?",
+    "¿Cuánto cuesta apex?",
+    "¿cuanto cuesta apex?",
+    "¿qué monto cuesta apex?",
+    "¿qué cantidad cuesta apex?",
+    "¿cuánto es cuesta apex?",
+    "cuánto cuesta apex",
+    "cuánto cuesta apex?",
+    "apex",
+    "¿Qué precios tienen las cuentas?",
+    "¿qué precios tienen las accounts?",
+    "¿qué precios tienen las cuenta financiadas?",
+    "¿qué precios tienen las PAs?",
+    "¿qué precios tienen las cuenta PAs?",
+    "¿que precios tienen las cuentas?",
+    "qué precios tienen las cuentas",
+    "qué precios tienen las cuentas?",
+    "¿Hay descuentos disponibles?",
+    "hay descuentos disponibles",
+    "hay descuentos disponibles?",
+    "¿Cómo puedo pagar?",
+    "¿cómo puedo abonar?",
+    "¿cómo puedo depositar?",
+    "¿cómo puedo hacer el pago?",
+    "¿como puedo pagar?",
+    "¿de qué forma puedo pagar?",
+    "¿qué pasos puedo pagar?",
+    "¿cómo hago puedo pagar?",
+    "¿cómo se puede pagar?",
+    "¿cómo es posible pagar?",
+    "¿cómo está permitido pagar?",
+    "cómo puedo pagar",
+    "cómo puedo pagar?",
+    "como pagar",
+    "quiero pagar",
+    "¿Hay regla de consistencia?",
+    "¿hay rule de consistencia?",
+    "¿hay norma de consistencia?",
+    "¿hay requisito de consistencia?",
+    "¿hay condición de consistencia?",
+    "hay regla de consistencia",
+    "hay regla de consistencia?",
+    "¿hay regla de consistensia?",
+    "regla",
+    "¿Puedo mantener posiciones overnight?",
+    "¿se puede mantener posiciones overnight?",
+    "¿es posible mantener posiciones overnight?",
+    "¿está permitido mantener posiciones overnight?",
+    "puedo mantener posiciones overnight",
+    "puedo mantener posiciones overnight?",
+    "¿Cuál es el drawdown máximo?",
+    "¿cual es el drawdown maximo?",
+    "cuál es el drawdown máximo",
+    "cuál es el drawdown máximo?",
+    "cual es el drawdown máximo",
+    "dime el drawdown máximo",
+    "¿Qué reglas tiene apex?",
+    "¿qué rules tiene apex?",
+    "¿qué normas tiene apex?",
+    "¿qué requisitos tiene apex?",
+    "¿qué condicións tiene apex?",
+    "¿que reglas tiene apex?",
+    "qué reglas tiene apex",
+    "qué reglas tiene apex?",
+    "info",
+    "?",
+    "ayuda",
+    "hola",
+    "hola buenas tardes quiero saber toda la informacion sobre apex trading porque estoy interesado en empezar pero no se como funciona ni cuales son los requisitos ni los costos ni nada",
+    "what is el safety net para withdraw",
+    "como hacer un withdrawal del account",
+    "cuanto cuesta apex y como pago y cuando puedo retirar",
+    "dime todo",
+    "explícame",
+    "no entiendo"
+  ]
+}
